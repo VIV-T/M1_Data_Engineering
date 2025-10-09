@@ -1,0 +1,3719 @@
+{
+  "elements": [
+    {
+      "type": "text",
+      "content": "The script to\n Tim Burton's The Nightmare Before Christmas"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>NARRATOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "'Twas a long time ago, longer now than it seems, in a place \nthat perhaps you've seen in your dreams.  For the story that you are \nabout to be told, took place in the holiday worlds of old.  Now, you've \nprobably wondered where holidays come from.  If you haven't, I'd say it's \ntime you begun.\n\n\tThis Is Halloween"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SHADOW\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Boys and girls of every age\nWouldn't you like to see something strange?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SIAMESE SHADOW\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Come with us and you will see\nThis, our town of Halloween"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PUMPKIN PATCH CHORUS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is Halloween, this is Halloween\nPumpkins scream in the dead of night"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>GHOSTS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is Halloween, everybody make a scene\nTrick or treat till the neighbors gonna die of fright\nIt's our town, everybody scream\nIn this town of Halloween"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CREATURE UNDER BED\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I am the one hiding under your bed\nTeeth ground sharp and eyes glowing red"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN UNDER THE STAIRS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I am the one hiding under your stairs\nFingers like snakes and spiders in my hair"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CORPSE CHORUS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is Halloween, this is Halloween\nHalloween! Halloween! Halloween! Halloween!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>VAMPIRES\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "In this town we call home\nEveryone hail to the pumpkin song"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "In this town, don't we love it now?\nEverybody's waiting for the next surprise"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CORPSE CHORUS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Round that corner, man hiding in the trash can\nSomething's waiting now to pounce, and how you'll scream"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>HARLEQUIN DEMON, WEREWOLF, AND MELTING MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Scream! This is Halloween\nRed 'n' black, slimy green"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WEREWOLF\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Aren't you scared?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WITCHES\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, that's just fine\nSay it once, say it twice\nTake the chance and roll the dice\nRide with the moon in the dead of night"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>HANGING TREE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Everybody scream, everybody scream"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>HANGED MEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "In our town of Halloween"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOWN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I am the clown with the tear-away face\nHere in a flash and gone without a trace"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SECOND GHOUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I am the \"who\" when you call, \"Who's there?\"\nI am the wind blowing through your hair"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE SHADOW\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I am the shadow on the moon at night\nFilling your dreams to the brim with fright"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CORPSE CHORUS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is Halloween, this is Halloween\nHalloween! Halloween! Halloween! Halloween!\nHalloween! Halloween!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CHILD CORPSE TRIO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Tender lumplings everywhere\nLife's no fun without a good scare"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PARENT CORPSES\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That's our job, but we're not mean\nIn our town of Halloween"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CORPSE CHORUS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "In this town"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Don't we love it now?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR WITH CORPSE CHORUS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Everyone's waiting for the next surprise"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CORPSE CHORUS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Skeleton Jack might catch you in the back\nAnd scream like a banshee\nMake you jump out of your skin\nThis is Halloween, everybody scream\nWon't ya please make way for a very special guy\nOur man Jack is king of the pumpkin patch\nEveryone hail to the Pumpkin King now"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EVERYONE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is Halloween, this is Halloween\nHalloween! Halloween! Halloween! Halloween!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CORPSE CHILD TRIO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "In this town we call home\nEveryone hail to the pumpkin song"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EVERYONE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "La la-la la, Halloween! Halloween! (etc.)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EVERYONE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "[applause]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WITCHES\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Cackling"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOWN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's over!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BEHEMOTH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We did it!\n\n[tummy bump]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WEREWOLF\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Wasn't it terrifying?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>HYDE &amp; CYCLOPS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What a night!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Great Halloween everybody."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I believe it was our most horrible yet!  Thank you everyone."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, thanks to  you, Jack.  Without your brilliant leadership -"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Not at all Mayor.\n\nVAMPIRE (fat)\nYou're such a scream, Jack"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WITCH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You're a witch's fondest dream!\n\nWITCH (little)\nYou made walls fall, Jack"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WITCH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Walls fall?  You made the very mountains crack, Jack"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The deadly nightshade you slipped me wore off, Sally."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Let go!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You're not ready for so much excitement!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes I am!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You're coming with me!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No I'm not!\n[Sally pulls out the thread that's holding her arm on]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Come back here you foolish oaf!  Ow!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CREATURE FROM BLACK LAGOON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ooo Jack, you make wounds ooze and flesh crawl."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Thank you, thank you, thank you -- very much"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hold it!  We haven't given out the prizes yet!  Our first award goes to \nthe vampires for most blood drained in a single evening.\n[applause]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A frightening and honorable mention goes to the fabulous Dark Lagoon leeches"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SAX PLAYER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Nice work, Bone Daddy."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah, I guess so.  Just like last year and the year before that and the \nyear before that.\n\n[entering graveyard] \n\n\tJack's Lament\n\tPerformed by Danny Elfman\n\nThere are few who'd deny, at what I do I am the best\nFor my talents are renowned far and wide\nWhen it comes to surprises in the moonlit night\n\nI excel without ever even trying\nWith the slightest little effort of my ghostlike charms\nI have seen grown men give out a shriek\nWith the wave of my hand, and a well-placed moan\nI have swept the very bravest off their feet\n\nYet year after year, it's the same routine\nAnd I grow so weary of the sound of screams\nAnd I, Jack, the Pumpkin King\nHave grown so tired of the same old thing\n\nOh, somewhere deep inside of these bones\nAn emptiness began to grow\nThere's something out there, far from my home\nA longing that I've never known\n\nI'm the master of fright, and a demon of light\nAnd I'll scare you right out of your pants\nTo a guy in Kentucky, I'm Mister Unlucky\nAnd I'm known throughout England and France\n\nAnd since I am dead, I can take off my head\nTo recite Shakespearean quotations\nNo animal nor man can scream like I can\nWith the fury of my recitations\n\nBut who here would ever understand\nThat the Pumpkin King with the skeleton grin\nWould tire of his crown, if they only understood\nHe'd give it all up if he only could\n\nOh, there's an empty place in my bones\nThat calls out for something unknown\nThe fame and praise come year after year\nDoes nothing for these empty tears\n\n[leaving graveyard and entering forest]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jack, I know how you feel.  \n\n[Sally gathers herbs]\n\n[back at Dr. Finkelstein's castle]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sally, you've come back."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I had to."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "For this?\n\n[showing her arm]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Shall we then.\nThat's twice this month you've slipped deadly nightshade into my tea\n and run off --"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Three times!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You're mine you know!  I made you with my own hands."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You can make other creations.  I'm restless, I can't help it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's a phase my dear, it'll pass.  We need to be patient that's all."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But, I don't want to be patient.\n\n[forest]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ZERO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "bark"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No Zero, not now.  I'm not in the mood."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ZERO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "bark"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "All right.  [giving Zero a rib from himself]  Here ya go boy.\n\n[Zero gets rib and shows off his nose]\n\n[Back to Halloweentown]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Morning gents [to the band]\n\n[humming This Is Halloween, walks up to Jack's front door and rings bell]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jack, you home?\n\n[getting worried, switches face and knocks with desperation then switch \nback to happy face]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jack?  I've got the plans for next Halloween.  I need to go over them \nwith you so we can get started.  \n\nMAYOR (with worried face)\nJack, please, I'm only an elected an official here, I can't make \ndecisions by myself.  Jack, answer me!!\n\n[falls down steps]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ACCORDION PLAYER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He's not home."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Where is he?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SAX PLAYER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He hasn't been home all night."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "ooooo\n\n[back to forest]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(yawning)  Where are we?  It's someplace new."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ZERO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "bark bark"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What is this?\n\n[Jack sees Valentine's tree, shamrock tree, Easter egg tree, turkey tree]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "[gasps]\n\n[sees Xmas tree]\n\n[turns knob and gets sucked in]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ZERO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "bark bark"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Whoa!!!!\n\n\tWhat's This?\n\tPerformed by Danny Elfman\n\nWhat's this? What's this?\nThere's color everywhere\nWhat's this?\nThere's white things in the air\nWhat's this?\nI can't believe my eyes\nI must be dreaming\nWake up, Jack, this isn't fair\nWhat's this?\nWhat's this? What's this?\nThere's something very wrong\nWhat's this?\nThere's people singing songs\n\nWhat's this?\nThe streets are lined with\nLittle creatures laughing\nEverybody seems so happy\nHave I possibly gone daffy?\nWhat is this? \nWhat's this?\n\nThere's children throwing snowballs\ninstead of throwing heads\nThey're busy building toys\nAnd absolutely no one's dead\n\nThere's frost on every window\nOh, I can't believe my eyes\nAnd in my bones I feel the warmth\nThat's coming from inside\n\nOh, look\nWhat's this?\nThey're hanging mistletoe, they kiss\nWhy that looks so unique, inspired\nThey're gathering around to hear a story\nRoasting chestnuts on a fire\nWhat's this?\n\nWhat's this?\nIn here they've got a little tree, how queer\nAnd who would ever think\nAnd why?\n\nThey're covering it with tiny little things\nThey've got electric lights on strings\nAnd there's a smile on everyone\nSo, now, correct me if I'm wrong\nThis looks like fun\nThis looks like fun\nOh, could it be I got my wish?\nWhat's this?\n\nOh my, what now?\nThe children are asleep\nBut look, there's nothing underneath\nNo ghouls, no witches here to scream and scare them\nOr ensnare them, only little cozy things\nSecure inside their dreamland\nWhat's this?\n\nThe monsters are all missing\nAnd the nightmares can't be found\nAnd in their place there seems to be\nGood feeling all around\n\nInstead of screams, I swear\nI can hear music in the air\nThe smell of cakes and pies\nAre absolutely everywhere\n\nThe sights, the sounds\nThey're everywhere and all around\nI've never felt so good before\nThis empty place inside of me is filling up\nI simply cannot get enough\n\nI want it, oh, I want it\nOh, I want it for my own\nI've got to know\nI've got to know\nWhat is this place that I have found?\nWhat is this?\nChristmas Town, hmm..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANDY CLAWS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ho Ho Ho Ho ho ho ho ho"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "hmm..\n\n[Halloweentown]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOWN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This has never happened before.\n\nWitch\nIt's suspicious.\n\nWitch (little)\nIt's peculiar."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>VAMPIRES\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's scary."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Stand aside."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WEREWOLF\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "grrrr"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Coming through.  We've got find Jack.  There's only 365 days left till \nnext Halloween."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WEREWOLF\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>364!\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Is there anywhere we've forgotten to check?\n\nClown\nI looked in every mausoleum."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WITCHES\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We opened the sarcophagi.\n\nHyde\nI tromped through the pumpkin patch."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>VAMPIRE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I peeked behind the Cyclops's eye.  I did!  But he wasn't there."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's time to sound the alarms.\n\n[DR. FINKELSTEIN's castle]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Frog's breath will overpower any odor.  Bitter.  [coughing]  Worm's \nwart.  Where's that worm's wart?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sally, that soup ready yet?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Coming....lunch"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ah, what's that?  Worm's wart, mmm, and...frog's breath."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What's wrong?  I-I thought you liked frog's breath."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Nothing's more suspicious than frog's breath. Until you taste it I won't \nswallow a spoonful."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm not hungry... [knocking spoon]  Oops!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You want me to starve.  An old man like me who hardly has strength as it \nis.  Me, to whom you owe your very life."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh don't be silly.  [eats soup with trick spoon]  Mmmm, see.  Scrumptious.\n\n[Dr. Finkelstein eats soup] \n\n[Halloween]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Did anyone think to dredge the lake?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>VAMPIRE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ah, this morning!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ZERO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "barks\n\nWitch\nHear that?\n\nWitch (little)\nWhat?\n\nWitch\nShh!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ZERO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "barks"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>VAMPIRE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Zero!\n\n[fanfare as Jack and Zero arrive]\n\nKid\nJack's back!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Where have you been?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Call a town meeting and I'll tell everyone all about it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "When?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Immediately!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "[in his mayor truck]\nTown meeting, town meeting, town meeting tonight, town meeting tonight\n\n[at meeting]\n\nClown\n[giggles as he hits Sally]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Listen everyone.  I want to tell you about Christmastown.\n\n\tTown Meeting Song\n\tPerformed by Danny Elfman and Cast"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "There are objects so peculiar\nThey were not to be believed\nAll around, things to tantalize my brain\nIt's a world unlike anything I've ever seen\nAnd as hard as I try\nI can't seem to describe\nLike a most improbable dream\nBut you must believe when I tell you this\nIt's as real as my skull and it does exist\nHere, let me show you\n\nThis is a thing called a present\nThe whole thing starts with a box"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DEVIL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A box?\nis it steel?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WEREWOLF\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Are there locks?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>HARLEOUIN DEMON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Is it filled with a pox?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DEVIL, WEREWOLF, HARLEQUIN DEMON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A pox\nHow delightful, a pox"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "If you please\nJust a box with bright-colored paper\nAnd the whole thing's topped with a bow"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WITCHES\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A bow?\nBut why?\nHow ugly\nWhat's in it?\nWhat's in it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That's the point of the thing, not to know"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOWN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's a bat\nWill it bend?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CREATURE UNDER THE STAIRS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's a rat\nWill it break?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>UNDERSEA GAL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Perhaps it s the head that I found in the lake"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Listen now, you don't understand\nThat's not the point of Christmas land\n\nNow, pay attention\nWe pick up an oversized sock\nAnd hang it like this on the wall"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. HYDE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, yes! Does it still have a foot?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MEDIUM MR. HYDE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Let me see, let me look"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SMALL MR. HYDE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Is it rotted and covered with gook?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Um, let me explain\nThere's no foot inside, but there's candy\nOr sometimes it's filled with small toys"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MUMMY AND WINGED DEMON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Small toys"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WINGED DEMON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Do they bite?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MUMMY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Do they snap?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WINGED DEMON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Or explode in a sack?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CORPSE KID\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Or perhaps they just spring out\nAnd scare girls and boys"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What a splendid idea\nThis Christmas sounds fun\nI fully endorse it\nLet's try it at once"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Everyone, please now, not so fast\nThere's something here that you don't quite grasp\nWell, I may as well give them what they want\nAnd the best, I must confess, I have saved for the last\nFor the ruler of this Christmas land\nIs a fearsome king with a deep mighty voice\nLeast that's what I've come to understand\n\nAnd I've also heard it told\nThat he's something to behold\nLike a lobster, huge and red\nWhen he sets out to slay with his rain gear on\nCarting bulging sacks with his big great arms\nThat is, so I've heard it said\n\nAnd on a dark, cold night\nUnder full moonlight\nHe flies into a fog\nLike a vulture in the sky\nAnd they call him Sandy Claws\n\nWell, at least they're excited\nBut they don't understand\nThat special kind of feeling in Christmas land\nOh, well...\n\n[Jack's house]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "There's got to be a logical way to explain this Xmas thing.\n\n[Dr. Finkelstein's castle]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You've poisoned me for the last time you wretched girl.\n\n[locks Sally away]\n\n[dingdong]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh my head...the door is open."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hel-lo"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jack Skellington, up here my boy."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Dr. I need to borrow some equipment."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Is that so, whatever for?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm conducting a series of experiments."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How perfectly marvelous.  Curiosity killed the cat, you know."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I know."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Come on into the lab and we'll get you all fixed up."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hmm.  Experiments?\n\n[Jack's house]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Zero, I'm home.\n\n[Jack examines & experiments with Xmas stuff]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Interesting reaction....but what does it mean?\n\n[Sally's room]\n\n[after Sally jumps to give Jack his basket...]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You can come out now if you promise to behave.  Sally.  Sally.  Oooh!  Gone \nagain!\n\n[Jack's house]\n\n[Sally gives Jack his basket and sneaks off and picks a flower which \ncatches on fire]\n\n\tJack's Obsession\n\tPerformed by Danny Elfman and Cast"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CITIZENS OF HALLOWEEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Something's up with Jack\nSomething's up with Jack\nDon't know if we're ever going to get him back\n\nHe's all alone up there\nLocked away inside\nNever says a word\nHope he hasn't died\nSomething's up with Jack\nSomething's up with Jack"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Christmas time is buzzing in my skull\nWill it let me be? I cannot tell\nThere's so many things I cannot grasp\nWhen I think I've got it, and then at last\nThrough my bony fingers it does slip\nLike a snowflake in a fiery grip\n\nSomething here I'm not quite getting\nThough I try, I keep forgetting\nLike a memory long since past\nHere in an instant, gone in a flash\nWhat does it mean?\nWhat does it mean?\n\nIn these little bric-a-brac\nA secret's waiting to be cracked\nThese dolls and toys confuse me so\nConfound it all, I love it though\n\nSimple objects, nothing more\nBut something's hidden through a door\nThough I do not have the key\nSomething's there I cannot see\nWhat does it mean?\nWhat does it mean?\nWhat does it mean?\nHmm...\n\nI've read these Christmas books so many times\nI know the stories and I know the rhymes\nI know the Christmas carols all by heart\nMy skull's so full, it's tearing me apart\nAs often as I've read them, something's wrong\nSo hard to put my bony finger on\n\nOr perhaps it's really not as deep\nAs I've been led to think\nAm I trying much too hard?\nOf course! I've been too close to see\nThe answer's right in front of me\nRight in front of me\n\nIt's simple really, very clear\nLike music drifting in the air\nInvisible, but everywhere\nJust because I cannot see it\nDoesn't mean I can't believe it"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You know, I think this Christmas thing\nIt's not as tricky as it seems\nAnd why should they have all the fun?\nIt should belong to anyone\n\nNot anyone, in fact, but me\nWhy, I could make a Christmas tree\nAnd there's no reason I can find\nI couldn't handle Christmas time\n\nI bet I could improve it too\nAnd that's exactly what I'll do\nHee,hee,hee"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Eureka!!  This year, Christmas will be ours!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Patience, everyone.  Jack has a special Job for each of us.  Dr. \nFinkelstein, your Xmas assignment is ready.  Dr. Finkelstein to the front \nof the line."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>VAMPIRE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What kind of a noise is that for a baby to make?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Perhaps it can be improved?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>VAMPIRES\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No problem!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I knew it!  Dr. thank you for coming.  We need some of these.\n[showing picture of Santa and sleigh]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hmm.. their construction should be exceedingly simple.  I think."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How horrible our Xmas will be."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No--how jolly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "[switches face]\nOh, how jolly our Xmas will be.  [gets pelted]  What are you doing here?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jack sent for us."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SHOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Specifically."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "By name."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Lock"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SHOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Shock"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Barrel"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jack, Jack it's Oogie's boys!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ah, Halloween's finest trick or treaters.  The job I have for you is top \nsecret.  It requires craft, cunning, mischief."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SHOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And we thought you didn't like us, Jack.\n[giggles]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Absolutely no one is to know about it.  Not a soul.  Now--\n[whispers to LS&B] \nAnd one more thing -- leave that no account Ooogie Boogie out of this!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Whatever you say, Jack."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SHOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Of course Jack."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Wouldn't dream of it Jack.\n\n[all said with their fingers crossed]\n\n\tKidnap the Sandy Claws\n\tPerformed by Paul Reubens, Catherine O'Hara, and Danny Elfman"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK, SHOCK, AND BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Kidnap Mr. Sandy Claws"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I wanna do it"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Let's draw straws"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SHOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jack said we should work together\nThree of a kind"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK, SHOCK, AND BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Birds of a feather\nNow and forever\nWheeee\nLa, la, la, la, la\n\nKidnap the Sandy Claws, lock him up real tight\nThrow away the key and then\nTurn off all the lights"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SHOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "First, we're going to set some bait\nInside a nasty trap and wait\nWhen he comes a-sniffing we will\nSnap the trap and close the gate"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Wait! I've got a better plan\nTo catch this big red lobster man\nLet's pop him in a boiling pot\nAnd when he's done we'll butter him up"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK, SHOCK, AND BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Kidnap the Sandy Claws\nThrow him in a box\nBury him for ninety years\nThen see if he talks"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SHOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Then Mr. Oogie Boogie Man\nCan take the whole thing over then\nHe'll be so pleased, I do declare\nThat he will cook him rare"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK,SHOCK, AND BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Wheeee"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I say that we take a cannon\nAim it at his door\nAnd then knock three times\nAnd when he answers\nSandy Claws will be no more"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SHOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You're so stupid, think now\nlf we blow him up to smithereens\nWe may lose some pieces\nAnd then Jack will beat us black and green"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK,SHOCK, AND BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Kidnap the Sandy Claws\nTie him in a bag\nThrow him in the ocean\nThen, see if he is sad"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK AND SHOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Because Mr. Oogie Boogie is the meanest guy around\nIf I were on his Boogie list, I'd get out of town"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He'll be so pleased by our success\nThat he'll reward us too, I'll bet"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK, SHOCK, AND BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Perhaps he'll make his special brew\nOf snake and spider stew\nUmmm!\n\nWe're his little henchmen and\nWe take our job with pride\nWe do our best to please him\nAnd stay on his good side"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SHOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I wish my cohorts weren't so dumb"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm not the dumb one"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You're no fun"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SHOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Shut up"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Make me"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SHOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I've got something, listen now\nThis one is real good, you'll see\nWe'll send a present to his door\nUpon there'll be a note to read\nNow, in the box we'll wait and hide\nUntil his curiosity entices him to look inside"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And then we'll have him\nOne, two, three"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK, SHOCK, AND BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Kidnap the Sandy Claws, beat him with a stick\nLock him up for ninety years, see what makes him tick\nKidnap the Sandy Claws, chop him into bits\nMr. Oogie Boogie is sure to get his kicks\nKidnap the Sandy Claws, see what we will see\nLock him in a cage and then, throw away the key"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sandy Claws..hahaha\n\n[city hall]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It goes something like this.  [Jingle bells]\nHow about it?  Think you can manage?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PERSON INSIDE BASS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "a one, and a two, and a three, and a. . . \n\n[Jingle in a flat key by the band]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Next!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Fantastic!  Now why don't you all practice on that and we'll be in great \nshape.  Sally, I need your help more than anyone's."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You certainly do, Jack.  I had the most terrible vision."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That's splendid."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, it was about your Xmas.  There was smoke and fire."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That not my Xmas.  My Xmas is filled with laughter and joy and this--my \nSandy Claws outfit.  I want you to make it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jack, please, listen to me--it's going to be a disaster."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How could it be--just follow the pattern.  This part is red, the trim is \nwhite."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's a mistake, Jack."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Now don't be modest, who else is clever enough to make my Sandy claws outfit."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Next!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I have every confidence in you."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But it seems wrong to me, very wrong.\n\n[to Behemoth]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This device is called a nutcracker."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK, SHOCK &amp; BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jack, Jack we caught him we caught him."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Perfect!  Open it up.  Quickly!\n\n[opens to reveal the Easter bunny]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That's not Sandy Claws!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SHOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It isn't?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Who is it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BEHEMOTH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Bunny!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Not Sandy Claws...take him back!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We followed your instructions--"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "we went through the door--"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Which door?  There's more than one.  Sandy Claws is behind the door \nshaped like this.  \n\n[shows Xmas cookie in shape of tree]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SHOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I told you!\n\n[LS&B start fighting]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Arr!!  [making scary face at LS&B]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm very sorry for the inconvenience, sir.  Take him home first  and \napologize again.  Be careful with Sandy Claws when you fetch him.  Treat \nhim nicely."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK, SHOCK &amp; BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Got it.  We'll get it right next time.\n\n[Dr. Finkelstein's castle]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You will be a decided improvement over that treacherous Sally."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>IGOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Master, the plans."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Excellent, Igor.\n\n[throws him a dog bone]\n\n\tMaking Christmas\n\tPerformed by Danny Elfman and the Citizens of Halloween"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOWN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This time, this time"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>GROUP\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Making Christmas"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ACCORDION PLAYER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Making Christmas"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Making Christmas, making Christmas\nIs so fine"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>GROUP\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's ours this time\nAnd won't the children be surprised\nIt's ours this time"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CHILD CORPSE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Making Christmas"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MUMMY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Making Christmas"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MUMMY AND CORPSE CHILD\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Making Christmas"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WITCHES\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Time to give them something fun"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WITCHES AND CREATURE LADY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They'll talk about for years to come"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>GROUP\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Let's have a cheer from everyone\nIt's time to party"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DUCK TOY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Making Christmas, making Christmas"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>VAMPIRES\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Snakes and mice get wrapped up so nice\nWith spider legs and pretty bows"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>VAMPIRES AND WINGED DEMON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's ours this time"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CORPSE FATHER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "All together, that and this"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CORPSE FATHER, WOLF MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "With all our tricks we're"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CORPSE FATHER, WOLF MAN, DEVIL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Making Christmastime"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOLF MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Here comes Jack"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I don't believe what's happening to me\nMy hopes, my dreams, my fantasies\nHee, hee, hee, hee"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>HARLEQUIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Won't they be impressed, I am a genius\nSee how I transformed this old rat\nInto a most delightful hat"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hmm, my compliments from me to you\nOn this your most intriguing hat\nConsider though this substitute\nA bat in place of this old rat\nHuh! No, no, no, now that's all wrong\nThis thing will never make a present\nIt's been dead now for much too long\nTry something fresher, something pleasant\nTry again, don't give up"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>THREE MR. HYDES\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "All together, that and this\nWith all our tricks we're making Christmastime\n\n(Instrumental)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>GROUP\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This time, this time"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's ours!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>GROUP\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Making Christmas, making Christmas\nLa, la, la\nIt's almost here"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>GROUP AND WOLF MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And we can't wait"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>GROUP AND HARLEOUIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So ring the bells and celebrate"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>GROUP\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "'Cause when the full moon starts to climb\nWe'll all sing out"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's Christmastime\nHee, hee, hee\n\n[Christmastown]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANDY CLAWS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Kathleen, Bobby, Susie, yes, Susie's been nice.  Nice, nice, naughty, \nnice, nice, nice.  There are hardly any naughty children this year.\n\n[door chime:  jingle all the way]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANDY CLAWS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Now who could that be?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK, SHOCK &amp; BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Trick or treat!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANDY CLAWS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Huh?\n\n[back to Halloweentown]\n\n[to Jack in Sandy garb]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You don't look like yourself Jack, not at all."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Isn't that wonderful.  It couldn't be more wonderful!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But you're the Pumpkin King."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Not anymore.  And I feel so much better now."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jack, I know you think something's missing.  But --\n\n[pricks Jack's finger with needle]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sorry"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You're right, something is missing but what?  I've got the beard, the \ncoat, the boots --"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK, SHOCK &amp; BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jack, Jack  this time we bagged him!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This time we really did!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He sure is big Jack!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SHOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And heavy!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANDY CLAWS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Let me out!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sandy Claws in person.  What a pleasure to meet you.  Why you have \nhands!  You don't have claws at all."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANDY CLAWS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Where am I?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Surprised aren't you?  I knew you would be.  You don't need to have \nanother worry about Xmas this year."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANDY CLAWS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Consider this a vacation Sandy,  a reward.  It's your turn to take it easy."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANDY CLAWS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But there must be some mistake!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "See that he's comfortable.  Just a second fellows.  Of course, that's \nwhat I'm missing."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANDY CLAWS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But --"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Thanks!  [took Sandy's hat]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANDY CLAWS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You just can't...  Hold on where are we going now?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "ho ho ho"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is worse than I thought, much worse.  I know..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANDY CLAWS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Me?  On vacation on Xmas eve?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Where are we taking him?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Where?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "To Oogie boogie, of course.  There isn't anywhere in the whole world more \ncomfortable than that and Jack said to make him comfortable.  Didn't he?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SHOCK &amp; BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes he did."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANDY CLAWS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Haven't you heard of peace on earth and good will toward men?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK, SHOCK &amp; BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No!\n\n[Dr. Finkelstein's castle]\n\n[getting fog juice]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This'll stop Jack.\n\n[working on new creation to replace Sally]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What a joy to think of all we'll have in common.  We'll have \nconversations worth having.\n\n[Oogie's]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK, SHOCK &amp; BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "[laughing]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANDY CLAWS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Don't do this.  Naughty children never get any presents."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SHOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I think he might be too big."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No he's not.  If he can go down a chimney, he can fit down here!\n\n[in Oogie's lair]\n\n\tOogie Boogie's Song\n\tPerformed by Ken Page with Ed lvory"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, well, well, what have we here?\nSandy Claws, huh?\nOh, I'm really scared\nSo you're the one everybody's talkin' about, ha, ha\n\nYou're jokin', you're jokin'\nI can't believe my eyes\nYou're jokin' me, you gotta be\nThis can't be the right guy\nHe's ancient, he's ugly\nI don't know which is worse\nI might just split a seam now\nIf I don't die laughing first\n\nMr. Oogie Boogie says\nThere's trouble close at hand\nYou'd better pay attention now\n'Cause I'm the Boogie Man\nAnd if you aren't shakin'\nThere's something very wrong\n'Cause this may be the last time\nYou hear the boogie song, ohhh"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>THREE SKELETONS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ohhh"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ohhh"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>TWO SKELETONS IN VICE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ohhh"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ohhh"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>THREE BATS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ohhh, he's the Oogie Boogie Man"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANTA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Release me now\nOr you must face the dire consequences\nThe children are expecting me\nSo please, come to your senses"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You're jokin', you're jokin'\nI can't believe my ears\nWould someone shut this fella up\nI'm drownin' in my tears\nIt's funny, I'm laughing\nYou really are too much\nAnd now, with your permission\nI'm going to do my stuff"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANTA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What are you going to do?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm gonna do the best I can\n\nOh, the sound of rollin' dice\nTo me is music in the air\n'Cause I'm a gamblin' Boogie Man\nAlthough I don't play fair\n\nIt's much more fun, I must confess\nWith lives on the line\nNot mine, of course, but yours, old boy\nNow that'd be just fine"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANTA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Release me fast or you will have to\nAnswer for this heinous act"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, brother, you're something\nYou put me in a spin\nYou aren't comprehending\nThe position that you're in\nIt's hopeless, you're finished\nYou haven't got a prayer\n'Cause I'm Mr. Oogie Boogie\nAnd you ain't going nowhere\n\n[LS&B laughing]\n\n[back to Halloweentown]\n\n[Sally pouring fog juice into fountain]\n\n[Jack appears from coffin and there's applause]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Think of us as you soar triumphantly through the sky outshining every \nstar.  Your silhouette a dark blot on the moon, you who are our pride, \nyou who are our glory, you who have frightened billions into an early grave.  \n\n[the fog starts to get worse]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You who have eh, devastated the souls of the living..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh no!  We can't take off in this!  The reindeer can't see an inch in \nfront of their noses."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Whew!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>VAMPIRE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This fog's as thick as, as..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CYCLOPS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jelly brains"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>VAMPIRE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Thicker!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "There go all of my hope, my precious plans, my glorious dreams.\n\nKid\n[crying]  There goes Xmas."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ZERO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "barks"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No Zero, down boy.  My what a brilliant nose you have.  The better to \nlight my way!  To the head of the team, Zero!  We're off!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Wait Jack, no!\n\n[Jack is off!]\n\n[cheers]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "ho ho ha ha ha"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Good bye Jack, my dearest Jack.  Oh how I hope my premonition is wrong.\n\n\tSally's Song\n\tPerformed by Catherine O'Hara\n\nI sense there's something in the wind\nThat feels like tragedy's at hand\nAnd though I'd like to stand by him\nCan't shake this feeling that I have\nThe worst is just around the bend\n\nAnd does he notice my feelings for him?\nAnd will he see how much he means to me?\nI think it's not to be\n\nWhat will become of my dear friend?\nWhere will his actions lead us then?\nAlthough I'd like to join the crowd\nIn their enthusiastic cloud\nTry as I may, it doesn't last\n\nAnd will we ever end up together?\nNo, I think not, it's never to become\nFor I am not the one\n\n[Jack playing Sandy]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "ho ho ho ho ho ho he he he \n\n[lands loudly & wakes up little kid]\n\nA little kid\nSanta!\n[sees Jack]\n[gasps]  Santa?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Merry Xmas!  And what is your name?\n\nKid\nuh uh"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That's all right.  I have a special present for you anyway.\nThere you go sonny.  Hohohohehehe \n\n[goes back up chimney]\n\nMother\nAnd what did Santa bring you honey?\n\n[pulls out shrunken head]\n\n[mother and father scream]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Merry Xmas!\n\nCop"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>[ON PHONE]\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hello, police.\n[frantic peanuts-type talk]\nAttacked by Xmas toys?  That's strange.  That's the second toy complaint \nwe've had."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "hohohohehehe\n\n[killer wreath, snake, vampire toy, killer duck]\n\n[screams]\n\n[Jack puts toys down chimneys]\n\n[screams]\n\n[Jack in the box chases fat kid]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You're welcome one and all!\n\nCop\n[on phone]\nWhere'd you spot him?\n---Fast as we can, ma'am\n---Police\n---I know, I know a skeleton\n---Keep calm\n---Turn off all the lights\n---Make sure the doors are Locked\n---Hello, police\n\nNewscaster\nReports are pouring in from all over the globe\nthat an impostor is shamelessly impersonating Santa Claus,\nmocking and mangling this joyous holiday.\n\nHalloween residents\n[cheers]\n\nNewscaster\nPolice assure us that this moment, military units are mobilizing to stop \nthe perpetrator of this heinous crime."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "[over the Newscaster]\nJack, someone has to help Jack.  Where'd they take that Sandy Claws?\n\nNewscaster\n--Come back and save Xmas"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Look Zero, search lights!  \n\n[firing at Jack]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They're celebrating!  They're thanking us for doing such a good job.\n\n[almost hits Zero]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Whoa, careful down there, you almost hit us."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ZERO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "bark"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's ok, Zero.  Head higher!\n\n[Oogie lair]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Are you a gamblin man, Sandy?  Let's play.   \n\n[sees sally's leg]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mmmm.. my, my....what have we here?\n\n[Sally's hands start to rescue Sandy]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "[whispering]  I'll get you out of here."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ah, lovely.  Tickle, tickle, tickle.  Tickle, tickle, tickle.\n\n[Sally's hands untie Sandy]\n\n[Oogie realizes that there's no body to the leg]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What?!?  You trying to make a dupe out of me?\n\n[Oogie sucks Sandy and Sally back in]\n\n[back to Jack]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Who's next on my list.  Ah, little Harry and Jordan.  Won't they be \nsurprised.\n\n[sleigh gets hit]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They're trying to hit us!  ZERO!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ZERO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Bark\n\n[sleigh gets hit]\n\n[as Jack's falling]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Merry Xmas to all and to all a good night...\n\n[Halloween]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WEREWOLF\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "howl!\n\nMAYOR (with white face)\nI knew this Xmas thing was a bad idea.  I felt it in my gut.  Terrible \nnews folks.  The worst tragedy of our times.  Jack has been blown to \nsmithereens.  Terrible, terrible news.\n\n[back to \"normal\" town]\n\nCop\n[in car]\nAttention, attention citizens.  Terrible news.  There's still no sign of \nSanta Claus.  Although the impostor has been shot down, it looks like \nXmas will have to be canceled this year.  I repeat the impostor has been \nshot down but there's still no sign ......\n\n[Jack in cemetery]\n\n\tPoor Jack\n\tPerformed by Danny Elfman\n\nWhat have I done? \nWhat have I done?\nHow could I be so blind?\nAll is lost, where was I?\nSpoiled all, spoiled all\nEverything's gone all wrong\n\nWhat have I done?\nWhat have I done?\nFind a deep cave to hide in\nIn a million years they'll find me\nOnly dust and a plaque\nThat reads, 'Here Lies Poor Old Jack\"\n\nBut I never intended all this madness, never\nAnd nobody really understood, well how could they?\nThat all I ever wanted was to bring them something great\nWhy does nothing ever turn out like it should?\n\nWell, what the heck, I went and did my best\nAnd, by god, I really tasted something swell\nAnd for a moment, why, I even touched the sky\nAnd at least I left some stories they can tell, I did\n\nAnd for the first time since I don't remember when\nI felt just like my old bony self again\nAnd I, Jack, the Pumpkin King\nThat's right! I am the Pumpkin King, ha, ha, ha, ha\n\nAnd I just can't wait until next Halloween\n'Cause I've got some new ideas that will really make them scream\nAnd, by God, I'm really going to give it all my might\nUh oh, I hope there's still time to set things right\nSandy Claws, hmm\n\n[Oogie lair]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You wait till Jack hears about this.  By the time he's through with you, \nyou'll be lucky if you..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The king of Halloween has been blown to smithereens.  Skeleton Jack is \nnow a pile of dust."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "[gasp]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Come on Zero.  Xmas isn't over yet!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What's that you were saying about luck, rag doll?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Help, help, help, help"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sandy, looks like it's Oogie's turn to boogie."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "[scream]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "one 2 3 4 5 6 7 -- hahaha"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANDY CLAWS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This can't be happening!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ashes to ashes, and dust to dust.  Oh, I'm feeling weak...with hunger.\nOne more roll of the dice oughta do it.  Haha [rolls dice]\nWhat!  Snake eyes.  [bang on table]\nEleven!  Haha  looks like I won the jackpot!\nBye bye doll face and sandman.\nHa, ha, ha\n[about to dump Sally & Sandy Claus into the lava]\nWhat the..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hello Oogie"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jack, but they said you were dead.  You must be double dead.\nWell come on bone man."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ZERO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "bark bark"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "oooo ooo ooo.  Pull an arm.  ha ha"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jack look out!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So long, Jack.  haha"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How dare you treat my friends so shamefully.\n\n[Jack pulls the thread that came loose that held Oogie together]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OOGIE BOOGIE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Now look what you've done.  My bugs, my bugs, my bugs, bye bye bye"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Forgive me Mr. claws, I'm afraid I've made a terrible mess\nof your holiday."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANDY CLAWS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Bumpy sleigh ride, Jack?  The next time you get the urge to take over \nsomeone else's holiday, I'd listen to her!  She's the only one who makes \nany sense around this insane asylum!\nSkeletons...."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I hope there's still time--"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANDY CLAWS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "To fix Xmas?  Of course there is, I'm Santa Claus!\n\n[and laying a finger aside of his nose, up Oogie's chimney he rose]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He'll fix things Jack.  He knows what to do."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How did you get down here Sally?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, I was trying to, well, I wanted to, to --"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "to help me"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I couldn't just let you just..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sally, I can't believe I never realized...that you..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jack, Jack!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BARREL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Here he is!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Alive!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SHOCK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Just like we said."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Grab a hold my boy!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK &amp; SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "whoa!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>NEWSCASTER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Good news, folks.  Santa Claus, the one and only has finally been \nspotted.  Old Saint Nick appears to be traveling at supersonic speed.  \nHe's setting things right, bringing joy and cheer wherever he goes.  Yes \nfolks, Kris Kringle has pulled it out of the bag and delivered Xmas to \nexcited children all over the world!\n\n\tFinale\n\tPerformed by Danny Elfman, Catherine O'Hara, and the Citizens of Halloween"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CHORUS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "La, la, la, (etc.) \nJack's OK, and he's back, OK"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CHILD CORPSE AND CHORUS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He's all right"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR AND CHORUS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Let's shout, make a fuss\nScream it out, wheee"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CHORUS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jack is back now, everyone sing\nIn our town of Halloween"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's great to be home!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SANDY CLAWS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hohohohoho\nHappy Halloween!\n\n[Sandy Claws brings snow to Halloween]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Merry Xmas!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CHILD CORPSE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What's this?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CYCLOPS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What's this?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>HARLEQUIN DEMON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I haven't got a clue"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. HYDE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What's this?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOWN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Why it's completely new"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OFF-SCREEN VOICE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What's this?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOLFMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Must be a Christmas thing"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>OFF-SCREEN VOICE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What's this?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAYOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's really very strange"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CHORUS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is Halloween\nHalloween! Halloween! Halloween!\n\nWhat's this?\nWhat's this?\n(Repeat)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DR. FINKELSTEIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Careful, my precious jewel!\n\n[Dr. F. with his new wife!]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "My dearest friend, if you don't mind\nI'd like to join you by your side\nWhere we can gaze into the stars"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JACK AND SALLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And sit together, now and forever\nFor it is plain as anyone can see\nWe're simply meant to be\n\n[at the end of FINALE, Zero zooms off into the heavens]"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>THE END!\n</b>"
+    }
+  ]
+}

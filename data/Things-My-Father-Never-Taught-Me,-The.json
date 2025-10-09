@@ -1,0 +1,571 @@
+{
+  "elements": [
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                      THE THINGS MY FATHER NEVER TAUGHT ME\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Written by \n\n                                Burleigh Smith"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>          DJANGO REINHARDT'S \"TEA FOR TWO\".\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>   FADE IN:\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>   INT.   LIVING ROOM   -   NIGHT.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "ALBERT, a middle-aged man, feeds MELVIN, a two-year-old."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                    ADULT MELVIN (V.O.)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I loved my father and he taught me\n           many useful things. But he didn't\n           teach me anything at all about\n           women. There was a time when I\n           resented that. And then, one day,\n           it occurred to me that perhaps he\n           didn't know all that much about\n           the fairer sex.\n\n   On the other side of the room, CORINNE, a vulgar,\n   morbidly obese woman, sits on the couch and devours a\n   large packet of potato chips."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                    ADULT MELVIN (V.O.)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "One look at my mother and I had\n           conclusive proof.\n\n   She burps loudly and gives a smile of satisfaction."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>   EXT.   EAST PERTH STREETS    -    PRESENT DAY.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "MELVIN, now thirty-two, walks along with MIKE, three.\n   Both are bespectacled."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                           MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Here's what I'm going to do, son.\n           I'll give it to you straight. I'm\n           not going to fill your head with\n           stories about fictitious characters\n           like Santa Claus or the Easter Bunny\n           or God. There's only one thing you\n           need to worry about in this life and\n           that's women. And I'm going to\n           teach you everything I know about\n           the art of meeting, courting and\n           seducing 'em. Don't worry about\n           anything else, there's nothing more\n           important. Reading, writing, toilet\n           training you can learn later in life."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                                        2.\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>   INT.   DEPARTMENT STORE   -   DAY.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mike, wearing cute denim overalls with a teddy bear\n   embroidered on the front, stands on a footstool in front\n   of Melvin and a TAILOR."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                           MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Clothes maketh or unmaketh the man.\n           What were you thinking when you put\n           that on this morning? That you were\n           going to spend the day in the sandpit?\n\n   Mike responds with a look of innocence and confusion."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                           MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(to tailor)\n           We'll take the best you've got.\n                         (to Mike)\n           The finer the threads, the more\n           inclined the ladies will be to tear\n           them off. I know, don't try to make\n           sense of their logic. They have none."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>   EXT.   CAFE   -   DAY.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Melvin at a table with Mike, who is now dressed in smart\n   casual attire and looks more like his father."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                           MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Of course, it's not all about clothes.\n           It's the way you carry yourself too.\n           You've gotta make a conscious effort\n           to be relaxed but in control in all\n           situations. And a little playful.\n           Go for an expression where you're\n           suppressing mild amusement. But\n           don't overdo it. You want to look\n           dignified at all times.\n\n   Melvin glances over to Mike, who is picking his nose."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                           MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Damnit, son! Are you not listening\n           to a word I say?\n\n   Mike freezes, unsure what to do, his finger still planted\n   in his nostril. Melvin yanks it out."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                                        3.\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>   EXT.   PRESCHOOL    -       DAY.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Melvin and Mike approach the entrance."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                          MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Now meeting the right person is\n          really all about spending enough\n          time in the right places. So we're\n          going to a new preschool today. One\n          in a higher socioeconomic suburb."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>   EXT.   PLAYGROUND       -    DAY.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Melvin and Mike sit on a bench and watch children at play."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                    MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well?\n\n   Mike looks around then points."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                          MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You like the girl over there?\n\n   Mike nods. She's MOLLY, three. A shy, bespectacled\n   girl, she sits on her own and reads a book."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                          MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Uh ... yeah. I think there's enough\n          geek genes in our family. It's time\n          to diversify.\n\n   Elsewhere, BRITTANY, four, is taunting another child."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                          MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And avoid that bitchy girl. She may\n          be pretty but believe me, it's not\n          worth the trouble. You definitely\n          don't want to get involved with\n          someone like your mother.\n\n   Melvin keeps looking. He points out AMELIE, three,\n   well-dressed and eating a baguette."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                          MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Stay away from the French girl too.\n          French women have no morals."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                                        4.\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                          MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It might be great for a bit of slap\n          and tickle after midnight when the\n          only meat your buddies are getting\n          is at a kebab shop. But there's no\n          word in French for \"fidelity\" and\n          what we're looking for is a serious\n          relationship. I mean, what you're\n          looking for.\n                 (awkwardly unconvincing)\n          I'm fine.\n\n   SARAH, three, blonde and dressed in pink, sits at a table\n   nearby. She talks excitedly with a group of girls."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                          MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "She's popular, good-looking. She\n          seems friendly enough. I think\n          Barbie there might be worth a try.\n\n   Mike doesn't look so sure."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                          MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Go and talk to her.\n\n   Intimidated, Mike shakes his head, his eyes pleading."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                          MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "C'mon! It's better to get shot\n          down than wonder \"What if?\"\n\n   Melvin gives him a push in Sarah's direction."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                          MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Just show an interest in the things\n          that interest her and you'll have\n          plenty to talk about.\n\n   Mike, looking completely out of place in his flashy\n   clothes, apprehensively approaches the girls. They stop\n   talking and watch him.\n\n   He picks up Sarah's handbag and admires it, putting it\n   over his shoulder. Then he tries on her sun hat and\n   slips into her discarded pink shoes. The girls laugh at\n   him and run away.\n\n   Melvin covers his face in disbelief."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                                       5.\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>   A MOMENT LATER.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Back on the bench, Melvin scolds Mike."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                           MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Would you like to go to the toyshop\n           later on? You can pick out a nice\n           fairy costume. What are you doing\n           to me, boy?!\n\n   Mike shrugs defensively."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                           MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We need to toughen up your image now.\n           Most girls are attracted to bad boys.\n           See if you can start some sort of\n           altercation with her. Understand?\n\n   Mike thinks, then nods his head."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>   A MOMENT LATER.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mike grabs a handful of sand from the sandpit, marches up\n   to Sarah and throws it forcefully into her face. Sarah\n   starts to cry, drawing the attention of everyone in the\n   playground. Mike smiles and looks to his father for\n   approval. Melvin is horrified."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>   INT.   FLORIST    -   DAY.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mike struggles with a large arrangement of flowers.\n   Melvin pays the FLORIST."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                           MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well that was over the top but at\n           least you got her attention. And\n           it's better to be known as a jerk\n           rather than a fruitcake. The good\n           news is you now have the opportunity\n           to apologise. If you can feign\n           sincerity and a desperation for\n           forgiveness, you should be able to\n           endear yourself to her.\n                        (to florist)\n           Leave the price tag on. We want\n           her to know how much we paid."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                                                6.\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>   EXT.   PLAYGROUND    -   DAY.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Melvin watches from the other side of the high fence.\n   Mike carries the flowers across the playground.\n\n   He sees Sarah being comforted by her friends.         Then he\n   sees Molly, who is still reading her book.\n\n   Melvin gestures for Mike to give the flowers to Sarah.\n   Mike thinks, then gives them to Molly instead.\n\n   Melvin groans and throws his hands up in frustration."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>   EXT.   CARPARK   -   DAY.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Melvin points his finger in Mike's face."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                           MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm trying to do the right thing\n           by you and you mess everything up!\n           You're as incompetent as ... the\n           government film funding bodies!\n\n   MARY, early thirties and attractive, approaches with\n   Molly, who carries the flowers."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                            MARY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Molly loves her flowers.      Thank you.\n\n   Melvin's attitude changes immediately."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                            MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh.   No problem. They were my idea."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                            MARY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well it was a very nice gesture.\n\n   She continues walking, then stops."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                            MARY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We're going to lunch at the cafe on\n           the corner. Would you and Mike like\n           to join us?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                               MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Absolutely.      We'll see you there.\n\n   Mary and Molly leave.       Melvin turns back to Mike."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                                            7.\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                           MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Great work my friend! Looks like\n           we're in for a double date.\n\n   He claps a high five with his son."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                           MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And the perfect chance for you to\n           learn from a master at work."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>   INT.   CAFE ON THE CORNER      -   DAY.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Melvin, Mike, Mary and Molly sit around a table. Before\n   eating, Mary and Molly bow their heads in prayer. Mike\n   watches them and does the same.\n\n   Unseen by the others, Melvin decides to give thanks too.\n   And not for the food in front of him."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>   EXT.   PARK   -   DAY.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Melvin and Mary sit and watch their children laugh as\n   they chase each other about."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                            MARY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They seem to like each other."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                           MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They certainly do."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                            MARY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Molly has a birthday party coming\n           up. Would you like to come?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                              MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Absolutely."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                            MARY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm thinking about a sleepover?\n           Or is it too soon?\n\n   She smiles at him.       Melvin raises an eyebrow seductively."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                           MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A \"sleepover\" would be great. No\n           such thing as \"too soon\" when you're\n           with the right person."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                                        8.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He moves closer to Mary. He puts one hand on her leg and\n   uses the other to play with her hair. She pulls away\n   violently and stands."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                            MARY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What are you doing?!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                           MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Getting to know you. Before the\n           \"sleepover\"."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                            MARY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I meant Mike coming over to spend\n           the night. Not his Dad."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                             MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh.\n\n   Unimpressed, she walks over to Molly, lifts her into her\n   arms and they leave. Mike stares coldly at his father,\n   his hands on his hips."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>   EXT.   BUS STOP   -   DAY.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mike picks flowers from a nearby garden. Melvin sits\n   alone, dejected. Mike approaches and whispers in his ear."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                           MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's better to get shot down than\n           wonder \"What if?\"?\n\n   Mike whispers more."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                           MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I now have the opportunity to\n           apologise and endear myself to her?\n\n   Mike presents his father with a small arrangement of\n   hand-picked flowers. Melvin thinks."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                           MELVIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah! Yeah, you're right.   I've\n           taught you well!\n\n   He takes the flowers, leans over and kisses his boy\n   fondly on the head."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                                 FADE OUT.\n</b>"
+    }
+  ]
+}

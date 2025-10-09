@@ -1,0 +1,4013 @@
+{
+  "elements": [
+    {
+      "type": "tag",
+      "name": "title",
+      "content": "<title>\"Dark Star\", short film script, by John Carpenter &amp; Dan O'Bannon</title>"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>DARK STAR: A SCIENCE FICTION ADVENTURE</u>"
+    },
+    {
+      "type": "text",
+      "content": "A Screenplay by John Carpenter and Dan O'Bannon"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>     OPEN ON BLACK SILENCE.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The sound of electronic music rises, hollow, metallic.\n\n     FADE IN on a long TRACKING SHOT through the universe.  As the NARRATOR\n     speaks we move through galaxies, nebulae, solar systems, moving from\n     the infinite slowly down to a particular planetary system deep within\n     a maze of suns."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   NARRATOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(over)\n                    It is the mid 22nd Century.  Mankind\n                    has explored the boundaries of his\n                    own solar system, and now he reaches\n                    out to the endless interstellar\n                    distances of the universe.  He moves\n                    away from his own small planetary\n                    system in huge hyperdrive starships:\n                    computer-driven, self-supporting,\n                    closed-system spacecraft that travel\n                    at mind-staggering post-light\n                    velocities.  Man has begun to spread\n                    among the stars.  Enormous ships\n                    embark with generations of colonists\n                    searching the depths of space for\n                    new earths, now homes, new\n                    beginnings.  Far in advance of these\n                    colony ships goes a new pioneer: the\n                    scouts, the pathfinders, a special\n                    breed of man who has dedicated his\n                    life to blazing the trail through\n                    the most distant, unexplored\n                    galaxies, opening up the farthest\n                    frontiers of space.  These are the\n                    men of the Advance Exploration\n                    Corps.  The task they face is one of\n                    unbelievable isolation and\n                    loneliness.  So far from home that\n                    Earth is no longer even a point of\n                    light in the sky, they must comb the\n                    universe for those unstable planets\n                    whose existence poses a threat to\n                    the peaceful colonists that follow.\n                    They must find these rogue planets\n                    -- and destroy them.  Among these\n                    commandos are the men of the\n                    scoutship"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>Dark Star</u>"
+    },
+    {
+      "type": "text",
+      "content": ".\n\n     We are now moving toward a planet.  Floating in front of the planet is\n     the SCOUTSHIP DARK STAR.  As we move toward the ship, we begin to hear\n     VOICES, crackling with static."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(over -- radio filter)\n                    Ah, what'd you say, Pinback?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(over -- great static)\n                    Mafhkin oble groop..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(over -- filter)\n                    Ah, what was that again, I still\n                    can't hear you?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(over -- filter)\n                    I said I'm trying to reach Talby.\n                    Something's wrong with the damn\n                    intercom.  I need a last-minute\n                    diameter approximation.\n\n     CAMERA IS NOW FLOATING TOWARD THE OBSERVATION DOME on top of the ship.\n     In the Dome sits TALBY.  He is staring around, wide-eyed, at the\n     planets and stars."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(over -- filter)\n                    Talby, Talby, this is Doolittle.  Do\n                    you read me?  Talby?\n\n     WE MOVE IN CLOSE ON TALBY'S FACE.  The shot stops and holds as he\n     continues to stare, rapt."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(cont'd -- over --\n                              filter)\n                    Talby, do you read me?\n\n     There is a CRACKLE, and Doolittle's voice suddenly booms through, loud\n     and clear:"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(cont'd)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                    TALBY!\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(snaps out of it)\n                    Oh!  Ah, yes, Doolittle.  What is it?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "text",
+      "content": "CLOSE SHOT of a digital clock, ticking down the seconds."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I need a diameter approximation."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(over)\n                    Okay, Doolittle, I'll have it in a\n                    minute.\n\n     CAMERA BEGINS TO PULL BACK along the length of the control room,\n     revealing three men: BOILER, DOOLITTLE, and PINBACK.  They are seated\n     close together in cramped little chairs, surrounded by a maze of\n     instrumentation, pressing buttons, making adjustments and corrections.\n     There is one EMPTY CHAIR; the panel in front of it looks burned."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I need a GHF reading on the gravity\n                    correction."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'll check it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I have a reduced drive reading of\n                    seven thousand."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Right, that checks out here."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Pinback..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes, Doolittle."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Your GHF reading is minus fifteen."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I need a computer reading on a fail-\n                    safe mark."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "In a second."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Boiler, can you set me up with some\n                    temp figures?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ninety seven million, minus eight,\n                    corrected to mass critical."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I read that with a quantum increase\n                    of seven."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Pinback, I have a computer reading\n                    of nine five seven seven."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Time to start talking."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Bomb bay systems operational.\n\n     Pinback hits a button on his panel."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "text",
+      "content": "The screen is BLACK for an instant.  Then, two enormous doors begin to\n     open ponderously, revealing the planet rotating below.  A huge BOMB,\n     designated with a giant"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>#19</u>"
+    },
+    {
+      "type": "text",
+      "content": "on its side, lowers slowly out of the\n     ship on a rack."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   NARRATOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(over)\n                    This is a chain-reaction bomb,\n                    otherwise known as an Exponential\n                    Thermostellar Device.  Its own\n                    destructive power is small, barely\n                    enough to vaporize twelve city\n                    blocks.  However, when it explodes in\n                    contact with an object the size of a\n                    planet, it starts a chain-reaction\n                    in the very matter of that planet,\n                    turning it into a giant reactor\n                    which destroys itself in one\n                    staggering thermal flash.\n\n                    These bombs are equipped with\n                    sophisticated thought and speech\n                    mechanisms, to allow them to make\n                    executive decisions in the event of\n                    a crisis situation.  These judgment\n                    centers are controlled by a fail-\n                    safe mechanism."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Lock fail safe.\n\n     Pinback turns a key in a lock."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Fail-safe locked.  Ah, Sergeant\n                    Pinback call1ng Bomb #19.  Do you\n                    read me, bomb?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "text",
+      "content": "The bomb is suspended beneath the ship."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #19\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Bomb #19 to Sergeant Pinback, I read\n                    you.  Continue.\n\n     When the bomb speaks, it has the prim, fussy voice of a minor civil\n     servant."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, bomb, we have about sixty\n                    seconds to drop.  Just wondering if\n                    everything is all right.  Have you\n                    checked your platinum euridium\n                    energy shielding?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #19\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Energy shielding positive function."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Swell.  Let's synchronize detonation\n                    time.  Do you know when you're\n                    supposed to go off?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #19\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Detonation in six minutes, twenty\n                    seconds."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "All right, I have detonation time\n                    at... Wait a minute, something's\n                    wrong with the clock.\n                              (hits panel)\n                    All right, I have detonation time\n                    at... no, that can't be right, it\n                    says three years.\n                              (beats panel again)\n                    Okay, I have six minutes exactly.\n                    Does that check out down there?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #19\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Check at six minutes."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Arm yourself, bomb."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "text",
+      "content": "Several lights blip on along the bomb's side."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #19\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Armed."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, then, everything sounds fine.\n                    We'll drop you off in thirty-five\n                    seconds.  Good luck."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #19\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Thanks."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Begin main sequence.  Mark at 10-9-8-\n                    7-6-5-4-3-2-1-drop."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - THE SHIP</u>"
+    },
+    {
+      "type": "text",
+      "content": "Bomb #19 falls away from the ship and whizzes down toward the planet\n     below."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hyperdrive sequence begun.  Hit it,\n                    Pinback.\n\n     Pinback hits the hyperdrive switch.  Force fields energize around the\n     men."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - THE SHIP</u>"
+    },
+    {
+      "type": "text",
+      "content": "The DARK STAR accelerates into hyperdrive and streaks away through\n     space.\n\n     The planetary system recedes in the background.  Inside the Observation\n     Dome, Talby is frozen in a protective force field.\n\n     INSERT: CLOSE SHOT OF A TIME CLOCK.  It blips down to ZERO."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>RETURN TO SCENE</u>"
+    },
+    {
+      "type": "text",
+      "content": "Behind the ship, there is an intense flare of light as the planet, now\n     a dot of light, explodes."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - OBSERVATION DOME</u>"
+    },
+    {
+      "type": "text",
+      "content": "The force field around Talby disappears as the ship comes out of\n     hyperdrive.  He rubs his eyes as though awakening, then looks down at\n     his readout panels.\n\n     INSERT - CLOSE SHOT OF A PANEL.  On a small screen we see the exploding\n     planet, and below, a readout says:"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                         DESTRUCTION SEQUENCE COMPLETE\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>RETURN TO SCENE</u>"
+    },
+    {
+      "type": "text",
+      "content": "Talby touches his intercom."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Lieutenant Doolittle, it just\n                    exploded.\n                              (pause)\n                    Ah, sir, the planet just exploded.\n                              (pause -- he shakes the\n                              microphone)\n                    Lieutenant?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "text",
+      "content": "The men are stretching in their seats."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Unlock fail safe.\n\n     Pinback unlocks the fail-safe unit."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Fail safe unlocked."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   RECORDED VOICE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Attention.  Attention.  The hyperdrive\n                    sequence is now terminated.  Please\n                    observe that the no smoking signs\n                    have growrrr...\n\n     The voice runs down."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well... now what?  What do, you have\n                    for us now.  Boiler?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(checking his readouts)\n                    Not much.  Nothing at all in this\n                    sector."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Find me something, I don't care\n                    where it is."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, I show a 95% probability of\n                    sentient life in the Horsehead\n                    Nebula..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Fuck that shit."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, it is kind of a long shot..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's a goddamn wild goose chase.\n                    Remember when Commander Powell found\n                    that 99 plus probability of sentient\n                    life in the Magellanic Cloud?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, there's the possibility of..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Remember what we found?  Fourteen\n                    light years for a fucking mindless\n                    vegetable that looked like a limp\n                    balloon and went squawk and let a\n                    fart when you touched it.  Remember?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "All right, then..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So don't give me any of that\n                    sentient life crap.  Find me\n                    something I can blow up.\n\n     A LIGHT flares on Pinback's board.  He looks up."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "New star.\n                              (no reaction)\n                    Hey, guess what?  I got a new star on\n                    the readout."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(not looking up)\n                    Which one?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Another unknown.  Not on the charts.\n                    A red dwarf."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Any planets?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah.  Eight, it says here."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Any of 'em any good?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(scans the board)\n                    Naah.  All stable.\n\n     Doolittle loses interest."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(cont'd)\n                    What are you gonna name it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(not looking up)\n                    What?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The new star.  What are you gonna\n                    name it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Who cares.  Don't bother me.\n\n     Pinback's mouth tightens.  A pause."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Commander Powell would have named\n                    it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Commander Powell is dead.\n\n     Involuntarily, Pinback glances at Commander Powell's empty, burned\n     seat.  The panels behind it sputter."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Come on, Doolittle, give it a name."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Fred."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Wha?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I hereby name this star Fred."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey, Doolittle, here's one.  An\n                    unstable planet.  85% probability of\n                    an unstable planet in the Veil\n                    Nebula that will probably go off its\n                    orbit and hit a star."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sounds good.  Chart a course for the\n                    Veil Nebula."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Pinback, throw me the chart log.\n\n     Pinback draws a loose-leaf notebook from a shelf above Commander\n     Powell's empty seat, and hurls it at Boiler.  With a sour look at\n     Pinback, Boiler picks up the notebook and begins to leaf through it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Let's have some music in here,\n                    Boiler.\n\n     Boiler presses a button.  LOUD COUNTRY MUSIC THEME BEGINS TO PLAY."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - DARK STAR (TITLE SEQUENCE)</u>"
+    },
+    {
+      "type": "text",
+      "content": "This sequence includes shots of the DARK STAR drifting through space,\n     past various cosmic wonders, intercut with shots of the men relaxing\n     (Talby staring into space; Boiler trimming his beard; Doolittle\n     playing solitaire; Pinback reading a comic book)."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>     CREDITS AND MUSIC OVER.\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>     SEQUENCE ENDS.\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - DARK STAR</u>"
+    },
+    {
+      "type": "text",
+      "content": "Beep.\n\n     We are watching a filmed tape.  Doolittle has just turned it on and is\n     staring into the camera.  Crosshairs and blipping numbers superimposed."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ship's log, entry number 1,943."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>Dark Star</u>"
+    },
+    {
+      "type": "text",
+      "content": "cruising at light speed\n                    through Sector Theta 990.  En route\n                    to Veil Nebula for destruction of\n                    unstable planet.  Our ETA is 1700\n                    hours.\n                              (thinks)\n                    Ship's systems continue to\n                    deteriorate...\n\n     Pinback leans into view and whispers into Doolittle's ear.  Doolittle\n     nods and Pinback withdraws."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(cont'd)\n                    The short circuit in the rear seat\n                    panel which killed Commander Powell\n                    continues to be faulty.\n                              (thinks)\n                    Uh... Storage Area 9...\n\n     Pinback leans back in and whispers emphatically.  Doolittle looks put-\n     upon."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(cont'd)\n                    And because he's sitting next to it,\n                    it continues to bother Pinback.\n                              (glares at Pinback.\n                              Then:)\n                    Storage Area 9 self-destructed last\n                    week, destroying entire ship's\n                    supply of toilet paper.  That's all.\n\n     Beep."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - OBSERVATION DOME</u>"
+    },
+    {
+      "type": "text",
+      "content": "Talby is still gazing around at the stars.\n\n     A hatch opens in the floor and Doolittle sticks his head up."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Talby.\n\n     Talby rotates his seat and looks down at Doolittle."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(cont'd)\n                    Here's some breakfast.\n\n     Doolittle climbs into the dome and sits on the floor.  He hands Talby\n     the food package, and watches matter-of-factly as Talby begins to eat."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(cont'd)\n                    You know, Talby, you really ought to\n                    eat with the rest of us.  You spend\n                    too much time up here."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I like it up here."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Must get lonely being up here so\n                    much."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I don't like to go below since\n                    Commander Powell died.  I feel\n                    enclosed down there.  If it were big\n                    enough, I'd sleep up here..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "... Should spend some time below, see\n                    more of the rest of the ship..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "... You see, I can watch things up\n                    here, Doolittle.  I love to watch\n                    things, just stare at the planets\n                    and meteors and asteroids, gas\n                    clusters..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You'll have plenty of time for that,\n                    you know.  Figure it this way: twenty\n                    years in space and we've only aged\n                    three, so there'll be plenty of time\n                    to stare around..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You know, Doollttle, if we're going\n                    into the Veil Nebula, we may\n                    actually find a strange and\n                    beautiful thing: the Phoenix\n                    Asteroids.  They should be passing\n                    through there about now..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Phoenix Asteroids?  Never heard of\n                    'em."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They are a body of asteroids that\n                    make a complete circuit of the\n                    universe once every 12.3 trillion\n                    years.  The Phoenix Asteroids... From\n                    what I've heard, Doolittle, they\n                    glow... glow with all the colors of\n                    the rainbow.  Nobody knows why.  They\n                    just glow as they drift around the\n                    universe.  Imagine all the sights\n                    they've seen in the time they've\n                    been travelling -- the birth and\n                    death of stars, things we'll never\n                    see.  The universe is alive,\n                    Doolittle.  I thought it was all\n                    empty, but it isn't.  In between the\n                    stars, it's seething with light and\n                    gasses and dust.  There are little\n                    pebbles drifting around, planets no\n                    one on Earth has ever seen... No one\n                    but the Phoenix Asteroids...\n\n     There is a BLIPPING SOUND.  It is insistent.  Talby is rudely yanked\n     from his reverie.  He looks down at a panel.  But his soft talk has\n     started Doolittle reminiscing."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You know what I think about, Talby?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm getting something here, on this\n                    readout..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's funny, but I kind of sit\n                    around, you know, a lot of time to\n                    myself..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I think I'm getting a malfunction\n                    here somewhere."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I can't talk to the others, but with\n                    time to myself, I think about back\n                    home, back home at Malibu.  I used to\n                    surf a lot, Talby.  I used to be a\n                    great surfer."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Lieutenant Doolittle, I'm getting a\n                    definite malfunction on one of the\n                    closed-circuit computer systems..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The waves at Malibu and Zuma were\n                    fantastic in the springs Talby.  I\n                    can remember running out on the\n                    beach early spring mornings with my\n                    board and a wet suit..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I can't seem to locate the\n                    malfunction exactly..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Waves would be peaking really high\n                    and glassy.  Hit that water.  Ridin'\n                    the wall just perfect."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "... Somewhere in the autonomic relay\n                    circuits..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I guess I miss the waves and my\n                    board most of all.\n\n     Talby turns in his seat and addresses Doolittle directly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ah, Doolittle, I do have a\n                    malfunction on this readout, but I\n                    can't seem to pinpoint exactly where\n                    it is."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(snapped out of his\n                              daydream)\n                    Don't worry about it.  We'll find out\n                    when it goes bad."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(chagrined)\n                    I really think I should try and\n                    locate it immediately.  Might be\n                    something important."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I wish I had my board with me now.\n                    Even if I could only polish it once\n                    in awhile."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - SPACE</u>"
+    },
+    {
+      "type": "text",
+      "content": "LONG SHOT of the DARK STAR drifting through space."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - KITCHEN</u>"
+    },
+    {
+      "type": "text",
+      "content": "Boiler, Pinback, and Doolittle are descending a ladder into the\n     kitchen."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm getting this flickering light on\n                    one of my panels."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What flickering light?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The one on unit... oh, I think it's\n                    GMR twelve zero zero."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh.  What's wrong now?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm not sure.  I think something is\n                    fucked up somewhere in the ship,\n                    though."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I hope it's not the oven again."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Remember when the artificial\n                    gravity, went out in the toilet?\n\n     The men sit for their meal.  Doolittle brings food packets from the\n     oven."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey, Doolittle, think we'll ever\n                    find real intelligent life out\n                    there?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Out where?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Veil nebula."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Who cares?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "text",
+      "content": "The Control Room is EMPTY.  After a moment, there is a repetitive BEEP.\n\n     CLOSE SHOT - TV SCREEN.  On the screen is the message:"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                            INCOMING COMMUNICATION\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This fades, and MISSION CONTROLLER appears on the screen, against a\n     background of computer terminals.  He is dressed in a snappy tunic, and\n     when he receives the on-camera cue, he smiles ingratiatingly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   MISSION CONTROLLER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hi, guys.  Glad to get your message.\n                    We gather from the ten-year\n                    communications lag that you are\n                    approximately 18 parsecs away.  Drop\n                    us a line more often, won't you?\n\n                    Sorry to hear about all the\n                    malfunctions, and real sorry to hear\n                    about the death of Commander Powell.\n                    There was a week of mourning all\n                    over Earth.  The flags were at half\n                    mast.\n\n                    Now I hate to send bad news when you\n                    guys are up there doing such a swell\n                    job, but something's come up, and we\n                    all felt you ought to know about it.\n                    Our systems simulation computer has\n                    predicted that by the time this\n                    message reaches you -- that is to\n                    say, in about ten years -- there\n                    will be a failure in one of your\n                    vital ship's systems.  The\n                    malfunction will occur in --\n                              (rifles papers)\n                    -- system number E180246.  You can\n                    see what a problem this would be if\n                    you didn't catch it on time.  Now\n                    what you should do is this: First,\n                    do not, repeat, do not attempt to\n                    adjust the system manually.\n                    Second --"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - COMPUTER ROOM</u>"
+    },
+    {
+      "type": "text",
+      "content": "The room is dim and eerie, banks of dimly flickering lights and the\n     hum of air-cooling machinery.\n\n     Talby is seated before a glowing screen.  He punches several buttons,\n     and the screen comes to life.  A schematic cross-section of the ship\n     appears in glowing green lines.\n\n     Talby punches more buttons, and the screen flashes through the levels\n     or the ship.  Finally it shows Level 6.  There is a small red light\n     pulsing in the"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>Emergency Air Lock</u>"
+    },
+    {
+      "type": "text",
+      "content": ".\n\n     Talby punches another button.  The Emergency Air Lock is magnified\n     fifteen times until it fills the screen.  The red light is pulsing in a\n     small area labelled COMMUNICATIONS LASER #17.\n\n     Talby picks up a microphone."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Lieutenant Doolittle, this is Talby.\n                    Lieutenant?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(over -- filter)\n                    Yes, Talby, what is it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sorry to interrupt your lunch, sir,\n                    but I'm in the Computer Room, and I\n                    think I've located the malfunction.\n                    The scanner shows it to be some sort\n                    of fault in the communications\n                    laser, down by the Emergency Air\n                    Lock.  Can't pinpoint it exactly, but\n                    I'm going down there with a starsuit\n                    and try to find it."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - KITCHEN</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sounds good, Talby.  Let me know if\n                    anything important comes up.\n\n     Doolittle hangs up the mike."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Why doesn't Talby ever eat down here\n                    with the rest of us?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He just likes it up in the dome,\n                    that's all.\n\n     Boiler seems to be thinking.  He frowns, looks at Doolittle."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What's Talby's first name?\n\n     Doolittle thinks about it, and an odd expression crosses his face."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What's"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>my</u>"
+    },
+    {
+      "type": "text",
+      "content": "first name?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>     CLOSE SHOT - TV SCREEN\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   MISSION CONTROLLER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "-- then repatch channel 12 and seal\n                    all the plates.  Don't mess with it\n                    and it should work okay.  I'm just\n                    glad we caught this thing before\n                    anything serious happened.  Keep up\n                    the good work, men.\n\n     His image fades, and is replaced by the message:"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                            END COMMUNICATION\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "FULL SHOT - CONTROL ROOM.  Lights blink peacefully in the empty room."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>     HOLD FOR A MOMENT.\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - UNIVERSE</u>"
+    },
+    {
+      "type": "text",
+      "content": "SLOW ZOOM toward a sun system.  The DARK STAR is suspended in frame.  A\n     title pops on briefly:"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                               VEIL NEBULA\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "text",
+      "content": "A GLOWING SCREEN shows a schematic of the planet rotating below.\n     Boiler stares at it, smiling."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "There she is.  Definite 99%-plus\n                    probability that the planet is going\n                    to deviate from its normal orbit in\n                    another twelve thousand rotations.\n                    It'll spiral in toward its sun,\n                    and --"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Eventual supernova."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Good stuff.  Let's vaporize it.\n\n     Pinback hits buttons."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Bomb bay systems operational."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "text",
+      "content": "BOMB #20 lowers ponderously out of the ship."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Lock fail safe.\n\n     Pinback turns the key."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Fail safe in lock.  Four minutes to\n                    drop, 22 minutes to detonation.  This\n                    is Sergeant Pinback calling Bomb\n                    #20.  Do you read me, bomb?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Bomb #20 to Sergeant Pinback.  Roger,\n                    I read you, continue."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - EMERGENCY AIR LOCK</u>"
+    },
+    {
+      "type": "text",
+      "content": "CAMERA SLOWLY PANS DOWN the chromium-steel walls of the Emergency Air\n     Lock to reveal Talby in a starsuit.  He is wearing it only as\n     protection against possible depressurization, and therefore wears no\n     jetpack.  Carrying a tool kit, he is slowly circling the lock."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   RECORDED VOICE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You are now in the Emergency Air\n                    Lock.  Please remember that the\n                    Surface Door can be opened without\n                    prior depressurization, so be sure\n                    to wear your starsuit at all times.\n                    Thank you for observing all safety\n                    precautions.\n\n     Talby stops facing LASER SHAFT 17.\n\n     The plate cover on the laser shaft hangs loose; it appears to be\n     burned.  Talby approaches it and puts down his tool kit.  He turns on\n     his helmet radio."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ah, Lieutenant Doolittle?  Sir?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sh, Talby, don't bother me now."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - EMERGENCY AIR LOCK</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ah, well, I think I've found the\n                    malfunction, sir.  I'm in the\n                    Emergency Air Lock..."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Not now!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(over -- filter)\n                    Well, I'm in the Emergency Air Lock\n                    and --\n\n     Click!  Doolittle turns off Talby's radio line."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "One hundred twenty seconds to drop,\n                    bomb, have you checked your platinum\n                    euridium energy shielding?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Energy shielding positive function."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Do you remember the detonation time?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #2\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Detonation in twenty minutes."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Right, that synchronizes here.  Okay,\n                    bomb, arm yourself."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Armed."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - EMERGENCY AIR LOCK</u>"
+    },
+    {
+      "type": "text",
+      "content": "Talby stands in front of the laser shaft, trying to reach Doolittle on\n     his helmet radio."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hello?  Lieutenant Doolittle?  Hello!\n\n     Silence.\n\n     Very carefully, Talby reaches out to touch the dangling plate cover on\n     the laser shaft.  He pushes it, and it drops to the floor of the lock\n     with a CLANG."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   RECORDED VOICE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Communications Laser #17, monitoring\n                    information relays and bomb bay\n                    systems, has now been activated and\n                    will switch into a test mode.  If you\n                    will look near the Surface Door, you\n                    will see that the Parallax Receptor\n                    Cell has been engaged.\n\n     A small triangular hole opens in the opposite wall and a photo-\n     sensitive cell rotates into position."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   RECORDED VOICE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The laser will now energize.  Please\n                    stand clear of the path of the beam.\n\n     Talby steps back quickly.  The airlock lights dim, and with a HIGH-"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>     PITCHED WHINE, A PENCIL-THIN BEAM OF RUBY LIGHT PULSES ACROSS THE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "LOCK, from the laser shaft to the receptor cell."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   RECORDED VOICE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Communications Laser #17 is now on\n                    test.  Under no circumstances enter\n                    the path of the beam.  Thank you for\n                    observing all safety precautions."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Everything sounds fine, bomb.\n                    Dropping you off in sixty seconds.\n                    Good luck."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #2\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Thanks."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Quantum is up thirty-five."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I read the same here."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - EMERGENCY AIR LOCK</u>"
+    },
+    {
+      "type": "text",
+      "content": "Talby crouches by the laser shaft, carefully peering past the red,\n     humming beam."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle.  Doolittle?  It you're\n                    there, I'm going to try to adjust\n                    the cue switch on the laser.\n\n     Silence."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(cont'd)\n                    Well... here goes...\n\n     He takes a long tool from the tool kit.  Slowly, with agonizing care,\n     he inserts the tool into the laser shaft, painstakingly avoiding the\n     beam.  He engages the tool into the base of the laser, and begins\n     slowly to make an adjustment.\n\n     There is a BLINDING FLASH OF LIGHT.\n\n     Talby drops the tool and staggers back, clutching his face plate."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>My eyes</u>"
+    },
+    {
+      "type": "text",
+      "content": "."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   RECORDED VOICE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Attention.  Attention.  The laser has\n                    malfunctioned.  Under no\n                    circumstances enter the path of the\n                    beam.  To do so will cause\n                    immediate --\n\n     Talby stumbles into the beam.  There is a dull EXPLOSION."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "text",
+      "content": "There is a FLASH on the lower side of Bomb #20, a sudden EXPLOSION.\n     Lights BLIP FURIOUSLY on the bomb."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Begin main sequence.  Mark at 10-9-8-\n                    7-6-5-4-3-2-1-drop.\n\n     A HONKER SOUNDS.  The men sit up."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I have a negative drop.  The bomb is\n                    still in the bomb bay.  Try it again,\n                    Pinback.\n\n     Pinback resets his panel.  The honker stops."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mark at 5-4-3-2-1-drop."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>     HONK-HONK-HONK-\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ah, negative drop.\n\n     The men stare at each other in silence for a long moment.\n     Simultaneously they begin hitting buttons."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Rechannel all safety relays --"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "-- open quantum latches --"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "-- open circuit breakers --"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "-- remove thrust drive repellant --"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "-- automatic channels open --"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "--"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>Remark</u>"
+    },
+    {
+      "type": "text",
+      "content": "."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "5-4-3-2-1-drop, drop, drop!\n\n     There is a very long pause."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sittin' there.  It's just sittin'\n                    there."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "text",
+      "content": "Bomb #20 hangs underneath the ship, waiting."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - EMERGENCY AIR LOCK</u>"
+    },
+    {
+      "type": "text",
+      "content": "Talby lies unconscious on the floor of the lock."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "text",
+      "content": "On the men's faces in strained anxiety."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is Lieutenant Doolittle calling\n                    Bomb #20.  I repeat previous order,\n                    you are to disarm yourself and\n                    return immediately to the bomb bay.\n                    Do you understand?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(over)\n                    I am programmed to detonate in\n                    fourteen minutes thirty seconds.\n                    Detonation will occur at the\n                    programmed time."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Bomb, this is Doolittle.  You are not\n                    to detonate, repeat, you are not to\n                    detonate in the bomb bay.  Disarm\n                    yourself.  This is an order."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I read you, Lieutenant Doolittle,\n                    but I am programmed to detonate in\n                    fourteen minutes.  Detonation will\n                    occur at the programmed time."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Fourteen minutes to detonation.\n\n     The men stare at each other."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   RECORDED VOICE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Attention.  Attention.  The bomb has\n                    malfunctioned.  Automatic dampers\n                    have gone into effect, and will\n                    confine the explosion to an area one\n                    mile in diameter.  Please contact\n                    mission control and await further\n                    instructions.  Thank you for\n                    observing all safety precautions.\n\n     Pause."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Only one thing to do.  I'll have to\n                    ask Commander Powell.  I'll have to\n                    ask him what to do."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - FREEZER ROOM</u>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle climbs down a ladder into the icy-blue, cold Freezer Room.\n     The walls are covered with frost, and mist hangs in the air.\n\n     He pulls on a pair of insulated gloves and approaches a heavy freezer\n     door.  On the door is a sign:"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                         CRYOGENIC FREEZER COMPARTMENT\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                         CAUTION\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                         ABSOLUTE ZERO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He opens the door.\n\n     COMMANDER POWELL is encased in the freezer in a post-death, frozen\n     ammonia state.  Wire and electrodes are attached to his head.\n\n     Doolittle takes a microphone from a console on the freezer.  He flips a\n     switch and speaks into the mike:"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Commander Powell?  Commander Powell,\n                    this is Doolittle.  Can you read me?\n\n     A crackle of static comes from a speaker grille, along with the FAINT"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>     MUTTERING OF COMMANDER POWELL'S VOICE:\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "... muffirup glurrinpinfropal...\n\n     Doolittle fiddles with the volume control, trying to bring Commander\n     Powell's voice into audibllity."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Commander Powell, this is Doolittle.\n                    Ah, there's something serious come\n                    up, sir, and I have to ask you\n                    something."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(very weakly)\n                    I'm glad you've come to talk with\n                    me, Doolittle.  It's been so long\n                    since anyone has come to talk with\n                    me."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Commander, sir, we have a big\n                    problem.  You see, the Veil Nebula\n                    bomb, Bomb Number 20, is stuck.  It\n                    won't drop from the bomb bay.  It\n                    refuses to listen and plans to\n                    detonate in --\n                              (checks watch)\n                    -- less than eleven minutes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle, you must tell me one\n                    thing."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What's that, sir?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Tell me, Doolittle, how are the\n                    Dodgers doing?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, sir, the Dodgers broke up,\n                    disbanded over thirteen years ago."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ah... pity, pity..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You don't understand, sir, we can't\n                    get the bomb to drop."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ah, so many malfunctions... why don't\n                    you have anything nice to tell me\n                    when you activate me?  Oh, well, did\n                    you try the azimuth clutch?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes sir.  Negative effect."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What was that, Doolittle?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Negative effect."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It didn't work?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That's correct, sir."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sorry, Doolittle.  I've forgotten so\n                    much since I've been in here.  So\n                    much."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What should we do, sir?  The time is\n                    running out."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, what you might try is --\n\n     Commander Powell's voice is drowned in a burst of static.  Doolittle\n     fiddles with the dials."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Commander Powell?  Commander, hello!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle, hello?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sorry, sir, you faded out there for\n                    a minute."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sorry."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What were you saying, Commander,\n                    about the bomb?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ah... it seems to me, Doolittle...\n                    Sorry, I've drawn a blank.  Hold it.\n                    I'll have it again in a minute.  I\n                    forget so many things in here, so\n                    many things.  Hold on, just a minute,\n                    let me think..."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But you can't explode in the bomb\n                    bay.  It's foolish.  You'll kill us\n                    all.  There's no reason for it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(over)\n                    I am programmed to detonate in nine\n                    minutes.  Detonation will occur at\n                    the programmed time."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You won't consider another course of\n                    action, for instance just waiting\n                    around awhile so we can disarm you?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I can tell, the damn thing just\n                    doesn't understand."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Look, bomb..."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - FREEZER ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Commander?  Are you still there?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, yes, Doolittle, I'm thinking."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We're running out of time, sir."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, yes... Well, Doolittle, if you\n                    can't get it to drop you'll have to\n                    talk to it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sir?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Talk to the bomb."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I already have, sir, and Pinback is\n                    talking to it now."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, no, Doolittle,"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>you</u>"
+    },
+    {
+      "type": "text",
+      "content": "talk to it.\n                    Teach it Phenomenology, Doolittle."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sir?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Phenomenology..."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle!  Doolittle!  Six minutes to\n                    detonation!"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - VENTRAL AIR LOCK</u>"
+    },
+    {
+      "type": "text",
+      "content": "Wearing his starsuit, complete with jetpack, Doolittle pushes a\n     button.  Above him, the giant lock doors slowly slide open."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - SHIP</u>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle slowly rises up out of the ship.  He stops his ascent with\n     his jetpack, turns, and moves down toward the bomb bay."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle!  Doolittle, what the hell\n                    are you doing?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle floats into shot, jets himself up until he is facing massive\n     Bomb #20."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hello, bomb, are you with me?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Of course."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Are you willing to entertain a few\n                    concepts?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I am always receptive to\n                    suggestions."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Fine.  Think about this one, then:\n                    how do you know you exist?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What's he doin'?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I think he's talking to it."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well of course I exist."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But how do you know you exist?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It is intuitively obvious."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Intuition is no proof.  What concrete\n                    evidence do you have of your own\n                    existence?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hmm... Well, I think, therefore I\n                    am."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That's good.  Very good.  Now then,\n                    how do you know that anything else\n                    exists?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "My sensory apparatus reveals it to\n                    me."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Right!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is fun."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "All right now, here's the big\n                    question: how do you know that the\n                    evidence your sensory apparatus\n                    reveals to you is correct?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - EMERGENCY AIR LOCK</u>"
+    },
+    {
+      "type": "text",
+      "content": "Talby lies unconscious near the burned laser."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What I'm getting at is this: the\n                    only experience that is directly\n                    available to you is your sensory\n                    data.  And this data is merely a\n                    stream of  electrical impulses which\n                    stimulate your computing center."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "In other words, all I really know\n                    about the outside universe relayed\n                    to me through my electrical\n                    connections."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Exactly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Why, that would mean... I really\n                    don't know what the outside universe\n                    is like at all, for certain."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That's it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Intriguing.  I wish I had more time\n                    to discuss this matter."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Why don't you have more time?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Because I must detonate in seventy-\n                    five seconds."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The key!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Key?  Key?  What is the key?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, no, the key, the key to the\n                    fail-safe lock!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Key?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Where's the fail-safe key?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The key!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Where is it?  What did you do with\n                    it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I don't have it.  I don't know where\n                    it is."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You must have it, you idiot, we can\n                    stop the bomb!"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Now, bomb, consider this next\n                    question, very carefully.  What is\n                    your one purpose in life?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "To explode, of course."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And you can only do it once, right?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That is correct."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And you wouldn't want to explode on\n                    the basis of false data, would you?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Of course not."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well then, you've already admitted\n                    that you have no real proof of the\n                    existence of the outside universe."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes, well..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So you have no absolute proof that\n                    Sergeant Pinback ordered you to\n                    detonate."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I recall distinctly the detonation\n                    order.  My memory is good on matters\n                    like these."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes, of course you remember it, but\n                    what you are remembering is merely a\n                    series of electrical impulses which\n                    you now realize have no necessary\n                    connection with outside reality."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "True, but since this is so, I have\n                    no proof that you are really telling\n                    me all this."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "text",
+      "content": "Pinback is pawing frantically through the control room, searching for\n     the key.  Boiler is apoplectic."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The key, goddamit, the key!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Christ, twenty seconds, Christ!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Where is the key?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We're gonna die, Boiler.  We're gonna\n                    die.\n\n     They begin slapping each other hysterically."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That's all beside the point.  The\n                    concepts are valid, wherever they\n                    originate."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hmmm..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So if you detonate in..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "... nine seconds..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "... you may be doing so on the basis\n                    of false data."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I have no proof that it was false\n                    data."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You have no proof that it was\n                    correct data.\n\n     There is a long pause."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I must think on this further.\n\n     THE BOMB RAISES ITSELF BACK INTO THE SHIP.  Doolittle practically\n     collapses with relief."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It didn't go off."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, God..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It didn't go off."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Boiler, we're alive.  My heart."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - EMERGENCY AIR LOCK</u>"
+    },
+    {
+      "type": "text",
+      "content": "Talby slowly climbs to his feet.  He is dazed, groggy."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle?  Doolittle?  What happened?\n                    Pinback?  Boiler?  Did we blow it up?\n                    Hello?  Hello?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No bombs today.  No bombs.  Big\n                    Boiler's back in business.  No bombs\n                    today.\n\n     Pinback is mumbling unintelligibly."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - EMERGENCY AIR LOCK</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hello, anybody!  Did we blow up the\n                    planet?  Hello, hello!  What's going\n                    on?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "text",
+      "content": "Pinback and Boiler have calmed down."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We've got to disarm the bomb."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle, are you there?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - EMERGENCY AIR LOCK</u>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle is floating outside the Emergency Air Lock door."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm coming in now.  I'm down by the\n                    Emergency Air Lock.  Too much trouble\n                    to come in the Ventral Lock.  Would\n                    you blow the seal on the emergency\n                    hatch so I can come in?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, sure.\n\n     He presses a button."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - EMERGENCY AIR LOCK</u>"
+    },
+    {
+      "type": "text",
+      "content": "The Emergency Air Lock door EXPLODES AWAY FROM THE SHIP.  Behind it,\n     carried by the burst of escaping air, comes Talby spinning head over\n     heels into deep space."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hello, Pinback, are you there?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah, Doolittle.  What's up?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - EMERGENCY AIR LOCK</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Talby was in the air lock.  You blew\n                    him out of the ship.  I'm going after\n                    him.  Turn on his helmet radio so I\n                    can contact him."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What was that, I didn't hear..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's Talby.  He's drifting away from\n                    the ship without his jetpack."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - SPACE</u>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle fires his jetpack, moving off into space after Talby."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Talby, Talby, can you read me?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Can you beat that?  I always knew\n                    Talby was weird."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - SPACE</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Talby, can you read me?\n\n     Talby is spinning wildly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Help, Doolittle, help me!"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "All right, bomb, prepare to receive\n                    new orders."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(over)\n                    You are false data."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Huh?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Therefore, I shall ignore you."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hello, bomb."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "False data can act only as a\n                    distraction.  Therefore.  I shall\n                    refuse to perceive you."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(over)\n                    Hey, bomb."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The only thing which exists is\n                    myself."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(over)\n                    Bomb?"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - SPACE</u>"
+    },
+    {
+      "type": "text",
+      "content": "Talby, spinning, is reflected in Doolittle's face plate."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle!  Help me."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Calm down, Talby.  I'm coming."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Snap out of it, bomb."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "In the beginning there was darkness,\n                    and the darkness was without form\n                    and void."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What the hell?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yoo hoo, bomb..."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And in addition to the darkness\n                    there was also me.  And I moved upon\n                    the face of the darkness."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - CONTROL ROOM</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOILER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Bomb, hey bomb."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   PINBACK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey, bomb..."
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>INTERIOR - BOMB BAY</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And I saw that I was alone.\n\n     Pause."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   BOMB #20\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(cont'd)\n                    Let there be light."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>     THE SCREEN GOES WHITE.\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>EXTERIOR - SPACE</u>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>     IN DEAD SILENCE, THE WHITE SCREEN FADES DOWN TO SHOW A GIANT WHITE\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>     FIREBALL IN SPACE.  THE FIREBALL CONTRACTS TO A HARD CORE, GROWING RED.\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>     THEN\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>     A BLINDING WHITE FLASH.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle flies past, falling backward."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "u",
+      "content": "<u>Whoa</u>"
+    },
+    {
+      "type": "text",
+      "content": "!\n\n     Talby, upside down, is falling in the opposite direction."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle, Doolittle, where are you?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Here I am.  I think I'm spinning...\n                    We're both falling, Talby, in\n                    opposite directions, away from each\n                    other.  My -- my jetpack's gone."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What happened, Doolittle?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Bomb must have gone off inside the\n                    ship.  Nothing we can do about it\n                    now.  Hey, it looks like... the\n                    skipper.  He made it.  Commander\n                    Powell made it!\n\n     A block of ice with a man's body in it tumbles past, end over end."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   POWELL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(weakly)\n                    Men... men... what happened, men?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah, the skipper always was lucky.\n\n     The planet begins to rise behind Doolittle."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(cont'd)\n                    Looks like I'm headed for the\n                    planet, Talby.  Going right toward\n                    it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "When you fall, Doolittle, if there's\n                    anyone down there on the planet,\n                    somebody may see you.  They may see\n                    you coming down.  What a beautiful\n                    way to die... as a falling star..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Guess you're right.\n\n     Talby turns his head and looks behind him."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle, I'm heading right toward\n                    something.  It's behind me, in the\n                    distance.  Something that glows.\n\n     Far behind Talby, coming nearer, is a shimmering point of light."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh yeah?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle... I think it's the Phoenix\n                    Asteroids!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Phoenix?\n\n     The point of light is closer now, and it has begun to differentiate\n     into a group of beautifully colored frost-like shapes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It is, Doolittle, it's the Phoenix!\n                    They glow with all the colors of the\n                    rainbow, just like everybody said."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No kidding?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm going into them, I'm going to\n                    hit them.  Doolittle..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Before we get too far away, and our\n                    signals start to fade, I just wanted\n                    to tell you... you were my favorite.\n                    I really liked you, Doolittle."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I really liked you too, Talby.  Hey,\n                    some debris from the ship!  It's\n                    coming right by me.\n\n     Several chunks of debris from the ship drift past Doolittle."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Doolittle, I'm catching up to the\n                    asteroids.  I'm going to be a part of\n                    them in a minute.  Doolittle, I'm\n                    going into them.\n\n     Talby drifts into the huge frost-like shapes, expanding and glowing\n     and spinning, slowly refracting all the colors of the spectrum with a\n     cold glow."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(cont'd)\n                    I'm beginning to glow.\n\n     The field of spectral shapes, with Talby in their midst, begin to\n     drift away into the distance."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   TALBY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(cont'd)\n                    They're taking me with them, with\n                    the Phoenix... going to circle the\n                    universe forever.  I'm with them\n                    now... be back this way again some\n                    day.  Doolittle, before it's too\n                    late, there's one last thing I\n                    want to tell you...\n\n     Talby's signal dies out as the glowing lights disappear into the\n     depths of space.\n\n     Doolittle is hanging onto a long, thin chunk of debris."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                                   DOOLITTLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey, Talby!  I've grabbed a piece of\n                    the ship, and I think I've figured\n                    out a way!\n\n     He pulls the piece of metal down beneath his feet, and stands on it.\n\n     Crouching and extending his arms, Doolittle surfs down into the\n     atmosphere of the planet, banking and planing as he disappears to a\n     small dot."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>     END TITLES AND MUSIC OVER.\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b></b>"
+    }
+  ]
+}

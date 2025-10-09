@@ -1,0 +1,5125 @@
+{
+  "elements": [
+    {
+      "type": "tag",
+      "name": "script",
+      "content": "<script>\n<b><!--\n</b>if (window!= top)\ntop.location.href=location.href\n<b>// -->\n</b></script>"
+    },
+    {
+      "type": "tag",
+      "name": "title",
+      "content": "<title>THE RING by Takahashi Hiroshi</title>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  THE RING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Original screenplay by Takahashi Hiroshi\n  Based upon the novel by Suzuki Kouji\n\n\n  This manuscript is intended for informational \n  purposes only, and is a fair usage of copyrighted\n  material.\n\n  Ring (c) 1995 Suzuki Kouji\n  Ring feature film (c) 1998 Ring/Rasen Committee\n  Distributed by PONY CANYON\n\n\n  Adapted/ Translated by J Lopez\n\n  http://www.somrux.com/ringworld/"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  ---\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Caption-- �September 5th.  Sunday.�"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. OUISHI HOUSEHOLD � TOMOKO�S ROOM - NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "CLOSEUP on a TELEVISION SET.  There�s a baseball game on, but the sound \n  is turned completely down.  Camera PANS to show two cute high school \n  girls, MASAMI and TOMOKO.  Masami is seated on the floor at a low coffee \n  table, TEXTBOOK in front of her. Tomoko is at her desk.  There are SNACKS \n  all over the room, and it�s obvious there hasn�t been much studying going \n  on. Masami is currently in mid-story, speaking excitedly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They say that some elementary school \n\t\tkid spent the night with his parents \n\t\tat a bed and breakfast in Izu.  The kid\n\t\twanted to go out and play with everybody, \n\t\tright, but he didn�t want to miss the \n\t\tprogram he always used to watch back in \n\t\tTokyo, so he records it on the VCR in \n\t\ttheir room.  But of course the stations \n\t\tin Izu are different from the ones in \n\t\tTokyo.  In Izu, it was just an empty \n\t\tchannel, so he should�ve recorded\n\t\tnothing but static.  But when the kid \n\t\tgets back to his house and watches the \n\t\ttape, all of a sudden this woman comes \n\t\ton the screen and says--\n\n  Masami points so suddenly and dramatically at her friend that Tomoko \n  actually jumps in her seat.\n\n\t\t\t\tMASAMI (cont�d)\n\t\t�One week from now, you will die.�\n\n  Short silence as Masami pauses, relishing the moment.\n\n\t\t\t\tMASAMI (cont�d)\t\n\t\tOf course the kid�s completely \n\t\tfreaked, and he stops the video.  \n\t\tJust then the phone rings, and when he \n\t\tpicks it up a voice says--\n\n  Her voice drops voice almost to a whisper.\n\n\t\t\t\tMASAMI (cont�d)\t\n\t\t�You watched it, didn�t you?�  That \n\t\tsame time, exactly one week later... \n\t\the�s dead!\n\n  Masami laughs loudly, thoroughly enjoying her own performance.  \n  Tomoko, however, is completely silent.  She begins looking more \n  and more distressed, until finally Masami notices."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What is it, Tomoko?\n\n  Tomoko comes out of her chair and drops onto the floor next to her \n  friend.  Her words are quick, earnest."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Who did you hear that story from?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Who?  It�s just a rumor.  Everybody \n\t\tknows it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Youko told you?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, it wasn�t Youko...\n\n  Tomoko looks away, worried.  Masami slaps her on the knee, \n  laughing."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What�s up with you?\n\n  Tomoko speaks slowly, still looking away."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The other day, I... I watched this \n\t\tstrange video."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Where?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "With Youko and them."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(excited) \n\t\tSo that�s what I�ve been hearing \n\t\tabout you doing some double-date/\n\t\tsleepover thing!  So, you and that \n\t\tguy Iwata, huh?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, it�s not like that.  Nothing \n\t\thappened!\n\n  Their eyes meet and Tomoko half-blushes, looks away again.  Her \n  expression becomes serious as she resumes her conversation."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Iwata... he found this weird video.  \n\t\tEveryone was like, �What�s that?� so \n\t\the put it on and we all watched it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(quietly) \n\t\tAnd?  What kind of video was it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Just... weird, I can�t really explain \n\t\tit.  Anyway, right after we finished \n\t\twatching it, the phone rang.  Whoever\n\t\tit was didn�t say anything, but still...\n\n  Silence.  Masami curls up on herself, thoroughly spooked."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jesus."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's cuz, you know, we'd all heard the \n\t\trumors.\n\nTomoko looks seriously over at her friend.\n\n\t\t\t\tTOMOKO (cont'd)\n\t\tThat was one week ago today.\n\n  There is a long, heavy silence as neither of them says anything."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI  \t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Waaait a minute.  Are you faking me \n\t\tout?\n\n  Tomoko�s face suddenly breaks into a smile."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Busted, huh?\n\n  They both crack up laughing."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, my... I can�t believe you!  \n\n  Masami reaches out, slaps her friend on the knee.\n\n\t\t\t\tMASAMI (cont�d)\n\t\tYou�re terrible!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Gotcha!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(thinking) \n\t\tBut hang on... you really stayed\n\t\tthe night with Youko and Iwata, \n\t\tright?\n\n  Tomoko nods, uh-huh.  Masami dives forward, pinching her friend�s \n  cheeks and grinning wildly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So, how far did you and he get?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO \t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh... I can�t remember."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You can�t remember, huh?\n\n  Masami laughs, then slaps Tomoko on the knee again as she remembers \n  the trick her friend played on her."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Man, you had me freaked me out."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\tI--\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Just at that moment, the phone RINGS.  They are both suddenly, \n  instantly serious.  Tomoko�s eyes go off in one direction and she \n  begins shaking her head, -No-.  Masami looks over her shoulder, \n  following her friend�s gaze.  \n\n  Tomoko is looking at the CLOCK, which currently reads 9:40.\n\n  The phone continues to ring.  Tomoko is now clutching tightly onto her \n  friend, looking panicked."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(softly) \n\t\tWas it true?\n\n  Tomoko nods her head, still holding on tightly.  Masami has to \n  forcibly disengage herself in order to stand.  The phone is downstairs, \n  so Masami opens the bedroom DOOR and races down the STAIRS.  Tomoko \n  calls out to her from behind."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Masami!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. OUISHI HOUSEHOLD � STAIRCASE - NIGHT  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Tomoko and Masami run down the staircase, through the hallway towards \n  the kitchen.  Tomoko cries out again just before they reach the kitchen."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Masami!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. OUISHI HOUSEHOLD � KITCHEN - NIGHT  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Masami has come to a halt before a PHONE mounted on the wall.  She \n  pauses, looking slowly at her friend, then back to the phone.  She \n  takes it tentatively from its cradle, answers it wordlessly.  The \n  tension continues to mount as nothing is said. Masami suddenly breaks \n  into a huge grin."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I�ll put her on.\n\n  Still grinning, she hands the phone to Tomoko.  Tomoko snatches it \n  quickly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(softly) \n\t\tYes?\n\n  She is silent for a moment, then smiling widely."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, man!\n\n  She is so relieved that all the strength seeps out of her and she \n  sinks to the kitchen floor.  Masami, equally relieved, slides down \n  the wall and sits down next to her."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(on the phone) \n\t\tYeah, I�ve got a friend over now.  \n\t\tYeah.  Yeah, OK.  Bye.\n\n  Tomoko stands to place the phone back in its wall cradle, and then \n  squats back down onto the kitchen floor."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The game�s gone into overtime, so \n\t\tthey�re gonna be a little late. \n\n  They burst out laughing with relief again, and are soon both \n  clutching their stomachs."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jeeezus, my parents..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh man, I�m tellin� everybody about \n\t\tthis tomorrow!\n\n  Tomoko shakes her head, -Don�t you dare-."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMASAMI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I�m gonna use your bathroom.  Don�t \n\t\tgo anywhere."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO\t\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t�K.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Masami walks out of the kitchen. Alone now, Tomoko stands and walks \n  toward the SINK, where she takes a GLASS from the DISH RACK.  She \n  then goes to the FRIDGE and sticks her face in, looking for something \n  to drink.  Suddenly there is the SOUND of people clapping and \n  cheering.  Tomoko, startled, peers her head over the refrigerator \n  door to check for the source of the sound.  \n\n  She begins walking slowly, following the sound to the DINING ROOM \n  adjacent the kitchen."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. OUISHI HOUSEHOLD - DINING ROOM - NIGHT  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The lights are off, and there is no one in the room.  Tomoko pauses a \n  moment, bathed in the garish LIGHT from the TV, which has been switched\n  on.  Playing is the same baseball game they had on the TV upstairs; the \n  same game that Tomoko�s parents are currently at.  The VOLUME is up \n  quite high.\n\n  A puzzled look on her face, Tomoko takes the REMOTE from the coffee \n  table and flicks the TV off.  She walks back to the kitchen."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. OUISHI HOUSEHOLD � KITCHEN - NIGHT  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A bottle of SODA that Tomoko had earlier taken from the fridge is on \n  the kitchen table.  She picks the bottle up, pours herself a drink.  \n  Before she can take a sip, however, the air around her becomes suddenly \n  charged, heavy.  Her body begins to shiver as somewhere out of sight \n  comes a popping, crackling SOUND underscored by a kind of GROANING.  \n  Trembling now, Tomoko spins around to see what she has already felt \n  lurking behind her.  She draws in her breath to scream.\n\n  The screen goes white, and fades into:"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  CAMERA POV \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The screen is filled with the visage of a nervous-looking YOUNG GIRL.  \n  She is being interviewed by ASAKAWA, a female reporter seated offscreen."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA (O.S.)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "There seems to be a popular rumor \n\t\tgoing around about a �cursed� \n\t\tvideotape."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOUNG GIRL\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Uh-huh."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA (O.S.) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Have you heard what kind of video \n\t\tit might be?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOUNG GIRL\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Uh-huh.\n\n  The girl looks directly at the camera, her mouth dropping into an �O� \n  as she�s suddenly overcome by a kind of stage fright.  She continues \n  staring, silently, at the camera."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. COFFEE SHOP - DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "KOMIYA, the cameraman, has lowered his camera. We can now see that \n  the young girl being interviewed is seated at a table between two \n  friends, a SHORT-HAIRED GIRL (GIRL#2) and a LONG-HAIRED GIRL (GIRL #3).  \n  They are all dressed in the UNIFORMS of junior high school students.  \n  Opposite them sits Komiya and Asakawa, a pretty woman in her mid-\n  twenties.  A BOOM MIKE GUY stands to the left."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOMIYA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Uh, don�t look right at the camera,"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\tOK?\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOUNG GIRL\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sorry."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Let�s do it again.\n\n  Asakawa glances over her shoulder, makes sure that Komiya is ready."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Have you heard what kind of video \n\t\tit might be?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOUNG GIRL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What I heard was, all of a sudden \n\t\tthis scaaarry lady comes on the\n\t\tscreen and says, �In one week, you\n\t\twill die.�"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGIRL #2\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I heard that if you�re watching TV \n\t\tlate at night it�ll come on, and\n\t\tthen your phone�ll ring."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Watching TV late at night... do you\n \t\tknow what station?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGIRL #2\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mmmm... I heard some local station, \n\t\taround Izu."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Izu?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGIRL #2\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mmm-hmm."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And, do you know if anyone�s really \n\t\tdied from watching it?\n\n  The girl flashes a look at her two friends."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOUNG GIRL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, no one that we know, right?\n\n  Girl #2 nods her head. Girl #3 nods slowly, opens and closes her \n  mouth as if deciding whether to say something or not.  The \n  reporter notices."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What is it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGIRL #3\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I heard this from a friend of mine \n\t\tin high school.  She said that there \n\t\twas this one girl who watched the \n\t\tvideo, and then died a week later.  \n\t\tShe was out on a drive with her \n\t\tboyfriend."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They were in a wreck?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGIRL #3\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, their car was parked, but they \n\t\twere both dead inside.  Her \n\t\tboyfriend died because he�d watched \n\t\tthe video, too.  That�s what my \n\t\tfriend said.\n\n  Girl #3 grows suddenly defensive.\n\n\t\t\t\tGIRL #3 (cont�d)\t\n\t\tIt�s true!  It was in the paper two \n\t\tor three days ago."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Do you know the name of the high \n\t\tschool this girl went to?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGIRL #3\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No... I heard this from my friend, \n\t\tand it didn�t happen at her school.  \n\t\tShe heard it from a friend at a \n\t\tdifferent school, she said."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. NEWS STATION � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa is seated at her DESK.  The station is filled with PEOPLE, \n  scrabbling to meet deadlines.  Komiya walks up to Asakawa�s desk \n  and holds out a MANILA FOLDER."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOMIYA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mrs. Asakawa?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hm?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOMIYA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Here you are."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(taking the folder) \n\t\tThanks.\n\n  Komiya has a seat."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOMIYA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This same kind of thing happened \n\t\tabout ten years ago too, didn�t it?  \n\t\tSome popular young singer committed \n\t\tsuicide, and then suddenly there was \n\t\tall this talk about her ghost showing\n\t\tup on some music show."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But I wonder what this rumor�s all \n\t\tabout. Everyone you ask always \n\t\tmentions �Izu.�"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOMIYA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Maybe that�s where it all started.  \n\t\tHey, where was that Kuchi-sake\n\t\tOnna * story from again?\n\n\n  >* Literally �Ripped-Mouth Lady,� a kind of ghastly spectre from \n  >Japanese folk stories who wears a veil to hide her mouth, which \n  >has been ripped or cut open from ear to ear. She wanders the \n  >countryside at night asking men �Do you think I�m beautiful?� then \n  >lowering her veil to reveal her true features."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Gifu, but there was some big \n\t\taccident out there, and that ended\n\t\tup being what started the rumor."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOMIYA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A big accident?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mmm-hmm.  Something terrible like \n\t\tthat is going to stay in people�s \n\t\tminds.  Sometimes the story of what \n\t\thappened gets twisted around, and \n\t\tends up coming back as a rumor like \n\t\tthis one. That�s what they say, at \n\t\tleast."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOMIYA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "D�you think something like that \n\t\thappened out at Izu?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Maybe. Well, anyway, I�m off.  See you\n\t\ttomorrow."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOMIYA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "See you.\n\n  Asakawa gets up from her desk and begins walking towards the exit.  \n  She takes only a few steps before noticing a RACK of recent DAILY"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EDITIONS.  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "She takes one from the rack, sets it on a nearby TABLE.  She begins \n  flipping the pages, and suddenly spies this story:"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>    STRANGE AUTOMOBILE DEATH OF YOUNG COUPLE IN YOKOHAMA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The bodies of a young man and woman were discovered in their \n    passenger car at around 10 A.M. September 6th.  The location was a \n    vacant lot parallel to Yokohama Prefectural Road.  Local authorities \n    identified the deceased as a 19-year old preparatory school student \n    of Tokyo, and a 16-year old Yokohama resident, a student of a \n    private all-girls� high school. Because there were no external \n    injuries, police are investigating the possibility of drug-induced \n    suicide...\n\n  Just then two men walk by, a GUY IN A BUSINESS SUIT and a youngish \n  intern named OKAZAKI.  Okazaki is carrying an armload of VIDEOTAPES."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGUY IN SUIT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "OK, Okazaki, I�m counting on you."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tOKAZAKI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yessir.\n\n  The guy in the suit pats Okazaki on the shoulder and walks off.  \n\n  Okazaki turns to walk away, spots Asakawa bent over the small table \n  and peering intently at the newspaper article."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tOKAZAKI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Miss Asakawa?  I thought you were \n\t\tgoing home early today.\n\n  Asakawa turns around and begins speaking excitedly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Okazaki, can I ask you a favor?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tOKAZAKI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sure.\n\n  Asakawa points to the newspaper."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Could you check out this article \n\t\tfor me?  Get me some more info.?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tOKAZAKI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I guess..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Good.  Call me as soon as you know \n\t\tmore, OK?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tOKAZAKI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ma�am.\n\n  Asakawa walks off.  Okazaki, still carrying the videotapes, leans \n  forward to take a look at the article."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. APARTMENT PARKING LOT - DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa drives her car into the lot and parks quickly.  She gets \n  out, runs up the STAIRCASE to the third floor.  She stops in front \n  of a door, sticks her KEY in the lock, and opens it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. ASAKAWA�S APARTMENT - LIVING ROOM � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A BOY of about 7 is sitting in an ARMCHAIR facing the veranda.  We \n  can see only the back of his head."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA (O.S.) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yoichi!\n\n  Hearing his name, the boy puts down the BOOK he was reading and \n  stands up, facing the door.  He is wearing a white DRESS SHIRT with \n  a brown sweater-type VEST over it.  He sees Asakawa, his mother, \n  run in the door.  She is panting lightly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sorry I�m late.  Oh, you�ve already \n\t\tchanged."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yup. \n\n  He points over to his mother�s right.\n\n\t\t\t\tYOICHI (cont�d)\n\t\tI got your clothes out for you.\n\n  Asakawa turns to see a DARK SUIT hanging from one of the living \n  room shelves.  She reaches out, takes it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Aargh, we�ve gotta hurry!\n\n  She runs into the next room to change."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT.  BEDROOM � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa has changed into all-black FUNERAL ATTIRE.  Her hair is \n  up, and she is fastening the clasp to a pearl NECKLACE.  Yoichi is \n  still in the living room."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Did grandpa call?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI (O.S.) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Nope.\n\n  Yoichi walks into the room and faces his mother."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Why did Tomo-chan die? *\n\n\n  >* �-chan� is a suffix in Japanese that denotes closeness or affection.  \n  >It is most often used for young girls, though it can also be used for \n  >boys."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well... it looks like she was really, \n\t\treally sick.\n\n  She takes a seat on the bed."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Will you do me up?\n\n  Yoichi fastens the rear button of his mother�s dress and zips her up."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You can die even if you�re young?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "If it�s something serious... well, yes.\n\n  Asakawa turns to face her son, puts an arm around him."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As hard as it is for us, what your \n\t\tauntie and uncle are going through \n\t\tright now is even harder, so let�s \n\t\tnot talk about this over there, OK?\n\n  Yoichi nods."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(remembering)\n\t\tYou and her used to play a lot \n\t\ttogether, didn�t you?\n\n  Yoichi says nothing."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. OUISHI HOUSEHOLD - NIGHT  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "RED PAPER LANTERNS mark this place as the site of a wake.  Several \n  GIRLS in high school uniforms are standing together and talking in \n  groups. Asakawa and Yoichi, walking hand in hand, enter the house."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. OUISHI HOUSEHOLD - NIGHT \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "There are many PEOPLE milling about, speaking softly.  A MAN seated \n  at a counter is taking monetary donations from guests and entering \n  their information into a LEDGER.  Asakawa and Yoichi continue walking, \n  down a hallway."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. OUISHI HOUSEHOLD - NIGHT \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mother and son halt before the open DOOR to the main wake room, where \n  guests may show their respects to the departed.  The room is laid in \n  traditional Japanese-style tatami, a kind of woven straw mat that \n  serves as a carpet. Two GUESTS, their shoes off, are kneeling upon \n  zabuton cushions.  \n\n  Kneeling opposite the guests is KOUICHI, Asakawa�s father.  The two \n  guests are bowing deeply, and Kouichi bows in response."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Dad.\n\n  Kouichi turns to see her."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOUICHI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ah!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How is sis holding up?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOUICHI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "She�s resting inside right now.  \n\t\tShe�s shaken up pretty badly, you \n\t\tknow.  It�s best she just take \n\t\tthings easy for a while.\n\n  Asakawa nods."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I�ll go check on auntie and them, \n\t\tthen."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOUICHI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "OK.  Ah, Yoichi.  Why don�t you sit \n\t\there for a little while?\n\n  He grabs the young boy and seats him on a cushion next to the two guests.  \n  As the guests resume their conversation with Asakawa�s father, Yoichi�s \n  eyes wander to the ALTAR at the front of the room set up to honor the \n  deceased.  It is made of wood, and surrounded by candles, flowers, and \n  small paper lanterns.  At the center is a PICTURE of the deceased, a \n  teenage girl.  A small wooden PLAQUE reads her name: Tomoko Ouishi. It \n  is the same Tomoko from the first scene.\n\n  Yoichi continues to stare at Tomoko�s picture.  He makes a peculiar \n  gesture as he does so, rubbing his index finger in small circles just \n  between his eyes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. HALLWAY � NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa walks down the hallway, looking for her aunt.  She walks until \n  finding the open doorway to the kitchen.  There are a few people in \n  there, preparing busily. Asakawa sees her AUNT, who rushes into the \n  hallway to meet her, holds her fast by the arm.  The aunt speaks in a \n  fierce, quick whisper."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tAUNT\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Have you heard anything more about \n\t\tTomo-chan�s death?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, I..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tAUNT\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But the police have already finished \n\t\ttheir autopsy!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, they said there was no sign of \n\t\tfoul play."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tAUNT\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(shaking her head) \n\t\tThat was no normal death.  They haven�t \n\t\tonce opened the casket to let us see\n\t\tthe body.  Don�t you think that�s \n\t\tstrange?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa looks away, thinking."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. HALLWAY � NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yoichi has wandered off by himself.  He stops at the foot of the \n  steps, looking up-- and catches a glimpse of a pair of BARE FEET \n  running up to the second floor.  \n\n  A guarded expression on his face, Yoichi walks slowly up the \n  stairs."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. OUISHI HOUSEHOLD - TOMOKO�S BEDROOM - NIGHT  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yoichi has wandered into Tomoko�s bedroom.  The lights are all off, \n  and there is an eerie feel to it.  Yoichi�s eyes wander about the \n  room, finally coming to rest on the TELEVISION SET.  Suddenly, he \n  hears his mother�s voice from behind him."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKWAWA (O.S.) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yoichi?\n\n  Yoichi turns to face her as she approaches, puts an arm around him."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What are you doing up here?  You\n\t\tshouldn�t just walk into other \n\t\tpeople�s rooms.\n\n  Without replying, Yoichi�s gaze slowly returns to the television \n  set.  Asakawa holds him by the shoulders, turning him to meet \n  her."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You go on downstairs, OK?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI\t\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\tOK.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He turns to leave, and Asakawa follows."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. OUSHI HOUSEHOLD - TOP OF THE STAIRS � NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Just as Yoichi and Asakawa are about to descend the steps, \n  Asakawa�s CELL PHONE rings.  She opens the clasp to her PURSE."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(to Yoichi) \n\t\tYou go on ahead."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI\t\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t�K.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He walks down the steps.  Asakawa brings out her cell phone, \n  answers it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hello?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tOKAZAKI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Uh... this is Okazaki.  I�ve got \n\t\tsome more info on that article for\n\t\tyou.  The girl was a student of \n\t\tthe uh, Seikei School for Women in \n\t\tYokahama City.\n\n  Asakawa blinks at this, looks disturbed."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(softly) \n\t\tThanks.\n\n  She hangs up the phone."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. OUISHI HOUSEHOLD - NIGHT  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa stands now at the entrance of the house.  Dazedly, she \n  walks toward a large, hand-painted PLACARD.  The placard reads \n  that the wake is being held for a student of the Seikei School \n  for Women. \n\n  Asakawa stares at that placard, making the mental connections.  \n  She turns abruptly, walks towards a nearby TRIO of HIGH SCHOOL"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  GIRLS.\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Excuse me.  This is, um, kind of a\n\t\tstrange question, but by any chance \n\t\twere you friends of that young girl\n\t\tthat died in the car as well?\n\n  The three girls turn their faces to the ground."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Please.  If you know anything..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGIRL RIGHT\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They all died the same day.  Youko.  \n\t\tTomoko.  Even Iwata, he was in a\n\t\tmotorcycle accident."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGIRL LEFT\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Because they watched the video."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Video?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGIRL LEFT\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That�s what Youko said.  They all\n\t\twatched some weird video, and \n\t\tafter that their phone rang."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Tomoko-chan watched it, too?  \n\t\tWhere?\n\n  Girl Left shakes her head."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGIRL LEFT\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "She just said they all stayed \n\t\tsomewhere."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGIRL RIGHT\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "There was a girl with Tomoko when \n\t\tshe died.  She�s had to be \n\t\thospitalized for shock."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGIRL MIDDLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They say she won�t go anywhere \n\t\tnear a television."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. NEWS STATION - VIEWING BOOTH � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa and YOSHINO, another news reporter, are watching scenes \n  from the Yokohama car death.  In the footage there are lots of \n  POLICEMEN milling about, one of them trying to pick the door to \n  the passenger side.  Yoshino is giving Asakawa the blow-by-blow."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOSHINO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The bodies of those found were \n\t\tTsuji Youko, age 17, a student of \n\t\tthe Seikei School for Women, and \n\t\tNomi Takehiko, age 19, preparatory \n\t\tschool student.  Both their doors \n\t\twere securely locked.\n\n  Onscreen, the policeman has finally picked the lock.  The door opens, \n  and a girl�s BODY half�falls out, head facing upwards.  Yoshino flicks \n  a BUTTON on the control panel, scans the footage frame by frame.  He \n  stops when he gets a good close-up of the victim. \n\n  Her face is twisted into an insane rictus of fear, mouth open, eyes \n  wide and glassy. Yoshino and Asakawa lean back in their seats."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOSHINO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is the first time I�ve -ever- \n\t\tseen something like this."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Cause of death?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOSHINO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Couldn�t say, aside from sudden \n\t\theart failure."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Drugs?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOSHINO\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The autopsy came up negative.\n\n\n  Yoshino takes the video off pause.  Onscreen, a policeman has caught \n  the young girl�s body from completely falling out, and is pushing it \n  back into the car.  As the body moves into an upright position, we \n  can see that the girl�s PANTIES are mid-way around her left thigh."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOSHINO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "These two, about to go at it, \n\t\tsuddenly up and die for no \n\t\tapparent reason. \n\n  He sighs.\n\n\t\t\t\tYOSHINO (cont�d)\n\t\tDo -you- get it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. OUISHI HOUSEHOLD - DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa�s CAR is already halted before a modest-sized, two-story HOUSE \n  with a small covered parkway for a garage.  She gets out of her car, \n  closes the door.  She stares at the house, unmoving."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. OUISHI HOUSEHOLD � KITCHEN - DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa stands before her SISTER RYOMI, who is seated at the kitchen \n  TABLE.  Ryomi is staring blankly away, making no sign of acknowledging \n  her sister.  The silence continues unabated, and Asakawa, pensive, \n  wanders idly into the adjoining dining room.  She takes a long look at \n  the television, the same television that had puzzled Tomoko by suddenly \n  switching itself on, sitting darkly in one corner.  Her reflection in \n  the screen looks stretched, distorted."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYOMI\t(O.S.) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They tell me that Yoichi came to \n\t\tthe funeral, too. \n\n  Asakawa steps back into the kitchen.  She addresses her sister, who \n  continues to stare out at nothing."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mmm-hmm."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYOMI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They used to play a lot together, didn�t they?  Upstairs."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah...\n\n  Ryomi lapses back into a silence.  Asakawa waits for her to say more, \n  but when it is clear that nothing else is forthcoming, she quietly gives \n  up and exits the kitchen."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. OUISHI HOUSEHOLD � STAIRCASE - DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa climbs the steps to the second floor.  She makes her way down \n  the hall."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. OUISHI HOUSEHOLD - TOMOKO�S ROOM - DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As if intruding, Asakawa walks slowly, cautiously into Tomoko�s room.  \n  The window to the room is open, and a single piece of folded white PAPER \n  on Tomoko�s desk flutters in the breeze.  Asakawa walks towards it, picks \n  it up.  It is a RECEIPT from a photo shop.  The developed photos have yet \n  to be claimed.  \n\n  Asakawa senses something, spins to look over her shoulder.  Her sister \n  has crept quietly up the stairs and down the hall, and stands now in the \n  doorway to Tomoko�s room.  She appears not to notice what Asakawa has in \n  her hands, as her gaze has already shifted to the sliding closet door.  \n  She regards it almost druggedly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYOMI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(haltingly) \n\t\tThis... this is where Tomoko died."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  FLASHBACK\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYOMI (O.S.)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Tomoko!\n\n  Ryomi�s hands fling aside the CLOSET DOOR.  Within, she finds the pale \n  blue CARCASS of her daughter, curled up into an unnatural fetal position.  \n  Tomoko�s mouth yawns gaping, her eyes glassy and rolled up into the back \n  of her head.  Her hands are caught in her hair, as if trying to pull it \n  out by the roots.  It is a horrific scene, one that says Tomoko died as \n  if from some unspeakable fear."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  PRESENT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryomi sinks to her knees, hitting the wooden floor hard.  She puts her \n  face into her hands and begins sobbing loudly.  Asakawa says nothing."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. CAMERA SHOP � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa leaves the camera shop clutching Tomoko�s unclaimed PHOTOS.  She \n  walks out onto the sidewalk and begins flipping through them.  We see \n  Tomoko standing arm-in-arm with Iwata, her secret boyfriend. Tomoko and \n  her friends eating lunch.  The camera had its date-and-time function \n  enabled, and the photos are marked"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>    97 8 29.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The next shot is of Tomoko, Iwata, and another young couple posing in \n  front of a SIGN for a bed and breakfast.  The sign reads:"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>    IZU PACIFIC LAND\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Izu...\n\n  Asakawa continues looking through the photos, various shots of the \n  four friends clowning around in their room.  Suddenly she comes to a \n  shot taken the next day, at check out.  The friends are lined up, arms \n  linked-- and all four of their faces are blurred, distorted as if \n  someone had taken an eraser to them and tried to rub them out of \n  existence."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. ASAKAWA�S APARTMENT � KITCHEN - DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa wears an APRON, and is frying something up on the STOVE.  Yoichi \n  stands watching."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Look, I�m probably going to be late\n\t\tcoming home tonight, so just stick \n\t\tyour dinner in the microwave when \n\t\tyou�re ready to eat, OK?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "�K... Mom?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hmm?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Tomo-chan watched some cursed video!\n\n\n  Asakawa leaves the food on the stove, runs over to Yoichi and grabs him \n  by the shoulders.  She shakes him roughly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What did you say?  You are not to \n\t\tspeak of this at school, do you \n\t\thear me?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(utterly unfazed) \n\t\tI won�t.  I�m going to school now.\n\n  Yoichi walks off.  Asakawa goes back to the stove, but stops after only \n  a few stirs, staring off and thinking.\n\n  Caption-- �September 13th.  Monday.�"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. ROAD � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa drives her car speedily along a narrow country road, LEAVES \n  blowing up in her wake."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. ASAKAWA�S CAR - DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa mutters to herself, deep in thought."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "There�s no way..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. COUNTRY ROAD � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa�s car drives past a sign reading:"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\tIZU PACIFIC LAND\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. IZU PACIFIC LAND - DRIVEWAY � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa has left her car and is walking around the driveway of what is \n  less a bed and breakfast and more like a series of cabin-style rental"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  COTTAGES. \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "She wanders about for a while, trying to get her bearings.  She pauses \n  now in front of a particular cottage and reaches into her PURSE.  She \n  withdraws the PICTURE from the photomat, the one that showed Tomoko and \n  her friends with their faces all blurred.  The four are posing in front \n  of their cottage, marked in the photograph as �B4.�  Asakawa lowers the \n  photo to regard the cottage before her."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>    B4\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "She walks to the door, turns the handle experimentally.  It�s open.  \n  Asakawa walks in."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. PACIFIC LAND - COTTAGE B4 � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa lets her eyes wander around the cottage.  It looks very modern, \n  all wood paneling and spacious comfort.  \n\n  Her eyes rest on the TV/VCR setup at the front of the room.  Crouching \n  before the VCR now, she presses the eject button.  Nothing happens.  \n  She fingers the inside of the deck, finds it empty, then reaches behind \n  to the rear of the VCR, searching.  Again, there is nothing.  Asakawa \n  presses the power button on the television, picks up the REMOTE, and \n  takes a seat on the SOFA.  She runs through a few channels but they�re \n  all talk shows, no clues whatsoever.  She flicks the TV off and leans \n  back in the sofa, sighing.\n\n  Just then, she spies a LEDGER on the coffee table.  These things are \n  sometimes left in hotels in Japan, so that guests can write a few \n  comments about their stay for others to read.  Asakawa picks the \n  ledger up, begins thumbing through it.  She stops at a strange PICTURE\n  obviously drawn by a child, that shows three rotund, almost entirely \n  round personages.  She reads the handwritten MESSAGE."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "\"My dad is fat.  My mom is fat.  \n\t\tThat�s why I�m fat, too.\"\n\n  She smiles in spite of herself.  \n\n  Asakawa flips through the rest of the ledger, but there�s nothing else \n  of any import.  \n\n  She tosses it back onto the coffee table and, sighing again, leans into \n  the sofa and closes her eyes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. OUTDOOR CAF� - DUSK  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa eats silently, alone."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. PACIFIC LAND - FRONT RECEPTION - NIGHT  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa has returned to the bed and breakfast.  As she walks in the \n  door, the COUNTER CLERK rises out of his chair to greet her."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tCLERK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Room for one?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Um, actually I�m here on business.\n\n  She passes the clerk a picture of Tomoko and her three other friends.  \n  He stares at it for a moment."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They would have stayed here on \n\t\tAugust 29th, all four of them.  \n\t\tIf there�s any information you \n\t\tmight have..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tCLERK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Uh, hang on just a minute.  \n\n  The clerk turns his back to her, begins leafing through a guest log."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tCLERK\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(to himself) \n\t\tAugust 29th...\n\n  While she waits, Asakawa�s eyes start to wander around the room.  \n  Behind the desk is a sign reading �Rental Video,� and a large wooden \n  BOOKSHELF filled with VIDEOTAPES. They are all in their original boxes, \n  and she lets her eyes glance over the titles.  Raiders of the Lost Ark, \n  48 Hours--\n\n  --and then, suddenly, she spies a VIDEOTAPE in a plain, unmarked \n  sleeve, tucked away in the back of the very bottom shelf.  She feels \n  the hairs on the back of her neck rise."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That...\n\n  The clerk looks up."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tCLERK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hmm?\n\n  Asakawa stabs a finger excitedly towards the shelf."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That!  What tape is that?\n\n  The clerk reaches out for it, grabs it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tCLERK\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This?  Hmm...\n\n  The clerk pulls the tape out of its SLEEVE and checks for a label.  \n  It�s unmarked."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tCLERK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Maybe one of the guests left it behind�"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. PACIFIC LAND � COTTAGE B4 - NIGHT \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa flips on the TV.  It�s on channel 2, and there is nothing but \n  static. She kneels down to slide the tape into the deck and pauses a \n  moment, framed in the vaguely spectral LIGHT from the television \n  screen.  Steeling her nerves, she puts the tape into the machine, picks \n  up the remote, and presses play.\n\n\n  NOTE: This next scene is entirely visual.  If you are reading this \n  translation before watching the movie, do yourself a favor; STOP \n  reading this now and watch the scene for itself.  Afterwards, you can \n  come back here to check the meaning of the Japanese characters \n  displayed."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  THE VIDEOTAPE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "At first it looks like nothing has happened-- then Asakawa realizes that \n  she is now viewing recorded static instead of broadcast static.  She \n  watches, waiting, but the static continues unbroken.  Asakawa looks \n  down at the remote, is about to press fast forward, when suddenly the \n  picture on the screen clears and for a moment she thinks she�s looking \n  at the moon.\n\n  It�s not the moon at all, she realizes.  The shape is round like a full \n  moon, but it seems to be made up of thin RIBBONS of cloud streaking \n  against a night sky.  And there�s a FACE, she sees, a face hidden in \n  shadows, looking down from above.  \n\n  What is this?\n\n  The scene changes now, and Asakawa notes that the tape has that kind of \n  grainy quality one sees in 3rd or 4th generation copies.  The scene is of \n  a WOMAN brushing her long hair before an oval-shaped MIRROR.  The nerve-\n  wracking grating as if of some giant metallic insect sounds in the \n  background, but the lady doesn�t seem to notice.  The mirror the lady is \n  using to brush her hair suddenly changes position from the left part of \n  the wall before which she stands, to the right.  Almost instantly the \n  mirror returns to its original position, but in that one moment in its \n  changed location we see a small FIGURE in a white GOWN.  The woman turns \n  towards where that figure stood, and smiles.\n\n  The screen next becomes a twitching, undulating impenetrable sea of the \n  kanji characters used in the Japanese language.  Asakawa can pick out \n  only two things recognizable:\n\n    local     volcanic eruption\n\n  Now the screen is awash in PEOPLE-- crawling, scrabbling, shambling \n  masses, some of them moving in reverse.  A sound like moaning accompanies \n  them."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  -\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A FIGURE stands upon a shore, its face shrouded.  It points accusingly, \n  not towards the screen, but at something unseen off to one side.  The \n  insect-like screeching sounds louder."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  --\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Close up on inhuman, alien-looking EYE.  Inside that eye a single \n  character is reflected in reverse:  SADA, meaning \"chastity.\"\n\n  The eye blinks once, twice.  The symbol remains."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  ---\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A long shot of an outdoor, uncovered WELL."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  ----\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sudden loud, blinding STATIC as the tape ends.\n\n  Asakawa turns the TV off, looking physically drained.  She sighs shakily \n  and slumps forward, resting on her knees.  Just then, she glances at the \n  television screen.  She sees, reflected, a small FIGURE in a white gown \n  standing at the rear of the room.  Shocked, Asakawa draws in breath, \n  spins around.\n\n  The room is empty.  Asakawa runs to the sofa to collect her jacket--\n\n  --and the RINGING of the telephone stops her dead in her tracks.  Zombie-\n  like, she walks towards the telephone, picks it up wordlessly.  \n\n  From the other end comes the same metallic, insectoid SQUEAKING heard on \n  the video.  Asakawa slams the phone down and glances up at the CLOCK.  \n  It�s about seven minutes after 7 P.M."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(to herself) \n\t\tOne week�\n\n  Asakawa grabs her coat, pops the tape out of the deck, and runs out the \n  door."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. STREET � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It is dark and raining heavily.  Yoichi, Asakawa�s son, is walking to \n  school, UMBRELLA firmly in hand.  The sidewalk is quite narrow, and Yoichi \n  comes to a halt when a second PERSON comes from the opposite direction, \n  blocking his way. Yoichi slowly raises his umbrella, peers up to look at \n  this other pedestrian.  It is a MAN, a BAG slung over one shoulder.  He \n  has a beard; unusual for Japan where clean-shaven is the norm.  \n\n  The two continue looking directly at each other, neither moving nor \n  speaking.  Yoichi then walks around the person�s left and continues on his\n   way.  The man resumes walking as well.\n\n  Caption-- �September 14th.  Tuesday.�"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. OUTSIDE AN APARTMENT DOOR - DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The bearded man, whose name is RYUJI, reaches out to press the DOORBELL, \n  but the door has already opened from within.  Asakawa leans out, holding \n  the door open for him.  Neither of them speaks.  Wordlessly, Ryuji enters \n  the apartment."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. ASAKAWA�S APARTMENT - DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryuji puts his bag down, looks around the apartment.  The interior is dark, \n  ominous somehow.  He takes his JACKET off and wanders into the living room.  \n  Asakawa is in the kitchen behind him, preparing TEA.  Ryuji spies the \n  collection of FRAMED PHOTOGRAPHS in living room."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yoichi�s in elementary school \n\t\talready, is he?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "His first year.  What about you, \n\t\tRyuji?  How have you been \n\t\trecently?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Same as always.\n\n  She takes a seat next to him, serves the tea.  On the coffee table \n  before them is a VIDEOTAPE in a plain, unmarked case."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And money is...?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I�m teaching at university.\n\n  Ryuji picks up his cup of tea but stops, grimacing, before it is to his \n  lips.  He rubs his forehead as if experiencing a sudden headache.  Ryuji \n  shakes it off and quickly regains his composure."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Anyway.  You said that the phone rang?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That�s right."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So if I watch it too, that phone over \n\t\tthere--\n\n  He gestures with his mug \n\n\t\t\t\tRYUJI (cont�d)\n\t\t--should ring."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryuji, four people have already \n\t\tdied.  On the same day!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(flippant) \n\t\tWell, why don�t you try calling \n\t\tan exorcist?\n\n  He takes a sip of his tea.  Asakawa reaches quickly, grabs something \n  from the bookshelf behind her-- a POLAROID CAMERA.    She shoves it \n  into Ryuji�s hands, then turns to look down at the floor."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Take my picture.\n\n  Ryuji raises the camera to his eye."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Turn this way."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(unmoving) \n\t\tHurry up and take it.\n\n  Ryuji snaps off a shot.  It comes out the other end and he takes it, \n  waits impatiently for an image to appear.  When it does, all he can \n  do is pass it wordlessly over to Asakawa.  Her face is twisted, \n  misshapen.  \n\n  Just like the picture of Tomoko and her friends.\n\n  Asakawa stares at it, horrified.  By the time she finally looks up, \n  Ryuji has already risen from his seat and slid the videotape into the \n  VCR.  Again, the screen is filled with static, only to be replaced \n  with what looks like the moon.  Asakawa slams the Polaroid on the \n  coffee table and goes outside onto the veranda."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. VERANDA - DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa stares out at a view of the houses shaded in cloud and rain. \n  There is a knock on the glass door behind her.  A moment later, \n  Ryuji slides the door open."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It�s over.\n\n  Asakawa re-enters her apartment."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. ASAKAWA�S APARTMENT - LIVING ROOM - DAY\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, it looks like your phone�s not \n\t\tringing.\n\n  Ryuji pops the tape from the deck, hands it to Asakawa."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Make me a copy of this, will you?  \n\t\tI�d like to do a little research\n\t\tof my own. There�s no reason to \n\t\twrite us off as dead just yet. \n\n  He dramatically takes a seat.\n\n\t\t\t\tRYUJI\t(cont�d)\n\t\tIf there�s a video, that means that \n\t\tsomebody had to make it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "There�s the guest list from the \n\t\tcottage to look into... and the \n\t\tpossibility of someone hacking \n\t\tinto the local station�s broadcast \n\t\tsignals.\n\n  Asakawa pulls a NOTEPAD from her purse and begins busily scribbling \n  away."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. NEWS STATION - DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Okazaki putters around.\n\n  Caption-� �September 15th.  Tuesday.�"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. NEWS STATION - VIEWING BOOTH � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa sits by herself, reviewing the videotape.  She is replaying \n  the very last scene, an outdoor shot of a well.  She stares at it \n  carefully, and notices...\n\n  The tape ends, filling the screen with static.  A split-second \n  afterwards, there is a KNOCK on the door and Okazaki enters, holding \n  a FILE.  Asakawa momentarily forgets about the video."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tOKAZAKI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(handing her the file)\n\t\tHere�s that guest list you wanted."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, thanks."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tOKAZAKI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What are you gonna do with this?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Uh... sorry, I�m working on \n\t\tsomething personal."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. IN FRONT OF A TRAIN STATION - DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Some quick shots of a FOUNTAIN gushing water, PIGEONS flapping away \n  looking agitated.  CUT to Ryuji sitting on a BENCH.  He�s deep in \n  thought, writing in a NOTEPAD. There are multitudes of PEOPLE about \n  him, and we can hear the sounds of their coming and going.  A PAIR \n  OF LEGS attached to a woman in white dress, hose, and pumps appears, \n  heading directly for Ryuji.  Her pace is slow, rhythmical, and as \n  that pace progresses all other sounds FADE into the background, so \n  that all we can hear is the CLOMP, CLOMP as those legs walk to stand \n  just before Ryuji.  The pumps are scuffed, dirtied with grime.  \n\n  A gust of WIND rips by.  Ryuji fights the urge to look up as in his \n  ears rings the same hollowed, multi-voiced BABBLING heard on the \n  videotape.  The sound grows stronger."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So, it was you.  You did it.\n\n  The babbling fades, disappears as slowly the world�s normal \n  background sounds return.  Ryuji looks up, but the woman in white \n  is nowhere to be seen."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. OUTSIDE RYUJI�S APARTMENT � AFTERNOON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryuji rides up on a BICYCLE. He turns the corner towards his \n  apartment and finds Asakawa seated on the steps, waiting for him."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey.\n\n  Asakawa notes in his face that something is wrong."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What happened to you?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(gruffly)\n\t\tNothing.\n\n  He enters the building, carrying his bicycle.  Asakawa follows."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. HALLWAY - AFTERNOON  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The two walk down the hallway towards the FRONT DOOR to Ryuji�s \n  apartment.  He unlocks the door and they enter."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. RYUJI�S APARTMENT � AFTERNOON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryuji and Asakawa enter the living room."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So, what�d you come up with?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I don�t think any of the guests on \n\t\tthe list brought the tape with them.  \n\t\tI couldn�t confirm it face-to-face \n\t\tof course, but even over the phone I \n\t\tgot the feeling they were all being \n\t\tupfront with me."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b> \t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How about the other angle?  Pirate \n\t\tsignals or...\n\n  Asakawa shakes her head."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "There�re no traces of any illegal \n\t\ttelevision signals being broadcast \n\t\taround Izu. \n\n  She reaches into her purse, pulls out a large white ENVELOPE."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Here�s that copy of the videotape \n\t\tyou wanted.\n\n  Ryuji tears the package open.  He squats down on the tatami in \n  frontof his TV and slides the tape in.  Asakawa sits on the \n  tatami as well, but positions herself away from the TV and keeps \n  her eyes averted.  Ryuji glares over his shoulder at her."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(sternly) \n\t\tAsakawa.\n\n  She reluctantly scoots closer, looks up at the screen.  Ryuji \n  fast-forwards the tape a bit, stopping at the scene where the \n  woman is brushing her long hair before an oval mirror.  He puts \n  the video on frame-by-frame."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Have you ever seen this woman?\n\n  Asakawa regards the screen intently."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No...\n\n  The tape advances to the scene where the mirror suddenly changes \n  positions.  When it does, we can again see the small figure in the \n  white gown, a figure with long black hair. When Ryuji sees this \n  his body stiffens, becomes tense.  Asakawa notices but says nothing.  \n  She also notices something else."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(excitedly) \n\t\tThere�s something strange about \n\t\tthis shot.\n\n  She takes the remote from Ryuji, rewinds it a ways.  Onscreen, the \n  woman begins coming her long hair again."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "From this angle, the mirror should \n\t\tbe reflecting whoever�s filming."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So, what does that mean?\n\n  Asakawa lets out a short sigh."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, if the person who made this \n\t\tis a pro, there�d be a way around \n\t\tthat, I guess, but still...\n\n  The screen changes, showing the mass of squiggling kanji characters \n  again."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(reading) \n\t\tVolcanic eruption... Eruption where?\n\n  He pauses the screen, trying to make sense of what is written."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is gonna be impossible to figure \n\t\tout on just a regular TV screen, \n\t\tdon�t you think?\n\n  They are both still staring at the screen when from behind them comes \n  the SOUND of someone opening the front door.  Ryuji turns off the TV, \n  ejects the tape from the deck."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Come on in.\n\n  Asakawa flashes a look at Ryuji and then turns her head back towards \n  the front door to see who has entered.  A cute, nervous-looking young \n  GIRL with short hair approaches slowly.  She is carrying a PLASTIC BAG \n  filled with groceries."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa, meet my student, Takano Mai.\n\n  He turns, addresses Mai.\n\n\t\t\t\tRYUJI\t(cont�d)\t\n\t\tThis is Asakawa, my ex-wife.\n\n  Ryuji gets up and walks conveniently away."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMAI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Nice to meet you.  I�m Takano."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa. *\n\n\n  > * As you may already be aware, Japanese name order is the \n  >opposite of English�s, and even close friends may continue to\n  >address one another by their last names.  Incidentally, Asakawa�s\n  >first name is �Reiko.�  In this scene, Mai deferentially refers\n  >to Ryuji as sensei, meaning �teacher.�\n\n\n  Mai sets the bag of groceries down and chases after Ryuji.  He is \n  putting on his jacket and getting ready to leave."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMAI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sensei, the people from the \n\t\tpublishing company called about \n\t\tthe deadline on your thesis again."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(brusquely) \n\t\tWhat�re they talkin� to you \n\t\tabout it for?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMAI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Because they can never get a \n\t\thold of you.\n\n  Ryuji picks up his keys, video firmly in hand."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ask them to wait another week."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMAI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sensei, ask them yourself, \n\t\tplease.\n\n  Ryuji is already headed for the door.  His back is to her as he \n  responds."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\tOK, OK.\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa walks after him.  They leave.\n\n  Mai pouts unhappily a bit, and then breaks into a smile as an idea \n  crosses her mind.  She walks across the room to where Ryuji has set \n  up a large BLACKBOARD filled with mathematical equations.  Grinning, \n  Mai rubs out part of one equation with her sleeve and writes in a \n  new value."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. NEWS STATION � HALLWAY - NIGHT  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa and Ryuji stride purposefully.  They stop before a DOOR to \n  the right, which Asakawa unlocks.  They both walk in."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. NEWS STATION - VIEWING BOOTH - NIGHT \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa and Ryuji sit in a completely darkened room, their eyes \n  glued to the television MONITOR.  They are again watching the scene \n  with the fragmented kanji characters, but despite their efforts have \n  been able to identify only one additional word, bringing the total \n  to three:\n\n\tvolcanic eruption\t  local\t     residents"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is impossible.\n\n  Ryuji fast forwards, stopping at the scene with the kanji reflected\n  inside an alien-looking EYE.  He reads the kanji aloud."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sada... \n\n  Ryuji moves to make a note of this, notices the time."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Is Yoichi gonna be all right?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(sadly) \n\t\tHe�s used to it...\n\n  Short silence.  Ryuji breaks it by gesturing towards the screen."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Whoever made this had to have left \n\t\tsome kind of clue behind.  They�re \n\t\tprobably waiting for us to find it.\n\n  Asakawa turns a DIAL to bring up the volume, which up until now has \n  been  on mute.  The room is filled with an eerie, metallic GRATING, \n  and Asakawa spins the dial again, shutting it off.  Just as she does, \n  Ryuji�s eyes widen."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Wait a minute.\n\n  He turns the dial again, punches a few buttons as if searching for \n  something.  He listens carefully, and when he hears that strange \n  something again he stops, looks at the screen.\n\n  It is paused at the scene with the figure, pointing, a CLOTH draped \n  over its head.  The figure now looks oddly like a messenger.\n\n  Ryuji and Asakawa exchange glances.  This could be it.  Ryuji flips \n  some more switches, setting the sound for super-slow mo.  What follows \n  is a strange, labored sort of speech-� a hidden message-- framed in \n  the skittering distortion of the tape in slow motion."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTAPE\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Shoooomonnn bakkkkkarrri toou...  \n\t\tboooouuuukonn ga kuuru zouuu..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(repeating) \n\t\tShoumon bakkari, boukon ga kuru \n\t\tzo.  Did you hear that, too?\n\n  Asakawa nods.  Ryuji is already writing it down excitedly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What does that mean?\n\n  Ryuji tears the sheet of paper off the notepad, folds it, and tucks \n  it into his shirt pocket."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I�m gonna check it out."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. ASAKAWA�S APARTMENT COMPLEX - MORNING  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yoichi is walking to school.  He looks back over his shoulder, just \n  once,then resumes walking."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. ASAKAWA�S APARTMENT - MORNING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "All the lights are turned off, and she is sitting on the living room \n  couch watching the footage of her caf� interview with the junior high \n  school girls.  \n\n  Caption-- �September 16th.  Thursday.�\n\n  Just when the girl in the interview mentions that whomever watches \n  the video is supposed to afterwards receive a phone call, Asakawa�s \n  own phone RINGS, startling her. She runs to answer it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hello?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI (O.S.)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I�ve got it.  It�s a dialect, just \n\t\tlike I thought.  SHOUMON means \n\t\t�playing in the water� and BOUKON\n \t\tmeans �monster.� *\n\n\n  >* Translated from standard Japanese, the phrase from the videotape \n  >would initially have sounded like, \"If only SHOUMON then the \n  >BOUKON will come.\"  These two capitalized words, later identified to \n  >be dialectical, were at the time completely incomprehensible to Ryuji \n  >and Asakawa.  Dialect can vary dramatically from region to region in \n  >Japan, to the point of speakers of different dialect being unable to\n  >understand one another.  \n\n  >The phrase on the tape can now be rendered, \"If you keep playing in \n  >the water, the monster will come for you.\""
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But, dialect from where?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oshima.  And the site of our \n\t\t�eruption� is Mt. Mihara."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. LIBRARY - NIGHT  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryuji and Asakawa are seated at cubicles, looking through bound \n  ARCHIVES of old newspaper articles.  Asakawa sneaks a look at Ryuji, \n  stands up and walks off a little ways.  She has already pulled out her \n  cell phone."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(whispering, on phone) \n\t\tYoichi?  I�m gonna be a little \n\t\tlate tonight, honey. \n\n  Ryuji looks over his shoulder at her, scowls."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You can do it yourself, right?  OK.  \n\t\tSorry.  Bye.\n\n  She hangs up, returns to her seat at the cubicle.  She resumes her \n  scanning of the newspaper articles, and Ryuji shoots her another scowl.  \n  Asakawa turns a page and then stops, frowning.  She has spied an article \n  that looks like...\n\n  Nervously, Asakawa puts the thumb and forefinger of each hand together, \n  forming the shape of a rectangle.  Or a screen.  She places the rectangle\n  over the article she has just discovered, its headlines reading:\n\n    Mount Mihara Erupts \tLocal Residents Urged to Take Precautions\n\n  Ryuji notices her, leans forward excitedly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I�ve got it!  This old article...\n\n  The two scan the remainder of the page, and find a smaller, related \n  article.\t\n\n    Did Local Girl Predict Eruption?\n    A young lady from Sashikiji prefecture...\n\n  The two read over both articles, absorbing the details.  Ryuji stands \n  suddenly, gathering his things."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What are you doing?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Has your newspaper got someone out \n\t\tthere at Oshima?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I think so.  There should be a \n\t\tcorrespondent out there."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I need you to find out, and let me \n\t\tknow how to get hold of him.\n\t\tTonight.\n\n  He begins walking briskly away.  Asakawa chases after him."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What do you think you�re--?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(angrily) \n\t\tYou�ve only got four days left, \n\t\tAsakawa!  Your newspaper contact \n\t\tand I can handle this from here \n\t\ton out.  You just stay with Yoichi.\n\n  Ryuji strides off.  Asakawa stands motionless."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. COUNTRY ROAD - DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A car speeds along.  CUT to a gravel DRIVEWAY leading up to a wooden, \n  traditional-style HOUSE.  Kouichi, Asakawa�s father, is standing before \n  the entrance and puttering around in his GARDEN.  The car from the \n  previous shot drives up, comes to a halt.  The passenger door opens and \n  Yoichi hops out, running towards the old man.  Asakawa walks leisurely \n  after her son."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Grandpa!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOUICHI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Whoa, there!  So, you made it, huh?\n\n  Caption-- �September 17th.  Friday.�"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yoichi says he�s looking forward to \n\t\tdoing some fishing with you."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOUICHI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Is that so?\n\n  Yoichi begins tugging excitedly at his grandfather�s arm."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "C�mon grandpa, let�s go!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOUICHI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "OK, OK.  We�ll get our things \n\t\ttogether and then we can go."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. RIVER � DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa stands on a RIVERBANK while her father and Yoichi, GUMBOOTS on, \n  are ankle-deep in a shallow river.  Yoichi holds a small NET, and \n  Asakawa�s dad is pointing and chattering excitedly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOUICHI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "There he is!  C�mon, there he is, \n\t\tdon�t let him go!\n\n  Yoichi tries to scoop up the fish his grandfather is pointing out."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOUICHI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, oh!  Ah... guess he got away, \n\t\thuh?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That was your fault, grandpa.\n\n  Asakawa�s father laughs."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOUICHI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, whaddya say we try again?\n\n  He begins sloshing noisily out to the center of the stream, Yoichi in \n  tow."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOUICHI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We�ll get �im this time.\n\n  Asakawa looks away, pensive."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. KOUICHI�S HOUSE - LIVING ROOM - NIGHT  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yoichi is passed out asleep on the tatami mats.  A TELEVISION looms \n  inone corner of the living room, but it is switched off.  The \n  SLIDING DOORS to the adjacent guest room are open and we can see \n  futons set out, ready for bed.\n\n  Asakawa enters the living room and, seeing Yoichi, scoops him up in\n  her arms and carries him over to the guest room."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(sleepily) \n\t\tHow was work, mommy?\n\n  Asakawa tucks him into the futons and walks silently off."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. KOUICHI�S HOUSE - STAIRCASE � NIGHT  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa stands at the foot of the staircase, telephone RECEIVER in \n  hand.  The phone rests on a small STAND by the staircase."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hello?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI (O.S.)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah.  Your Oshima contact came \n\t\tthrough.  It looks like the woman \n\t\twho predicted the Mihara eruption \n\t\tis the same woman from the video."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. RYUJI�S APARTMENT � NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryuji is crouched in front of the TV, REMOTE in hand.  The screen is \n  paused on the scene of the woman brushing her long hair."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Her name is Yamamura Shizuko.  She \n\t\tcommitted suicide forty years ago \n\t\tby throwing herself into Mt. Mihara."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. KOUJI�S HOUSE � STAIRCASE - NIGHT  \n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Have you got anything else?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI (O.S.) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I�m gonna have to check it for \n\t\tmyself.  I�ll be leaving for \n\t\tOshima tomorrow morning."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oshima?  I�ve only got three days \n\t\tleft!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI (O.S.)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I know.  And I�ve got four.\n\n  Short silence."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI (O.S.)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I�ll be in touch.\n\n  Ryuji hangs up.  Asakawa, deep in thought, slowly places the phone \n  back in its CRADLE.  She turns around to walk back down the hallway \n  only to find her father standing there, face full of concern."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKOUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What�s happened?\n\n  Asakawa shakes her head."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Nothing.  I just had some things \n\t\tleft over from work.\n\n  She walks past her father, who glances worriedly after her over his \n  shoulder."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. KOUJI�S HOUSE - GUEST ROOM � NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The lights are all off and Asakawa is asleep in her futon.  Her eyes \n  suddenly fly open as a VOICE sounding eerily like her deceased niece \n  Tomoko calls out to her."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTOMOKO (O.S.) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Auntie?\n\n  Asakawa looks around the room, gets her bearings.  Her eyes fall on \n  the futon next to hers."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yoichi?\n\n  There is a BODY in that futon, but it is full-grown, dressed all in \n  black.  It is curled into a fetal position and has its head turned \n  away.\n\n  Suddenly, the IMAGE from the video of the figure with its face \n  shrouded springs to Asakawa�s mind.  Just an instant, its pointing \n  visage materializes, and then disappears.  It reappears a moment \n  later, pointing more insistently now, and disappears again.  \n\n  Asakawa blinks her eyes and realizes that the futon next to hers is \n  empty.  Yoichi is nowhere to be seen.\n\n  Just then, she hears that high-pitched, metallic SQUEAKING from the \n  video.  Eyes wide with horror, she flings the sliding doors apart--\n  --and there, seated before the television, is Yoichi.\n\n  He is watching the video.\n\n  It is already at the very last scene, the shot of the outdoor well. \n  CLOSEUP on the screen now, and for just an instant we can see that \n  something is trying to claw its way out of the well.  The video cuts \n  off, and the screen fills with static.  \n\n  Shrieking, Asakawa races over to Yoichi, covers his eyes though it is \n  already too late.  She scoots over to the VCR, ejects the tape and \n  stares at it uncomprehendingly.  She is then at Yoichi�s side again, \n  shaking him roughly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yoichi!  You brought this with you, \n\t\tdidn�t you?  Why?!?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Tomo-chan...\n\n  Asakawa freezes, her eyes wide."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Tomo-chan told me to watch it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. OCEAN � DAY\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "WAVES are being kicked up by a large PASSENGER SHIP as it speeds on \n  its way.  CUT to Asakawa and Ryuji standing on deck, looking out over \n  the waves."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I should�ve been more careful.  \n\t\tWhen I was at your place that \n\t\tday, I could feel something \n\t\tthere.  I thought it was just \n\t\tbecause of the video..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You mean that Tomoko�"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That�s not Tomoko.  Not anymore."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yoichi... he can see them too, \n\t\tcan�t he?\n\n  Ryuji nods his head, lowers it sadly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It�s all my fault.  First Tomoko \n\t\tdied, then those three others.  It \n\t\tshould have stopped there, but it \n\t\tdidn�t.  Because of me."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I wonder...\n\n  Asakawa turns to Ryuji suddenly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How did the rumors about the \n\t\tvideo even start in the first \n\t\tplace?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This kind of thing... it doesn�t \n\t\tstart by one person telling a \n\t\tstory.  It�s more like everyone�s \n\t\tfear just takes on a life of its \n\t\town."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Fear..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Or maybe it�s not fear at all.  \n\t\tMaybe it�s what we were \n\t\tsecretly hoping for all along."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. PORT � DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The ship has docked, its GANGPLANK extended.  Ryuji and Asakawa walk \n  the length of the gangplank towards the shore.  A man named MR. \n  HAYATSU is already waiting for them.  He holds up a white SIGNBOARD \n  in both hands."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mr. Hayatsu?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tHAYATSU\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Aah, welcome!  You must be tired \n\t\tafter your long trip.  Please, \n\t\tthis way.\n\n  Mr. Hayatsu leads Asakawa and Ryuji to an awaiting minivan.\n\n  Caption-- �September 18th.  Saturday.�"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. HAYATSU�S MINIVAN - DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryuji and Asakawa sit in the back.  Mr. Hayatsu is behind the wheel, \n  chattering away."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tHAYATSU\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Back in the old days, the Yamamuras\n\t\tused to head fishing boats out in \n\t\tSashikiji, though they don�t much \n\t\tanymore.  You know, one of Shizuko�s \n\t\tcousins is still alive. He�s just an \n\t\told man now.  His son and his \n\t\tdaughter-in-law run an old-fashioned \n\t\tinn.  I went ahead and booked \n\t\treservations for y�all, hope that�s \n\t\talright...\n\n  Asakawa gives the briefest of nods in reply, after which the \n  minivan lapses into silence.  Asakawa looks dreamily out at the \n  mountain-studded landscape, then suddenly snaps to."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(to Ryuji) \n\t\tWhy did Yamamura Shizuko commit \n\t\tsuicide?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "She was taking a real beating \n\t\tin the press, being called a \n\t\tfraud and all sorts of names.  \n\t\tAfter a while she just lost it. \n\n  CUT to a scene of the minivan speeding along a country road."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. HAYATSU�S MINIVAN � DAY \n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Shizuko was getting a lot of \n\t\tattention around the island after\n\t\tpredicting the eruption of Mt. \n\t\tMihara.  Seems that for some time \n\t\tshe�d had a rather unique ability:\n\t\tprecognition. It was around then\n\t\tthat she attracted the attention \n\t\tof a certain scholar whom you may \n\t\thave heard of; Ikuma Heihachiro."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He was driven out of the university, \n\t\twasn�t he?\n\n  Ryuji nods."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This Professor Ikuma convinces \n\t\tShizuko to go to Tokyo with him, \n\t\twhere he uses her in a series of \n\t\tdemonstrations meant to prove the \n\t\texistence of ESP.  At first she�s \n\t\tthe darling of the press, but the \n\t\tnext thing you know they�re \n\t\tknocking her down, calling her a \n\t\tfraud.  Hmph.  Forty years later,\n\t\tthe media still hasn�t changed that\n\t\tmuch.\n\n  Asakawa continues, ignoring Ryuji�s barb."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I�ve heard this story.  But... I�m \n\t\tsure I remember hearing that somebody \n\t\tdied at one of those demonstrations.\n\n  A strange look crosses Ryuji�s face.  He looks away, ignores her \n  for a moment."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "After getting kicked out of \n\t\tuniversity, Ikuma just vanished, \n\t\tand no one�s been able to get hold \n\t\tof him since.  He�s probably not \n\t\teven alive anymore."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But, why even try looking for him?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Because he�s supposed to have had a \n\t\tchild with Shizuko.  A daughter.\n\n  Asakawa freezes.  In her mind, she sees a small FIGURE dressed in \n  white, its face hidden by long, black HAIR.  It is the figure from \n  the video."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. OUTSIDE YAMAMURA VILLA - DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mr. Hayatsu leads Asakawa and Ryuji to the entrance."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tHAYATSU\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hello?\n\n  The INKEEPER, a middle-aged lady named KAZUE wearing a traditional \n  KIMONO, comes shuffling up.  She addresses Mr. Hayatsu."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKAZUE\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Thank you.\n\n  She turns to Asakawa and Ryuji.\n\n\t\t\t\tKAZUE (cont�d)\n\t\tWelcome."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tHAYATSU\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, I�ll be off then.\n\n  He gives a little bow and is off.  Kazue, meanwhile, has produced \n  two pairs of SLIPPERS, which she offers to Ryuji and Asakawa."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKAZUE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Please.\n\n  Ryuji and Asakawa begin removing their shoes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. YAMAMURA VILLA � STAIRCASE - DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Kazue leads Ryuji and Asakawa up a shadowed, wooden STAIRCASE."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKAZUE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And for your rooms, how shall we...?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Separate, please."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKAZUE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "�Sir."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. YAMAMURA VILLA - 2ND FLOOR � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Kazue gives a little bow."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKAZUE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This way.\n\n  Kazue turns to the right.  Almost immediately after reaching the \n  top of the steps, however, a strange look crosses Ryuji�s face.  \n  He heads down the opposite end of the corridor, Asakawa close \n  behind."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKAZUE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(alarmed) \n\t\tSir!\n\n  Ryuji flings open the SLIDING DOOR to one of the older rooms.  There, \n  hanging from one of the walls, is the oval-shaped MIRROR from the \n  video, the one used by the mysterious lady to brush her long hair.  \n  Ryuji stares at the mirror, almost wincing.  He turns around as if \n  to look at Asakawa,but continues turning, looks past her.  Asakawa \n  follows his gaze, as does Kazue.  Standing at the end of the corridor \n  is an old man, MR. YAMAMURA. \n\n  Yamamura regards them silently, balefully.  Breaking the silence, \n  Kazue gestures for Asakawa and Ryuji to follow."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKAZUE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(softly) \n\t\tPlease, this way.\n\n  Asakawa races past the innkeeper towards the old man.  He keeps his \n  back turned towards her."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Please!  If you could just answer \n\t\ta few questions, about Shizuko..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYAMAMURA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I got nuthin� to say."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It�s about Shizuko�s daughter.\n\n  The old man says nothing."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "She did have a daughter, didn�t she?\n\n  Yamamura regards her for a moment, then turns to walk away."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYAMAMURA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You�re wasting your time."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. YAMAMURA VILLA - DINING ROOM � NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The TABLE is laid out with an elaborate-looking DINNER.  Asakawa \n  sits alone, knees curled up to her chin, eyes wide and frightened.  \n  She is whimpering softly to herself.  Just then, the DOOR slides \n  open and Ryuji walks in.  He sits at the table and picks up a \n  pair of CHOPSTICKS."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Aren�t you gonna eat?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Umm..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hm?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You�ll stay with me won�t you?  \n\t\tWhen it�s time for me to die."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, stop it.\n\n  Asakawa scoots across the tatami mats towards the table, grabs \n  Ryuji fiercely by the arm."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You�ll stay, won�t you?  If you \n\t\tstayed, maybe you�d learn something\n\t\tthat could help Yoichi--"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I said stop it!  Have you forgotten \n\t\tThere was a girl with Tomoko when \n\t\tshe died?  That girl�s now in a \n\t\tmental institution.  Who knows what \n\t\tcould happen."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But you could stay with me, Ryuji.  \n\t\tYou�d be OK."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(angrily)\n\t\tWhy, because I�m already not \n\t\tright in the head?\n\n  Asakawa releases her hold on Ryuji�s arm, lowers her head.  Ryuji \n  slams his chopsticks down angrily."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "If that�s the case, why not just\n\t\tlet things run its course, get rid\n\t\tof father -and- son?  Yoichi was a\n\t\tmistake, anyway."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Stop it!\n\n  Short silence.  When Ryuji speaks up again, his voice is soft, \n  reassuring."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We still have two days left...\n\n  Just then the VOICE of the innkeeper calls tentatively out from \n  the other side of the sliding door."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKAZUE (O.S.) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Excuse me?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Come in.\n\n  Kazue slides the door open.  She stands hesitantly in the doorway, \n  something tucked under one arm."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKAZUE\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It�s about Miss Shizuko.  \n\n  Ryuji shoots a glance at Asakawa and stands up from the table, \n  walks towards the innkeeper."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKAZUE\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is all that there is...\n\n  Kazue produces an old black and white PHOTOGRAPH.  The photo shows a \n  WOMAN, seated, dressed in a KIMONO.  A MAN in a Western-style SUIT \n  stands beside her."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Is this Professor Ikuma?\n\n  Hearing this Asakawa leaps up, walks over to examine the picture for \n  herself."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tKAZUE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "...yes.  This picture is from before \n\t\tI�d entered the household.  \n\n  She pauses a moment.\n\n\t\t\t\tKAZUE (cont�d)\n\t\tI should go now.\n\n  The innkeeper scuttles off, leaving Asakawa and Ryuji alone with the \n  photograph.  Unbidden, the VOICE from the video enters their \n  thoughts."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tVOICE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Shoumon bakkari... boukon ga kuru zo..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. IZU SEASHORE - DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa watches Ryuji stride down the shore.\n\n  Caption-- �September 19th.  Monday.�\n\n  Ryuji strolls up to find old man Yamamura sitting alone, staring \n  out at the sea.  Yamamura glances up to see Ryuji approaching.  \n  Ryuji takes a seat next to the old man, but it�s Yamamura who speaks \n  first.  The deep basso of his voice emphasizes the drawl of his \n  accent."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYAMAMURA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Y�all�d do best to be off soon.  \n\t\tSea�s probably gonna be rough \n\t\ttonight."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What kind of a child was Shizuko?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYAMAMURA \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Shizuko was... different.  She�d come \n\t\tout here by herself ever�day an� just\n\t\tstare out at the ocean.  The fishermen \n\t\tall took a dislikin� to her.  Ocean�s \n\t\tan unlucky place for us, y�see: every \n\t\tyear it swallows up more of our own. \n\t\tYou keep starin� out at somethin� \n\t\tike that..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Shoumon bakkari shite�ru to, boukon ga \n\t\tkuru zo.  �If you keep playing in the \n\t\twater, the monster will come for you.�\n\n  Yamamura looks at Ryuji, surprised."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Shizuko could see �inside� people, \n\t\tcouldn�t she?  Down to the places \n\t\tthey�d most like to keep hidden.  It \n\t\tmust have been difficult for her...\n\n  Yamamura rises unsteadily to his feet, features twisted angrily."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYAMAMURA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Please leave!  Now!\n\n  Ryuji stands, takes hold of Yamamura�s arm."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I�ve got a little of that ability \n\t\tmyself.  It was you who spread the \n\t\tword about Shizuko, wasn�t it?  \n\t\tAnd you who first contacted \n\t\tProfessor Ikuma?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYAMAMURA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What�re you--?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You thought you�d be able to make \n\t\tsome money off her.  You even got \n\t\tsome, from one of the newspapers."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYAMAMURA\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Leave me the hell alone!\n\n  Mr. Yamamura strides angrily off.  Both Ryuji and Asakawa take \n  pursuit, Ryuji calling out from behind Yamamura�s back."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Tell us about Shizuko�s daughter.  \n\t\tWho was she?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYAMAMURA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I don�t know!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "She was there, with Shizuko. She \n\t\thad to be.\n\n  Yamamura�s pace, which has become increasingly erratic, finally \n  causes him to stumble and fall.  Ryuji comes up behind him, \n  grasping him firmly.  At their touch Ryuji�s power awakens, and as \n  he peers into the old man�s mind there is a sudden blinding"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  FLASH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The setting is a large MEETING HALL.  A number of people are seated \n  in folding chairs before a STAGE, on which are a four MEN in BUSINESS \n  SUITS and a WOMAN in a KIMONO.  A BANNER hangs above the stage, which \n  reads PUBLIC DEMONSTRATION ON THE EXISTENCE OF CLAIRVOYANCE."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  FLASH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryuji eyes widen as he realizes he is seeing Shizuko�s demonstration \n  before the press.  He also realizes--"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(to Yamamura)\n\t\tYou were there!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  FLASH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "YAMAMURA SHIZUKO, the woman in the kimono, is sitting at a TABLE \n  onstage. Her face is calm and expressionless.  Standing off to one \n  side and peering from behind the curtains is a young Mr. Yamamura."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t(O.S.) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You stood there and watched the \n\t\tdemonstration.\n\n  CUT back to the beach.  Asakawa comes running up toward Ryuji and the \n  prone Mr. Yamamura.  Suddenly there is another"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  FLASH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa, her eyes wide, finds herself inside the scene, reliving it \n  as if she had actually been there.  She watches as Shizuko receives \n  a sealed clay POT in both hands.  Shizuko regards the pot a moment \n  and then places it gently on the table before her.  She takes a \n  calligraphy STYLUS from the table, begins writing on a thin, \n  rectangular sheet of RICE PAPER.  The members of the press talk \n  excitedly, craning their necks for a better look.\n\n  Onstage, a JUDGE holds up the phrase written by Shizuko and the \n  folded sheet of paper taken from the sealed pot.  The phrase on both \n  sheets is identical."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tJUDGE\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Match.\n\n  Cameras begin FLASHING excitedly.  Shizuko�s features melt into a soft \n  smile. \n\n  The experiment is performed again, and again the phrase written by \n  Shizuko corresponds to the sealed sheet of paper."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tJUDGE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Match.\n\n  Again and again, Shizuko unerringly demonstrates her power to �see� \n  the unseen.  Finally, a bearded REPORTER explodes from his chair, \n  begins striding angrily towards the stage."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tREPORTER\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Faker!  This is nothing but trickery, \n\t\tand the lowest form of trickery at \n\t\tthat. \n\n  The reporter stops at the foot of the stage, points his finger \n  accusingly at Shizuko."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tREPORTER\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What are you trying to pull, woman?\n\n  A SECOND REPORTER sitting in the front row also rises to his feet."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tREPORTER #2\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That�s right!  Professor Ikuma, \n\t\tyou�re being fooled!\n\n  By now most of the press has risen from their chairs, pointing and \n  shouting angrily. Onstage, Shizuko backs away, eyes wide and \n  frightened.  She covers both ears, trying to block out the increasing \n  din.  Professor Ikuma holds her protectively by the shoulders.  The \n  first reporter is still shouting angrily, his voice rising above the \n  others.  Suddenly, a pained look crosses his face and he collapses to \n  the floor.  The crowd, and Asakawa as well, see that the reporter�s \n  face is contorted into a grotesque mask of fear."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tREPORTER #3\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What�s happened?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tREPORTER #4\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He�s dead!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tREPORTER #5\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(to Shizuko) \n\t\tWitch!\n\n  Professor Ikuma begins leading Shizuko offstage.  They stop as someone \n  unseen steps up, blocking their passage.  Shizuko�s eyes widen, her \n  head shaking in disbelief."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSHIZUKO\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sadako?  Was it you?\n\n  CUT to Ryuji on the beach.  He looks up excitedly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sadako?!\n\n  He recalls the image from the video, the alien eye with the single \n  character SADA reflected in reverse. *\n\n\n  >* The majority of girls' names in Japanese end in either -mi (\"beauty\") \n  >or -ko (\"child\").  Thus, Sadako means \"Chaste child.\"  Sadako is, of \n  >course, the mysterious daughter of Shizuko and Professor Ikuma."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sadako killed him?  She can kill \n\t\tjust with a thought?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYAMAMURA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "She�s... a devil spawn.\n\n  CUT back to the demonstration hall.  Sadako, her face completely hidden \n  by her long hair, runs offstage... and heads directly for Asakawa.  \n  Asakawa instinctively raises her arm, and Sadako grasps it fiercely.  \n  All the nails on Sadako� hand are stripped away; her fingers are raw, \n  bloody stumps.\n\n  CUT back to the beach.  Asakawa, still caught in the throes of the \n  vision, has begun to swoon.  Finally her legs give out and she crumples \n  to the beach.  Ryuji grabs hold of her supportively.  He glances down at \n  her wrist, sees an ugly, purple BRUISE already beginning to form.  \n\n  The bruise is in the shape of five long, spindly fingers.\n\n  Mr. Yamamura slowly rises to a sitting position, and together the three \n  watch the approach of ominous, dark STORM CLOUDS."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. MR. HAYATSU�S HOUSE � DUSK\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa is on the phone, her voice almost frantic."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That�s right. After Yamamura Shizuko \n\t\tcommitted suicide, Professor Ikuma\n\t\ttook the daughter and ran.  No, no one\n\t\tknows where they went.  That�s why I \n\t\tneed -you- to find out where they are.  \n\t\tEven if the professor�s dead, Sadako \n\t\tshould still be in her forties.  I�ll \n\t\texplain it all later, but right now \n\t\tjust hurry!\n\n  Asakawa slams the phone down.  PAN to show Ryuji slumped in one corner \n  of the room, his back to the wall."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sadako�s probably already dead.  She\n\t\tcould kill people with just a thought, \n\t\tremember?  Her mother wasn�t even \n\t\tclose to that."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(flustered) \n\t\tWell, what about that video?  If \n\t\tSadako�s dead then who made it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Nobody made it. It wasn�t made at \n\t\tall. That video... is the pure, \n\t\tphysical manifestation of Sadako�s \n\t\thatred.\n\n  Ryuji turns to regard Asakawa, his eyes blank."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We�ve been cursed.\n\n  There is a moment of silence before Mr. Hayatsu slides the door open, \n  almost falling into the room.  He is out of breath, and speaks rapidly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tHAYATSU\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It�s no good.  With the typhoon \n\t\tcoming in, all ships are \n\t\ttemporarily staying docked."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What about the fishing boats?  \n\t\tTell their captains I�ll pay."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tHAYATSU\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Fishing boats?  Sir, without knowing \n\t\twhether this typhoon is going to hit \n\t\tus or not, I think it�d be better to \n\t\twait and see how things turn--\n\n  Ryuji interrupts him, slamming both palms on the table.  Glasses \n  rattle wildly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Fine!  I�ll try searching myself!\n\n  Ryuji stands and races past Mr. Hayatsu out into the rain.  Hayatsu \n  takes pursuit, calling after him."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tHAYATSU\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mr. Takayama!?  Mr. Takayama...\n\n  Asakawa, left alone, stares down at the tatami mats."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. OCEAN - NIGHT  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "White-capped waves roll angrily in a black sea."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. MR. HAYATSU�S HOUSE � NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa sits at a table, alone, her hands clasped as if in prayer.  Her \n  eyes are wide and glassy.  The phone RINGS suddenly and Asakawa dives \n  for it, wrenching it from the cradle before it can ring a second time."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hello?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tOKAZAKI (O.S.) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mrs. Asakawa?  I�m sorry.  I tried, \n\t\tbut I couldn�t come up with any \n\t\tleads at all.\n\n  A look of abject fear crosses Asakawa�s face.  She begins retreating \n  into herself."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tOKAZAKI (O.S.) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hello?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(softly) \n\t\tThank you...\n\n  Asakawa slowly places the phone back in its cradle.  Almost immediately, \n  her face begins to crumple.  She falls to her knees, sobbing into the \n  floor."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yoichi...\n\n  She cries a while longer but suddenly stops.  Her face, eyes streaked \n  with tears, shoots suddenly up, stares directly at the telephone."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(softly) \n\t\tIzu..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. IZU WHARF � NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa stands looking down on the wharf, scanning. \n\n  Several FISHING BOATS are docked.  The wind whips her hair crazily \n  around.   She continues scanning, and suddenly she spies--"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(calling) \n\t\tRyuji!\n\n  Asakawa runs down onto the wharf, heading towards Ryuji.  He is \n  in mid-conversation with Mr. Hayatsu."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryuji!  The phone in my apartment \n\t\tnever rang!  It only ever rang at\n\t\tthe rental cottage!  Professor \n\t\tIkuma must�ve..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And we�ve got no way of going back."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tHAYATSU\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It�s too dangerous!  The thought of \n\t\tanybody going out in this weather...\n\n  The three fall into silence as they realize the powerlessness of their \n  situation.  Suddenly, a deep VOICE booms from behind them."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYAMAMURA (O.S.) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I�ll take you out.\n\n  The three spin around to see Mr. Yamamura, his ROBES flapping in the \n  gusty night air. He begins walking towards them."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYAMAMURA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sadako is callin� y�all, reckon.  \n\t\tMayhap to drag you down under the \n\t\twater.\n\n  Short silence.  Ryuji shoots a short questioning glance at Asakawa, \n  turns back to face Mr. Yamamura."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Please.  Take us out."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. OCEAN � NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A tiny FISHING BOAT is tossed about on the waves.  Mr. Yamamura stands \n  at the wheel, his face expressionless."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. MR. YAMAMURA�S FISHING BOAT � NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryuji and Asakawa are crouched close together in the cabin.  Asakawa�s \n  expression is dreamy, faraway."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It�s funny.  I�m not afraid at all.  \n\n  Ryuji leans over, rubs her hand comfortingly.  Suddenly he switches \n  back into analytical mode."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sadako probably died back out there\n\t\tat Izu, before the rental cottages \n\t\twere ever built."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So, Sadako was Professor Ikuma�s \n\t\tdaughter?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(nodding) \n\t\tIkuma smuggled her out in secret.  \n\t\tHis relationship with Shizuko was \n\t\talready a scandal, and one of the \n\t\treasons he got drummed out of the \n\t\tuniversity... We�ve gotta find \n\t\tSadako�s body."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(excitedly) \n\t\tIs that going to break the curse?  \n\t\tWill Yoichi be all right?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It�s all we�ve got left to try."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Just one more day...\n\n  Ryuji puts his arm around Asakawa."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. MR. YAMAMURA�S FISHING BOAT - DAWN  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryuji stands on deck, looking out over the water.  He heads down \n  below toward the captain�s area.  Mr. Yamamura is at the wheel."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We made it.  Maybe Sadako doesn�t \n\t\thave it out for us after all.\n\n  Long pause as Mr. Yamamura says nothing."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYAMAMURA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Shizuko... she used to -speak- to \n\t\tthe ocean, just ramble away.  One \n\t\ttime I hid, listenin� to one of her \n\t\tconversations.\n\n  Mr. Yamamura pauses again.\n\n\t\t\t\tYAMAMURA (cont�d)\t\n\t\tAnd it weren�t in no human language."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. MR. YAMAMURA�S FISHING BOAT � DAWN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa has climbed out on deck and is looking up towards the sunrise.\n\n  Caption-- �September 20th.  Monday.�"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. HARDWARE STORE � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryuji races out of the store, loaded down with supplies.  He holds a \n  pair of BUCKETS in one hand and a CROWBAR and SHOVEL in the other.  A \n  length of ROPE is coiled over his left shoulder.  He runs towards a \n  RENTAL CAR, passing by Asakawa who stands at a PAYPHONE, receiver in \n  hand."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI (O.S.) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hello?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yoichi?  It�s mommy.  I just called \n\t\tto say I�ll be coming home tomorrow.\n\n  Ryuji shoots a look at her over his shoulder."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI (O.S.) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I�m tired of it here, mom!  I wanna\n\t\tgo back to school."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(smiling) \n\t\tYoichi, it�s rude to your grandpa \n\t\tto talk like that."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI (O.S.) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He�s laughing.  You wanna talk to him?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, that�s...\n\n  Asakawa pauses, her voice hitching.  She seems about to lose \n  her composure."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I�m sorry, Yoichi.  I�ll... I�ll \n\t\tsee you tomorrow."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tYOICHI (O.S.)\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What�s wrong?\n\n  Asakawa�s face scrunches up in an effort to hold back tears."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mommy�s got something she has to do.  \n\t\tSay hello to grandpa for me, OK?\n\n  Ryuji stands by the car, scowling over at Asakawa.  He shuts the DOOR \n  just short of a slam.  CUT to Asakawa hanging up the phone.  She half-\n  runs towards the rental car and enters the passenger side, staring \n  blankly into space.  Ryuji slides into the driver�s seat, buckles his"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  SEATBELT.  \n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What time was it when you first \n\t\twatched the video?\n\n  Asakawa glances at her watch."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Seven or eight minutes past \n\t\tseven.  PM.  No more than ten \n\t\tminutes past."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "If the rumors are true, that \n\t\ttime is gonna be our deadline.\n\n  Asakawa buckles up as Ryuji steps on the gas."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. RENTAL CAR � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa sits in the passenger side.  Her face is almost angelic, \n  with the faintest hint of a smile.  Ryuji shoots a questioning look \n  at her."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. COUNTRY ROAD � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The white rental car tears past the SIGN reading Izu Pacific Land.  \n  The car continues into the LOT, screeching around corners before \n  coming to an abrupt halt.  Asakawa, her face still oddly expressionless, \n  gets out of the passenger side.  Ryuji exits as well, the hint of a \n  shudder running through him as he regards the series of rental cabins."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "-Here-.\n\n  CUT to Asakawa and Ryuji walking up the gravel PATH towards the rental \n  cabins.  Ryuji looks back over his shoulder as both he and Asakawa stop \n  before cabin B4.  The cabin is on STILTS, its underbelly fenced off by \n  wooden LATICEWORK.  Ryuji drops most of his supplies to the ground, but \n  keeps hold of the PICK.  He raises the pick over one shoulder and begins \n  smashing away at the latticework.  When he has cleared enough space for   \n  passage, he begins picking up supplies and tossing them hastily within.  \n  When finished, he holds a hand out for Asakawa.  The two enter the \n  earthen basement."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  UNDER COTTAGE B4 - DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryuji pulls a FLASHLIGHT out, flicks it on.  The BEAM arcs outwards, \n  illuminating what looks more like an old mine shaft than a modern \n  rental cottage.  The beam halts when it suddenly encounters an old \n  STONE WELL.  The well is badly chipped on one side, and sealed off \n  with a solid-looking stone LID.  Ryuji rushes quickly towards it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I knew it!  The well.\n\n  He squats down beside the well, setting the flashlight on the \n  lid.  Asakawa sinks slowly down beside him."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The well...\n\n  Ryuji reaches out and takes Asakawa�s hand.  He sets their enclasped \n  hands onto the lid, and together they begin lightly tracing the \n  surface of the lid with their free hands.  Asakawa closes her eyes in \n  concentration... and suddenly, as with the incident on the beach, \n  Asakawa finds herself drawn into Ryuji�s psychometric VISION."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  FLASH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The picture is black and white, grainy like old film.  A YOUNG GIRL in \n  a WHITE GOWN walks slowly towards an open well. She places her hand on \n  the LIP of the well, peers curiously down."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  FLASH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa looks up, her eyes wide open."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  FLASH\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "There is now a second person in the vision, an ELDERLY MAN in an old-\n  fashioned tweed SUIT standing behind the young girl.  He suddenly \n  produces some BLADED OBJECT, and strikes the girl savagely across the \n  back of the head.  \n\n  The girl falls forward. The man drops to the ground, grabbing the girl \n  behind the knees and hoisting her limp BODY over the lip and into the \n  well.  The body falls into its depths.\n\n  Panting heavily, the man leans forward and grasps the lip of the well \n  with both hands, looking down.  He flashes a guilty look in either \n  direction, checking that his crime has gone unnoticed, and as he does \n  so Asakawa realizes that she knows this face.  The image from the \n  videotape, like a face in the moon: it had been Sadako inside the well, \n  looking up to see this man staring back down at her.\n\n  This man whose name is Professor Ikuma Heihachiro."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  FLASH\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Her own father!\n\n  The energy seems to drain out of Asakawa in a rush, and her body \n  crumbles.  Ryuji catches hold of her."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It was Ikuma who put this lid on.  \n\t\tAnd Sadako�s still inside.\n\n  Ryuji stands quickly, takes hold of the crowbar.  He inserts it under \n  the lid and begins trying to pry it off, face scrunched with effort.  \n  Asakawa digs her fingers in and lends her own strength as well. Slowly,\n  the lid begins to move.  Ryuji tosses the crowbar aside and the two \n  lean the combined weight of their bodies into it.  The lid slides off, \n  dropping to the earth with a dull THUD.  Ryuji sits to one side, winded \n  with effort, as Asakawa takes hold of the flashlight.  She shines it \n  down into the well, but it only seems to intensify the gloom. What \n  WATER she can see looks fetid and brackish.  Ryuji sees her expression \n  and begins removing his JACKET."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I�ll go.\n\n  He walks off, leaving Asakawa alone.\n\n  CUT to an overhead shot of the well.  A ROPE is fastened to one side, \n  and Ryuji has already begun lowering himself down.  His eyes wander \n  overthe grime-smeared WALLS, and with a shudder he begins to pick out \n  human FINGERNAILS.  Torn loose and spattered with blood, countless \n  fingernails line the sides of the well."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sadako was alive!  She�d tried to \n\t\tclimb her way out.\n\n  Ryuji�s face twists into a grimace as if momentarily experiencing \n  Sadako�sterrible agony.  He waits a moment longer before edging his \n  way down the rope again, finally SPLASHING to rest at the bottom of \n  the well.  He holds his flashlight above the brackish water, calls up \n  to Asakawa."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Lower the buckets!\n\n  Asakawa nods and lowers two plastic BUCKETS fastened to a rope.  Ryuji \n  grabs one and scoops up a bucketful of water, tugging on the rope when \n  finished."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Take it up!\n\n  Asakawa hoists the bucket up to the rim of the well.  She walks a small \n  distance and tosses the contents out onto the ground.  She happens to \n  glance through the wooden lattice to the outside, and with a start \n  realizes that the sun has already started to set.  A nervous glance at \n  her WATCH later and she is back at the well, lowering the empty bucket \n  to find another full one already awaiting her."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Take it up!\n\n  In the well, Ryuji glances at his watch.  He looks at it for a long \n  moment, the expression on his face saying We�re not going to make it.  \n  Time passes as Asakawa pulls up bucketload after bucketload, her \n  strength beginning to fade.  She half-stumbles, glances up... and is \n  shocked to realize that NIGHT has fallen.\n\n  CUT to Asakawa slowly pulling up yet another bucket, her strength \n  almost gone.  She looks at her watch and sees that it is now past \n  6:00.  She calls frantically down to Ryuji."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It�s already six!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(explosively) \n\t\tI know!  Hurry up and TAKE IT UP!!\n\n  The bucket slowly jerks into motion.  Asakawa pulls it up to the rim \n  of the well, holds it unsteadily.  She takes one faltering step and \n  falls, spilling the bucket�s contents onto the ground.  \n\n  CUT to Ryuji in the well, standing ready with another bucketful."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Take it up!\n\n  Nothing happens."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa!\n\n  The bucket begins moving, even slower than before.  CUT to Asakawa, \n  her body trembling with effort. By now it�s all she can do to simply \n  keep her body moving.  She glances behind her, sees through the wooden \n  lattice that it is now pitch black.  A look of resignation crosses her \n  face and she releases her hold on the bucket, her body crumpling and \n  falling in on itself."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "CUT to the bucket splashing back into the well, narrowly missing \n  Ryuji."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(fuming) \n\t\tWhat the hell are you doing?  Trying \n\t\tto get me killed?\n\n  CUT back to Asakawa, her face dead.  Ryuji calls out from the well."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI (O.S.) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey!\n\n  Asakawa falls backward onto the ground, arms splayed. CUT to the rim \n  of the well.  Ryuji pulls himself up over the rim, catches sight of \n  Asakawa."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa!\n\n  She lifts her head up but says nothing as Ryuji walks over to her."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We�ll change.  You�re in no condition \n\t\tto keep this up.\n\n  Asakawa suddenly springs into life.  Her voice is frantic, fearful."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA:\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Who do you expect to pull up these \n\t\tbuckets, then?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But, we don�t even know if it�s doing \n\t\tany good...\n\n  Ryuji strides forward and slaps Asakawa painfully across the cheek.  \n  He begins shaking her roughly for good measure."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And what about Yoichi, huh?  Is his\n\t\tmother not coming to pick him up \n\t\tafter all?\n\n  He releases his hold on her.  The two stare at each other a long time, \n  saying nothing."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "CUT to an overhead shot of Asakawa being lowered into the well. CUT \n  now to Asakawa inside the well, her face and clothes covered with \n  grime, body simultaneously limp with exhaustion and tense with fright.  \n  Unable to resist the impulse, Asakawa slowly looks over her shoulder \n  and down into the well.  The dankness, the claustrophobia seeps in \n  and she draws in her breath in the first signs of panic."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Don�t look down!\n\n  She returns her gaze, cranes her neck upward.  CUT to Ryuji leaning \n  over the rim of the well, peering down at her.  For an instant, \n  everything becomes monochrome. It�s not Ryuji looking down at her at \n  all; it�s Professor Ikuma, checking to see if she�s still alive or \n  if the blow to the back of her head has finished her off.  CUT to \n  Asakawa, her eyes wide with fright.\n\n  Asakawa comes to rest at the bottom of the well.  A FLASHLIGHT hangs \n  from another rope, but its beam has almost no effect on the darkness.  \n  Asakawa crouches forward, hands moving searchingly through the water.  \n  She calls out pleadingly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Where are you?  Please, come out.\n\n  Asakawa straightens, unties herself from the rope.  A full bucket \n  already awaits.  She tugs on the rope and Ryuji pulls it up.  \n\n  She scoops up a second bucket, but something stops her from sending \n  it up.  Instead, she begins running her arms through the water again, \n  her voice close to tears."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Please.  Where are you?\n\n  Asakawa continues her blind fumbling, which sends up little splashes \n  of stagnant water.  With a start, she realizes that her fingers have \n  caught something.  Seaweed?  Asakawa draws her hands close for a \n  better look... and sees that is HAIR.  A thick clump of long, black \n  hair.\n\n  Suddenly a pale, thin ARM shoots out from beneath the water, catching \n  Asakawa just below the wrist.  Asakawa�s ears are filled with a SOUND \n  like moaning as something slowly rises from its watery slumber.  It \n  is a GIRL, her face completely hidden by long, black hair.  CUT to a \n  shot of Asakawa�s face.  Far from being frightened, her features are \n  oddly placid.  She regards the fearsome thing before her with an \n  almost tender look.  Asakawa reaches out, lightly strokes that long \n  hair."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It�s you...\n\n  She strokes the hair again, and abruptly it peels right off the head \n  with a loud SQUELCH. Revealed is not a face at all but a SKULL.  Its \n  sockets are at first menacingly empty, but then begin to ooze the \n  green SLUDGE it has pulled up from the bottom of the well.  Like a \n  mother comforting a frightened child, Asakawa pulls the skeletal \n  remains to her breast, strokes the bony head comfortingly. Her eyes \n  begin to glaze.\n\n  CUT to Ryuji racing up to the rim of the well, leaning down intently."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey!  Asakawa!  It�s already 10 \n\t\tminutes past seven!  We did it!\n\n  Down in the well, Asakawa continues staring blankly ahead.  Her body \n  suddenly falls forward, limp."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. OUTSIDE COTTAGE B4 � NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Three POLICE CARS are parked outside the rental cottages, crimson \n  headlights flashing.   A few COPS walk by, two of them carrying \n  something off in white PLASTIC BAGS.  CUT to Ryuji and Asakawa \n  sitting on the curb.  Asakawa is staring off at something, a BLANKET \n  draped over her shoulder."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Why would Ikuma have killed her?  \n\t\tHis own daughter..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Maybe she wasn�t his daughter at all."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Maybe her father... wasn�t even human.\n\n  The two exchange glances.  Ryuji�s gaze falls to Asakawa�s WRIST, \n  which he suddenly takes and holds close to his face.  The ugly \n  bruise where Sadako had grabbed her has disappeared."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It�s gone...  \n\n  He shakes his head, clearing his analytical mind of their ordeal."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Enough, already.  It�s over.  C�mon.  \n\t\tI�ll take you home.\n\n  Ryuji stands, pulls Asakawa to her feet."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. OUTSIDE ASKAWA�S APARTMENT - NIGHT  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryuji�s white CAR pulls up into the parking lot.  He and Asakawa \n  get out, regard each other from opposite sides of the car. There is \n  a long moment where neither of them says anything."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Get some rest.  \n\n  He flashes her the slightest of grins. \n\n\t\t\t\tRYUJI (cont�d)\n\t\tI still have a thesis to finish. \n\n  CUT to a shot of Ryuji and Asakawa, the car creating an almost \n  metaphoric distance between them."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "...thank you.\n\n  Ryuji nods silently by way of reply.  He gets into his car and \n  drives off.  Asakawa watches him go, and then walks towards the \n  entrance of her apartment."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. ASAKAWA�S APARTMENT � BEDROOM � MORNING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa walks into her room, sits on the edge of her bed.  It is \n  now morning, and she sits dazedly watching the sun come up."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. RYUJI�S APARTMENT � MORNING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryuji sits busily scribbling into a NOTEBOOK.  He stops writing a \n  moment to regard his notes while taking a sip of COFFEE.  He \n  glances over at his BLACKBOARD for confirmation when a small scowl \n  crosses his brow.  It�s gone a moment later as he chuckles wryly \n  to himself."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That girl...\n\n  Ryuji stands, walks over to the blackboard.  He fixes Mai�s little \n  prank with a single chalk stroke."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. ASAKAWA�S APARTMENT � VERANDA � MORNING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa emerges, taking in the dawn.  At first her face is calm and \n  tranquil... but her features change as the sun almost noticeably \n  darkens and a WIND begins to kick up her hair.  She now looks very \n  anxious.\n\n  Caption-- �September 21st.  Tuesday.�\n\n\n  NOTE: This next scene is entirely visual.  If you are reading this \n  translation before watching the movie, do yourself a favor; STOP \n  reading this now and watch the scene for itself."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. RYUJI�S APARTMENT � MORNING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryuji is busy scribbling away at his notes again.  His hand suddenly \n  ceases, eyes dancing worriedly as he hears a faint...\n\n  No.\n\n  Breath rattling fearfully in his throat, Ryuji spins around to face \n  the TELEVISION SET.  He gets out of his seat for a better look, \n  falling to his knees on the tatami. \n\n  The image that fills the screen is the last scene from the videotape; \n  the shot of the well.  \n\n  The SOUND from before comes louder now, more insistent, a metallic \n  screeching that both repulses and beckons him closer. Ryuji crawls on \n  all fours towards the SCREEN, stares at its unchanging image with \n  terrible foreboding.\n\n  There is a flash of MOTION as something shoots out of the well. A \n  hand. First one, and then another, as Sadako, still in her grimy white \n  dress, face hidden beneath long, oily strands of hair, begins slowly \n  pulling herself out.  The television screen jumps unsteadily, fills \n  with static as if barely able to contain her image.  \n\n  CUT back and forth between Ryuji, who is beginning to visibly panic, \n  and the television, which shows Sadako lurching ever closer."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(almost frantic) \n\t\tWhy?!\n\n  The TELEPHONE rings, and Ryuji spins round towards it, breath catching \n  in his throat.  He looks at the phone, over his shoulder at the \n  television, back to the phone."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That�s it!  Asakawa...\n\n  Ryuji scrambles wildly towards the phone.  He takes the receiver but \n  is unable to do more than clutch it fearfully as his gaze is drawn \n  inexorably back to the television.  Sadako�s shrouded face has filled \n  the entire screen... and then, television popping and crackling, she \n  jerks forward and emerges from the television onto the floor of \n  Ryuji�s apartment.  Ryuji backs away, screaming in terror."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRYUJI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Aaargh!\n\n  Sadako lies prone, collapsed, hair splayed out like a drowned corpse.  \n  Only her FINGERS are active, crawling, feeling.  The TIPS of her \n  fingers are little more than bloodied stumps, not a single fingernail \n  on them.  She uses the strength in those fingers to pull herself \n  forward, coming jerkily to her feet.  The joints of her body twist \n  unnaturally, more insect-like than human.\n\n  Ryuji flings the phone aside and begins scrambling about the apartment \n  as if looking for cover.  The strength has already begun to fade from \n  his body, however, and his movements are clumsy, exaggerated. He falls \n  to the floor, panting heavily.  \n\n  Sadako turns to regard him, and for just an instant we can see beneath \n  her impenetrable shroud of hair; a single EYE burns with manic, \n  unbridled hatred.   \n\n  Its gaze meets Ryuji�s, and his face twists into a grimace as he \n  SCREAMS loudly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  FLASH\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. KOUJI�S HOUSE - FRONT YARD � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yoichi sits on the lawn, doodling into a large SKETCHPAD.  He \n  suddenly stops, eyes registering that he has somehow felt his father�s \n  death."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. ASAKAWA�S APARTMENT � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa clutches the RECEIVER to her ear.  She can still hear the \n  sounds of metallic SCREECHING coming from the video, though they are \n  now becoming softer."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. OUTSIDE RYUJI�S APARTMENT BUILDING � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa comes running down a side street, turning the corner and \n  making for the entrance to Ryuji�s apartment building.  There is a \n  single GUARD posted at the entrance. He reaches out, catches Asakawa \n  lightly by the arm."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGUARD\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Are you a resident here, ma�am?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I�m Takayama Ryuji�s wife!\n\n  The guard drops his hand, and Asakawa makes for the entrance."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGUARD\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I�m sorry ma�am, but they�ve already \n\t\ttaken the body away.\n\n  Asakawa�s spins around, eyes wide.  Body?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. HALLWAY OUTSIDE RYUJI�S APARTMENT � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mai is there, slumped against one wall. Asakawa comes running up, \n  dropping to her knees and grasping Mai by the shoulders."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What happened?\n\n  Mai shakes her head dreamily."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMAI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "When I got here he was just \n\t\tlying there..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\t\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Did he say anything to you?  About \n\t\ta videotape?\n\n  Mai shakes her head again, shakes it harder until the breath \n  catches in her throat."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMAI\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "His face...\n\n  Mai falls into silence, curls up on herself.  Asakawa leaves her \n  and crosses toward the door to Ryuji�s apartment."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. RYUJI�S APARTMENT - DAY  \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The front DOOR opens wildly, noisily forward.  Asakawa comes \n  rushing in, eyes darting about the apartment.  She thinks \n  frantically to herself."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryuji... why?  Does this mean that\n\t\tYoichi will die, too?  Is the curse \n\t\tnot broken yet?\n\n  Her gaze falls to the television set.  She dives forward, presses \n  the eject button on the VCR.  Sure enough, the TAPE is still in \n  the deck.  She takes the tape and leaves."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. ASAKAWA�S APARTMENT - LIVING ROOM � NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Asakawa walks slowly, dreamily forward.  She drops the videotape \n  loudly onto the coffee table and slouches into a CHAIR.  Her eyes \n  fall to the framed photographs of Yoichi on one of the shelves.  \n  This snaps Asakawa out of her daze and she begins whispering \n  intently to herself, thinking."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I was the only one to break \n\t\tSadako�s curse.  Ryuji... why...?  \n\t\tSomething I did that you didn�t...  \n\t\tSomething I did that you didn�t...  \n\n  Asakawa gives up, lowers her face into her hands.  When she looks \n  up again, she happens to glance at the television screen-- and \n  its GLARE reveals that there is someone ELSE in the room with her.  \n  It is the figure from the videotape, the silent accuser with the \n  cloth draped over its face.  With a start, Asakawa realizes that \n  the figure is wearing Ryuji�s clothes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ryuji?!\n\n  She spins around, but the room is empty.  Asakawa�s mind races.  \n  The figure had been pointing towards her BAG.  She stands, \n  rummages in her bag to produce her copy of the cursed videotape.  \n  She takes Ryuji�s COPY in her other hand, her eyes darting \n  between the two tapes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Something I did that you didn�t...\n\n  It suddenly clicks home as Asakawa looks full-on at Ryuji�s \n  version of the tape, plainly marked COPY."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What broke the curse was that I copied \n\t\tthe tape and showed it to someone else!\n\n  CUT to Asakawa slowly pulling her VCR from the television stand.  \n  A look of almost frightening resolve etches her face."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  EXT. HIGHWAY � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "ARIAL SHOT of Asakawa�s car.  We hear her VOICE on the cell \n  phone."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tASAKAWA (O.S.)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Dad?  It�s me.  I�m on my way over.\n  \t\tLook, dad, I�ve got something to ask. \n\t\tIt�s for Yoichi..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>  INT. ASAKAWA�S CAR � DAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "CLOSEUP on the VCR in the passenger side.  CUT to Asakawa at the \n  wheel as time spirals forward, the decisions of the present \n  already become rumor of the future."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGIRL A (VO) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They say there�s a way you can stay \n\t\talive after you watch the video.  \n\t\tYou�ve gotta make a copy of it, and \n\t\tshow it to somebody else inside a week."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGIRL B (VO) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But what about the person you show it \n\t\tto?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGIRL A (VO) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, then they make a copy and show it \n\t\tto somebody else.  Again, inside a week."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGIRL C (VO) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(laughing)\n\t\tThen there�s no end to it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tGIRL A (VO) \n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That�s just it.  There -is- no end.  But \n\t\tif it meant not dying... you�d do it, \n\t\twouldn�t you?\n\n  Asakawa�s eyes begin to well.  Her car speeds along the highway, \n  to the direction of menacing-looking STORM CLOUDS.\n\n  Caption-- �September 22nd.  Wednesday.�\n\n\n\n\n                      FADE TO BLACK as the CAPTION turns blood red."
+    }
+  ]
+}

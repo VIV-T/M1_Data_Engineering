@@ -1,0 +1,7615 @@
+{
+  "elements": [
+    {
+      "type": "text",
+      "content": "Big"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 1\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You are standing in the cavern of the evil wizard.  All around you are \nthe carcasses of slain ice dwarfs...Melt the wizard.  What do you want \nto melt him with?  What do you think I want to melt him with...(Josh, \ndon't forget to take out the garbage)  Just a second!  Throw \nthe...(Josh, did you hear what your mother said?)  One minute!  (Josh \nBaskin!)  Your hesitancy has cost you dearly.  The wizard, sensing your \napprehension, unleashes a fatal blow from the ice scepter.  With luck, \nyou will thaw in several million years.  Great."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "C'mon Josh, it's starting to get awfully late!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Okay. Okay. Okay."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 2\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Take the garbage out.  Every day, take the garbage out...Rick Rodin is \non the mound for the Yankees!  He looks into the catcher's mitt, shakes \noff the first signal, takes the turn, wipes the sweat off his brow, \nleans back and fires..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah!  Good-bye Mr. Spaulding!  ...Here, here!  Quick!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 3\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Got it.  Need it.  Need it.  Got it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey.  Hey.  Hey!  You ever go by Simpson's desk when she's grading \npapers or somethin'?  When she's leaned over, you can see right down \nher shirt."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Swear to God."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Bra?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No.  No.  She's got one of those undershirt things.  So if you get real \nclose to the board, you can see all the way down to her flowers."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Woah!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah.  Give me your gum."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Need it.  Got it.  Got it.  Need it..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey.  Hey.  Hey!  Oh my God, it's Cynthia!  How did a geek like Freddy \nBenson get a sister like that?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Beats me."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CYNTHIA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hi Josh."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hi!...He says hi!...Unbelievable!  God!  She likes you!  I know she \nlikes you!  I'll find out, okay!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 4\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY &amp;\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Shimmy, shimmy cocoa pop!  Shimmy, shimmy rock!  Shimmy, shimmy cocoa \npop!  Shimmy, shimmy rock!  I met a girlfriend a triscuit!  She said, a \ntriscuit a biscuit!  Ice cream, soda pop, vanilla on the top!  Ooh, \nShelly's out, walking down the street, ten times a week!  I read it!  I \nsaid it!  I stole my momma's credit!  I'm cool!  I'm hot!  Sock me in \nthe stomach three more times!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Don't forget to call me after supper."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Okay."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Remember about Cynthia!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Don't worry!  I'm as interested as you are."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 5\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So, will you tell me?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You're in!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What do you mean, I'm in?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Cynthia Benson!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What about her?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You ready for this?  She doesn't like Barry anymore!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So what do you mean so?!  That's it!  She's available!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Josh...?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It doesn't mean..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey, it's after midnight.  Now say goodnight to Billy."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Goodnight Billy.  I've gotta go."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Goodnight Mrs. Baskin!  Sweet dreams."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 6\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DAD\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Are you sure you want to go on this thing, Son?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Nah!  Nah!  I don't know about this one, Bob.  No, this looks too \nscary."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DAD\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's okay."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh my gosh!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "See, I told you he doesn't want to go on it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DAD\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Son, you know, you don't have to go on this thing if you don't feel \nlike it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No!  No!  It's just that I...I want to go on it myself."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You do?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah.  I think it's something...yeah, I think it's something I should \ndo."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DAD\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Great!  Why don't we meet you at the ferris wheel."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Half hour."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 7\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CYNTHIA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Josh?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, hi!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CYNTHIA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hi!  Have you been on this before?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CYNTHIA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CYNTHIA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Is it scary?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CYNTHIA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Are you here alone?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CYNTHIA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Look.  Aren't those your parents?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Where?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Honey!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CYNTHIA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Right over there."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Smile!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Why, yes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DARIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey, who's this?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CYNTHIA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is Josh Baskin."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DARIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How ya doin'?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CYNTHIA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is Darin.  He drives."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Next!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DARIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Go ahead."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yo next!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DARIN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Go ahead!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yo next!  Woah!  Read this sign.  You must be at least this big to ride \nthis ride!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CYNTHIA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey, I don't make the rules here.  Next!  Next!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CYNTHIA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, it's a stupid rule."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Look, why don't you try the kiddy ride?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 8\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Drop twenty-five cents here.  C'mon!  C'mon!  C'mon!  ...Neat!  ...Make \nmy wish....I wish I were big....Your wish is granted."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 9\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Josh!  Josh!  Josh!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's seven-thirty.  Are you up?  ...Come on Sleepy Head!  You're going \nto miss the bus and I can't drive you today! ...What does he do in his \nsleep?  ...Honey?  I put out some clean clothes.  Bring down your \ndungarees and stuff for the laundry, okay?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Okay."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Are you getting a cold, Josh?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No!  Fine!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He's got a cold.  Then Rachel's gonna get a cold and I'm gonna get a \ncold..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh my God."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Breakfast is ready, Josh!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Be right there!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Josh!  Hurry up!  Your eggs are getting cold!  ...Bring down Rachel \nwith you, all right?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Okay!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You want orange juice or...What about your breakfast?!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 10\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, you...don't!  Don't!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm sorry! ...Mom, it's me.  It's Josh.  Mom, I'm a grown up!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Stop it!  Oh God!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I made a wish last night...I turned into a grown up, Mom!  I made this \nwish on a machine..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Go away!  Go away!  Please!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "...and it turned me into a grown up!  It was last night at the \ncarnival!  My birthday is November 3rd...I got a B on my history test!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Here's my purse!  You can have anything that's in it!  Go away!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "My, my, my baseball team is called the Dukes!  Uh, I made this for you!   \nWho are you calling?  Ah!  I have a birthmark behind my left knee!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You bastard!  What did you do to my son?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I am your son, Mom!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Where is my child?!  Where is my son?!  Police!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 11\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>COACH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Heads up!  Heads up out there!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm open!  Here!  I'm open!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>COACH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I want you to gather up these balls, go to the locker room and get on \nto your next class!  Wash shirts and shorts!  Billy.  Do us both a \nfavor.  Put the balls in the equipment closet and you practice your lay \nup."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 12\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Billy."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah?  What?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's me.  It's Josh!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Coach Burns!  Coach Burns!  Coach Burns!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Wait a minute!  Shut up!  Shut up!  I'm your best friend, you've gotta \nbelieve me!  I'll prove it to you!  Billy, please!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Help!  Help!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "God damn it Billy Kopecky!  Look, I know that I don't look like myself, \nokay!  But something really strange happened and I'm really scared and \nI need your help!  You're my best friend!  I can prove it to you!  \n...Ooh!  The spades go, Down!  Down! Baby!  Down!  Down the roller \ncoaster!  Sweet, sweet baby!  Sweet, sweet delectable!  Shimmy, shimmy \ncocoa pop!  Shimmy, shimmy rock!  Shimmy, shimmy cocoa pop!  Shimmy, \nshimmy rock!  I met a girlfriend a triscuit!  She said a triscuit a \nbiscuit!  Ice cream, soda pop, vanilla on the top!  Ooh Shelly, walking \ndown the street, ten times a week!  I met it!  I said it!  I stole my \nmother's credit!  I'm cool!  I'm hot!  Sock me in the stomach three \nmore times!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Josh?  You look terrible."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I know."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 13\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>POLICE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That's right.  We're at the scene right now.  Well, she's pretty upset \nand she's not making any sense at all.  There's no ransom note, no \nprints, there's no nothin.'  Tell you what, file a report and to be on \nthe safe side..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>KID#1\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I bet he ran away.  Wish I could."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>KID#2\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Want me to pack your bags?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 14\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We go to the city, we lay low for a couple of days, find that Zoltar \nMachine, make your wish...you'll be home by Thursday!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, I'm not supposed to go to New York without my folks!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "C'mon!  You'll be fine!  ...Here."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Where did you get this?!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "From my Dad's top drawer!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You stole it?!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's his emergency fund!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jesus Billy!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well what do you call this?!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 15\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You lookin' for some fun tonight sweet thing?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, thank you."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey man, can you spare some change?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, not really."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey, this looks okay."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No it doesn't."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Saint James, Josh, it's religious."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 16\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hi."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hi."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Burp!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Uh, we would like a hotel room, please."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "$17.50 a night for the room, $10.00 deposit for the sheets....You go \nstraight to the top of the stairs.  It's the last door on the right.  \nNext to the bathroom.  Wait a second, I'll show you."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 17\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It smells bad."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Shh!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Have a pleasant stay....Hey Angel!  Get out of that bathroom now!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I don't want to stay here by myself."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I can't help it Josh.  I've gotta be home by ten.  Look, I'll cut \nclasses tomorrow and we'll find that Zoltar thing before you know it, \nokay?  It's just one night.  All right?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "All right."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Good."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What if I can't sleep?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's probably better if you don't.  See you in the morning."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, you mean like what time?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "8:30.  I'd use the chain if I were you."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mom...Mom...."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 18\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I told you, it's not a video game."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, what is it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, it's not a video game."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This one's got a number on it.  Does yours?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No.  Oh wait, here's one."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey, what are doing?  What are doing?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Do you have Zoltar?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No.  I told you, I looked back in the back.  I've got Powerhouse, I've \ngot ..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We really need Zoltar."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, I haven't got it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 19\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They aren't going to have it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They'll have it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Can I help you?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes.  We would like a list of all carnivals and fairs."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And arcades."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Carnivals and fairs...Try Consumer Affairs, down the hall, room 111."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Thank you."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 20\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Fill this out in triplicate.  $5.00 filing charge."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "See."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "One month to process.  You get in six weeks."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Six weeks?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sometimes longer, but, you could get lucky....Next please!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 21\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm gonna be thirty years old for the rest of my life."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Would you come on.  We'll figure something out.  By the way, you may be \nolder than that!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So now what?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'll come and see you everyday after school."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'll tell them I made the basketball team."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I won't have anything to do."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You can get a job."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I can't get a job."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Why?  It can't be any different than school.  What are you good at?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I don't know.  Making spit balls?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 22\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How about a delivery man?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I don't know how drive."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh yeah, right...Cardiological technician, civil engineer..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You gonna eat your cherry?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Go ahead....Clerical transcriber..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Billy?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah....Gross.  God, that's gross!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey, go on to the next column."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Collection agent, company clerk, computer operator, construction \nengineer..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Computer operator?  Computer operator, read that one."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Josh, would you quit with your stupid computers!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Just read it!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Macmillan Toys...toys!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Toys!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 23\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Macmillan Toys, may I help you?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Okay, what's next?  There."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Previous employment."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Your paper route."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I can't put that."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Paper route circulation?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What's he got?  Hey, don't worry about it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Social Security number?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>32-17-25.\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What is that?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "My locker combination."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Great!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mr. Baskin.  Mr. Baskin?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes.  Yes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The Personnel Director will see you now....Uh, you son can wait out \nhere."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah, okay.  Son, you should sit down and don't give the lady any \ntrouble now."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sure Dad!  ...Don't forget--look him in the eye!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 24\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Couple of numbers missing on your Social Security."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, uh twelve."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "One two.  Says here you've got four years experience."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "All on computers?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Where did you go to school?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It was called George Washington."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, G.W.  My brother-in-law got his doctorate there.  Did you pledge?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes.  Every morning."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It happened again!  David, the girl is absolutely useless!  You've got \nto get me someone who knows what she is doing!  Excuse me.  I'm not \ngetting any of my mail, nothing has been filed!  Ever since she got \nengaged, my life has been a disaster!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You know, she came so highly recommended."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "She spent the last three months writing down her married name.  Mrs. \nJudy Hicks.  Mrs. Donald Hicks.  Mrs. Judy Mitchleson Hicks.  Sometimes \nwith a hyphen, sometimes without a hyphen.  Sometimes she spells the \nhyphen!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, I really don't know where I can put her."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Put her on unemployment!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "When can you start?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Soon."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 25\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I thought we'd start you out with preschoolers.  Should take you a few \ndays.  Give you a chance to find your way around.  Do you smoke?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, uh, just once, but..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Only on breaks in the coffee room....Most of that is pretty straight \nforward stuff.  If you have any questions, come to me.  Good luck."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Bye!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 26\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCOTT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Psst!  Psst!  Hey!  Hey!  I'm Scott Brennan."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Uh, I'm Josh Baskin."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCOTT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Listen, what are you trying to do?  Get us all fired?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Huh?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCOTT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You've gotta slow down.  Pace yourself.  Slowly!  Slowly!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sorry.  Today's my first day."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCOTT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I know!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So how long have you worked here?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCOTT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Five years.  Work stinks but the fringe benefits are great!  See that \ngirl over there in the red?  Say hi to her and she'll be yours.  She'll \nwrap her legs around you so tight you'll be begging for mercy!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, I'll stay away from her then!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCOTT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Excuse me.  Yeah Brennan.  I gave it to you yesterday!  Oh, here it is.  \nI don't have time to xerox it.  Let the new guy do it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 27\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That's total bullshit Paul!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Look sir, the favorability rate is..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Come on!  Let's not lie to ourselves!  If a kid likes a toy it sells.  \nThat's all!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But every bit of research and focus testing..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It works with research, it works with focus testing, it just doesn't \nwork with the kids!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sorry!  I'm sorry!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Why don't you watch where the hell you're going!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Are you okay!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm fine."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You could kill somebody running around here like that!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's all right Paul.  The boss should get knocked on his ass once in a \nwhile.  It's good for him."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I don't know sir, maybe you should see a doctor."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "For crying out loud Paul, I'm fine!  I'm fine!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sorry sir!  Sorry!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Where were you going anyway, son?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Uh, I was going to the xerox room because they needed these by 5:00."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, that's good!  Nothing wrong with a little hustle.  Nothing at all!  \nRight Paul?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What does he mean?  I hustle!  Uh sir!  Sir!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 28\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hello?  ...Hello?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hello.  Mrs. Baskin?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How are you?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Who is this?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I just wanted you to know that Josh is all right.  He's okay."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You have my boy?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah.  And you're gonna get him back, just the way he was."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Look, I swear to God--If you do anything to him, if you touch one hair \non his head, I will spend the rest of my life making sure you suffer!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Wow!  Thanks!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Let me talk to Josh!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, he can't come to the phone right now."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Why not?  Why not?  What did you do to him?!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I didn't do anything to him!  I think he's a terrific kid!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I want proof that he's all right!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Uh, well, all right.  Ask me something that only he would know.  Then \nI'll ask him for you and that way you'll know that he's okay."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ask him what I used to sing to him when he was a little boy."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Isn't there something else that you would rather ask him?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ask him!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, I got it!  I got it!  Memories, like the corner of my mind.  Misty \nwater color memories, of the way we were.  Scattered pictures...Look, \nyou're gonna see him again really soon.  I promise.  I cross my heart.  \nWe'll talk about this later."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 29\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Harris!  Brennan!  Baskin!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What is this?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCOTT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Pay day."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "$187.00?!  Ha!  Ha!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCOTT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah.  They really screw you, don't they?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 30\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hi."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hi.  Okay, so how would you like that?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Three dimes, a hundred dollar bill, and eighty seven ones."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "One, two, three..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 31\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm never eating again."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It wasn't that bad."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It was the boat ride that did it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, it was the pork rinds."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Pork rinds!  Aghh!  We sure had fun, didn't we?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah, we sure did."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 32\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BOY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Got you!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What's your name?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BOY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jordan, what's yours?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mine's Josh."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BOY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm gonna blow you away Josh!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But I just got you!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BOY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No way!  Get back here!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 33\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You work for me, don't you?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I thought so.  What, are you here with your kids?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No.  I was just looking around."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh.  Me too.  I come here every Saturday.  Can't see this on a \nmarketing report."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What's a marketing report?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Exactly.  Come on.  What do you think of that?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The Championship Hockey?  Oh, I love it.  Only the..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Only what?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, the pieces don't move."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What do you mean?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, on the old set you could slide the men up and down the ice, and \nnow all they do is spin around.  It was more like real hockey the old \nway.  Why did they change it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I don't know."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You see, the Star Fighters are good because you can change all the \npieces.  But I never liked the Galactakons.  You only get one robot, \nand they don't come with a vehicle."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I see."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Plus you can't take them underwater.  And if you do they...Neat!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Okay, let's check out the...Piano lessons?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Three years."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Me too.  Everyday, after school....Chopsticks....What department did \nyou say you were in?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, I'm in computers."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Computers?  You just saved me a trip to the gym Son."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 34\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Vice President in charge of Product Development."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Vice President!  He's only been here a week!  Vice President?!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And he came from data processing!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He's out of his mind!  The old man has finally lost it!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Did you know they gave him Bob's old office?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Bob's office?!  Bob's office is bigger than my office!  There's got to \nbe a reason.  Things like this don't happen unless there's a reason."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 35\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That means if the president dies you get to take over?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No. No.  They got a hundred of them.  Are we ready?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes Mr. Baskin."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Come on in."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Look at this place!  It's bigger than the principal's office!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How would you know?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Remember that explosion in science?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh yes!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Truck-a-Killer!  $59.95?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You know that only costs 10 bucks to make."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Get out of here! ...What is this?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, well, this is just...They just put this in here...it doesn't mean \nanything."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So what do they make you do for all this?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, I play with all of this stuff and then, I go in there and tell \nthem what I think."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That's it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And they pay you for that?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Suckers!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, thank you Miss Patterson.  Hey!  Miss Patterson.  Could you call \ndown to Media and have them send up a video tape of the Giants Broncos \nSuper Bowl?  And have them edit out all the commercials and talkin' and \nstuff?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes Mr. Baskin."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Miss Patterson."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You're the luckiest guy I know."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 36\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Did you check Mattel?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Nothing."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Colleco?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Zero."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He can't come from nowhere Susan.  He has to come from somewhere.  How \nabout Hasbro?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes.  And Fisher Price and Worlds of Wonder.  I have called everywhere.  \nNobody's ever heard of him!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Great!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Face it Paul.  The guy comes from data processing."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Terrific.  That is just terrific!  This is just terrific!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You're being paranoid Paul."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 37\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "These tests were conducted over a six month period using a double-blind \nformat of eight over-lapping demographic groups.  Every region of the \ncountry was sampled, the focus testing showed a solid base in the 9 to \n11-year old bracket--with a possible carry-over into the 12-year olds.  \nWhen you consider that Nobots and Transformers pull over 37 percent \nmarket share, and that we are targeting the same area, I think that we \nshould see one quarter of that and that is one fifth of the total \nrevenue from all of last year.  Any questions?  Yes?  Yes?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I don't get it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What exactly don't you get?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It turns from a building into a robot, right?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Precisely."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, what's fun about that?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, if you had read your industry breakdown, you would see that our \nsuccess in the action figure area has climbed from 27 percent to 45 \npercent in the last two years.  There, that might help."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I still don't get it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What?!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What don't you get Josh?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, there's a million robots that turn into something.  And this is a \nbuilding that turns into a robot.  So what's so fun about playing with \na building?  That's not any fun!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is a skyscraper."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, couldn't it be like a robot that turns into something like a bug \nor something?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A bug?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah!  Like a big prehistoric insect with maybe like giant claws that \ncould pick up a car and crush it like that!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A prehistoric transformer?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Interesting."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Gentlemen!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So the robot turns into a bug."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ah, gentlemen, listen..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Listen to him.  He's got a very good idea here.  The robot turns into a \nbug."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is a great idea!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Different sizes and things.  And...you could have them wreck \nsomething..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A lady bug.  Transformers for girls!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is a bug that moves....It's got all kinds of possibilities."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This doesn't just happen.  This doesn't happen.  You don't just come to \na meeting and say \"bugs.\""
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I, uh...."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well done, Josh.  Well done."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 38\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ho! Ho! Ho!  He is vicious!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He's not vicious."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, come on Susan, don't kid yourself.  That man is a killer!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "All he said was \"I don't get it.\""
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I don't get it!  I don't get!  I don't get!  He's going for the throat, \ntrying to eviscerate me!  Did you see the look on Macmillan's face?!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mmm Hmm."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 39\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>REALTOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's quite a unique space.  The lines are so clean and you don't get \nany of that partition quality.  It has 50-foot ceilings, all hardwood \nfloors, ample closet space, a modern kitchen, a brand new bathroom with \na jet stream jacuzzi."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We'll take it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 40\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Baskin.  Rental delivery!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Dear Mom and Dad.  They said that I could write you and let you know I \nwas okay.  So far, they're treating me fine.  I've got enough to eat \nand I'm perfectly safe.  They say that I'll get out of here in about a \nmonth.  In the mean time, it's a lot like camp!  I watch TV and even \nget outside once in a while.  I know you miss me.  But try not to \nworry.  I think this experience might even be good for me.  I love you \nvery much and I know that I'll see you soon.  Your son, Joshua.  P.S.  \nGive Rachel a kiss from her big brother."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 41\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's very beautiful and I'm having a lovely time."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm glad Miss Patterson."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's much better than last year.  I just wanted to tell you that."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'll have another scotch....Susan."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Love your tux."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I think it's the same as the maitre's."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Have you decided what you're doing on the Danberry line?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, I haven't."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, uh, I think if you got everyone's input up front, I mean right \nfrom the beginning...."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Susan, have a drink."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Have a couple drinks.  It's a party."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 42\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Josh!  Glad you could make it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Bet he gets another raise."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Now that's what I call a tuxedo."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I rented it.  This is a real bow tie though.  I tied it myself.  And \nthat's why I was late."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, you're not late at all.  Come on, let me show you around."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey, there's Miss Patterson!  Hi!  There's the guy from the meeting!  \nHi!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 43\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The guy's a damn knock-off artist."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What do you mean?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The Amphibian?  He takes 10,000 G. I. Joes, slaps some gills on them, \nwebs their feet, and packages them in seaweed....So I show him the \nschedule and he says, \"It's not correct accounting procedure!\"  Give me \na goddamn break!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But the toy sold Paul."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Excuse me."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 44\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hi."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hi."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "All the same people having all the same discussion.  It's like they \ncloned some party in 1983 and kept spinning it out again and again and \nagain.  I loved your ideas on the Squeezy Doll line."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Thanks."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They were so, incisive.  It's Beluga.  Macmillan orders it every \nyear....You all right?  You okay?  You want a glass of water?  You want \nsomething to drink?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Could I have a milkshake or something?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I've got a car outside.  You want to get out of here?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Uh Huh."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Let's go."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 45\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm not really a big one for parties.  You know, I like things that are \na little more intimate."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Wow!  Is this your car?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, it's the company's car."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, this is the coolest thing I've ever seen!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I mean, just seeing someone in the office, you don't really get a \nchance to know them.  I mean, just being with you here tonight, I \nreally get a sense of who you are."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Are you gonna eat these fries?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No. No...."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey mister?  You want some of these fries?  We're not going to eat \nthem."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>DRIVER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, thank you."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You see, it's hard in a business situation...I mean there's this \ninvisible line and even you're attracted to someone...What, are you \ngoing to call someone before...?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Uh, I mean at this point in my life I...Don't...Don't play with the \nradio...Leave the uh...Don't...I'm really vulnerable right now!  You \nknow...I mean, I love my job and I...."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ejector seat!  This is great!  Hey!  Come on up!  Hey, that was my \napartment."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Really?  I'd love to see where you live."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 46\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So have you always lived alone?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, not always."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ah.  Is it just recently or...?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Give yourself a couple of days, it'll pass."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, they said it was gonna take six weeks."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, it can be painful but, that's what they invented Xanax for, \nright?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Watch your step."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm not sure we should do this yet."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Do what?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, I mean I like you and I want to spend the night with you...."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Do you mean sleep over?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well,...yeah!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Okay!  But I get to be on top!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 47\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You live here?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah.  It's nice, isn't it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You uh, want a soda?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Huh?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Soda?  You want one?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah, sure."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They rigged this up so you don't need any quarters....Don't!  Don't...!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The glue's not dry.  Sorry."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sorry."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's okay....You wanna play pinball?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You don't need quarters for this either.  It's free."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, thank you."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Okay."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Is that a trampoline?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah.  You wanna try it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You should.  It's really fun.  It's simple, too.  Come on!  Come on!  \nYou'll like it and it's really easy to do."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, I don't think..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm serious..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Do have some wine?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Take off your shoes...It's really easy....Let me get rid of these \nballs."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, I'm...I'm...I'll watch."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Come on.  It's fun.  I'll do it with you.  Up you go.  Excellent."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Help me up?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sure."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Okay."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Okay.  Jump."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You want me to jump?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "There.  Now can we have a drink?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No!  No!  No!  I mean really jump.  Now get some air between you and \nthe trampoline."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "There."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, come on!  I'll do it with you!  All right?  I'll show you how to do \nit.  You ready?  Come on.  Jump.  See?  There it is.  That's all there \nis to it.  There you go.  There you go.  Yeah!  It's easy!  Anybody \ncould do this!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 48\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Here.  Pick one....It's for you.  It's a glow in the dark compass \nring...so you won't get lost....Goodnight."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 49\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Did you have fun last night?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sure.  Yeah."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah...You left pretty quick."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I gave him a ride home Paul."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, did he enjoy it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Don't be ridiculous."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ah, that's me, Mr. Ridiculous.  Just a silly old guy."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I don't feel like going out tonight."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What do you mean?  They're your friends....Come on!  Leave it!  Leave \nit!  Would you quit it!  Do you have to play with everything?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 50\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Baskin?  Baskin!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Wouldn't you rather play basketball?  I know how to play that.  We \ncould be like a team for the Macmillan Company."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm not very good at sports, but I'll give it a try.  My best sport is \nvideo hockey."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That isn't a sport."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, it takes eye to hand coordination."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's not a sport if you don't sweat!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What about golf?  You don't sweat and that's a sport."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah, and you're not sittin' there letting some machine do all the \nwork!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What about car racing?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Aw shut up Baskin!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What are the rules again?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I told you.  Over the line to serve.  Yellow is out of bounds.  Play to \n21--ready?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sorry.  Sorry."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "One nothing.  Come on!  Get it!  Get it!  Get it!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Okay."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Thatta boy!  Okay, you ready?  All right....Ho ho!  Nice try!  That was \nin!  Two zip.  Just made it.  Two zip.  Ready?  Okay!  Here we \ngo!...19/18."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Uh, that was under the line."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That was under the line.  You said it had to be over the line on a \nserve."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No I didn't."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah you did!  You said it had to be over the line on a serve!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No I did not, now give me the goddamn ball!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well that's cheating!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Give me the goddamn ball, will ya!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Give me the ball you little shit!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's my serve."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Give me the ball!  Give me the goddamn ball!  I never said that!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes you did."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Give me the...Give me the ball!  Give me the ball!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Cheater!  You cheat!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I did not cheat!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You cheat!  You cheat!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Give me the ball!  Give me the ball!  Give me it!  Give me the ball!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 51\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He didn't have to punch me."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I know.  He's scared of you.  You don't play his game."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I tried to play his game.  He beat me up.  If he's scared of me then \nwhy did he punch me?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He punched you because he's scared of you."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I don't get it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's just the way he is.  Everything is a fight with him.  Everyone's \nan enemy.  It's not just a job for him, it's a war."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well how come you're so nice?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, you work just as hard as he does and you're not like that."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You don't...you don't know me that well."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes I do.  You're one of the nicest people I've met."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How do you do it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 52\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What's this?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What does it look like?!  Shampoo, razor, toothpaste, two neckties and \nyour exercise tape!  Oh, and I want my keys back!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sure.  It's just some scratches.  He'll get over it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, it has nothing to do with him."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh come on Susan!  He's just another link in the chain!  First it was \nTom Caulfield, then Handlen.  Then Golding, then me!  Am I missing \nsomebody?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's not like that anymore!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What is so special about Baskin?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He's a grown up!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Susan."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I can't believe you brought up Golding."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 53\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And many more!  What are you going to wish for this time?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 54\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I know what we can do!  We can go out and get some beers, some dirty \nmagazines and go back..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Uh, I can't Billy."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What you mean you can't?  Of course you can!  It's your birthday!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, I can't...I have to go somewhere."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Where?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Um...well, I have to go meet somebody and..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So, you got all night!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah I know, but it's just...well I can't right now okay, but I'll call \nyou, all right?  Okay?  I'll give you a call.  Thanks again Billy, it \nwas fun!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 55\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hi....Do you want to come in?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sure."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sit down....Want to go?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah!  Yeah!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 56\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Want to go again?!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 57\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So they have these cars that you can actually drive them except they're \non this rail so you can't get off the road...You have a really big gob \nof mustard right, right..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mustard right...."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Where?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Right there."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Is it gone?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well,...."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Is that...gone?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Listen."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What?  Music?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Wanna dance?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Dance?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well we don't have to if you don't want to."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Okay.  Okay."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "All right."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Okay....Are you cold?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mm Mm."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We could get some hot chocolate....You can wear my jacket if you want."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 58\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, I haven't done this in a long time....What were you like when you \nwere younger?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, I wasn't much different."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I believe that about you....I've been thinking about you a lot....It's \ncrazy....In my car, lying in bed....I've just never gone out with \nsomeone like you....With all the other men there was so much to \nhide....I feel like I can tell you anything."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Susan?  There's something I think I should tell you."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 59\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You want the light on?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 60\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey Frank, how are you?  Good morning everybody!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Good morning Sir."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'd like some coffee please Miss Patterson."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But you don't drink coffee."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And uh, make it black."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 61\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You know, you two should come to Vermont.  It is so pretty up there."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Did anyone happen to see that great documentary about Columbus on PBS \nthe other night?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Uh, no.  Was it good?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I had no idea he had a fourth ship."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah, the Santa Christina."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That's right."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He only had that on his second trip, though."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You saw it, too."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, but I used to study...stuff."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Really?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BOY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Dad, I need some help."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "All right, but not now Adam."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BOY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah, but Dad you said..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Adam we have guests."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He's had the roughest time with algebra.  We've tried tutors, \neverything."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Algebra?  I used to study that, too."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 62\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "All right, let's say Larry Bird is going to score 10 points in the \nfirst quarter."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BOY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Okay?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How many is he going to score in the whole game?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BOY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That's easy, that's 40 points."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Probably.  Okay.  And that's algebra."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BOY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Right!  It is?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah!  See.  Okay.  One quarter is to ten points that he scores in that \nquarter.  Just as four...."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You're right.  He's wonderful!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I know."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 63\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Department of Consumer Affairs?  Yeah Buddy it came!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 64\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He's never done this before."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Kind of like a sweepstakes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Get the Art Department on the phone.  Get them!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Send out for some sandwiches."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Maybe next year, all right?  Next year."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 65\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You can do it.  I know you can!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I cannot plan a whole line!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Why?  Nobody knows more about toys in the entire company!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Susan, doing that means marketing and strategy and stuff like that!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "All he wants is a proposal!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I can't!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Look, you come up with the ideas and I'll handle the marketing."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But it's...."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Come on.  It'll be neat."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "All right...I don't know...I don't have any new ideas for toys or \nanything."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You've got great ideas!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 66\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah, well tell him I called again.  Kopecky!  K-O-P...Yeah \nright...well tell him it's important!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 67\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You see it won't be like these where you just follow the story along.  \nYou would actually make a whole different story appear just by pressing \nthese buttons."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "An electronic comic book?  That's amazing!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah.  An electric comic book.  It's gonna be different every time."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is incredible.  You're brilliant--you know that?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "If you like one you could see it, you know, over and over and over \nagain."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You're wonderful."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You really like it?...You think Mac will like it?  You know, what we \ncould do...We could do like sports comics...or like if you're going to \nsteal second or something like that...You'd have sports \nbooks...baseball, football...really, it work with almost any sport \nthere is.  Hockey!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What...What is it we're doing?  ...What's going on here?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You know, we're....Is something wrong?  You don't like it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No!  No!  It's...I mean if it's an affair, that's one thing.  But if \nit's something else...I mean, not that we have to know right now, we \ndon't...but if we think that it could turn into something \nelse...well....How do you feel about all of this?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How do I feel about what?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How do you feel about me?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What is that supposed to mean?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 68\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, Wednesday would be better than Thursday..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mr. Baskin can't be disturbed!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah, I have the Keating example right here..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Where've you been?  I've been trying to reach you forever!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Shh!  I'm right in the middle of something okay?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That's the list.  All you've got to do is call!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Can you give me just a minute, please?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What are you talking about?  This is the list!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Would you come back at lunch?  All right, I'm a little bit busy right \nnow...Hello?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Busy?!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Billy!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Are you out of your mind?!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jesus, Billy!  Miss Patterson, could you get them on the phone \nagain...."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is the list we've been waiting for!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I've got work to do!  Can't you understand that?  I've got a deadline \nto meet.  God!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Who the fuck do you think you are?!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey, you're Josh Baskin!  Remember?  You broke your arm on my roof!  \nYou hid in my basement when Robert Diceman was about to rip your head \noff!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You don't get it, do you?  This is important!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm your best friend.  What's more important than that, huh?  I'm three \nmonths older than you are--asshole!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 69\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You are standing in the cavern of the evil wizard.  All around you are \nthe carcasses of slain ice dwarfs....Melt wizard....What do you want to \nmelt him with?  ...Throw thermal pod."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Josh, what's wrong?  What is it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I haven't told you something because if I did, I didn't think you'd \nbelieve me.  And even if you did believe me, I didn't think you were \ngoing to like me anymore, so...."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh, Honey, come here.  You can tell me anything.  What?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Susan, I'm not what you think I am."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What do you mean?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Before I met you I was in little league.  I was in little league and I \nrode my bike to school and I played with my friends and hung out with \nthem and...."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Josh.  Josh.  What are you talking about?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I want to go home.  I miss my family Susan and I want to go home."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh my God!  You're married!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No!  No!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I knew that this was too good to be true!  I knew that there had to be \nsomething!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No.  No.  Susan, I'm not married."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You're not?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No.  I'm a child!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm a child Susan, and I'm not ready for all this."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh that's fine.  That is just great!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, you see what happened...."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No.  I understand.  I'm not ready to make a commitment!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No!  No!  No!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm not ready to accept responsibility!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No!  You don't understand!  I mean, I'm thirteen years old!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh!  And who isn't?  You think that there isn't a frightened kid inside \nof me, too!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No!  I mean I really am thirteen!  I went to bed one night and I was a \nkid, and when I woke up the next morning I was a grown up."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh right!  And just yesterday I was a school girl with pigtails!  Why \nare you doing this Josh?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "There was this carnival in New Jersey.  I made a wish on this machine.  \nIt was called a Zoltar Machine..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh stop it!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It was called a Zoltar Machine!  It had this bobbing head that looked \njust like a devil and if you got a quarter in the devil's mouth you \ncould make a wish and I did!  So I made a wish to be big!  That is what \nI'm trying to tell you!  I changed into a grown up but I'm really just \na kid!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Fine Josh!  You're a kid!  Look, I really don't know what it is that \nyou're trying to tell me.  But we have a very big presentation to give \ntomorrow, so I'm going to get some sleep."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 70\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Josh?  Josh!  Oh, hi Mrs. Baskin."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hi.  I was just looking around and...Your hair is getting longer."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I got it cut yesterday."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He had a birthday."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah, I know.  He'll be coming back real soon.  Everything is going to \nbe okay."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Thanks."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Goodnight."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 71\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Right there.  Sea Point Park, New York!  Well?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yes?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WOMAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They're waiting for you Mr. Baskin."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Thanks."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "See you around."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 72\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "There's this flat screen inside with pictures on it and you read it.  \nAnd when you get down to the bottom you have to make a choice of what \nthe character's going to do...Like if he going to go in and fight the \ndragon then you have to push one of the buttons."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Excuse me."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Paul."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I don't get it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, it's a comic book that...."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "See, there's a computer chip inside which stores the choices, so when \nyou reach the end of the page, you decide where the story goes.  That's \nthe point."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Terrific Susan."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A kid makes his own decision."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "This is really possible?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah.  In fact, it's a very simple program.  Isn't that right?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So what happens when you run out of choices?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, that's the great thing.  You can just sell different adventures.  \nJust pop in a new disk and you get a whole new set of options."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We could market this on a comic book rack."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'll be right back."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 73\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MR. M\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How much would the unit cost?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, our initial figure is around...around $7.00, with a retail cost \nof around $18.95."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>PAUL\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You expect a kid to pay $19.00 for a comic book?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I think a kid....Would you excuse me?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 74\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Josh!  Josh!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 75\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Will you take me to Sea Point Park, New York?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sea Point Park?  Josh!....Josh!  Josh!...Yes!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 76\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Excuse me.  You know him?  You know Josh?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Look, you have to tell me where he went."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Who are you?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm his girlfriend."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Billy Kopecky."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Look, you have to tell me where he went.  Where did he go?  Please, \ntell me.  Tell me!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 77\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Work!  Damn it!....I wish I was a kid."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Josh!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Susan!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You know, you don't walk out on somebody!  You don't just get up and \nleave and walk out like that!  You don't do that!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I know.  I know.  I'm really sorry.  I'm really sorry but I didn't know \nwhat to do.  I didn't know what to say."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh God.  You got your wish."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I tried to tell you."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I didn't listen, I guess.  I didn't hear you..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I tried to tell you last night."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "...or want to...or how would I have...or even if I did listen, why \nwould I know?  Why would I know that?!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I've been thinking about this and there are a million reasons for me to \ngo home but there is only one reason for me to stay."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What?  What reason is that?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, you...Oh, come on.  Don't cry."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So, what are you?  15?  16?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm 13."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, that explains it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Maybe you could come with me."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No.  No."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Why not?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I've been there before.  It's hard enough the first time.  You know \nwhat I mean?  You don't know what I mean....Come on, I'll drive you \nhome."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm sorry."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, I'll be okay.  You'll be fine.  In ten years, who knows?  Maybe you \nshould hold on to my number."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 78\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So this is where you live.  Which one is it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The one right there."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh.  It's nice.  I'm gonna miss you."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm gonna miss you, too."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SUSAN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You won't even remember me."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh yes I will."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 79\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Mom?  Hello!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Josh?  Josh!  Josh!  Oh my God!  Oh, thank God you're home!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh Ma, I missed you all so much!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SCENE 80\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm just not good enough."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What are you talking about?  You've been hitting the ball over the \nfence almost every time in stick ball.  You just got to get used to a \nfatter bat."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You really think I could do it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>JOSH\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Come on.  We'll hit some after supper."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>BILLY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Okay.  I'll call you."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>1\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>34\n</b>"
+    }
+  ]
+}

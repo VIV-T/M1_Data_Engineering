@@ -1,0 +1,4171 @@
+{
+  "elements": [
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>                           THE REAL GHOSTBUSTERS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "\"Poultrygeist!\"\n\n                                     by\n                               Duane Capizzi\n                                    and\n                              Steven Roberts\n\n                         Last revised May 12, 1988"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ACT ONE\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>-------\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\t\t\t\t\tFADE IN:\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT. -- A FARMHOUSE OUTSIDE NEW YORK CITY -- NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "On the farmhouse roof a CHICKEN-SHAPED WEATHERVANE stands silhouetted\nagainst a FULL, BLOOD-RED MOON.  The wind HOWLS and the vane swivels with\nan EERIE SQUEAK.  Then a weird ANIMAL CRY is heard--a cross between a\nchicken CROWING and a wolf HOWLING."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN  (VO)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(A CROWING HOWL)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\t\t\tCAMERA PANS DOWN TO:\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CHICKEN PEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A fenced-in dirt area with numerous CHICKENS milling around, CLUCKING as\nthey peck at the ground."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(ANOTHER HOWL, nearer now)\n\t\tThe chickens' heads jerk up toward the sound."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WERECHICKEN'S POV -- MOVING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A RED-tinted, shaky, MOVING CAMERA TRUCK-IN on the chickens.  (These shots\nare in the style of the POV SHOTS in WOLFEN.)  Magnified GURGLING and\nHEAVY BREATHING of Werechicken is heard."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN (VO)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(GURGLING, HEAVY BREATHING)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The terrified chickens stare INTO CAMERA as the Werechicken moves closer,\nhis shadow falling over them.  They flap into their coop, SQUAWKING\nwildly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- FARMHOUSE LIVING ROOM -- NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "MAUDE and ZEKE sit on the sagging couch watching a werewolf movie on TV\nwhile munching popcorn from a huge bowl.  They're distracted by CHICKENS"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SQUAWKING.\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tZEKE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sump'n's stirrin' up the chickens, Maude."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMAUDE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Jes' set easy, Zeke.\n\t\t\t(she rises; heads for door)\n\t\tI'll take a look-see.\n\nZeke continues staring at TV."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT.  FARMHOUSE -- NIGHT -- WERECHICKEN'S POV\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Through the Werechicken's red eyes, we see a distant image of Maude with a\nflashlight, approaching the fenced-in chicken pen and opening the gate.\nCAMERA STARTS MOVING IN toward Maude as she enters, leaving gate open."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN (VO)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(GURGLING, HEAVY BREATHING)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE WITHIN CHICKEN PEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The dirt compound is empty now as Maude crosses toward wooden chicken\ncoop."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMAUDE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(as she goes)\n\t\tHere, chick-chick-chick-chick."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT.  CHICKEN COOP -- OTS MAUDE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "AS Maude ENTERS from OUT OF CAMERA, her flashlight beam illuminates the\nchickens cowering on their roosts in a corner.  They CLUCK nervously."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMAUDE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What's got you girls so durned upset?\n\t\tThere a coyote sneakin' 'round?\n\nSuddenly the Werechicken's shadow moves up Maude's back, then the wall."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(Low, gutteral CLU-UCK)\n\nMaude looks over her shoulder AT CAMERA, reacts."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMAUDE\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(GASP!)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>MAUDE'S POV -- THE WERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Red-eyed, grotesque, three times the size of an ordinary rooster as it\nstands framed in the moonlit doorway.  It opens its fanged beak in a\nhorrifying SHRIEK as it springs AT CAMERA, wings flapping."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(Frightening SHRIEK)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. FARMHOUSE LIVING ROOM - CLOSE ON TV\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Old black-and-white movie.  MELODRAMATIC MUSIC as a man turns into a\nwerewolf, his HOWL a continuation of the previous Werechicken SHRIEK."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTV WEREWOLF\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(eerie HOWL)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WIDER ANGLE - ZEKE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "continues watching TV and eating popcorn.  Maude walks stiffly into room\nbehind him, eyes staring blankly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tZEKE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(without looking up)\n\t\tEverythin' okay out there, Maude?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WAIST SHOT -- MAUDE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "She stares with glassy, red eyes and CLUCKS quietly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMAUDE-CHICKEN\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(CLUCKS)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tZEKE (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What say?\n\nPAN DOWN below Maude's waist to reveal that she's turning into a chicken\nfrom the feet up.  First her shoes RIP apart as large, yellow chicken feet\nsprout.  Then her dress SWELLS and SPLITS, revealing a large, feathered\nbody underneath. The only piece of clothing left on her is her apron.  One\nfoot scratches the floor."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMAUDE-CHICKEN (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(more CLUCKS)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WIDER ANGLE -- FULLSHOT OF MAUDE-CHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Now completely transformed and six feet tall, she leaps up to perch on\nback of couch, THRUSTING her chicken head repeatedly into the popcorn bowl\nin Zeke's lap, pecking the bowl clean.  Zeke's jaw hangs open, speechless,\nas he stares at the fanged, drooling, six-foot Werechicken.  The\nWerechicken looks up from the empty bowl, right in Zeke's terrified eyes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tZEKE\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(SCREAMS)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He scrambles backwards off the couch."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT. FARMHOUSE -- NIGHT - WERECHICKEN'S POV\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "SCENE RED-tinted.   We hear loud SQUAWKING from within house as chicken\nfeathers fly out the open windows."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tZEKE (VO)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(YELLING)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Get away!' Scat!  Shoo!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMAUDE-CHICKEN (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(loud SQUAWKING)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSE ANGLE -- WERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Watching from slight hilltop.  Its beak seems to bend into an insidious\ngrin."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tZEKE (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(from distance)\n\t\tHelp!... He-elp!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\t\t\t\t\tCUT TO:\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT.  ESTABLISHING -- GHOSTBUSTERS HQ - NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As CAMERA MOVES IN, we hear:"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Egon, could you hold off on the weather\n\t\tballoon bit for a minute?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\t\t\t\tDISSOLVE THRU TO:\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- LABORATORY -- ON PETER AND RAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They stand holding big plastic bags of trash, obviously annoyed at the\nO.S. Egon.  Ray's armful of trash is piled so high that he can't see over\nit.  SLIMER hovers behind, sticking his nose in one of the bags like a\ndog.  He finally dives right into it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER (CONT)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's Your night to take out the trash."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And Winston's in the kitchen doing your\n\t\tdishes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON EGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He's busy testing his WEATHER BALLOON--a large, pink bubble half the size\nof the room.  He moves a lever on its remote control unit and the balloon\nrises."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(preoccupied; through above)\n\t\tBe with you in ...\n\t\t\t(checks watch)\n\t\t...one minute, fifty-three seconds."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANOTHER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Peter and Ray exchange pained glances.  Peter awkwardly attempts to pick\nup another trash bag while Ray stumbles around, his vision blocked.  PAN\nWITH THEM as they move toward door when Egon's weather balloon suddenly\nlowers INTO FRAME.  They bounce into and off of it, which sends the trash\nbags flying."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER AND RAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(AD-LIB REACTIONS as they\n\t\t\tbounce off balloon)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>NEW ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Peter stumbles backwards and lands butt-first right on one of the bags.\nSlimer SQUEALS from within it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(big muffled SQUEAL)\n\nThen he comes shooting out the back of the bag, the lower half of his body\nflat as a Frisbee."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>SLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "shakes himself off like a dog, spraying slime all over Peter."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(pissed; sarcastic)\n\t\tThanks, Slimer.  I really needed that!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sorreee!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANOTHER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ray helps Peter up as the telephone RINGS and RINGS."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(irritated)\n\t\tEgon!  The phone!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON EGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The RINGING phone is right beside him on the workbench."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(preoccupied with remote\n\t\t\tcontrols)\n\t\tIn a minute, Ray."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON WINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He ENTERS with sleeves rolled up, wiping a plate with a dish towel and\nwearing an apron."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(sarcastic)\n\t\tNevermind, Egon, wouldn't want you to\n\t\tstrain yourself.\n\t\t\t(picks up phone)\n\t\tGhostbusters Central."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tVOICE OVER PHONE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(excited CHATTER)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Calm down... Where are you?...\n\t\t\t(a BEAT as he listens)\n\t\tWe'll be right there.\n\nHe hangs up."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WIDER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Peter and Ray again have their arms full of trash bags.  Even Slimer is\ndragging one."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ready for this one?  Some farmer says his\n\t\twife was eaten by a giant chicken."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hey, even a half-baked false alarm sounds\n\t\tbetter than doing Egon's chores.\n\t\t\t(he drops trash bags)\n\t\tLet's roll!\n\nRay and Slimer also abandon their trash bags and EXIT with Peter and\nWinston."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>REAR VIEW ON EGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "still oblivious as he works in the suddenly empty room."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I think I've finally perfected it.  Watch\n\t\tthis, guys.\n\t\t\t(a BEAT, he looks around\n\t\t\tover shoulder)\n\t\tGuys?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\t\t\t\t\tWIPE TO:\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT. -- COUNTRY ROAD - ESTABLISHING - NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "ECTO-1 roars INTO CAMERA, siren and lights going."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- ECTO 1 -- MOVING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The Ghostbusters, minus Egon, are wearing their gear.  Slimer hovers in\nback seat."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It sure feels strange not having Egon with\n\t\tus."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(sarcastic)\n\t\tWhy?  Lately even when he's with us, he's\n\t\tnot with us."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON WINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Driving."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But wouldn't it be somethin' if he sells\n\t\tthat weather balloon idea of his?  He'll be\n\t\ta rich man!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON PETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Arms folded, grumpily."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Good.  Then he can hire a maid to do his\n\t\tshare of the chores."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT. -- ECTO 1 -- NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As it speeds OUT OF CAMERA toward distant farmhouse, PAN OVER TO the\napron-wearing Maude-Chicken silhouetted in the moonlight, nesting in a\nhaystack.  MOVE IN TO --"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSER ANGLE ON MAUDE-CHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Her body starts to shake, she ruffles her wings."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMAUDE-CHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(Egg-laying CLUCKS)\n\nThen she suddenly sits up and leaps off the haystack, revealing an\nenormous egg beneath her.  Maude SQUAWKS and CLUCKS and struts off into a\ncornfield, pecking away at ears of corn."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMAUDE-CHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(SQUAWKS and CLUCKS)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\t\t\t\t\tCUT TO:\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- FARMHOUSE LIVING ROOM -- NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ray, Winston and Slimer listen seriously as Zeke speaks, but Peter's\nobviously not buying it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tZEKE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Had big blood-red eyes, it did.  Biggest\n\t\tdang chicken I ever seen.  Mebbe six feet\n\t\ttall.\n\nPeter rolls his eyes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Shouldn't be hard to find."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>RAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "is jotting info on notepad."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Did it have any distinguishing marks?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANOTHER ANGLE\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ray!  It's six feet tall!\n\nPeter grabs Ray's arm, starts ushering him to front door."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER (CONT)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(over shoulder as he goes)\n\t\tThank you, Sir.  We'll put out a missing\n\t\tchicken report right away."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT.  FARMHOUSE - NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As the three Ghostbusters and Slimer cross toward Ecto-1 parked in front."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(as they go)\n\t\tThis one's easy, guys.  Old Zeke's been\n\t\twatchin' too many horror movies and eating\n\t\ttoo much greasy popcorn."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSER ANGLE -- MOVING\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No, Peter, I think we're dealing with a\n\t\tbonafide werechicken here."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Peter and Winston stop, look at Ray in disbelief."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A werechicken?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Get serious, Ray."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Then explain those!\n\nRay points at ground.  Peter, Winston and Slimer look down."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>THEIR POV\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Peter is standing with both feet in two enormous chicken footprints."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\t\t\t\tSMASH CUT TO:\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT. -- OPEN FIELD -- NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The three Ghostbusters follow Maude's \"chicken\" tracks with powerful\nflashlights across a field spotted with haystacks.  Slimer moves ahead,\nnose to ground like a bloodhound."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(SNIFFS as he goes)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON SLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He floats along above the flashlight-illuminated tracks which lead him\nright into the haystack.  We hear a BONK from within, then:"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ow!\n\nSlimer backs OUT INTO SHOT rubbing his head.  He looks up and his eyes pop\nwide."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(amazed GASP!)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOW ANGLE ON GIANT EGG\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The Ghostbusters ENTER SHOT and play their flashlights across the huge egg\nsitting atop the haystack."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(excited)\n\t\tWhat'd I tell you, Peter?  A werechicken\n\t\tegg!  Gimme a hand, Winston!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WIDER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As Ray and Winston ease the egg down off the haystack.  Peter holds his\nPKE meter up to it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Look, if this is a werechicken egg,"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSER ANGLE -- METER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Nothing registers on the meter."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER (CONT)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "...how come there's no PKE reading?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>THREESHOT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ray and Winston still hold giant egg."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(looking at meter in\n\t\t\tPeter's hand)\n\t\tI dunno... that is strange."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Let's get it back to Headquarters and run\n\t\tsome tests.  Then maybe we'll have some\n\t\tanswers."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON RAY\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Oh no, I'm not leavin'.  The werechicken\n\t\tthat laid this has gotta be around here\n\t\tsomeplace -- and I'm gonna find it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON PETER AND SLIMER\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(throws up his hands with\n\t\t\theavy SIGH)\n\t\tI'll take it.  C'mon, Slimer.\n\nThey take egg from Ray and Winston and start back toward Ecto-l."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER  (CONT)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(shaking his head; as he\n\t\t\tgoes)\n\t\tWerechickens."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WERECHICKEN'S POV\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Through its RED EYES we see, from a distance, Peter and Slimer carrying\nthe egg, Ray and Winston moving off in other direction."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN  (VO)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(BREATHING &amp; SLOBBERING)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\t\t\t\tSMASH CUT TO:\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- GHOSTBUSTERS HQ - LAB - NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Egon still busy with his balloon as Peter and Slimer carry egg in through\ndoor."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(through above)\n\t\tYo, balloon man, we've got some real work\n\t\tfor you:  How about analyzing this?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANOTHER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Egon looks around, reacts to egg."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Interesting.  That's the second biggest egg\n\t\tI've ever seen.\n\nPeter and Slimer set egg on Egon's desk."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I don't wanna hear about it, Egon.  We've\n\t\thad a long night in a not-too-fragrant\n\t\tbarnyard, so I'm taking a shower and hitting\n\t\tthe sheets.\n\nPeter EXITS as Slimer ZIPS in close beside Egon, elbows on desk, chin in\nhands, eyeing Egon and egg expectantly.  Egon pushes glasses up off tip of\nnose and blinks at egg, not sure what to do with it.  CAMERA MOVES IN on\negg and we --"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\t\t\t\tMATCH-DISSOLVE TO:\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT. -- FULL MOON IN COUNTRY SKY -- NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "CAMERA PANS DOWN from full moon to reveal the tiny figures of Ray and\nWinston approaching an old barn.  They stop, shining their flashlights on\nclosed main door."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(tired)\n\t\tRay, it's gettin' pretty late.  Maybe there\n\t\treally isn't any..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(holds up one hand)\n\t\tShh!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ray extends his PKE meter toward barn.  It BEEPS incessantly."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(low voice)\n\t\tIt's in there."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(unclipping his blaster)\n\t\tThen let's get it!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. BARN -- HIGH ANGLE ON MAIN DOOR -- WERECHICKEN'S POV\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Through its RED EYES we see the barn door slowly CREAK open, revealing Ray\nand Winston peering in."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSER ANGLE -- RAY AND WINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They ENTER cautiously, Ray holding his BEEPING meter out before him.  The\nbarn is dark except for the moonlight slanting through the loft window and\nthe beams of their flashlights.  As the WIND picks up, WOOD CREAKS, HAY\nRUSTLES, and a piece of JUNKY machinery turns with a SQUEAL."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(WHISPER)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Man, this place is creepy."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(WHISPER)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's in here -- I can feel it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANOTHER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Suddenly the door SLAMS shut behind them and the FLAP OF BEATING WINGS\nSCURRIES through the darkness.  Winston JUMPS."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Look out!\n\nRay shines his flashlight toward the lofts.  Its beam catches a couple of\nstartled pigeons as they fly out the window, pinion feathers WHISTLING."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>REACTION SHOT -- RAY AND WINSTON\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY &amp; WINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(relieved SIGHS)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WERECHICKEN'S POV\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "RED-TINTED, moving slowly toward Ray and Winston from behind."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN (VO)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(HEAVY BREATHING)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSE ON RAY AND WINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They stop as PKE meter starts BEEPING.  Ray checks the reading."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(whisper)\n\t\tSomething's close.  Very close."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WERECHICKEN'S POV\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Closing on Ray and Winston."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN (VO)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(HEAVY BREATHING)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The guys wheel around."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>THEIR POV ON WERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We see only its face.  The blood-red eyes stare menacingly, its fanged\nbeak slightly open and drooling."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(HEAVY RASPY BREATHING)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ZOOM BACK TO --\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WIDER ANGLE ON WERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It hops forward into a streak of moonlight.  It's three feet tall, its\nwings hang out at the sides, and its evil, blood-red eyes stare at CAMERA."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN  (CONT)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(HEAVY PANTING)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It is a werechicken!\n\nANGLE ON RAY and WINSTON\n\nBacking away, blasters leveled."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Man, he is ugly!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON WERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It postures, rooster-like and:"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(ROARS angrily)\n\nON RAY and WINSTON\n\nStill backing up."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Bad choice of words, Winston.\n\nTHE WERECHICKEN suddenly leaps AT CAMERA."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(loud SHRIEKING SQUAWK)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WERECHICKEN'S POV\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "ZOOM-IN on Winston and Ray.  They open fire."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>FULL SHOT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The proton streams catch the Werechicken in mid-air as it vaults toward\nRay and Winston, halting its leap and suspending it in a corona of proton\nenergy."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(SHRIEKS)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A HIDEOUS SPIRIT rises from its writhing body -- shapeless, but with\nmonstrous glowing eyes and fangs.  The spirit lets out a ROAR more\nfrightening than the Werechicken howl."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSPIRIT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(big ROAR)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ray, still firing his gun, snaps a trap loose from his belt, and tosses it\nonto the barn floor.  It POPS open."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Trap out!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANOTHER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ray and Winston, struggling with the writhing Spirit caught in the\nstreams, guide the Spirit into the trap."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hang on!  That's it!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We've almost got him!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSE ON TRAP\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The Spirit is sucked into the trap, which SLAMS shut."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WIDER ANGLE -- RAY AND WINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A normal chicken with singed feathers stands where the Werechicken was.\nIt CLUCKS, starts pecking at the dirt."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tCHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(Normal CLUCKING)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(looking at chicken)\n\t\tWell, that takes care of one werechicken."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSER ON THE GUYS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ray picks up the smoking trap."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY (CONT)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Now to find the six-footer that ate Zeke's\n\t\twife.\n\nThey head for the door.  Winston stops."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ray, I just had a thought...\n\nRay pauses to look around at Winston."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON (CONT)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What if that six-foot werechicken is Zeke's\n\t\twife?\n\nAnd off their looks, we --"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\t\t\t\t\tCUT TO:\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- GHOSTBUSTERS HQ -KITCHEN -- NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Egon carries the big egg into kitchen, Slimer helping."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(straining)\n\t\tThanks for the help, Slimer, but I don't\n\t\thave time to examine this egg tonight.  I\n\t\thave to prepare for my weather balloon\n\t\tdemonstration tomorrow morning."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANOTHER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "With his elbow, Egon opens refrigerator with and the two of them place the\ngiant egg inside."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON (CONT)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(through above)\n\t\tBut it'll be safe in here."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah.\n\nEgon closes fridge."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(big YAWN)\n\t\tG'night, Egon.\n\nSlimer floats off."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Goodnight, Slimer."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\t\t\t\t\tWIPE TO:\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- BEDROOM\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Slimer is SNORING, hovering above Peter's empty bed."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(SNORING)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSE ON SLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "In a BUBBLE above him, we see Slimer's DREAM, various kinds of food\ndancing and SINGING the first two bars of Los Lobos' \"LA BAMBA\" a la the\nCalifornia Raisins in \"I Heard It Through The Grapevine.\"  Still asleep,\nSlimer licks his lips hungrily, opens his mouth incredibly wide and\npounces on the entire dream balloon with a teeth-jarring CHOMP! that POPS\nthe dream bubble so that it EXPLODES inside his mouth, waking him up.\nSlimer sits up with a wide-eyed, hungry look, rubbing his tummy."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Fooooood.\n\nHe zips o.s."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- KITCHEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Dark.  Lights go on, then Slimer SKIDS to mid-air stop and whips open\nfridge.  His eyes pop as he sees the egg."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(licking his lips)\n\t\tYummy!\n\nSlimer rolls egg toward edge of shelf, then the full weight of the egg\ndrives Slimer straight to the floor.  The egg bounces on his stomach twice\nbefore he gets a grip on it.  Straining his little green brains out, he\nfloats the egg up into the air and o.s."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(SQUEALS, then GRUNTS)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON OVEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Slimer shoves egg in the open oven, closes door, turns on the heat, then\nmoves O.S.  The oven interior glows red and the egg starts to quiver."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON SLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Slimer HUMS as he busily sets table for one:  placemat, a plate, utensils,\nsalt, pepper, ketchup, mustard, mayo, relish, ... a flurry of activity\nthat all focuses on his personal eating spot."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(HUMMING through above)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON OVEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Through window we see the egg shake and then begin to crack open."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>RESUME ON SLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Hovering at table, still preparing for feast.  He puts on a bib, unaware\nof oven shaking behind him."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(still HUMMING)\n\nWith a loud BANG, the oven practically explodes and the door flies off.\nOut pops a BABY WERECHICKEN, SNARLING and CACKLING."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tBABY WERECHICKEN\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(SNARLING, CACKLING)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON SLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "His eyes bug and his paw drops."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(startled SCREAM)\n\nSlimer barrels up through sink faucet, leaving his bib stuck in the\nopening."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- SHOWER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Peter shampooing his hair."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(AD LIB SINGING)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Slimer comes shooting out through shower nozzle, hugs Peter tightly around\nthe neck and scaring the hell out of him."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(startled YELL; then:)\n\t\tSlimer!  How 'bout some privacy??"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(pointing, eyes wide)\n\t\tMonster!  Inna kitchen!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Monster?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(nods)\n\t\tUh-huh!  Uh-huh!\n\t\t\t(imitates werechicken)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(SNARLING &amp; CACKLING)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- LAB\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Egon works at his table.  A now familiar Werechicken shadow appears over\nhis shoulder and grows up the wall."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSER ANGLE - REAR VIEW ON EGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Werechicken creeps OUT OF CAMERA, bites Egon on the rear and pulls back\no.s., chicken claws CLATTERING off into distance."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(looking around)\n\t\tOw!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tBABY WERECHICKEN  (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(CACKLING fading into\n\t\t\tdistance)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON EGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Dazed, he looks down at his feet."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSE ON EGON'S SHOES\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Chicken toes pop through the leather, one at a time."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(dazed)\n\t\tWhat?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSE SHOTS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As Egon's transformation continues:  His coveralls RIP apart at the legs,\nthen midriff, then his arms turn into wings.  Finally, a beak sprouts from\nhis face."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON-CHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(Weird CLUCK)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\t\t\t\tSMASH CUT TO:\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. HALL OUTSIDE LAB -- NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Peter (now dressed and wearing his backpack) runs up to lab door and\nflings it open, Slimer right behind him."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. LAB\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Peter and Slimer look in, not seeing Egon, who is now a six-foot-tall\nwerechicken, but still wearing his glasses, standing behind door."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(CALLS)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Egon?\n\t\t\t(to Slimer)\n\t\tWell, Slimer, I don't see anything here\n\t\tthat looks like a monster.\n\nThe Egon-Chicken jumps out right in front of Peter and Slimer."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON-CHICKEN\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(CHICKEN HOWL)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANOTHER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Slimer freaks and rockets right through the nearest wall."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(SQUEALS as he goes)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Holy cow!!\n\nPeter raises his proton gun."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSE ON EGON-CHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He flaps his wings wildly, his red eyes bulging, and GROWLS, revealing\nimpressive fangs."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON-CHICKEN\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(LOUD GROWL)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEND ACT ONE\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\t-----------\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ACT TWO\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>-------\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- GHOSTBUSTERS LAB -- NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Egon the Werechicken moves toward Peter, fangs bared in attack mode."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON-CHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(SNARLING as he goes)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON PETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He steps back into doorway, blaster leveled at Egon-Chicken, and SNAPS on\nthe power.  It HUMS to life."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(horrified)\n\t\tWhat'd you do to Egon, you bird-brain!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Peter!  Wait!\n\nA hand grabs Peter by the arm fust as the thrower fires, sending the\nproton stream off at an angle into ceiling, barely missing the chicken."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(surprised as he looks\n\t\t\taround)\n\t\tHey!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. CORRIDOR OUTSIDE LAB\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "as Ray pulls Peter out into corridor, Winston kicks door shut in the\nEgon-Chicken's snarling face and quickly locks it.  Slimer hovers nearby\nlooking worried."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON-CHICKEN (VO)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(SNARLS)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSE ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The door SHAKES and SHUDDERS as the unseen Egon-Chicken tries to break\nthrough."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(irritated; through above)\n\t\tWhat's wrong with you guys?  That thing ate\n\t\tEgon!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Peter, that is Egon!  The egg hatched, he\n\t\twas bitten and now he's a werechicken!\n\nThe door behind them is starting to splinter and bulge from the battering\nof the Egon-Chicken."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(looking at door)\n\t\tYou're kidding!\n\t\t\t(a BEAT, then)\n\t\tCome to think of it, there was a certain\n\t\tresemblance.\n\nSuddenly the battering stops."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(looking toward door)\n\t\tWhat happened?  He's so quiet all of a\n\t\tsudden."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON RAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Looking toward o.s. window, he reacts."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's the moon!\n\nHe hurries o.s."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANOTHER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ray stops at window, looks out.  Beyond we see the full moon.  Peter,\nWinston and Slimer come up behind him."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY (CONT)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Tonight's the first --"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSE ON MOON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's beginning to disappear, right to left."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY (VO)(CONT)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "-- lunar eclipse in ten years!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON GHOSTBUSTERS AND SLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "All looking out window as eclipse continues"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ray, what's this have to do with Egon being\n\t\ta chicken?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(turning to others)\n\t\tWerechickens only appear during a full\n\t\tmoon, and for the next few minutes, the\n\t\tmoon's not full."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. LAB -- ON DOOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Door opens and Ray pecks in."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(tentative)\n\t\tEgon?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON EGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Seen from the waist up (he's not wearing clothes), looking around,\nconfused.  He sees Ray."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ray, what is going on?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WIDER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Egon is holding his tattered coveralls in front of his waist, like a\nskirt."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON (CONT)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "And why am I naked?\n\nSuddenly Slimer flies INTO SHOT and gives Egon a big, sloppy kiss."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(as he enters)\n\t\tEgon!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(KISSING SOUNDS)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON PETER AND WINSTON\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sit down, Egon, we have some good news and\n\t\tsome bad news."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(as he sits)\n\t\tBad news first."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "You've been turned into a werechicken!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON EGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "His glasses slip to the end of his nose as his eyes widen.  He pushes them\nback up."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A werechicken?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON RAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He hurriedly thumbs through the TOBIN SPIRIT GUIDE."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(flipping through book)\n\t\tWere-aardvarks ... were-bears werechickens!\n\t\t\t(reads)\n\t\t\"The werechicken appears during the full\n\t\tmoon.  Anyone it bites will turn into\n\t\tanother werechicken.\"\n\t\t\t(he looks at Egon)\n\t\tThat egg Peter brought in, it hatched and..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON EGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He rubs his rear."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(through above)\n\t\tI remember the bite clearly.  How long will\n\t\tI stay like this?\n\nON RAY, WINSTON and PETER\n\nLooking at the Tobin Guide."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(looking in Tobin's Guide)\n\t\tAccording to this, there is an antidote.\n\t\tBut we've gotta move fast -- the eclipse\n\t\tonly lasts three minutes!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. FIREHOUSE KITCHEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Slimer scrambles through the cupboard, grabbing various bottles of stuff,\nand hands them to Winston who adds ingredients to mixing bowl and stirs\nwhile Ray reads from Tobin's Guide."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(reading through above)\n\t\t\"One tablespoon paprika, one clove of\n\t\tgarlic, some parsley for color, cup of\n\t\tgelatin...\""
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON WINDOW\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Through it we see the eclipsed moon starting to emerge from shadow."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. LAB -- ANGLE ON EGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "His pupils look constricted and he's perspiring."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(weakly)\n\t\tI don't feel well.\n\nPeter steps INTO SHOT, puts arm around Egon's shoulders."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(through above)\n\t\tTake it easy, Egon.  You're gonna be fine.\n\t\t\t(SHOUTS O.S.; worried)\n\t\tHurry it up, guys!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT.  KITCHEN -- ON WINSTON AND RAY\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(reading hurriedly)\n\t\t\"And one tablespoon of chickenbane.\""
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON SLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He rummages through shelves, then looks down at Ray."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(aghast)\n\t\tNo chickenbane!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANOTHER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ray and winston exchange panicky looks."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Then we've gotta go with this!  C'mon!\n\nThey run OUT with the mixing bowl of liquid.  Slimer follows."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. LAB -- CLOSE ON EGON'S LEGS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They're once again turning into chicken legs and chicken feet.  Toes\npopping out like popcorn."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER (VO)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(YELLS)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Come on, Ray!!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WIDER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As Peter and Egon stare down at the chicken legs and chicken feet."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER  (CONT)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(YELLS o.s.)\n\t\tHe's changing again!\n\nRay, Slimer and Winston rush INTO SHOT."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(breathless)\n\t\tQuick, Egon, drink this!\n\nWinston hands the bowl of potion to Egon, who gulps it down."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(swallowing, GULPING\n\t\t\tsounds)\n\nAs Egon drinks, his arms transform into wings and he drops the bowl,\nbreaking it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We're too late!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSER -- EGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As the transformation  and feathers  rise up  his shoulders.  Suddenly,\nthe transformation  stops at  the neck.   DRAMATIC MUSIC STOPS, too."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON PETER, RAY, WINSTON AND SLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They stare, wide-eyed.  After A BEAT --"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What happened?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WIDER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "To include Egon, who is once again a six-foot-tall chicken, but with\nEgon's own neck and head."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The potion only partly worked, because of\n\t\tthe missing chickenbane."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Well, we hafta do something!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Don't get your feathers ruffled, Peter.\n\t\tThere's a logical solution to every problem."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tBABY WERECHICKEN (VO)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(HOWL)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Strands of slime stand straight up on the nape of Slimer's \"neck\" at the\nsound -- like a frightened cat -- and he dives into a test tube in a rack\non Egon's workbench."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(SQUEALS as he goes)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON RAY AND WINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "looking around."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What was that?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The werechicken that bit Egon.  It's still\n\t\tout there somewhere."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANOTHER ANGLE\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(to others)\n\t\tLet's stop that thing before it makes\n\t\tdrumsticks out of anyone else!\n\t\t\t(to Egon)\n\t\tUn, no offense, Egon.\n\nThe three normal Ghostbusters dash toward door."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\t\t\t\tSMASH CUT TO:\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT. -- AERIAL VIEW -- MANHATTAN -- NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "ECTO-2 glides over the city, running lights blinking."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- ECTO-2 -- MOVING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Peter at the controls.  Slimer sits beside him, looking down at the city\nthrough binoculars."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(into radio mike)\n\t\tAll quiet on the chicken front.  How about\n\t\tdown there?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- ECTO-1 -- MOVING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Winston driving.  Ray on the radio."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Not a peep."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(gives Ray a dirty look)\n\t\tNo pun intended."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT. SUPERMARKET - NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Several people run out front door SCREAMING as ECTO-1 passes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPEOPLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(SCREAMING as they exit)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- ECTO-1 - MOVING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Winston and Ray look back at exiting people."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "That's it!\n\nWinston cranks the wheel."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT.  ECTO-1\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As it makes a SCREECHING U-turn."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT. -- SUPERMARKET\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ecto-1 SKIDS up, doors open, and Ray and Winston leap out, blasters at the\nready, running toward store entrance."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- SUPERMARKET\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ray and winston run in and stop inside door beside a panicked BOX BOY who\npoints o.s."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tBOX BOY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(breathless)\n\t\tIt's in there!  A big chicken!  It's gotta\n\t\tbe ten feet tall!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ray and Winston exchange glances."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ten feet tall?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tBOX BOY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(nods)\n\t\tMaybe fifteen, I dunno.  Big!\n\t\t\t(he runs o.s.)\n\t\tI'm outta here!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(to Winston)\n\t\tLet's split up.\n\nThey run off in opposite directions, flanking the long aisles."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON RAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "PAN WITH him as he cautiously moves along, aisle by aisle.  At far end of\naisles, Winston can be seen doing the same.  The market is thrashed,\nspilled groceries everywhere."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANOTHER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As they reach the last aisle.  No chicken.  Ray joins Winston."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "How could we lose a fifteen foot-tall\n\t\tchicken?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tBUTCHER (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(frightened SCREAM)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "We didn't!  Come on!\n\nThey hurry o.s."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. MEAT DEPT. -- ON BUTCHER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He's hiding under his butcher block, trembling.  Ray and Winston run INTO\nSHOT.  The Butcher looks up, eyes wide."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tBUTCHER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A giant chicken just came through here --\n\t\tit was thirty feet tall!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSER ANGLE\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Thirty feet tall?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANOTHER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The Butcher is pointing out open door.  Beyond is a parking lot with a\ntrail of crushed cars right down the middle."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tBUTCHER (CONT)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah!  Look what it did to those cars!\n\nRay and Winston race out the door."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT. INDUSTRIAL DISTRICT - WIDE ON ECTO-2 FLYING -- NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The little chopper, lights blinking, skims low past three-and four-story\nbuildings."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(into radio)\n\t\tIt's how big?  Okay, Ray, I admit you were\n\t\tright about these Werechickens,..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT.  ECTO-2 -- MOVING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Peter and Slimer, as before."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER (CONT)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "...but I definitely don't buy them growing\n\t\tto the size of buildings."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(covers mouth, LAUGHTER FIZZING\n\t\tthrough his closed, flapping lips.\n\t\t\"How absurd.\")\n\nSuddenly, the head of the Werechicken rears up INTO SHOT right in front of\nRay and Slimer."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(SCREAMS)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(deafening HOWL)\n\nECTO-2 is buffeted about by the howl as Peter jams the stick forward."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WIDER ON ECTO-2\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It makes a steep, banking dive and gets the hell out of there, barely\nescaping the big Werechicken's beak that SNAPS shut on thin air just\nbehind Ecto-2's retreating tail."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- ECTO-2 -- MOVING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Peter is shaken, but in control.  Slimer is trembling like green Jell-O."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(into mike)\n\t\tRay, you were right!  The chicken's here,\n\t\tand he's a walking high-rise!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- ECTO-1 -- NIGHT -- MOVING\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(into radio)\n\t\tOn our way, Peter.\n\nWinston floors it and he and Ray accelerate forward INTO CAMERA."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. BUNKROOM -- GHOSTBUSTERS HQ - MORNING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Egon is \"perched\" on the window sill, looking pensively out at the city,\nstill a chicken from the neck down.  A BEAT, then:"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tJANINE (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(big SCREAM)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(startled CLUCK)\n\nStartled, Egon flutters up off the sill, gravity takes over, and he lands\non his feathered butt."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WIDER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Revealing Janine standing frozen in the doorway, eyes wide with disbelief,\nhands to her cheeks."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tJANINE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Egon!  What happened?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's a long story, Janine.   Can you get my\n\t\tcoat, please?  I'm due at the weather board\n\t\tin forty-five..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(CLUCK)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "...minutes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON JANINE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "She stares at Egon, totally bewildered."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tJANINE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "But what ...?\n\t\t\t(thinks better of asking)\n\t\tNevermind."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANOTHER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Janine takes a long yellow raincoat off a door hook and helps him into it.\nHe's completely covered except for his head and feet."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tJANINE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Are you sure you wanna go to a meeting like\n\t\t-- this?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Trust me.  I'm of sound mind at least."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON EGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As he struts toward the door, we see his tail protruding through a slit in\nthe back of coat.  He EXITS, CLUCKING."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(CLUCKING as he goes)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSE JANINE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Staring after him in disbelief."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT. MID-TOWN MANHATTAN -- ANGLE ON WERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It walks along stepping on cars, kicking over telephone poles, etc., a la\nGodzilla.  The streets SHAKE.  Panicky pedestrians flee the Werechicken's\ngiant feet."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tCROWD\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(panicky WALLA)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- ECTO-2 -- MOVING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Peter and Slimer are following giant chicken."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(into radio)\n\t\tIt's heading down 34th toward the Empire\n\t\tState Building."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT. -- THE STREETS -- DAWN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ecto-1 SPEEDS around a corner, SIREN blaring."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Check!  We're almost there."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT. EMPIRE STATE BLDG. -- DAWN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Sun rises behind the werechicken as it approaches in distance.  With each\nHOWL, the streets SHAKE."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN (VO)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(HOWLS)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOW ANGLE ON ECTO-1\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Approaching CAMERA fast, it SCREECHES to a halt.  Doors fly open.  Ray and\nWinston LEAP out, open fire, their proton streams angling upward."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOW ANGLE POV - WERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Moving toward them down the concrete canyon, flattening street lamps and\npower poles.  Ecto-2 can be seen flying above and behind it.  The proton\nstreams are up toward it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. ECTO-2\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Take over, Slimer!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Roger!\n\nSlimer grabs the control stick in both hands as Peter leans out to one\nside with his blaster and fires downward."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON WERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Caught in the three crossing streams.  It FLAILS about, knocking over\nstreet lights and bashing in the sides of buildings, and lets out a\ndeafening HOWL.  A MONSTROUS SPIRIT emerges from its body and fills the\nscreen like a transparent film."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(enraged HOWLS)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON RAY AND WINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ray tosses out the trap."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Let's reel him in!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WIDER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As Ray, Winston and Peter's beams draw the Spirit toward the trap."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSPIRIT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(angry HOWLS)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSER ON TRAP\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Ray's boot stomps on trigger and trap springs open.  As the Spirit comes\ninto contact with the trap a small STORM ERUPTS around it.  SPARKS and\nLIGHTNING BOLTS fly.  A HURRICANE-like WIND BLOWS."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON RAY AND WINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Being buffeted by wind, struggling to hang onto their throwers as they\ncontinue firing.  They have to SHOUT over the NOISE."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(loud)\n\t\tTrap's full!  Somebody forgot to empty it!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON ECTO-2\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The wind is really bouncing it around.  Slimer has his hands full, while\nPeter continues shooting."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(YELLS)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Whose job was it?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>RAY AND WINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "turn to each other."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY AND WINSTON\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\tEGON'S!\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSE ON TRAP\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Light FLASHES rapidly.  Trap begins to shake and glow."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It's gonna blow!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>LOW ANGLE -- ECTO-2\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(over walkie-talkie)\n\t\tPeter, get outa here!\n\nIt banks, gets the hell away."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>RAY AND WINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "turn off their proton guns and are KNOCKED down by the released force as\nthe freed Monstrous Spirit whooshes skyward.  The STORM abruptly\ndisappears, as if SUCKED up.  The trap stops shaking and SNAPS shut."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON WERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As the Spirit POPS back into its body, JARRING it.  Its chicken face\ncontorts with new ANGER."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(HOWLS)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WIDER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It turns and starts up the side of the Empire State Building."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT. EMPIRE STATE BUILDING - MORNING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The werechicken is halfway to the top.  PULL BACK to reveal Peter, Slimer,\nWinston and Ray standing in street looking up at him.  Ecto-1 and 2 are\nbehind them."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "So how're we gonna, put that big bird on\n\t\tice, guys'"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(SNAPS finger)\n\t\tPeter, that's not a bed idea!  Chicken\n\t\tfreezes at very low temperatures!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSER ANGLE\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Yeah, but how do you freeze a 50-foot\n\t\tchicken in August?\n\nA BEAT, then the three guys look at each other."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY, WINSTON &amp; PETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Egon's weather balloon!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT. -- BUILDING ROOFTOP -- MORNING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Not far from the Empire State Building.  Egon stands before a group of\nseated MEN and WOMEN --THE WEATHER BOARD -- in his rain coat.  To one\nside, the weather balloon hovers above them."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Distinguished members of the Weather Board,\n\t\tmy weather balloon has the clu-cluck-clu-\n\t\tcapability --"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON EGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The top of the Empire State Building is visible behind him as he holds the\nsmall weather device control box in one winged hand."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON (CONT)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "... of entering the upper atmosphere where\n\t\tclu-cluck-clu cloud formations occur."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON BOARD MEMBERS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They look at each other, puzzled."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tBOARD\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(puzzled MUTTERING WALLA)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>RESUME ON EGON\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON (VO)(CONT)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "There, it can electronically alter weather\n\t\tcut-cut-cut-con-ditions to produce sun,\n\t\train, or..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(BAWK!)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "...snow.\n\nEcto-2 ascends into view behind him and hovers, the chopper's rotors\nblowing Egon's raincoat up over his head, exposing the chicken body\nunderneath."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON AUDIENCE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Their mouths drop open as they stare at Egon's chicken body."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tBOARD MEMBERS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(excited WALLA)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON EGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He pulls raincoat down off his face, holding it in place with one hand as\nhe looks at audience with forced smile."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(to Board members)\n\t\tI, er, can explain this, but --\n\nSlimer flies INTO SHOT beside Egon and WHISPERS in his ear."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(WHISPERING MUTTERS)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What?\n\nHe looks around to where Slimer is pointing."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EGON'S POV\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As the Werechicken climbs into view, scaling the upper stories of the\nEmpire State Building."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(distant SQUAWKS)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>NEW ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The Weather Board members see the Werechicken and start to SCREAM."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWEATHER BOARD MEMBERS\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(SCREAMING)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON EGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He JUMPS onto a rope ladder hanging from Ecto-2 and climbs inside.  Slimer\nflies in right behind him and Ecto-2 rises up OUT OF SHOT."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. -- ECTO-2 -- MOVING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Egon settles into passenger seat.  Slimer hovers behind them."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(loud over engine)\n\t\tEgon, can we freeze that big chicken with\n\t\tyour weather balloons"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(holds up wings)\n\t\tYes, but you'll have to work the controls."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(nods)\n\t\tPiece of cake."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT. -- ECTO-2 -- MORNING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It banks off toward the Empire State Building as the Werechicken reaches\nthe top of the spire."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON WERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As it gets \"comfortable\" on the spire, fluffing its feathers.  It begins\nto quiver (like Maude did earlier when she laid an egg)."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(hideous CROW)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON RAY AND WINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "On street below, looking skyward through binoculars."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "What's it doing?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It looks like it's about to lay an --\n\nWinston puts a hand over Ray's mouth."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(with dread)\n\t\tI don't want to hear it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON WEATHER BALLOON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It rises from weather bureau rooftop, then drifts along horizontally, away\nfrom the Empire State Building.  It stops, then begins to rise again.  The\nsky darkens as the balloon rises into the clouds."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. ECTO-2 - MOVING\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Peter, Egon, Slimer, as before.  Peter operates the weather balloon\ncontrol box while Slimer flies the chopper."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Okay, Peter, the balloon's in position.\n\t\tTurn the lever to the extreme left."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>CLOSE UP ON WEATHER CONTROL BOX\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Peter turns a lever."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON BALLOON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "The balloon and surrounding clouds start to freeze, turning white and\nforming ice on them.  Suddenly, snow starts to fall."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON SLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "He sticks his tongue out and catches some snowflakes."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON WERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Blizzard-like snow pelts it.  The chicken begins to stiffen and turn white\nwith frost."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(angry SQUAWKS)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ANGLE ON STREETS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Snow falls on Ray and Winston as they gaze skyward."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY AND WINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "They did it!  All-right!!\n\nThey high-five each other."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\t\t\t\t\tWIPE TO:\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>EXT. FIREHOUSE -- NIGHT\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "A heavy snow continues to fall as CAMERA MOVES IN"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMAUDE (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(calls)\n\t\tAnyone for dessert?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT, FIREHOUSE - DINING AREA\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Maude (back to normal) emerges from kitchen carrying a large, steaming\nbowl.  Seated around the table are Egon (back to normal) Peter, Winston,\nRay and Zeke.  No Slimer.  There are half-empty soup bowls in front of\neveryone and the diners all look full to the point of weariness -- except\nSlimer."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(raising hand)\n\t\tYou bet, Maude."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON PETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As he looks at bowl of soup Maude sets down."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Lemme guess -- more chickenbane soup!"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON EGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "spooning soup eagerly into his bowl."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tEGON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "I'm actually starting to like it."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON MAUDE\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tMAUDE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "No more werechicken problems for us,\n\t\teh, Egon?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(CHUCKLES)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN (VO)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(HOWL)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>WIDER ANGLE\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Everyone freezes and looks o.s."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Uh-oh."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tRAY\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It came from the lab!\n\nThe Ghostbusters burst from their chairs and run o.s."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. HALLWAY OUTSIDE LAB\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As the Ghostbusters cautiously advance, blasters ready."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>INT. LAB -- ON DOOR\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "It opens and the Ghostbusters peer in.  Suddenly ..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWERECHICKEN (VO)\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(another HOWL)\n\nSWISH PAN to ...\n\nA HUGE SHADOW on the lab wall, its head making a \"pecking\" motion like a\nwerechicken.  After a beat, PAN DOWN to reveal Slimer with a Walkman on\nhis head, \"pecking\" his head to the rhythm of his music.  Slimer HOWLS\nagain ..."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(HOWLS)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON GHOSTBUSTERS\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tWINSTON\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(big SIGH)\n\t\tIt's just Slimer groovin' to his new James\n\t\tBrown tape."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON SLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "As he continues to groove to the music."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tSLIMER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(a la James Brown)\n\t\tI feel good!\n\t\tI knew that I would\n\t\tSo good, so good, so good!\n\t\t\t(big James Brown HOWL as\n\t\t\twe --)"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t(HOWLS)\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>ON GHOSTBUSTERS\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "Peter turns to the others in disgust."
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tPETER\n</b>"
+    },
+    {
+      "type": "text",
+      "content": "(long-suffering)\n\t\tTell me, how do I get out of this chicken\n\t\toutfit?"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\t\t\t\t\tFADE OUT\n</b>"
+    },
+    {
+      "type": "tag",
+      "name": "b",
+      "content": "<b>\t\t\t\tTHE END\n</b>"
+    }
+  ]
+}
