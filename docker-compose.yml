@@ -79,6 +79,7 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
     - ${AIRFLOW_PROJ_DIR:-.}/data:/opt/airflow/data
+    - /var/run/docker.sock:/var/run/docker.sock
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
@@ -367,6 +368,18 @@ services:
       - "${PGADMIN_PORT}:80" # type localhost:5050 to your browser to access the UI
     networks:
       - Practice
+
+  scrapper:
+    build:
+      context: .
+      dockerfile: ./scrapping_container/Dockerfile  # Chemin vers le Dockerfile du scrapper
+    volumes:
+      - ./scrapping_container/scrapping:/app/scrapping  # Montage du code du scrapper
+    environment:
+      - PYTHONPATH=/app/scrapping
+    networks:
+      - Practice
+    restart: "no"  # Pas besoin de redémarrer automatiquement
 
 networks:
   Practice:
