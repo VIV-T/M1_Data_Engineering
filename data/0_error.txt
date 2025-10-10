@@ -103,3 +103,54 @@ Fail : What-About-Bob?      Error : Webstatus : 404
 Fail : When-Harry-Met-Sally      Error : HTML len = 0 : no content scrapped
 Fail : Who-Framed-Roger-Rabbit?      Error : Webstatus : 404
 
+Fail : 8-Mile      Error : HTML len = 0 : no content scrapped
+Fail : A.I.      Error : Webstatus : 404
+
+Fail : Angels-&-Demons      Error : HTML len = 0 : no content scrapped
+Fail : Apollo-13      Error : HTML len = 0 : no content scrapped
+Fail : Back-to-the-Future      Error : HTML len = 0 : no content scrapped
+Fail : Back-to-the-Future-II-&-III      Error : HTML len = 0 : no content scrapped
+Fail : Batman-and-Robin      Error : Webstatus : 404
+
+Fail : Batman-Begins      Error : Webstatus : 404
+
+Fail : Batman-Forever      Error : Webstatus : 404
+
+Fail : Batman-Returns      Error : Webstatus : 404
+
+Fail : Benny-&-Joon      Error : HTML len = 0 : no content scrapped
+Fail : Blues-Brothers,-The      Error : HTML len = 0 : no content scrapped
+Fail : Bodies,-Rest-&-Motion      Error : HTML len = 0 : no content scrapped
+Fail : Casablanca      Error : Webstatus : 404
+
+Fail : 8-Mile      Error : HTML len = 0 : no content scrapped
+Fail : A.I.      Error : Webstatus : 404
+
+Fail : Angels-&-Demons      Error : HTML len = 0 : no content scrapped
+Fail : Apollo-13      Error : HTML len = 0 : no content scrapped
+Fail : Back-to-the-Future      Error : HTML len = 0 : no content scrapped
+Fail : Back-to-the-Future-II-&-III      Error : HTML len = 0 : no content scrapped
+Fail : Batman-and-Robin      Error : Webstatus : 404
+
+Fail : Batman-Begins      Error : Webstatus : 404
+
+Fail : Batman-Forever      Error : Webstatus : 404
+
+Fail : Batman-Returns      Error : Webstatus : 404
+
+Fail : Benny-&-Joon      Error : HTML len = 0 : no content scrapped
+Fail : Blues-Brothers,-The      Error : HTML len = 0 : no content scrapped
+Fail : Bodies,-Rest-&-Motion      Error : HTML len = 0 : no content scrapped
+Fail : Casablanca      Error : Webstatus : 404
+
+Fail : Celeste-&-Jesse-Forever      Error : HTML len = 0 : no content scrapped
+Fail : Clockwork-Orange,-A      Error : HTML len = 0 : no content scrapped
+Fail : Commando      Error : HTML len = 0 : no content scrapped
+Fail : Conan-the-Barbarian      Error : HTML len = 0 : no content scrapped
+Fail : Contact      Error : Webstatus : 404
+
+Fail : Courage-Under-Fire      Error : HTML len = 0 : no content scrapped
+Fail : Cowboys-&-Aliens      Error : HTML len = 0 : no content scrapped
+Fail : Dark-Knight,-The      Error : Webstatus : 404
+
+Fail : Deadpool-&-Wolverine      Error : HTML len = 0 : no content scrapped

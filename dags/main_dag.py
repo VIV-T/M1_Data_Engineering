@@ -45,11 +45,12 @@ with DAG(
     # --Task--
     launch_scrapping = DockerOperator(
         task_id='launch_scrapping_container',
-        image='scrapping_container:latest',  # Assurez-vous que cette image est construite
-        command="python /app/scrapping/scrapping_dag.py",
-        docker_url="unix://var/run/docker.sock",
-        network_mode="bridge",
-        auto_remove='success',
+        image='m1_data_engineering-scrapper:latest',  
+        api_version='auto',
+        auto_remove='never',
+        docker_url='tcp://docker-proxy:2375',
+        network_mode="airflow_network",
+        mount_tmp_dir=False,
         dag=dag
     )
 

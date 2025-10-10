@@ -89,6 +89,18 @@ x-airflow-common:
       condition: service_healthy
 
 services:
+  docker-proxy:
+    image: alpine/socat
+    command: "TCP4-LISTEN:2375,fork,reuseaddr UNIX-CONNECT:/var/run/docker.sock"
+    ports:
+      - "2376:2375"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - Practice
+    restart: always
+
+
   postgres:
     image: postgres:16
     environment:
@@ -371,8 +383,8 @@ services:
 
   scrapper:
     build:
-      context: .
-      dockerfile: ./scrapping_container/Dockerfile  # Chemin vers le Dockerfile du scrapper
+      context: ./scrapping_container
+      dockerfile: Dockerfile  # Chemin relatif au context de build
     volumes:
       - ./scrapping_container/scrapping:/app/scrapping  # Montage du code du scrapper
     environment:
