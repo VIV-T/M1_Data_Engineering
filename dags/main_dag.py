@@ -1,6 +1,8 @@
 ### Imports
 import logging
 import pendulum
+from docker.types import Mount
+import os
 
 from airflow import DAG
 from airflow.providers.docker.operators.docker import DockerOperator
@@ -40,18 +42,20 @@ with DAG(
 ) as dag:
     
     # --Tools-- (python_callable)
-
+    logger.info(os.getcwd())
 
     # --Task--
     launch_scrapping = DockerOperator(
         task_id='launch_scrapping_container',
         image='m1_data_engineering-scrapper:latest',  
         api_version='auto',
-        auto_remove='never',
+        auto_remove="success",
         docker_url='tcp://docker-proxy:2375',
         network_mode="airflow_network",
         mount_tmp_dir=False,
-        dag=dag
+        dag=dag,
+        # Synchronize a volume between the scrapper container and the airflow container
+        mounts=[Mount(source='m1_data_engineering_scrapper_data', target='/scrapping/data_scripts', type='volume')]
     )
 
     # --Graph--

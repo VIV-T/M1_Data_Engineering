@@ -80,6 +80,7 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
     - ${AIRFLOW_PROJ_DIR:-.}/data:/opt/airflow/data
     - /var/run/docker.sock:/var/run/docker.sock
+    - scrapper_data:/opt/airflow/data_scrapping    # !!! Allows data to be transferred from the scrapper container to Airflow
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
@@ -387,6 +388,7 @@ services:
       dockerfile: Dockerfile  # Chemin relatif au context de build
     volumes:
       - ./scrapping_container/scrapping:/app/scrapping  # Montage du code du scrapper
+      - scrapper_data:/app//scrapping//data_scripts  # Montage du volume pour les données
     environment:
       - PYTHONPATH=/app/scrapping
     networks:
@@ -399,3 +401,4 @@ networks:
 
 volumes:
   postgres-db-volume:
+  scrapper_data:

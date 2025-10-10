@@ -1,0 +1,20 @@
+Run a script.py inside a container launch by Airflow :
+
+    - every modification on the script.py needs to be updated by a docker-compose build of the container of this script (cf. container scrapper with run_scrapper.py)
+
+    - Actual status of the project :
+        Running the Python test script in an additional container launched from Airflow works.
+        I inserted a write operation in a test ‘.txt’ file into this script in order to try to access the data written in
+        the annex container (Python script) from the main container (Airflow)—without success so far.
+        The problem stems from the management of ‘volumes’ in Docker Compose, but also in the AF Docker operator.
+
+        Finnally I have succefully created a 'txt' file persistantly and connect it to the Airflow container.
+        => it's now possible to access to the scrapped data from the Airflow container (theorically - test scrapping)
+
+    - To Do List : 
+        - Test scrapping.py launch inside the additional container. (lets see if selenium& bs4 work)
+        (Btw, if we have multiple script for data scrapping, 
+        create a main_scrapping.py which allow us to execute all those files inside the same container)
+
+        - Redact clear instructions/explaination about what I did about the additionnal container topic (connexion, volume management, ...)
+        => comment the code properly (in English)

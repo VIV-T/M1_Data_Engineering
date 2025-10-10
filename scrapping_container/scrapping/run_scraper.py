@@ -19,6 +19,18 @@ def main():
     except Exception as exc:
         logging.exception("Network check failed: %s", exc)
 
+    try :
+        # Write output to the shared mount path used by the DAG (inside the
+        # container this will be /scrapping because we mount the 'scrapper-data'
+        # volume there). Using an absolute path avoids ambiguity in working dir.
+        out_path = os.environ.get('SCRAPPER_OUTPUT_PATH', '/scrapping/data_scripts/run_scraper.txt')
+        os.makedirs(os.path.dirname(out_path), exist_ok=True)
+        with open(out_path, "a") as f :
+            f.write(f"run_scraper executed\nCurrent working dir : {os.getcwd()}\n")
+            #{os.listdir("/opt/airflow")}
+    except Exception as exc:
+         logging.exception("File write failed: %s", exc)
+
     logging.info("Scrapper runner finished")
 
 
