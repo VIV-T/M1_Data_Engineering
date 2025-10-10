@@ -49,7 +49,7 @@ with DAG(
         task_id='launch_scrapping_container',
         image='m1_data_engineering-scrapper:latest',  
         api_version='auto',
-        auto_remove="success",
+        auto_remove="never",
         docker_url='tcp://docker-proxy:2375',
         network_mode="airflow_network",
         mount_tmp_dir=False,

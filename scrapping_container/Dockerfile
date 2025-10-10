@@ -18,8 +18,9 @@ RUN apt-get update && \
     
 # Default command to run the scrapping DAG using the venv in /opt
 #CMD ["/opt/venv_scrapping/bin/python", "/app/scrapping/scrapping_dag.py"]
-#CMD ["/opt/venv_scrapping/bin/python", "/app/scrapping/scrapping.py"]
 
 # Use a lightweight runner that doesn't import Airflow (avoid ModuleNotFoundError)
-COPY scrapping/run_scraper.py /app/scrapping/run_scraper.py
-CMD ["/opt/venv_scrapping/bin/python", "/app/scrapping/run_scraper.py"]
+#COPY scrapping/run_scraper.py /app/scrapping/run_scraper.py
+#CMD ["/opt/venv_scrapping/bin/python", "/app/scrapping/run_scraper.py"]
+COPY scrapping/scrapping.py /app/scrapping/scrapping.py
+CMD ["/opt/venv_scrapping/bin/python", "/app/scrapping/scrapping.py"]
