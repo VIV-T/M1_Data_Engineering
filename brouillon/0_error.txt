@@ -1,0 +1,105 @@
+Fail : 8-Mile      Error : HTML len = 0 : no content scrapped
+Fail : A.I.      Error : Webstatus : 404
+
+Fail : Angels-&-Demons      Error : HTML len = 0 : no content scrapped
+Fail : Apollo-13      Error : HTML len = 0 : no content scrapped
+Fail : Back-to-the-Future      Error : HTML len = 0 : no content scrapped
+Fail : Back-to-the-Future-II-&-III      Error : HTML len = 0 : no content scrapped
+Fail : Batman-and-Robin      Error : Webstatus : 404
+
+Fail : Batman-Begins      Error : Webstatus : 404
+
+Fail : Batman-Forever      Error : Webstatus : 404
+
+Fail : Batman-Returns      Error : Webstatus : 404
+
+Fail : Benny-&-Joon      Error : HTML len = 0 : no content scrapped
+Fail : Blues-Brothers,-The      Error : HTML len = 0 : no content scrapped
+Fail : Bodies,-Rest-&-Motion      Error : HTML len = 0 : no content scrapped
+Fail : Casablanca      Error : Webstatus : 404
+
+Fail : Celeste-&-Jesse-Forever      Error : HTML len = 0 : no content scrapped
+Fail : Clockwork-Orange,-A      Error : HTML len = 0 : no content scrapped
+Fail : Commando      Error : HTML len = 0 : no content scrapped
+Fail : Conan-the-Barbarian      Error : HTML len = 0 : no content scrapped
+Fail : Contact      Error : Webstatus : 404
+
+Fail : Courage-Under-Fire      Error : HTML len = 0 : no content scrapped
+Fail : Cowboys-&-Aliens      Error : HTML len = 0 : no content scrapped
+Fail : Dark-Knight,-The      Error : Webstatus : 404
+
+Fail : Deadpool-&-Wolverine      Error : HTML len = 0 : no content scrapped
+Fail : Donnie-Darko      Error : Webstatus : 404
+
+Fail : Equilibrium      Error : HTML len = 0 : no content scrapped
+Fail : Executive-Decision      Error : Webstatus : 404
+
+Fail : eXistenZ      Error : HTML len = 0 : no content scrapped
+Fail : Eyes-Wide-Shut      Error : Webstatus : 404
+
+Fail : Frankenstein      Error : HTML len = 0 : no content scrapped
+Fail : Frankenweenie      Error : HTML len = 0 : no content scrapped
+Fail : Full-Metal-Jacket      Error : Webstatus : 404
+
+Fail : Fury      Error : Webstatus : 404
+
+Fail : Ginger-Snaps      Error : Webstatus : 404
+
+Fail : Goodfellas      Error : Webstatus : 404
+
+Fail : Harry-Potter-and-the-Chamber-of-Secrets      Error : Webstatus : 404
+
+Fail : Harry-Potter-and-the-Deathly-Hallows-Part-1      Error : Webstatus : 404
+
+Fail : Harry-Potter-and-the-Goblet-of-Fire      Error : Webstatus : 404
+
+Fail : Harry-Potter-and-the-Half-Blood-Prince      Error : Webstatus : 404
+
+Fail : Harry-Potter-and-the-Prisoner-of-Azkaban      Error : Webstatus : 404
+
+Fail : Harry-Potter-and-the-Sorcerer's-Stone      Error : Webstatus : 404
+
+Fail : How-to-Lose-Friends-&-Alienate-People      Error : HTML len = 0 : no content scrapped
+Fail : Innerspace      Error : Webstatus : 404
+
+Fail : Jade      Error : HTML len = 0 : no content scrapped
+Fail : Kate-&-Leopold      Error : HTML len = 0 : no content scrapped
+Fail : Kill-Bill-Volume-1-&-2      Error : HTML len = 0 : no content scrapped
+Fail : Kiss-of-the-Spider-Woman      Error : HTML len = 0 : no content scrapped
+Fail : Lethal-Weapon      Error : Webstatus : 404
+
+Fail : Lethal-Weapon-4      Error : Webstatus : 404
+
+Fail : Lion-King,-The      Error : HTML len = 0 : no content scrapped
+Fail : Marley-&-Me      Error : HTML len = 0 : no content scrapped
+Fail : Matchstick-Men      Error : Webstatus : 404
+
+Fail : Monster's-Ball      Error : HTML len = 0 : no content scrapped
+Fail : Mr.-Holland's-Opus      Error : HTML len = 0 : no content scrapped
+Fail : O-Brother-Where-Art-Thou?      Error : Webstatus : 404
+
+Fail : Officer-and-a-Gentleman,-An      Error : HTML len = 0 : no content scrapped
+Fail : Outbreak      Error : Webstatus : 404
+
+Fail : Papadopoulos-&-Sons      Error : HTML len = 0 : no content scrapped
+Fail : Robocop      Error : HTML len = 0 : no content scrapped
+Fail : Romeo-&-Juliet      Error : HTML len = 0 : no content scrapped
+Fail : Scary-Movie-2      Error : HTML len = 0 : no content scrapped
+Fail : Shadow-of-the-Vampire      Error : HTML len = 0 : no content scrapped
+Fail : Sneakers      Error : HTML len = 0 : no content scrapped
+Fail : Speed      Error : HTML len = 0 : no content scrapped
+Fail : Superfights      Error : HTML len = 0 : no content scrapped
+Fail : Thelma-&-Louise      Error : HTML len = 0 : no content scrapped
+Fail : This-is-40      Error : HTML len = 0 : no content scrapped
+Fail : Troy      Error : Webstatus : 404
+
+Fail : Unforgiven      Error : Webstatus : 404
+
+Fail : Valentine's-Day      Error : Webstatus : 404
+
+Fail : Vertigo      Error : HTML len = 0 : no content scrapped
+Fail : What-About-Bob?      Error : Webstatus : 404
+
+Fail : When-Harry-Met-Sally      Error : HTML len = 0 : no content scrapped
+Fail : Who-Framed-Roger-Rabbit?      Error : Webstatus : 404
+

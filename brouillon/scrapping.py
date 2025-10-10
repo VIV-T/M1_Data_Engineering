@@ -13,15 +13,18 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
 
-
-logger = logging.getLogger(__name__)  # Airflow captures this per task
-
-#DATA_FOLDER = ".//data_scripts"
-DATA_FOLDER = "/opt/airflow/data"
+DATA_FOLDER = ".//data_scripts"
+#DATA_FOLDER = "/opt/airflow/data"
 
 
 
 ### --Initialization--
+
+# logging 
+logging.basicConfig(level=logging.INFO)
+logging.info("Scrapper runner started")
+
+# Selenium driver
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
@@ -29,6 +32,9 @@ chrome_options.add_argument('--verbose')
 
 DRIVER = webdriver.Chrome(chrome_options)
 DRIVER.set_window_rect(0,0,1280,840)
+
+logging.info("Driver set properly")
+
 
 
 ###--Tools--
@@ -41,16 +47,17 @@ def _initialize_alpha_index():
     for i in range(65, 91):
         alphabetical_index.append(chr(i))
 
+    logging.info("Alpha index initialized")
     return alphabetical_index
 
 
 # get the name_list and url_list to next scrapp the ressources
-def _get_name_url_list(driver, alphabetical_index : str, url : bool = False) : 
+def _get_name_url_list(alphabetical_index : str, url : bool = False) : 
     # go to the website url
-    driver.get(f'https://imsdb.com/alphabetical/{alphabetical_index}')
+    DRIVER.get(f'https://imsdb.com/alphabetical/{alphabetical_index}')
     
     # find the namelist base on the alphabetical index
-    web_elem_list = driver.find_elements(by="xpath", value="//*[@id='mainbody']/table[2]/tbody/tr/td[3]//a")
+    web_elem_list = DRIVER.find_elements(by="xpath", value="//*[@id='mainbody']/table[2]/tbody/tr/td[3]//a")
     name_list = list(map(lambda elem : elem.text, web_elem_list))
 
     # build 'url_list' based on 'name_list' (cf. url structure on the website - html ressources) 
@@ -58,20 +65,24 @@ def _get_name_url_list(driver, alphabetical_index : str, url : bool = False) :
         name_list =  list(map(lambda name : name.replace(": ", "-"), name_list))
         name_list =  list(map(lambda name : name.replace("%", "%2526"), name_list))
         name_list =  list(map(lambda name : name.replace(" ", "-"), name_list))
+    
     return name_list
 
 
 # Loop on each index (letter of the alphabet + 0 -- cf. the website structure)
-def _get_dict_name_url_list(url : bool = False, **kwargs) :
-    # to get the context variables (such as 'driver')
-    ti = kwargs['ti']
-    alphabetical_index = ti.xcom_pull(task_ids="initialize_alpha_index")
+def _get_dict_name_url_list(alphabetical_index : list, url : bool = False) :
 
     # loop
-    dict_name_list = dict()
+    dict_name_url_list = dict()
     for alpha_index in alphabetical_index : 
-        dict_name_list[alpha_index] = _get_name_url_list(DRIVER, alpha_index, url)
-    return dict_name_list
+        dict_name_url_list[alpha_index] = _get_name_url_list(alpha_index, url)
+
+    if url :
+        logging.info("dict_url_list initialized")
+    else : 
+        logging.info("dict_name_list initialized")
+
+    return dict_name_url_list
 
 
 # Use BeautifulSoup to structure the data and convert it to JSON - useful for the text outside <>
@@ -124,15 +135,13 @@ def _get_script (url : str) :
     with open(f"{DATA_FOLDER}//{url}.json", "w", encoding='utf-8') as f :
         f.write(json_script)
 
+    logging.info(f"Script scrapped and written : {url}.json")
+
     return True
 
 
 # iteration on the alphabetical_index (url_list) to get all the html ressources and build the json files
-def _get_all_scripts(**kwargs) :
-    # get the context variable : dict_url_list
-    ti = kwargs['ti']
-    dict_url_list = ti.xcom_pull(task_ids="get_dict_url_list") 
-
+def _get_all_scripts(dict_url_list : dict) :
     # iterations
     for url_list in dict_url_list.values() :
         for url in url_list :
@@ -143,14 +152,16 @@ def _get_all_scripts(**kwargs) :
                 with open(f"{DATA_FOLDER}//0_error.txt", "a") as f :
                     f.write(f"Fail : {url}      Error : {str(e)}\n")
 
+    logging.info("All scripts scrapped")
     return True
 
 
-def main() :
-    _initialize_alpha_index()
-    _get_dict_name_url_list(url=False)
-    _get_dict_name_url_list(url=True)
-    _get_all_scripts()
+def main() :    
+    alpha_index = _initialize_alpha_index()
+    dict_name_list =_get_dict_name_url_list(alphabetical_index=alpha_index, url=False)
+    dict_url_list = _get_dict_name_url_list(alphabetical_index=alpha_index, url=True)
+    _get_script(url="12-Monkeys")
+    #_get_all_scripts(dict_url_list=dict_url_list)
 
 ###--Main execution--
 if __name__ == "__main__" :

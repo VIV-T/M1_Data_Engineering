@@ -79,7 +79,7 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
     - ${AIRFLOW_PROJ_DIR:-.}/data:/opt/airflow/data
-    - /var/run/docker.sock:/var/run/docker.sock
+    - /var/run/docker.sock:/var/run/docker.sock    # expose the socket, but allow us to use docker inside an additional container (share volume for example)
     - scrapper_data:/opt/airflow/data_scrapping    # !!! Allows data to be transferred from the scrapper container to Airflow
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
@@ -382,23 +382,26 @@ services:
     networks:
       - Practice
 
+
+  ## scrapper : a service which allow us to build the image next used to execute scrapping python scripts
   scrapper:
     build:
       context: ./scrapping_container
-      dockerfile: Dockerfile  # Chemin relatif au context de build
+      dockerfile: Dockerfile 
     volumes:
-      - ./scrapping_container/scrapping:/app/scrapping  # Montage du code du scrapper
-      - scrapper_data:/app//scrapping//data_scripts  # Montage du volume pour les données
+      - ./scrapping_container/scrapping:/app/scrapping  # Needed to properly find the docker file when the container is build (inside Airflow)
+      - scrapper_data:/app//scrapping//data_scripts  # Needed to share the data
     environment:
       - PYTHONPATH=/app/scrapping
     networks:
       - Practice
-    restart: "no"  # Pas besoin de redémarrer automatiquement
+    restart: "no"  # No need to restart automatically
 
 networks:
   Practice:
     name: airflow_network
 
+# volume allow us to share data between services and to have persistency
 volumes:
-  postgres-db-volume:
-  scrapper_data:
+  postgres-db-volume:   # postgres DB content
+  scrapper_data:        # data scrapped with a python script

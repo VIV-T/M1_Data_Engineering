@@ -39,11 +39,24 @@ Run a script.py inside a container launch by Airflow :
         create a main_scrapping.py which allow us to execute all those files inside the same container)
 
         - Redact clear instructions/explaination about what I did about the additionnal container topic (connexion, volume management, ...)
-        => comment the code properly (in English)
+        => comment the code properly (in English) -> start the README ?
 
         - Review error.txt to build a better file (error.csv)
         Why ? => readable with pandas and easy to read and exploit. Very important if B. decide to scrapp an other script DB.
 
+        - insert the log of 'scrapping.py' inside the volume (find a good way) 
+        => don't need to reset the 'auto_remove' parameter to 'never' + easiest to follow the exec and debug if needed
+
 # Note to Baptiste :
-    I will explain to you every thing that I have done.
+    I will explain to you every thing that I've done.
     For now this file is the better one to understand, but I will comment the code soon (if it's not already done).
+
+    ! What you can do : everything we discuss Thursday. 
+    Note that you can take scrapping.py as example (inside the 'scrapping_container' folder) but also
+    the scrapping_dag.py (in the 'brouillon' folder).
+
+
+    What I (T.) will do next :
+        - Change the format of the 'error.txt' file => it will be useful for you.
+        - Find a solution to capture the logs of python scripts exec (in additional container)
+        I don't know yet when it will be implemented so for now I just put you an example of the current 'error.txt' inside the 'brouillon' folder. 
