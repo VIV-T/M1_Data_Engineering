@@ -33,7 +33,7 @@ Run a script.py inside a container launch by Airflow :
         The script of scrapping is working => there a single script inside the docker volume 'scrapper_data' - accessible from AF too.
 
     ### To Do List : 
-        - Launch the true script of scrapping (we have to modify the main() function : comment a line and uncomment an other one)
+        - Launch the true script of scrapping (we have to modify the main() function : comment a line and uncomment an other one)   DONE
         
         (Btw, if we have multiple script for data scrapping, 
         create a main_scrapping.py which allow us to execute all those files inside the same container)
@@ -41,11 +41,16 @@ Run a script.py inside a container launch by Airflow :
         - Redact clear instructions/explaination about what I did about the additionnal container topic (connexion, volume management, ...)
         => comment the code properly (in English) -> start the README ?
 
-        - Review error.txt to build a better file (error.csv)
+        - Review error.txt to build a better file (error.csv)   DONE (ERROR_SCRAPPING.json)
         Why ? => readable with pandas and easy to read and exploit. Very important if B. decide to scrapp an other script DB.
 
-        - insert the log of 'scrapping.py' inside the volume (find a good way) 
+        - insert the log of 'scrapping.py' inside the volume (find a good way)      DONE
         => don't need to reset the 'auto_remove' parameter to 'never' + easiest to follow the exec and debug if needed
+
+        - add the MongoDB service & build 2 collections : 
+                    - scripts
+                    - error
+            => and then insert the data with an Airflow operator inside the 'main_dag.py'
 
 # Note to Baptiste :
     I will explain to you every thing that I've done.
@@ -57,6 +62,8 @@ Run a script.py inside a container launch by Airflow :
 
 
     What I (T.) will do next :
-        - Change the format of the 'error.txt' file => it will be useful for you.
-        - Find a solution to capture the logs of python scripts exec (in additional container)
-        I don't know yet when it will be implemented so for now I just put you an example of the current 'error.txt' inside the 'brouillon' folder. 
+        - Change the format of the 'error.txt' file => it will be useful for you.       DONE
+            => exec the 'main_dag.py' in Airflow, you can find SCRAPPING_ERROR.json inside | the folder /opt/airflow/data_scrapping in the airflow-worker container 
+                                                                                           | the volume m1_data_engineering_scrapper_data
+
+        - Find a solution to capture the logs of python scripts exec (in additional container)      DONE

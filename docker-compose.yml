@@ -390,7 +390,7 @@ services:
       dockerfile: Dockerfile 
     volumes:
       - ./scrapping_container/scrapping:/app/scrapping  # Needed to properly find the docker file when the container is build (inside Airflow)
-      - scrapper_data:/app//scrapping//data_scripts  # Needed to share the data
+      - scrapper_data:/app//scrapping//data_scrapping  # Needed to share the data
     environment:
       - PYTHONPATH=/app/scrapping
     networks:

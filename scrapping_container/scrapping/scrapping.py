@@ -4,24 +4,26 @@ import requests
 import json
 from bs4 import BeautifulSoup
 import logging
-import pendulum
-from datetime import timedelta
+import pandas as pd
 
 # Selenium : web navigation and scrapping
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
-
-DATA_FOLDER = ".//data_scripts"
-#DATA_FOLDER = "/opt/airflow/data"
 
 
 
 ### --Initialization--
+DATA_FOLDER = ".//data_scrapping"
+DATA_FOLDER_SCRIPTS = f"{DATA_FOLDER}//scripts"
+DATA_FOLDER_LOGS = f"{DATA_FOLDER}//logs"
 
 # logging 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(
+    filename=f"{DATA_FOLDER_LOGS}//scrapping.log",
+    filemode='w',
+    level=logging.INFO
+    )
 logging.info("Scrapper runner started")
 
 # Selenium driver
@@ -132,7 +134,7 @@ def _get_script (url : str) :
     json_script = _structure_html_to_json(html_script=html_script)
     
     # write data inside json file
-    with open(f"{DATA_FOLDER}//{url}.json", "w", encoding='utf-8') as f :
+    with open(f"{DATA_FOLDER_SCRIPTS}//{url}.json", "w", encoding='utf-8') as f :
         f.write(json_script)
 
     logging.info(f"Script scrapped and written : {url}.json")
@@ -149,19 +151,64 @@ def _get_all_scripts(dict_url_list : dict) :
                 _get_script(url=url)
             # in case of Execption, print it in a dedicated file
             except Exception as e :
-                with open(f"{DATA_FOLDER}//0_error.txt", "a") as f :
-                    f.write(f"Fail : {url}      Error : {str(e)}\n")
+                # with open(f"{DATA_FOLDER}//0_error.txt", "a") as f :
+                #     f.write(f"Fail : {url}      Error : {str(e)}\n")
+                DICT_ERRORS["url"].append(url)
+                DICT_ERRORS["error"].append(str(e))
 
     logging.info("All scripts scrapped")
     return True
 
 
+# build a dataframe with the name and url of each script
+# Useful to build the error file - based on a DataFrame merge to this one
+def _build_df_name_url(dict_name_list : dict, dict_url_list : dict) :
+    try :
+        names_list = [name for sublist in dict_name_list.values() for name in sublist]
+        urls_list = [url for sublist in dict_url_list.values() for url in sublist]
+        dict_name_url = {"name" : names_list, "url" : urls_list}
+        global DF_NAME_URL
+        DF_NAME_URL = pd.DataFrame(dict_name_url)
+        logging.info("Dataframe of name and url built")
+        return True
+    
+    except Exception as e :
+        logging.error(f"Error during the building of the dataframe : {str(e)}")
+        return False
+    
+
+def _build_error_file() :
+    df_error  = pd.DataFrame(DICT_ERRORS)
+    # merge the two df
+    last_df_error = pd.merge(DF_NAME_URL, df_error, on="url", how='inner') 
+    # write the result inside a json file
+    last_df_error.to_json(path_or_buf=f"{DATA_FOLDER}//SCRAPPING_ERROR.json", orient='records')
+    logging.info("Error file built")  
+    
+    return True 
+
+
+
 def main() :    
+    # initialization
     alpha_index = _initialize_alpha_index()
     dict_name_list =_get_dict_name_url_list(alphabetical_index=alpha_index, url=False)
     dict_url_list = _get_dict_name_url_list(alphabetical_index=alpha_index, url=True)
-    _get_script(url="12-Monkeys")
-    #_get_all_scripts(dict_url_list=dict_url_list)
+    _build_df_name_url(dict_name_list=dict_name_list, dict_url_list=dict_url_list)
+    
+
+    global DICT_ERRORS
+    DICT_ERRORS = {"url" : [], "error" : []}
+
+    # scrapping
+    #_get_script(url="12-Monkeys")
+    _get_all_scripts(dict_url_list=dict_url_list)
+    
+    # building of the error file
+    _build_error_file()
+
+
+
 
 ###--Main execution--
 if __name__ == "__main__" :
