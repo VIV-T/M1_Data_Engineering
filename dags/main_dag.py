@@ -49,7 +49,7 @@ with DAG(
         task_id='launch_scrapping_container',
         image='m1_data_engineering-scrapper:latest',   # use the docker image build by the 'scrapper' service in the docker-compose.yml
         api_version='auto',
-        auto_remove="never",    # set to 'never' to check the logs or 'success' in normal case
+        auto_remove="success",    # set to 'never' to check the logs or 'success' in normal case
         docker_url='tcp://docker-proxy:2375', # use the proxy service set in the docker-compose.yml
         network_mode="airflow_network",
         mount_tmp_dir=False,
