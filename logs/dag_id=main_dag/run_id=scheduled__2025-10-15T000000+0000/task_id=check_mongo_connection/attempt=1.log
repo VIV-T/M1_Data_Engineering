@@ -1,0 +1,7 @@
+{"timestamp":"2025-10-15T17:14:01.630579Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-15T17:14:01.631944Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/main_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-15T17:14:01.834559Z","level":"info","event":"/opt/airflow","logger":"unusual_prefix_c197a0997a466423c26d6f7c8e75323f60b0198e_main_dag","filename":"main_dag.py","lineno":118}
+{"timestamp":"2025-10-15T17:14:01.881126Z","level":"info","event":"MongoDB client created","logger":"unusual_prefix_c197a0997a466423c26d6f7c8e75323f60b0198e_main_dag","filename":"main_dag.py","lineno":49}
+{"timestamp":"2025-10-15T17:14:01.909072Z","level":"info","event":"Databases available: ['admin', 'config', 'local']","logger":"unusual_prefix_c197a0997a466423c26d6f7c8e75323f60b0198e_main_dag","filename":"main_dag.py","lineno":50}
+{"timestamp":"2025-10-15T17:14:01.909372Z","level":"info","event":"Success connecting to MongoDB","logger":"unusual_prefix_c197a0997a466423c26d6f7c8e75323f60b0198e_main_dag","filename":"main_dag.py","lineno":58}
+{"timestamp":"2025-10-15T17:14:01.909497Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}

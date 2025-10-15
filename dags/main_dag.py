@@ -3,9 +3,13 @@ import logging
 import pendulum
 from docker.types import Mount
 import os
+from pymongo import MongoClient
+import glob
+import json
 
 from airflow import DAG
 from airflow.providers.docker.operators.docker import DockerOperator
+from airflow.providers.standard.operators.python import PythonOperator
 from datetime import timedelta
 
 logger = logging.getLogger(__name__)  # Airflow captures this per task
@@ -23,6 +27,75 @@ def failure_alert(context):
     )
     # Full traceback in the task log:
     logger.exception(exc)
+
+# test if Airflow is able to read the file
+def _get_json_files() : 
+    try : 
+        script_files = glob.glob('/opt/airflow/data_scrapping/scripts/imsDB/*.json')
+        logger.info("Success reading the files")
+        logger.info(f"Files found: {script_files}")
+        return script_files
+    except Exception as e:
+        logger.error(f"Error reading the files: {e}")
+
+
+# Connection to MongoDB
+def _connect_mongoDB() : 
+        client = MongoClient(
+            host= f"mongodb://mongo:27017/",
+            username="admin",
+            password="admin"
+        )
+        logger.info("MongoDB client created")
+        logger.info(f"Databases available: {client.list_database_names()}") 
+        scripts_db = client["scriptsDB"]
+        return scripts_db
+
+# check connection to MongoDB
+def _check_connection_mongoDB() :
+    try :
+        _connect_mongoDB()
+        logger.info("Success connecting to MongoDB")
+    except Exception as e:
+        logger.error(f"Error connecting to MongoDB: {e}")
+        exit(1)
+
+
+# create a collection in MongoDB
+def _create_collection(collection_name : str) :
+    scripts_db = _connect_mongoDB()
+    # check if the collection already exists
+    logger.info(f"{scripts_db.list_collection_names()}")
+
+    # logger.info(f"{scripts_db.list_collection_names()}")
+    try : 
+        if not collection_name in scripts_db.list_collection_names() :   
+            scripts_collection = scripts_db[f"{collection_name}"]
+            logger.info("Success creating the collection in MongoDB")
+        else : 
+            logger.info("The collection already exists in MongoDB")
+    except Exception as e:
+        logger.error(f"Error creating the collection in MongoDB: {e}")
+
+
+# insert data in a collection in MongoDB
+def _insert_in_collection(collection_name : str) : 
+    scripts_db = _connect_mongoDB()
+    scripts_filelist = _get_json_files()
+
+    try : 
+        scripts_collection = scripts_db[f"{collection_name}"]
+        logger.info(f"script_files found: {scripts_filelist}")
+        for script_file in scripts_filelist :
+            with open(script_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+
+            scripts_collection.insert_one(data)
+        
+        logger.info("Success inserting data in the collection in MongoDB")
+    except Exception as e:
+        logger.error(f"Error inserting data in the collection in MongoDB: {e}")
+
 
 # --- DAG config ---
 START_DATE = pendulum.datetime(2024, 1, 1, tz="UTC")
@@ -58,5 +131,27 @@ with DAG(
         mounts=[Mount(source='m1_data_engineering_scrapper_data', target='/scrapping/data_scripts', type='volume')]
     )
 
+    check_mongo_connection = PythonOperator(
+        task_id='check_mongo_connection',
+        python_callable=_check_connection_mongoDB,
+        dag=dag
+    )
+
+    create_imsdb_collection = PythonOperator(
+        task_id='create_imsdb_collection',
+        python_callable=_create_collection,
+        op_args=['imsdb_scripts'],
+        dag=dag
+    )
+
+    insert_imsdb_collection = PythonOperator(
+        task_id='insert_imsdb_collection',
+        python_callable=_insert_in_collection,
+        op_args=['imsdb_scripts'],
+        dag=dag
+    )
+
+
     # --Graph--
-    launch_scrapping
+    launch_scrapping >> \
+    check_mongo_connection >> create_imsdb_collection >> insert_imsdb_collection

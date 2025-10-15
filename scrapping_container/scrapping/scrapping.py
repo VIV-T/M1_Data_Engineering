@@ -15,8 +15,10 @@ from selenium.webdriver.common.by import By
 
 ### --Initialization--
 DATA_FOLDER = ".//data_scrapping"
-DATA_FOLDER_SCRIPTS = f"{DATA_FOLDER}//scripts"
-DATA_FOLDER_LOGS = f"{DATA_FOLDER}//logs"
+#DATA_FOLDER_SCRIPTS = f"{DATA_FOLDER}//scripts"
+DATA_FOLDER_SCRIPTS = f"{DATA_FOLDER}//scripts//imsDB"
+#DATA_FOLDER_LOGS = f"{DATA_FOLDER}//logs"
+DATA_FOLDER_LOGS = f"{DATA_FOLDER}//logs//imsDB"
 
 # logging 
 logging.basicConfig(
@@ -88,7 +90,7 @@ def _get_dict_name_url_list(alphabetical_index : list, url : bool = False) :
 
 
 # Use BeautifulSoup to structure the data and convert it to JSON - useful for the text outside <>
-def _structure_html_to_json(html_script):
+def _structure_html_to_json(html_script, url) :
     soup = BeautifulSoup(html_script, 'html.parser')
 
     # extract all elements and text node
@@ -102,7 +104,7 @@ def _structure_html_to_json(html_script):
                 html_elements.append({"type": "text", "content": text})
     
     # convert to JSON
-    json_script = json.dumps({"elements": html_elements}, ensure_ascii=False, indent=2)
+    json_script = json.dumps({'url' : url, "elements": html_elements}, ensure_ascii=False, indent=2)
     return json_script
 
 
@@ -131,7 +133,7 @@ def _get_script (url : str) :
     html_script = html_script.replace("</pre>", "")
 
     # use BeautifulSoup to structure the data and convert it to JSON - useful for the text outside <>
-    json_script = _structure_html_to_json(html_script=html_script)
+    json_script = _structure_html_to_json(html_script=html_script, url=url)
     
     # write data inside json file
     with open(f"{DATA_FOLDER_SCRIPTS}//{url}.json", "w", encoding='utf-8') as f :
@@ -149,10 +151,8 @@ def _get_all_scripts(dict_url_list : dict) :
         for url in url_list :
             try :
                 _get_script(url=url)
-            # in case of Execption, print it in a dedicated file
+            # in case of Execption, add it to the error dict
             except Exception as e :
-                # with open(f"{DATA_FOLDER}//0_error.txt", "a") as f :
-                #     f.write(f"Fail : {url}      Error : {str(e)}\n")
                 DICT_ERRORS["url"].append(url)
                 DICT_ERRORS["error"].append(str(e))
 
@@ -182,7 +182,7 @@ def _build_error_file() :
     # merge the two df
     last_df_error = pd.merge(DF_NAME_URL, df_error, on="url", how='inner') 
     # write the result inside a json file
-    last_df_error.to_json(path_or_buf=f"{DATA_FOLDER}//SCRAPPING_ERROR.json", orient='records')
+    last_df_error.to_json(path_or_buf=f"{DATA_FOLDER}//imsDB_scrapping_error.json", orient='records')
     logging.info("Error file built")  
     
     return True 

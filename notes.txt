@@ -32,6 +32,11 @@ Run a script.py inside a container launch by Airflow :
 
         The script of scrapping is working => there a single script inside the docker volume 'scrapper_data' - accessible from AF too.
 
+        15/10
+        Architecture of data_scrapping modified : allow us to add other data sources (than imsDB)
+        Adding MongoDB connection to the main DAG + insertion of the data of imsDB scripts inside MongoDB.
+
+
     ### To Do List : 
         - Launch the true script of scrapping (we have to modify the main() function : comment a line and uncomment an other one)   DONE
         
@@ -51,6 +56,13 @@ Run a script.py inside a container launch by Airflow :
                     - scripts
                     - error
             => and then insert the data with an Airflow operator inside the 'main_dag.py'
+
+
+        15/10
+        - add the error.json file to MongoDB.
+        - add an other data source for scripts*
+        - find a solution to clean the data.
+        
 
 # Note to Baptiste :
     I will explain to you every thing that I've done.
