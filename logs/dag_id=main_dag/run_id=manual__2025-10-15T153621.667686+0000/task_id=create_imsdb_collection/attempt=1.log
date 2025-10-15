@@ -1,0 +1,6 @@
+{"timestamp":"2025-10-15T15:36:24.778838Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-15T15:36:24.779828Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/main_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-15T15:36:24.909300Z","level":"info","event":"/opt/airflow","logger":"unusual_prefix_c197a0997a466423c26d6f7c8e75323f60b0198e_main_dag","filename":"main_dag.py","lineno":106}
+{"timestamp":"2025-10-15T15:36:24.952245Z","level":"info","event":"MongoDB client created","logger":"unusual_prefix_c197a0997a466423c26d6f7c8e75323f60b0198e_main_dag","filename":"main_dag.py","lineno":48}
+{"timestamp":"2025-10-15T15:36:45.039254Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"not_running","message":"TI is no longer in the running state and task should terminate","current_state":"failed"}},"logger":"task"}
+{"timestamp":"2025-10-15T15:36:50.054455Z","level":"error","event":"Task killed!","logger":"task"}
