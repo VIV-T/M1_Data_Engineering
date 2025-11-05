@@ -79,3 +79,11 @@ Run a script.py inside a container launch by Airflow :
                                                                                            | the volume m1_data_engineering_scrapper_data
 
         - Find a solution to capture the logs of python scripts exec (in additional container)      DONE
+
+
+
+
+
+For NEXT NEXT Steps : 
+ See : https://kindlepreneur.com/book-tropes/       reference a list of tropes by genre (with a simple description)
+ And also : https://tvtropes.org/pmwiki/pmwiki.php/Main/Tropes      can be interresting (to scrap ?)

@@ -14,9 +14,11 @@ from selenium.webdriver.common.by import By
 
 
 ### --Initialization--
+
+##################################  IMPORTANT  ##################################
 DATA_FOLDER = ".//data_scrapping"
 #DATA_FOLDER_SCRIPTS = f"{DATA_FOLDER}//scripts"
-DATA_FOLDER_SCRIPTS = f"{DATA_FOLDER}//scripts//imsDB"
+DATA_FOLDER_SCRIPTS = f"{DATA_FOLDER}//scripts//imsDB" # adapt your outputs later in your code based on those variables.
 #DATA_FOLDER_LOGS = f"{DATA_FOLDER}//logs"
 DATA_FOLDER_LOGS = f"{DATA_FOLDER}//logs//imsDB"
 
@@ -27,6 +29,7 @@ logging.basicConfig(
     level=logging.INFO
     )
 logging.info("Scrapper runner started")
+###################################################################################
 
 # Selenium driver
 chrome_options = webdriver.ChromeOptions()
