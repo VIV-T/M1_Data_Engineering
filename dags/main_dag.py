@@ -31,7 +31,8 @@ def failure_alert(context):
 # test if Airflow is able to read the file
 def _get_json_files() : 
     try : 
-        script_files = glob.glob('/opt/airflow/data_scrapping/scripts/imsDB/*.json')
+        #script_files = glob.glob('/opt/airflow/data_scrapping/scripts/imsDB/*.json')
+        script_files = glob.glob('/opt/airflow/data_scrapping/scripts/simplyscripts/*.json')
         logger.info("Success reading the files")
         logger.info(f"Files found: {script_files}")
         return script_files
@@ -127,6 +128,7 @@ with DAG(
         network_mode="airflow_network",
         mount_tmp_dir=False,
         dag=dag,
+
         # Synchronize a volume between the scrapper container and the airflow container
         mounts=[Mount(source='m1_data_engineering_scrapper_data', target='/scrapping/data_scripts', type='volume')]
     )
