@@ -81,9 +81,32 @@ Run a script.py inside a container launch by Airflow :
         - Find a solution to capture the logs of python scripts exec (in additional container)      DONE
 
 
-
-
-
+### 05/11
 For NEXT NEXT Steps : 
  See : https://kindlepreneur.com/book-tropes/       reference a list of tropes by genre (with a simple description)
  And also : https://tvtropes.org/pmwiki/pmwiki.php/Main/Tropes      can be interresting (to scrap ?)
+ See what Bpt have found. 
+###
+
+
+### 06/11
+Next steps : 
+    - Merge code of Maia with the current one.
+    - Refactor code of scrapping imsDB + simplyScript (same format for logs and error + elem inside the DB if possible)
+            |_ uniformisation of error files (should be insert inside MongoDB at the end)
+    - Check that the MongoDB insertion works properly for each data source (imsDB + simplyScript)
+    - clean the code + comment it properly (English)
+    - END PART I
+
+    - Script cleaning (PART II)
+    - See notes about Hugging face, Pytorch / Tensorflow, training and scripts cleaning with LLM.
+
+
+Ideas for the project (Tbt) :
+    - Discuss about what we can do, what are our objectives, etc.
+    - Must have a good idea of the news ressources and data found by Bpt.
+    - Create a graph DB (Neo4j) using the scripts as node, such as tropes, use a link (INCLUDED_IN -- with a property 'description' or 'use_case' which precise of the trope is used in the movie)
+            |_ can be usefull to make request and stats ?
+            |_ create an IA agent / assistant to help in script creation ? 
+                    |_ based on genre, popular tropes related to this genre, characters archetype, example of tropes, ... ?
+###

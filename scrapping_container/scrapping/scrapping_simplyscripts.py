@@ -11,10 +11,9 @@ from bs4 import BeautifulSoup
 
 ### --Initialization--
 DATA_FOLDER = ".//data_scrapping"
-#DATA_FOLDER_SCRIPTS = f"{DATA_FOLDER}//scripts"
 DATA_FOLDER_SCRIPTS = f"{DATA_FOLDER}//scripts//simplyScripts"
-#DATA_FOLDER_LOGS = f"{DATA_FOLDER}//logs"
-DATA_FOLDER_LOGS = f"{DATA_FOLDER}//logs//simplyScripts"
+#DATA_FOLDER_LOGS = f"{DATA_FOLDER}//logs//simplyScripts"
+LOG_TITLE = "SimplyScripts ---"
 
 # Error file path
 ERROR_FILE = os.path.join(DATA_FOLDER, "simplyScriptsDB_scrapping_error.txt")
@@ -24,12 +23,13 @@ ALLOWED_EXTENSIONS = [".pdf", ".html", ".txt", ".doc", ".docx"]
 
 
 # logging 
-logging.basicConfig(
-    filename=f"{DATA_FOLDER_LOGS}//scrapping.log",
-    filemode='w',
-    level=logging.INFO
-    )
-logging.info("Scrapper runner started")
+#logging.basicConfig(
+#    filename=f"{DATA_FOLDER_LOGS}//scrapping.log",
+#    filemode='w',
+#    level=logging.INFO
+#    )
+
+logging.info(f"{LOG_TITLE} Scrapper runner started")
 
 ### TOOLS ###
 def _initialize_alpha_index():
@@ -67,7 +67,7 @@ def _get_url_script(alpha_index: str):
         response = requests.get(url, timeout=30)
         response.raise_for_status()
     except requests.RequestException:
-        logging.info(f"[!] Failed to fetch page: {url}")
+        logging.info(f"{LOG_TITLE} [!] Failed to fetch page: {url}")
         return []
 
     # Parse HTML using BeautifulSoup
@@ -128,9 +128,9 @@ def _get_movie_data_omdb(imdb_id: str, api_key: str):
                 "rating": data.get("imdbRating"),
             }
         else:
-            logging.info(f"[!] OMDb error: {data.get('Error')}")
+            logging.info(f"{LOG_TITLE} [!] OMDb error: {data.get('Error')}")
     except requests.RequestException:
-        logging.info(f"[!] Failed to call OMDb API for {imdb_id}")
+        logging.info(f"{LOG_TITLE} [!] Failed to call OMDb API for {imdb_id}")
     return None
 
 def merge_single_script_with_movie_data(script, movie_data):
@@ -164,7 +164,7 @@ def _add_to_missing(title, url, reason="Empty or corrupted"):
     with open(ERROR_FILE, "a", encoding="utf-8") as f:
         f.write(f"[{reason}] - {title} ({url})\n")
 
-    logging.info(f"[!] Logged error for: {title} ({reason})")
+    logging.info(f"{LOG_TITLE} [!] Logged error for: {title} ({reason})")
 
 
 def download_script_content(script_info):
@@ -181,7 +181,7 @@ def download_script_content(script_info):
 
     ext = os.path.splitext(url)[1].lower()
     if ext not in ALLOWED_EXTENSIONS:
-        logging.info(f"[!] Skipping unsupported file type: {url}")
+        logging.info(f"{LOG_TITLE} [!] Skipping unsupported file type: {url}")
         return None
 
     script_text = ""
@@ -203,7 +203,7 @@ def download_script_content(script_info):
                     if text:
                         script_text += text.replace("\n", " ")
             except PdfReadError:
-                logging.info(f"[!] Corrupted PDF: {url}")
+                logging.info(f"{LOG_TITLE} [!] Corrupted PDF: {url}")
                 _add_to_missing(title, url, "PDF corrupted")
 
         # ---- DOCX ----
@@ -213,11 +213,11 @@ def download_script_content(script_info):
                 for para in doc.paragraphs:
                     script_text += para.text + " "
             except Exception:
-                logging.info(f"[!] Failed to read DOCX: {url}")
+                logging.info(f"{LOG_TITLE} [!] Failed to read DOCX: {url}")
                 _add_to_missing(title, url, "DOCX read error")
 
     except requests.RequestException:
-        logging.info(f"[!] Request failed for {url}")
+        logging.info(f"{LOG_TITLE} [!] Request failed for {url}")
         _add_to_missing(title, url, "Request failed")
 
     # ---- Check empty content ----
@@ -227,8 +227,11 @@ def download_script_content(script_info):
     script_info["script"] = script_text.strip()
     return script_info
 
+
+
 ### MAIN EXECUTION ###
-if __name__ == "__main__":
+def main_scrapping_simplyScripts () : 
+#if __name__ == "__main__":
 
     # Get all alphabetical indexes
     alphabetical_indexes = _initialize_alpha_index()
@@ -239,7 +242,7 @@ if __name__ == "__main__":
 
     # Loop through each alphabetical index
     for alpha_index in alphabetical_indexes:
-        logging.info(f"[+] Scraping index: {alpha_index}")
+        logging.info(f"{LOG_TITLE} [+] Scraping index: {alpha_index}")
 
         # Scrape all scripts URLs for this index
         list_scripts_url = _get_url_script(alpha_index)
@@ -265,9 +268,9 @@ if __name__ == "__main__":
             with open(output_path, "w", encoding="utf-8") as f:
                 json.dump(updated_info, f, ensure_ascii=False, indent=4)
 
-            logging.info(f"[+] Saved: {output_path}")
+            logging.info(f"{LOG_TITLE} [+] Saved: {output_path}")
 
-    logging.info("\n[+] Scraping completed!")
+    logging.info("simplyScripts scrapping finished")
 
 
 

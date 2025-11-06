@@ -17,18 +17,18 @@ from selenium.webdriver.common.by import By
 
 ##################################  IMPORTANT  ##################################
 DATA_FOLDER = ".//data_scrapping"
-#DATA_FOLDER_SCRIPTS = f"{DATA_FOLDER}//scripts"
 DATA_FOLDER_SCRIPTS = f"{DATA_FOLDER}//scripts//imsDB" # adapt your outputs later in your code based on those variables.
-#DATA_FOLDER_LOGS = f"{DATA_FOLDER}//logs"
-DATA_FOLDER_LOGS = f"{DATA_FOLDER}//logs//imsDB"
+# DATA_FOLDER_LOGS = f"{DATA_FOLDER}//logs//imsDB"
+LOG_TITLE = "imsDB ---"
 
-# logging 
-logging.basicConfig(
-    filename=f"{DATA_FOLDER_LOGS}//scrapping.log",
-    filemode='w',
-    level=logging.INFO
-    )
-logging.info("Scrapper runner started")
+
+# logging.basicConfig(
+#     filename=f"{DATA_FOLDER_LOGS}//scrapping.log",
+#     filemode='w',
+#     level=logging.INFO
+#     )
+logging.info(f"{LOG_TITLE} Scrapper runner started")
+
 ###################################################################################
 
 # Selenium driver
@@ -40,7 +40,7 @@ chrome_options.add_argument('--verbose')
 DRIVER = webdriver.Chrome(chrome_options)
 DRIVER.set_window_rect(0,0,1280,840)
 
-logging.info("Driver set properly")
+logging.info(f"{LOG_TITLE} Driver set properly")
 
 
 
@@ -54,7 +54,7 @@ def _initialize_alpha_index():
     for i in range(65, 91):
         alphabetical_index.append(chr(i))
 
-    logging.info("Alpha index initialized")
+    logging.info(f"{LOG_TITLE} Alpha index initialized")
     return alphabetical_index
 
 
@@ -85,9 +85,9 @@ def _get_dict_name_url_list(alphabetical_index : list, url : bool = False) :
         dict_name_url_list[alpha_index] = _get_name_url_list(alpha_index, url)
 
     if url :
-        logging.info("dict_url_list initialized")
+        logging.info(f"{LOG_TITLE} dict_url_list initialized")
     else : 
-        logging.info("dict_name_list initialized")
+        logging.info(f"{LOG_TITLE} dict_name_list initialized")
 
     return dict_name_url_list
 
@@ -142,7 +142,7 @@ def _get_script (url : str) :
     with open(f"{DATA_FOLDER_SCRIPTS}//{url}.json", "w", encoding='utf-8') as f :
         f.write(json_script)
 
-    logging.info(f"Script scrapped and written : {url}.json")
+    logging.info(f"{LOG_TITLE} Script scrapped and written : {url}.json")
 
     return True
 
@@ -159,7 +159,7 @@ def _get_all_scripts(dict_url_list : dict) :
                 DICT_ERRORS["url"].append(url)
                 DICT_ERRORS["error"].append(str(e))
 
-    logging.info("All scripts scrapped")
+    logging.info(f"{LOG_TITLE} All scripts scrapped")
     return True
 
 
@@ -172,11 +172,11 @@ def _build_df_name_url(dict_name_list : dict, dict_url_list : dict) :
         dict_name_url = {"name" : names_list, "url" : urls_list}
         global DF_NAME_URL
         DF_NAME_URL = pd.DataFrame(dict_name_url)
-        logging.info("Dataframe of name and url built")
+        logging.info(f"{LOG_TITLE} Dataframe of name and url built")
         return True
     
     except Exception as e :
-        logging.error(f"Error during the building of the dataframe : {str(e)}")
+        logging.error(f"{LOG_TITLE} Error during the building of the dataframe : {str(e)}")
         return False
     
 
@@ -186,13 +186,13 @@ def _build_error_file() :
     last_df_error = pd.merge(DF_NAME_URL, df_error, on="url", how='inner') 
     # write the result inside a json file
     last_df_error.to_json(path_or_buf=f"{DATA_FOLDER}//imsDB_scrapping_error.json", orient='records')
-    logging.info("Error file built")  
+    logging.info(f"{LOG_TITLE} Error file built")  
     
     return True 
 
 
 
-def main() :    
+def main_scrapping_imsDB() :    
     # initialization
     alpha_index = _initialize_alpha_index()
     dict_name_list =_get_dict_name_url_list(alphabetical_index=alpha_index, url=False)
@@ -210,9 +210,6 @@ def main() :
     # building of the error file
     _build_error_file()
 
+    logging.info("imsDB scrapping finished")
 
 
-
-###--Main execution--
-if __name__ == "__main__" :
-    main()
