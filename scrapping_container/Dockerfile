@@ -23,5 +23,9 @@ RUN apt-get update && \
 #COPY scrapping/run_scraper.py /app/scrapping/run_scraper.py
 #CMD ["/opt/venv_scrapping/bin/python", "/app/scrapping/run_scraper.py"]
 COPY scrapping/scrapping.py /app/scrapping/scrapping.py
-#CMD ["/opt/venv_scrapping/bin/python", "/app/scrapping/main.py"]
-CMD ["/opt/venv_scrapping/bin/python", "/app/scrapping/scrapping_simplyscripts.py"]
+COPY scrapping/scrapping.py /app/scrapping/scrapping_simplyscripts.py
+COPY scrapping/scrapping.py /app/scrapping/main.py
+
+CMD ["/opt/venv_scrapping/bin/python", "/app/scrapping/main.py"]
+#CMD ["/opt/venv_scrapping/bin/python", "/app/scrapping/scrapping.py"]
+#CMD ["/opt/venv_scrapping/bin/python", "/app/scrapping/scrapping_simplyscripts.py"]

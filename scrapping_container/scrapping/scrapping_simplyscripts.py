@@ -17,7 +17,7 @@ DATA_FOLDER_SCRIPTS = f"{DATA_FOLDER}//scripts//simplyScripts"
 DATA_FOLDER_LOGS = f"{DATA_FOLDER}//logs//simplyScripts"
 
 # Error file path
-ERROR_FILE = os.path.join(DATA_FOLDER, "SimplyScriptsDB_scrapping_error.txt")
+ERROR_FILE = os.path.join(DATA_FOLDER, "simplyScriptsDB_scrapping_error.txt")
 
 # Allowed file extensions for scripts
 ALLOWED_EXTENSIONS = [".pdf", ".html", ".txt", ".doc", ".docx"]
