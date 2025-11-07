@@ -1,4 +1,4 @@
-# Imports
+#Imports
 import os
 import re
 import json
@@ -10,12 +10,10 @@ from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
-
-#  Selenium driver
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-# Initialization
+#  Config 
 BASE = "https://imsdb.com"
 REQUEST_TIMEOUT = 20
 MIN_DELAY_S = 0.6
@@ -29,14 +27,15 @@ DATA_FOLDER_LOGS = f"{DATA_FOLDER}//logs//imsDB"
 os.makedirs(DATA_FOLDER_SCRIPTS, exist_ok=True)
 os.makedirs(DATA_FOLDER_LOGS, exist_ok=True)
 
-# To test for a single letter : SINGLE_LETTER=A
-SINGLE_LETTER = os.getenv("SINGLE_LETTER", "").strip().upper()
-
+#  Logging 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-fh = logging.FileHandler(f"{DATA_FOLDER_LOGS}//scrapping.log", mode="w", encoding="utf-8")
+fh = logging.FileHandler(
+    f"{DATA_FOLDER_LOGS}//scrapping.log", mode="w", encoding="utf-8"
+)
 fh.setLevel(logging.INFO)
+
 ch = logging.StreamHandler()
 ch.setLevel(logging.INFO)
 
@@ -45,15 +44,19 @@ fh.setFormatter(fmt)
 ch.setFormatter(fmt)
 
 logger.handlers = [fh, ch]
-logging.info("Scrapper runner started")
+logging.info("Scraper started")
 
-#  HTTP helpers 
-
+#  HTTP 
 SESSION = requests.Session()
-SESSION.headers.update({
-    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-                  "(KHTML, like Gecko) Chrome/123.0 Safari/537.36"
-})
+SESSION.headers.update(
+    {
+        "User-Agent": (
+            "Mozilla/5.0 (X11; Linux x86_64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/123.0 Safari/537.36"
+        )
+    }
+)
 
 def _sleep_jitter():
     time.sleep(random.uniform(MIN_DELAY_S, MAX_DELAY_S))
@@ -68,7 +71,9 @@ def _fetch_html(url: str) -> str:
         except Exception as e:
             last_err = e
             wait = (RETRY_BACKOFF ** (attempt - 1)) + random.random()
-            logging.warning(f"[{attempt}/{RETRY_COUNT}] GET fail {url}: {e} | retry in {wait:.1f}s")
+            logging.warning(
+                f"[{attempt}/{RETRY_COUNT}] GET failed {url}: {e} | retry in {wait:.1f}s"
+            )
             time.sleep(wait)
     raise last_err  # type: ignore
 
@@ -76,8 +81,7 @@ def _fetch_soup(url: str) -> BeautifulSoup:
     _sleep_jitter()
     return BeautifulSoup(_fetch_html(url), "html.parser")
 
-# -------------------- Utils parsing --------------------
-
+#  Utils 
 def _norm(txt: str) -> str:
     if not txt:
         return ""
@@ -87,87 +91,79 @@ def _norm(txt: str) -> str:
 
 def _safe_filename(name: str) -> str:
     name = (name or "untitled").strip()
-    name = re.sub(r"[^\w\-.]+", "_", name, flags=re.UNICODE)
+    name = re.sub(r"[^\w\-.]+", "_", name)
     return name[:180]
 
-# Selenium driver setup
-
+#  Selenium driver 
 def _build_driver() -> Optional[webdriver.Chrome]:
     try:
         opts = webdriver.ChromeOptions()
-        opts.add_argument('--headless=new')
-        opts.add_argument('--no-sandbox')
-        opts.add_argument('--disable-dev-shm-usage')
-        opts.add_argument('user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 '
-                          '(KHTML, like Gecko) Chrome/123.0 Safari/537.36')
+        opts.add_argument("--headless=new")
+        opts.add_argument("--no-sandbox")
+        opts.add_argument("--disable-dev-shm-usage")
+        opts.add_argument(
+            "user-agent=Mozilla/5.0 (X11; Linux x86_64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/123.0 Safari/537.36"
+        )
         driver = webdriver.Chrome(options=opts)
         driver.set_window_rect(0, 0, 1280, 900)
         driver.implicitly_wait(5)
-        logging.info("Selenium driver OK")
+        logging.info("Selenium driver initialized")
         return driver
     except Exception as e:
-        logging.warning(f"Selenium driver KO, fallback requests-only. Reason: {e}")
+        logging.warning(f"Selenium not available, fallback to requests only: {e}")
         return None
 
 DRIVER = _build_driver()
 
-#  Index alphabetical 
-
+#  Alphabet index 
 def _initialize_alpha_index() -> List[str]:
-    alpha = ['0']
-    alpha += [chr(i) for i in range(65, 91)]  # A-Z
-    logging.info("Alpha index initialized")
+    alpha = ["0"] + [chr(i) for i in range(65, 91)]
+    logging.info(f"Alphabet index: {alpha}")
     return alpha
 
-def _get_name_url_list(alphabetical_index: str, url: bool = False):
-    target = f'{BASE}/alphabetical/{alphabetical_index}'
+#  Index listing 
+def _get_name_url_list(letter: str, url: bool = False):
+    """
+    If url=False -> list movie names (for info only).
+    If url=True  -> list 'Movie Scripts/XXX Script.html' URLs.
+    """
+    target = f"{BASE}/alphabetical/{letter}"
+    urls, names = [], []
 
-    urls = []
-    names = []
-
-    #  Selenium
+    # Selenium first
     if DRIVER is not None:
         try:
             DRIVER.get(target)
             time.sleep(1.0)
-            # XPATH 1 : without tbody
             elems = DRIVER.find_elements(By.XPATH, "//*[@id='mainbody']/table[2]//td[3]//a")
             if not elems:
-                elems = DRIVER.find_elements(By.XPATH, "//*[@id='mainbody']/table[2]/tbody/tr/td[3]//a")
-
-            if elems:
-                for e in elems:
-                    txt = (e.text or "").strip()
-                    href = (e.get_attribute("href") or "").strip()
-                    if txt:
-                        names.append(txt)
-                    if "/Movie%20Scripts/" in href and href.endswith(".html"):
-                        urls.append(href)
+                elems = DRIVER.find_elements(
+                    By.XPATH, "//*[@id='mainbody']/table[2]/tbody/tr/td[3]//a"
+                )
+            for e in elems:
+                txt = (e.text or "").strip()
+                href = (e.get_attribute("href") or "").strip()
+                if txt:
+                    names.append(txt)
+                if "/Movie%20Scripts/" in href and href.endswith(".html"):
+                    urls.append(href)
         except Exception as e:
-            logging.warning(f"Selenium listing failed for {target}: {e}")
+            logging.warning(f"[{letter}] Selenium index failed: {e}")
 
-    # --- Fallback requests+BS4 ---
-    if not urls or (not names and not url):
+    # Fallback: requests+BS4
+    if not urls:
         soup = _fetch_soup(target)
-        anchors = soup.find_all("a", href=True)
-        for a in anchors:
+        for a in soup.find_all("a", href=True):
             href = a["href"]
-            text = a.get_text(strip=True)
-            if text:
-                names.append(text)
+            txt = a.get_text(strip=True)
+            if txt:
+                names.append(txt)
             if "/Movie Scripts/" in href and href.endswith(".html"):
                 urls.append(urljoin(BASE, href.replace(" ", "%20")))
 
-        if not urls:
-            # dump for debug
-            dump_path = os.path.join(DATA_FOLDER_SCRIPTS, f"debug_ALPHA_{alphabetical_index}.html")
-            try:
-                with open(dump_path, "w", encoding="utf-8") as f:
-                    f.write(str(soup))
-                logging.warning(f"[alpha:{alphabetical_index}] 0 URLs — page dumpée : {dump_path}")
-            except Exception as e:
-                logging.warning(f"[alpha:{alphabetical_index}] dump impossible: {e}")
-
+    # Dedup
     def _dedup(seq):
         seen, out = set(), []
         for x in seq:
@@ -176,46 +172,54 @@ def _get_name_url_list(alphabetical_index: str, url: bool = False):
                 out.append(x)
         return out
 
-    names = _dedup([n for n in names if n])
-    urls  = _dedup([u for u in urls if u])
+    names = _dedup(names)
+    urls = _dedup(urls)
 
     return urls if url else names
 
-def _get_dict_name_url_list(alphabetical_index: list, url: bool = False):
+def _get_dict_url_list(alpha_index: List[str]):
     d = {}
-    for letter in alphabetical_index:
-        d[letter] = _get_name_url_list(letter, url=url)
-    logging.info(f"dict_{'url' if url else 'name'}_list initialized")
+    for letter in alpha_index:
+        d[letter] = _get_name_url_list(letter, url=True)
+        logging.info(f"[{letter}] {len(d[letter])} Movie Scripts URLs")
     return d
 
-#  HTML to structured JSON
-
-def _structure_html_to_json(html_script: str, url: str):
-    soup = BeautifulSoup(html_script, 'html.parser')
-    html_elements = []
+#  Script body struct 
+def _structure_html_to_json(html_script: str, url: str) -> dict:
+    soup = BeautifulSoup(html_script, "html.parser")
+    elements = []
     for content in soup.contents:
-        if getattr(content, "name", None):  # balise HTML
-            html_elements.append({"type": "tag", "name": content.name, "content": str(content)})
-        else:  # texte
+        if getattr(content, "name", None):
+            elements.append({
+                "type": "tag",
+                "name": content.name,
+                "content": str(content)
+            })
+        else:
             text = str(content).strip()
             if text:
-                html_elements.append({"type": "text", "content": text})
-    return json.dumps({'url': url, "elements": html_elements}, ensure_ascii=False, indent=2)
+                elements.append({"type": "text", "content": text})
+    return {"url": url, "elements": elements}
 
-# Extraction of metadata/links 
-
+#  Metadata : title,genre and user ratings
 def _extract_title(soup: BeautifulSoup) -> str:
     h1 = soup.find("h1")
     if h1:
-        return " ".join(h1.get_text(strip=True).split())
+        return _norm(h1.get_text())
     title = soup.find("title")
-    return " ".join(title.get_text(strip=True).split()) if title else ""
+    return _norm(title.get_text()) if title else ""
 
 def _extract_user_rating(soup: BeautifulSoup) -> Optional[float]:
-    label = soup.find(lambda tag: tag.name in ("b", "strong") and tag.get_text(strip=True).lower() == "average user rating")
+    label = soup.find(
+        lambda tag: tag.name in ("b", "strong")
+        and tag.get_text(strip=True).lower() == "average user rating"
+    )
     if not label:
         full_txt = _norm(soup.get_text(" "))
-        m = re.search(r'Average user rating[^0-9]*(\d+(?:\.\d+)?)\s*out of\s*10', full_txt, flags=re.I)
+        m = re.search(
+            r"Average user rating[^0-9]*(\d+(?:\.\d+)?)\s*out of\s*10",
+            full_txt, flags=re.I
+        )
         if m:
             try:
                 return float(m.group(1))
@@ -231,11 +235,10 @@ def _extract_user_rating(soup: BeautifulSoup) -> Optional[float]:
                     return None
         return None
 
-    # loof for '(X out of 10)'
+    # local "(X out of 10)"
     for node in label.next_elements:
         if isinstance(node, NavigableString):
-            txt = " ".join(str(node).split())
-            m = re.search(r'(\d+(?:\.\d+)?)\s*out of\s*10', txt, flags=re.I)
+            m = re.search(r"(\d+(?:\.\d+)?)\s*out of\s*10", str(node), flags=re.I)
             if m:
                 try:
                     return float(m.group(1))
@@ -244,10 +247,10 @@ def _extract_user_rating(soup: BeautifulSoup) -> Optional[float]:
         elif isinstance(node, Tag) and node.name in ("b", "strong"):
             break
 
+    # local stars image
     for node in label.next_elements:
         if isinstance(node, Tag) and node.name == "img":
-            src = node.get("src", "")
-            m = re.search(r'/images/rating/(\d+)-stars\.gif$', src)
+            m = re.search(r"/images/rating/(\d+)-stars\.gif$", node.get("src", ""))
             if m:
                 try:
                     return float(m.group(1))
@@ -255,11 +258,15 @@ def _extract_user_rating(soup: BeautifulSoup) -> Optional[float]:
                     pass
         elif isinstance(node, Tag) and node.name in ("b", "strong"):
             break
+
     return None
 
 def _extract_genres(soup: BeautifulSoup) -> List[str]:
     genres: List[str] = []
-    gtag = soup.find(lambda tag: tag.name in ("b", "strong") and tag.get_text(strip=True) == "Genres")
+    gtag = soup.find(
+        lambda tag: tag.name in ("b", "strong")
+        and tag.get_text(strip=True) == "Genres"
+    )
     if gtag:
         for a in gtag.find_all_next("a"):
             href = a.get("href", "")
@@ -271,212 +278,143 @@ def _extract_genres(soup: BeautifulSoup) -> List[str]:
         for a in soup.find_all("a", href=True):
             if "/genre/" in a["href"]:
                 genres.append(_norm(a.get_text()))
-    out, seen = [], set()
+    seen, out = set(), []
     for g in genres:
         if g and g not in seen:
             seen.add(g)
             out.append(g)
     return out
 
-def _find_script_link_from_movie_page(soup: BeautifulSoup, movie_url: str) -> Tuple[Optional[str], str]:
+def _find_script_link_from_movie_page(soup: BeautifulSoup, movie_url: str) -> Optional[str]:
     anchors = soup.find_all("a", href=True)
-    # 1) Texte "Read ..."
+
+    # 1) "Read ..." links
     for a in anchors:
-        text = _norm(a.get_text()).lower()
-        if text.startswith("read "):
-            return urljoin(movie_url, a["href"]), "text:Read …"
-    # 2) URL /scripts/
+        if _norm(a.get_text()).lower().startswith("read "):
+            return urljoin(movie_url, a["href"])
+
+    # 2) /scripts/ links
     for a in anchors:
         if "/scripts/" in a["href"]:
-            return urljoin(BASE, a["href"]), "href:/scripts/"
-    # 3) Fallback 
+            return urljoin(BASE, a["href"])
+
+    # 3) fallback: href mentioning script/screenplay
     for a in anchors:
-        text = _norm(a.get_text()).lower()
         href = a["href"].lower()
-        if any(k in text for k in ("script", "screenplay", "read")) or any(k in href for k in ("script", "screenplay")):
-            return urljoin(movie_url, a["href"]), "semantic"
-    return None, "not-found"
+        if "script" in href or "screenplay" in href:
+            return urljoin(movie_url, a["href"])
+
+    return None
 
 def _is_probably_pdf(url: str) -> bool:
-    path = urlparse(url).path.lower()
-    return path.endswith(".pdf") or ".pdf" in path
+    return urlparse(url).path.lower().endswith(".pdf") or ".pdf" in urlparse(url).path.lower()
 
-#  Scraper film  
-
-def _get_script(url: str):
-
-    movie_scripts_url = url
-
-    # 1) Page Movie Scripts (requests + BS4)
+#  Scrape one script 
+def _get_script(movie_scripts_url: str):
     ms_soup = _fetch_soup(movie_scripts_url)
-    title = _extract_title(ms_soup)
-    rating = _extract_user_rating(ms_soup)
-    genres = _extract_genres(ms_soup)
 
-    # 2) Link to the script page
-    script_url, why = _find_script_link_from_movie_page(ms_soup, movie_scripts_url)
+    title = _extract_title(ms_soup)
+    genres = _extract_genres(ms_soup)
+    rating = _extract_user_rating(ms_soup)
+
+    script_url = _find_script_link_from_movie_page(ms_soup, movie_scripts_url)
     script_html = ""
     script_text = ""
     structured = None
-    external_note = None
+    note = None
 
     if not script_url:
-        raise Exception(f"Aucun lien script trouvé ({why}) sur {movie_scripts_url}")
+        raise Exception(f"No script link found on {movie_scripts_url}")
 
-    # 3) Si externe/PDF → on stocke l’URL, sans extraction
     if _is_probably_pdf(script_url) or (
-        urlparse(script_url).netloc and urlparse(script_url).netloc != urlparse(BASE).netloc
+        urlparse(script_url).netloc
+        and urlparse(script_url).netloc != urlparse(BASE).netloc
     ):
-        external_note = f"external_or_pdf: {script_url}"
-        logging.info(f"[script] externe/PDF détecté → {script_url}")
+        note = f"external_or_pdf: {script_url}"
+        logging.info(f"[external] {movie_scripts_url} -> {script_url}")
     else:
-        # 4) See if Selenium works
+        # try Selenium
         if DRIVER is not None:
             try:
                 DRIVER.get(script_url)
                 time.sleep(0.6)
-
-                # XPATH without tbody
                 try:
                     html_script = DRIVER.find_element(
-                        By.XPATH, "//*[@id='mainbody']/table[2]//td[3]//table//td/pre"
-                    ).get_attribute('innerHTML')
+                        By.XPATH,
+                        "//*[@id='mainbody']/table[2]//td[3]//table//td/pre",
+                    ).get_attribute("innerHTML")
                 except Exception:
-                    # fallback with tbody and without <pre>
-                    try:
-                        html_script = DRIVER.find_element(
-                            By.XPATH, "//*[@id='mainbody']/table[2]/tbody/tr/td[3]/table/tbody/tr/td/pre"
-                        ).get_attribute('innerHTML')
-                    except Exception:
-                        html_script = DRIVER.find_element(
-                            By.XPATH, "//*[@id='mainbody']/table[2]//td[3]//table//td"
-                        ).get_attribute('innerHTML')
-
+                    html_script = DRIVER.find_element(
+                        By.XPATH,
+                        "//*[@id='mainbody']/table[2]//td[3]//table//td",
+                    ).get_attribute("innerHTML")
                 html_script = html_script.replace("<pre>", "").replace("</pre>", "")
                 script_html = html_script
-                text_soup = BeautifulSoup(html_script, "html.parser")
-                script_text = _norm(text_soup.get_text("\n"))
             except Exception as e:
-                logging.warning(f"Selenium extract failed → fallback requests ({e})")
+                logging.warning(f"Selenium script fetch failed ({script_url}): {e}")
 
-        # 5) Fallback requests+BS4 if Selenium doesn't work
+        # fallback requests
         if not script_html:
             sc_soup = _fetch_soup(script_url)
             pre = sc_soup.find("pre")
             if pre:
                 script_html = pre.decode()
-                script_text = _norm(pre.get_text("\n"))
             else:
-                td = sc_soup.select_one("#mainbody table:nth-of-type(2) td:nth-of-type(3) table td")
+                td = sc_soup.select_one(
+                    "#mainbody table:nth-of-type(2) td:nth-of-type(3) table td"
+                )
                 if td:
                     script_html = td.decode()
-                    script_text = _norm(td.get_text("\n"))
 
-        if script_html:
-            structured = _structure_html_to_json(script_html, url=script_url)
+    if script_html:
+        text_soup = BeautifulSoup(script_html, "html.parser")
+        script_text = _norm(text_soup.get_text("\n"))
+        structured = _structure_html_to_json(script_html, script_url)
 
-    # 6) Constructionof final json
+    # Filename from script_url or movie_scripts_url
+    source = script_url or movie_scripts_url or title
+    slug = os.path.basename(urlparse(source).path).replace(".html", "") or "untitled"
+    filename = _safe_filename(slug)
+
     data = {
         "title": title,
         "metadata": {
             "genres": genres,
-            "user_rating": rating
+            "user_rating": rating,
         },
         "script": {
             "url": script_url,
             "html": script_html,
             "text": script_text,
             "structured_json": structured,
-            "note": external_note
-        },
-        "source_urls": {
-            "movie_scripts": movie_scripts_url,
-            "script": script_url
+            "note": note,
         }
     }
 
-    # 7) Name of file
-    source_for_slug = script_url or movie_scripts_url or title
-    parsed = urlparse(source_for_slug)
-    slug_candidate = os.path.basename(parsed.path) if parsed.path else source_for_slug
-    slug_candidate = slug_candidate.replace(".html", "")
-    filename = _safe_filename(slug_candidate if slug_candidate else title)
-
-    with open(f"{DATA_FOLDER_SCRIPTS}//{filename}.json", "w", encoding='utf-8') as f:
+    path = os.path.join(DATA_FOLDER_SCRIPTS, f"{filename}.json")
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    logging.info(f"Script scrapped and written : {filename}.json")
-    return True
+    logging.info(f"[OK] {movie_scripts_url} -> {filename}.json")
 
-# iteration on the alphabetical_index (url_list) to get all the html ressources and build the json files
+#  Loop all 
 def _get_all_scripts(dict_url_list: dict):
     for letter, url_list in dict_url_list.items():
-        logging.info(f"== Lettre {letter} : {len(url_list)} fiches ==")
+        logging.info(f"== {letter} : {len(url_list)} Movie Scripts URLs ==")
         for url in url_list:
             try:
-                _get_script(url=url)  # Movie Scripts URL
+                _get_script(url)
             except Exception as e:
-                DICT_ERRORS["url"].append(url)
-                DICT_ERRORS["error"].append(str(e))
-    logging.info("All scripts scrapped")
-    return True
+                logging.error(f"[FAIL] {url} | {e}")
+    logging.info("All scripts processed")
 
-
-# build a dataframe with the name and url of each script
-# Useful to build the error file - based on a DataFrame merge to this one
-def _build_df_name_url(dict_name_list: dict, dict_url_list: dict):
-    try:
-        names_list = [name for sublist in dict_name_list.values() for name in sublist]
-        urls_list = [url for sublist in dict_url_list.values() for url in sublist]
-        dict_name_url = {"name": names_list, "url": urls_list}
-        global DF_NAME_URL
-        import pandas as pd
-        DF_NAME_URL = pd.DataFrame(dict_name_url)
-        logging.info("Dataframe of name and url built")
-        return True
-    except Exception as e:
-        logging.error(f"Error during the building of the dataframe : {str(e)}")
-        return False
-
-def _build_error_file():
-    import pandas as pd
-    df_error = pd.DataFrame(DICT_ERRORS)
-    last_df_error = pd.merge(DF_NAME_URL, df_error, on="url", how='inner')
-    last_df_error.to_json(path_or_buf=f"{DATA_FOLDER}//imsDB_scrapping_error.json", orient='records')
-    logging.info("Error file built")
-    return True
-
-
-
+#  Main 
 def main():
-    # 1) Initialization
-    if SINGLE_LETTER:
-        alpha_index = [SINGLE_LETTER]
-        logging.info(f"Test SINGLE_LETTER={SINGLE_LETTER}")
-    else:
-        alpha_index = _initialize_alpha_index()
+    alpha_index = _initialize_alpha_index()
+    dict_url_list = _get_dict_url_list(alpha_index)
+    _get_all_scripts(dict_url_list)
+    logging.info("Scraping completed")
 
-    dict_name_list = _get_dict_name_url_list(alphabetical_index=alpha_index, url=False)
-    dict_url_list  = _get_dict_name_url_list(alphabetical_index=alpha_index, url=True)
-
-    n_names = sum(len(v) for v in dict_name_list.values())
-    n_urls  = sum(len(v) for v in dict_url_list.values())
-    print(f"[Résumé] Lettres: {alpha_index} | noms: {n_names} | urls Movie Scripts: {n_urls}", flush=True)
-
-    _build_df_name_url(dict_name_list=dict_name_list, dict_url_list=dict_url_list)
-
-    
-    global DICT_ERRORS
-    DICT_ERRORS = {"url": [], "error": []}
-
-    # 3) scrap
-    _get_all_scripts(dict_url_list=dict_url_list)
-
-    # 4) error file
-    _build_error_file()
-    print("Terminé ", flush=True)
-
-###--Main execution--
 if __name__ == "__main__":
     try:
         main()
