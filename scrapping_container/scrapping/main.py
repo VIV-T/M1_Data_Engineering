@@ -13,6 +13,7 @@ import scrapping_simplyscripts
 import scrapping_imsDB
 
 
-scrapping_imsDB.main_scrapping_imsDB()
 
-scrapping_simplyscripts.main_scrapping_simplyScripts()
+#scrapping_simplyscripts.main_scrapping_simplyScripts()
+
+scrapping_imsDB.main_scrapping_imsDB()

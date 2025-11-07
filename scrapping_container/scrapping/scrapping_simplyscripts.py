@@ -112,26 +112,32 @@ def _get_url_script(alpha_index: str):
 
     return script_list
 
-def _get_movie_data_omdb(imdb_id: str, api_key: str):
+
+
+def _get_movie_data_omdb(imdb_id: str, api_key_list: list):
     """
     Fetch movie metadata from OMDb API using IMDb ID.
     Returns a dictionary with title, genre, and IMDb rating.
     """
-    url = f"http://www.omdbapi.com/?i={imdb_id}&apikey={api_key}"
     try:
-        response = requests.get(url, timeout=10)
-        data = response.json()
-        if data.get("Response") == "True":
-            return {
-                "title": data.get("Title"),
-                "genre": data.get("Genre"),
-                "rating": data.get("imdbRating"),
-            }
-        else:
-            logging.info(f"{LOG_TITLE} [!] OMDb error: {data.get('Error')}")
+        for i in range (len(api_key_list)):
+            api_key = api_key_list[i]
+            url = f"http://www.omdbapi.com/?i={imdb_id}&apikey={api_key}"
+            response = requests.get(url, timeout=10)
+            data = response.json()
+            if data.get("Response") == "True":
+                return {
+                    "title": data.get("Title"),
+                    "genre": data.get("Genre"),
+                    "rating": data.get("imdbRating"),
+                }
+            else:
+                logging.info(f"{LOG_TITLE} [!] OMDb error: {data.get('Error')}")
     except requests.RequestException:
         logging.info(f"{LOG_TITLE} [!] Failed to call OMDb API for {imdb_id}")
     return None
+
+
 
 def merge_single_script_with_movie_data(script, movie_data):
     """
@@ -145,6 +151,8 @@ def merge_single_script_with_movie_data(script, movie_data):
         "genre": movie_data.get("genre"),
         "rating": movie_data.get("rating"),
     }
+
+
 
 def _add_to_missing(title, url, reason="Empty or corrupted"):
     """
@@ -165,6 +173,7 @@ def _add_to_missing(title, url, reason="Empty or corrupted"):
         f.write(f"[{reason}] - {title} ({url})\n")
 
     logging.info(f"{LOG_TITLE} [!] Logged error for: {title} ({reason})")
+
 
 
 def download_script_content(script_info):
@@ -235,7 +244,9 @@ def main_scrapping_simplyScripts () :
 
     # Get all alphabetical indexes
     alphabetical_indexes = _initialize_alpha_index()
-    api_key = "2995ec4a"
+    # list API keys for OMDB - generated on http://www.omdbapi.com/apikey.aspx
+    api_key_list = ["2995ec4a", "d6a12fee", "c31521b6", "b03c1a9e"]
+    #api_key = "2995ec4a"
 
     # Ensure output folder exists
     os.makedirs(DATA_FOLDER_SCRIPTS, exist_ok=True)
@@ -251,7 +262,7 @@ def main_scrapping_simplyScripts () :
         # Fetch movie metadata for each script
         for script in list_scripts_url:
             imdb_id = script.get("imdb_id")
-            movie_data = _get_movie_data_omdb(imdb_id, api_key)
+            movie_data = _get_movie_data_omdb(imdb_id, api_key_list)
             if movie_data:
                 all_data.append(merge_single_script_with_movie_data(script, movie_data))
 
