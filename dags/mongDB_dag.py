@@ -6,6 +6,7 @@ import os
 from pymongo import MongoClient
 import glob
 import json
+import pandas as pd
 
 from airflow import DAG
 from airflow.providers.docker.operators.docker import DockerOperator
@@ -33,7 +34,6 @@ def _get_json_files(collection_name : str) :
     try : 
         script_files = glob.glob(f'/opt/airflow/data_scrapping/scripts/{collection_name}/*.json')
         logger.info("Success reading the files")
-        logger.info(f"Files found: {script_files}")
         return script_files
     except Exception as e:
         logger.error(f"Error reading the files: {e}")
@@ -97,11 +97,26 @@ def _insert_in_collection(collection_name : str) :
         logger.error(f"Error inserting data in the collection in MongoDB: {e}")
 
 
+def _query_get_name(collection_name : str):
+    url_list = []
+    scripts_db = _connect_mongoDB()
+    try :
+        scripts_collection = scripts_db[f"{collection_name}"]
+        for doc in scripts_collection.find({}, {"_id" : 0, "url" :1}) :
+            url_list.append(doc)
+        with open("/opt/airflow/data_scrapping/imsDB_url_list.csv", 'a') as f:
+            f.write(pd.Dataframe({"url" : url_list}))
+        logging.info("url_list file created")
+    except :
+        logging.info("error : url_list file not created")
+
+
+
 # --- DAG config ---
 START_DATE = pendulum.datetime(2024, 1, 1, tz="UTC")
 
 with DAG(
-    dag_id="main_dag",
+    dag_id="mongoDB_dag",
     start_date=START_DATE,
     schedule="0 0 * * *",         # daily at 00:00 UTC
     catchup=False,
@@ -118,20 +133,6 @@ with DAG(
     logger.info(os.getcwd())
 
     # --Task--
-    launch_scrapping = DockerOperator(
-        task_id='launch_scrapping_container',
-        image='m1_data_engineering-scrapper:latest',   # use the docker image build by the 'scrapper' service in the docker-compose.yml
-        api_version='auto',
-        auto_remove="success",    # set to 'never' to check the logs or 'success' in normal case
-        docker_url='tcp://docker-proxy:2375', # use the proxy service set in the docker-compose.yml
-        network_mode="airflow_network",
-        mount_tmp_dir=False,
-        dag=dag,
-
-        # Synchronize a volume between the scrapper container and the airflow container
-        mounts=[Mount(source='m1_data_engineering_scrapper_data', target='/scrapping/data_scripts', type='volume')]
-    )
-
     check_mongo_connection = PythonOperator(
         task_id='check_mongo_connection',
         python_callable=_check_connection_mongoDB,
@@ -152,6 +153,14 @@ with DAG(
         dag=dag
     )
 
+
+    query_get_name = PythonOperator(
+        task_id='query_get_name',
+        python_callable=_query_get_name,
+        op_args=['imsDB'],
+        dag=dag
+    )
+
     # create_simplyScripts_collection = PythonOperator(
     #     task_id='create_simplyScripts_collection',
     #     python_callable=_create_collection,
@@ -168,9 +177,6 @@ with DAG(
 
 
     # --Graph--
-    launch_scrapping >> \
     check_mongo_connection >> create_imsdb_collection
-    create_imsdb_collection >> insert_imsdb_collection
+    create_imsdb_collection >> insert_imsdb_collection >> query_get_name
     
-    #check_mongo_connection >> [create_imsdb_collection, create_simplyScripts_collection]
-    #create_simplyScripts_collection >> insert_simplyScripts_collection 
