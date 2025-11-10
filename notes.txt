@@ -142,9 +142,14 @@ Progress of the day :
     - creation of csv to compare script name already scrapped (imsDB) with the script available in DailyScripts website.
     - adding of the name of error scripts in this csv file.
     - We just have to count :
-        |_ error scripts that are ALSO in DailyScripts.
-        |_ error scripts that are NOT in DailyScripts.
-        |_ Number of scripts in double (not error, but already scrapped and in the DailyScripts website).
+        |_ error scripts that are ALSO in DailyScripts.     29
+        |_ error scripts that are NOT in DailyScripts.      44
+        |_ Number of scripts duplicates (not error, but already scrapped and in the DailyScripts website).  543
+        |_ Number of scripts exclusive from imsDB.  681
+        |_ Number of scripts exclusive from DailyScripts.  529 
+
+    Note : maybe the cleaning isn't complete yet (special characters, and weird title to consider, but still)
+    cf. dailyScripts.py to have precise count and informations.
 
 => Have a better idea of what's exactly we can do.
 ###
