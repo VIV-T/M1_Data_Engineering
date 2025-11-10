@@ -172,6 +172,7 @@ def _build_df_name_url(dict_name_list : dict, dict_url_list : dict) :
         dict_name_url = {"name" : names_list, "url" : urls_list}
         global DF_NAME_URL
         DF_NAME_URL = pd.DataFrame(dict_name_url)
+        DF_NAME_URL.to_json(path_or_buf=f"{DATA_FOLDER}//imsDB_name_url.json", orient='records')
         logging.info(f"{LOG_TITLE} Dataframe of name and url built")
         return True
     

@@ -133,3 +133,18 @@ TO DO LIST :
     URGENT
     - finish to extract name_list / url_list to be sure of what we will do for next steps. 
 ###
+
+
+
+
+### 10/11
+Progress of the day :
+    - creation of csv to compare script name already scrapped (imsDB) with the script available in DailyScripts website.
+    - adding of the name of error scripts in this csv file.
+    - We just have to count :
+        |_ error scripts that are ALSO in DailyScripts.
+        |_ error scripts that are NOT in DailyScripts.
+        |_ Number of scripts in double (not error, but already scrapped and in the DailyScripts website).
+
+=> Have a better idea of what's exactly we can do.
+###

@@ -2,7 +2,7 @@
 
 import logging
 logging.basicConfig(
-    filename=f".//data_scrapping//scrapping.log",
+    filename=f".//data_scrapping//logs//scrapping.log",
     filemode='w',
     level=logging.INFO
     )
