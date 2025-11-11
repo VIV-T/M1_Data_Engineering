@@ -12,14 +12,6 @@ logger = logging.getLogger(__name__)
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 PDF_DIR = PROJECT_ROOT / "pdfs"
 
-
-def extract_text_from_pdf(pdf_path: str, lang: str = "eng", ocr_if_no_text: bool = True, dpi: int = 300) -> str:
-
-    pdf_path = Path(pdf_path)
-
-    return _extract_text_ocr(pdf_path, lang=lang, dpi=dpi)
-
-
 def _extract_text_ocr(pdf_path: Path, lang: str = "eng", dpi: int = 300) -> str:
     try:
         logger.info(f"Starting OCR on {pdf_path} (lang={lang}, dpi={dpi})")
@@ -47,7 +39,7 @@ if __name__ == "__main__":
     pdf_path = PDF_DIR / pdf_name
 
     print(f"Using PDF: {pdf_path}")
-    text = extract_text_from_pdf(pdf_path, lang="eng")
+    text = _extract_text_ocr(pdf_path, lang="eng")
 
     # Save the results of OCR to a text file
     output_dir = PDF_DIR / "ocr_texts"
