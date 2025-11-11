@@ -20,8 +20,14 @@ DRIVER = webdriver.Chrome(chrome_options)
 DRIVER.set_window_rect(0,0,1280,840)
 
 
+"""
+Function to scrap informations from the website : https://www.dailyscript.com/
+The main idea is to get the name list to compare it with the ImsDB one.
+Then we decide to add url information to get the script content later.
 
-def get_all_movie_name() :    
+We save those data inside a json file for later use. It avoid us to re scrapping each time.
+"""
+def get_all_movie_infos_dailyscripts() :    
     DRIVER.get("https://www.dailyscript.com/movie.html")
     movie_list_elem_a_m = DRIVER.find_elements(By.XPATH, '/html/body/font/table/tbody/tr/td[1]/ul/p/a')
     movie_list_name_a_m = [elem.get_attribute("textContent") for elem in movie_list_elem_a_m]
@@ -85,7 +91,7 @@ def get_existing_infos_imsdb_dailyscripts() :
 
 
 
-#get_all_movie_name()   # use scrapping tools - no need it anymore because information are now stored in json file
+#get_all_movie_infos_dailyscripts()   # use scrapping tools - no need it anymore because information are now stored in json file
 DRIVER.quit()       # linked to the previous line (scrapping step)
 
 df_name_url, df_error_name_url, df_name_daily_scripts = get_existing_infos_imsdb_dailyscripts()
@@ -105,6 +111,25 @@ def get_url_extension_dailyscripts(url) :
         return extension
     except :
         return ''
+    
+import requests
+from io import BytesIO
+def get_script_content_from_url_dailyscripts(url) :
+    ext = get_url_extension_dailyscripts(url)
+    if ext in [ 'html', 'htm', 'txt'] :
+        try :
+            response = requests.get(url)
+            if response.status_code == 200 :
+                content = response.content
+                script_text = content.decode("utf-8", errors="ignore").replace("\n", " ")
+                print(f"Successfully retrieved script from {url}")
+                return script_text
+            else :
+                return ''
+        except :
+            return ''
+    else :
+        return ''
 
 df_name_url['name'] = df_name_url['name'].apply(clean_str_imsdb)
 
@@ -112,17 +137,26 @@ df_error_name_url['name'] = df_error_name_url['name'].apply(clean_str_imsdb)
 df_error_name_url.insert(0, 'name_error', df_error_name_url['name'])
 df_error_name_url.drop(columns=['name', 'url'], inplace=True) 
 
-df_name_daily_scripts['movie_url'] = df_name_daily_scripts['movie_url'].apply(get_url_extension_dailyscripts)
+df_name_daily_scripts['movie_url_extension'] = df_name_daily_scripts['movie_url'].apply(get_url_extension_dailyscripts)
 # condition over the extension of the files : avoid to have erroneous rows (link of information page instead of script)
 acceptable_extensions = ['pdf', 'html', 'htm', 'txt', 'doc', 'docx', '']
-df_name_daily_scripts =df_name_daily_scripts[df_name_daily_scripts['movie_url'].isin(acceptable_extensions)]  
+df_name_daily_scripts =df_name_daily_scripts[df_name_daily_scripts['movie_url_extension'].isin(acceptable_extensions)]  
+
+
 
 df_compare = pd.merge(df_name_url, df_name_daily_scripts, left_on='name', right_on='movie_name', how='outer', indicator=True)
 df_compare_error = pd.merge(df_compare, df_error_name_url, left_on='name', right_on='name_error', how='outer')
 df_compare_error.drop(columns=['url'], inplace=True)
+df_compare_error.drop_duplicates(subset=['name', 'movie_name'], inplace=True)
+
+## Code that must be used to scrapp exclusively the scripts from DailyScripts
+# print("\n------------\n")
+# print("Scripts scrapping started...")
+# df_compare_error_scrapping = df_compare_error[df_compare_error['_merge'] != 'left_only']
+# df_compare_error_scrapping['movie_script'] = df_compare_error_scrapping['movie_url'].apply(get_script_content_from_url_dailyscripts)
+# print("\n------------\n")
 
 
-print("\n------------\n")
 print(df_compare_error.head())
 
 
@@ -177,15 +211,35 @@ SELECT COUNT(*) as nb_scripts_dailyscripts
 FROM df_compare_error
 WHERE _merge = 'left_only' and error IS NULL;"""
 
+# count scripts scrapped from ImsDB
+query_count_scrapped_from_imsdb = """
+SELECT COUNT(*) as nb_scripts_dailyscripts 
+FROM df_compare_error
+WHERE (_merge = 'left_only' OR _merge = 'both') AND error IS NULL;"""
+
+# count the total number of scripts in the table
 query_count_all = """
 SELECT COUNT(*) as total_count
 FROM df_compare_error;"""
 
-query_count_html_recovarable_errors = """
+# count the total number of error where the extension doesn't need an OCR (html, htm, txt)
+query_count_not_OCR_recovarable_errors = """
 SELECT COUNT(*) as nb_html_recovarable_errors 
 FROM df_compare_error
-WHERE error LIKE '%HTML%' AND _merge = 'both';"""
+WHERE movie_url_extension != 'pdf' AND movie_url_extension != 'doc' AND _merge = 'both' AND error IS NOT NULL;"""
 
+
+# Count the exclusive dailyScripts which aren't necessitate an OCR (html, htm, txt) - including errors from imsdb (9)
+query_count_exclusive_dailyscripts_not_OCR = """
+SELECT COUNT(*) as nb_exclusive_dailyscripts_not_OCR 
+FROM df_compare_error
+WHERE movie_url_extension != 'pdf' AND movie_url_extension != 'doc' AND (_merge = 'right_only' OR (_merge = 'both' AND error IS NOT NULL));"""
+
+# Count the exclusive dailyScripts which necessitate an OCR (pdf, doc) - including errors from imsdb (20)
+query_count_exclusive_dailyscripts_OCR = """
+SELECT COUNT(*) as nb_exclusive_dailyscripts_OCR
+FROM df_compare_error
+WHERE (movie_url_extension = 'pdf' OR movie_url_extension = 'doc') AND (_merge = 'right_only' OR (_merge = 'both' AND error IS NOT NULL));"""
 
 
 result_recoverable = pysqldf(query_count_errors_recovarable)
@@ -194,51 +248,63 @@ result_total_errors = pysqldf(query_count_total_errors)
 result_duplicates = pysqldf(query_count_duplicates_imsdb_dailyscripts)
 results_exclusive_dailyscripts = pysqldf(query_count_exclusive_dailyscripts)
 results_exclusive_imsdb = pysqldf(query_count_exclusive_imsdb)
+results_count_scrapped_from_imsdb = pysqldf(query_count_scrapped_from_imsdb)
 results_count_all = pysqldf(query_count_all)
-results_count_html_recovarable_errors = pysqldf(query_count_html_recovarable_errors)
+results_count_not_OCR_recovarable_errors = pysqldf(query_count_not_OCR_recovarable_errors)
+results_count_exclusive_dailyscripts_not_OCR = pysqldf(query_count_exclusive_dailyscripts_not_OCR)  
+results_count_exclusive_dailyscripts_OCR = pysqldf(query_count_exclusive_dailyscripts_OCR)
+
 
 print("\n------------\n"
-      f"Number of errors recoverable thanks to DailyScripts: {result_recoverable['nb_error_recoverable'][0]}\n"
-      f"Number of errors NOT recoverable: {result_not_recoverable['nb_error_not_recoverable'][0]}\n"
-      f"Total number of errors in ImsDB: {result_total_errors.iloc[0,0]}\n"
-      f"Number of duplicate scripts between ImsDB and DailyScripts: {result_duplicates.iloc[0,0]}\n"
-      f"Number of scripts exclusive to DailyScripts: {results_exclusive_dailyscripts.iloc[0,0]}\n"
-      f"Number of scripts exclusive to ImsDB: {results_exclusive_imsdb.iloc[0,0]}\n"
-      f"Total number of scripts in the table: {results_count_all.iloc[0,0]}\n"
-      f"Number of HTML-related errors recoverable thanks to DailyScripts: {results_count_html_recovarable_errors.iloc[0,0]}\n"
+      f"Number of errors recoverable thanks to DailyScripts: {result_recoverable['nb_error_recoverable'][0]}\n"                         # 29
+      f"Number of errors NOT recoverable: {result_not_recoverable['nb_error_not_recoverable'][0]}\n"                                    # 44
+      f"Total number of errors in ImsDB: {result_total_errors.iloc[0,0]}\n"                                                             # 73
+      f"Number of duplicate scripts between ImsDB and DailyScripts: {result_duplicates.iloc[0,0]}\n"                                    # 541
+      f"Number of scripts exclusive to DailyScripts: {results_exclusive_dailyscripts.iloc[0,0]}\n"                                      # 522
+      f"Number of scripts exclusive to ImsDB: {results_exclusive_imsdb.iloc[0,0]}\n"                                                    # 683
+      f"Number of scripts scrapped from ImsDB: {results_count_scrapped_from_imsdb.iloc[0,0]}\n"                                         # 1221
+      f"Total number of scripts in the table: {results_count_all.iloc[0,0]}\n"                                                          # 1819
+      f"Number of errors recoverable thanks to DailyScripts (htm, html, txt): {results_count_not_OCR_recovarable_errors.iloc[0,0]}\n"   # 9
+      f"Number of scripts exclusive to DailyScripts (htm, html, txt): {results_count_exclusive_dailyscripts_not_OCR.iloc[0,0]}\n"       # 232 (223 without imsdb errors)
+      f"Number of scripts exclusive to DailyScripts (pdf, doc): {results_count_exclusive_dailyscripts_OCR.iloc[0,0]}\n"                 # 319 (299 without imsdb errors)
       "------------\n")
 
 
 ## Other queries
 # errors details
-query_select_all_errors = """
-SELECT *
-FROM df_compare_error
-WHERE _merge = 'both' AND error IS NOT NULL;"""
+# query_select_all_errors = """
+# SELECT *
+# FROM df_compare_error
+# WHERE _merge = 'both' AND error IS NOT NULL;"""
 
-results_select_all_errors = pysqldf(query_select_all_errors)
-print(results_select_all_errors)
-print("\n------------\n")
-
-# extension details
-query_select_extension_details = """
-SELECT DISTINCT movie_url
-FROM df_compare_error
-WHERE movie_url IS NOT NULL;"""
-results_extension_details = pysqldf(query_select_extension_details)
-print(results_extension_details)
-print("\n------------\n")
+# results_select_all_errors = pysqldf(query_select_all_errors)
+# print(results_select_all_errors)
+# print("\n------------\n")
 
 
 # extension details - errors
 query_select_extension_details = """
-SELECT movie_url, COUNT(movie_url) as nb_extension
+SELECT movie_url_extension, COUNT(movie_url_extension) as nb_extension
 FROM df_compare_error
-WHERE movie_url IS NOT NULL AND error IS NOT NULL
-GROUP BY movie_url
+WHERE movie_url_extension IS NOT NULL
+GROUP BY movie_url_extension
 ORDER BY nb_extension DESC;"""
 results_extension_details = pysqldf(query_select_extension_details)
-print ("Errors extensions details:")
+print ("Extensions details:")
 print(results_extension_details)
+
+print("\n------------\n")
+
+
+# extension details - errors
+query_select_extension_details_errors = """
+SELECT movie_url_extension, COUNT(movie_url_extension) as nb_extension
+FROM df_compare_error
+WHERE movie_url_extension IS NOT NULL AND error IS NOT NULL
+GROUP BY movie_url_extension
+ORDER BY nb_extension DESC;"""
+results_extension_details_errors = pysqldf(query_select_extension_details_errors)
+print ("Errors extensions details:")
+print(results_extension_details_errors)
 
 print("\n------------\n")
