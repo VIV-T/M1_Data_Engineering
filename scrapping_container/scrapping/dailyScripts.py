@@ -113,6 +113,9 @@ df_error_name_url.insert(0, 'name_error', df_error_name_url['name'])
 df_error_name_url.drop(columns=['name', 'url'], inplace=True) 
 
 df_name_daily_scripts['movie_url'] = df_name_daily_scripts['movie_url'].apply(get_url_extension_dailyscripts)
+# condition over the extension of the files : avoid to have erroneous rows (link of information page instead of script)
+acceptable_extensions = ['pdf', 'html', 'htm', 'txt', 'doc', 'docx', '']
+df_name_daily_scripts =df_name_daily_scripts[df_name_daily_scripts['movie_url'].isin(acceptable_extensions)]  
 
 df_compare = pd.merge(df_name_url, df_name_daily_scripts, left_on='name', right_on='movie_name', how='outer', indicator=True)
 df_compare_error = pd.merge(df_compare, df_error_name_url, left_on='name', right_on='name_error', how='outer')
@@ -237,3 +240,5 @@ ORDER BY nb_extension DESC;"""
 results_extension_details = pysqldf(query_select_extension_details)
 print ("Errors extensions details:")
 print(results_extension_details)
+
+print("\n------------\n")
