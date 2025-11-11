@@ -157,6 +157,6 @@ Progress of the day :
 
 ### 11/11 
 Third script source (if needed) : 
-    https://www.scriptslug.com/
+    https://www.scriptslug.com/?pg=2
     /!\ Dowloadable PDF only : Use of an OCR is mandatory.
 ###
