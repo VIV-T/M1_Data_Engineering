@@ -29,10 +29,9 @@ def failure_alert(context):
     logger.exception(exc)
 
 # test if Airflow is able to read the file
-def _get_json_files() : 
+def _get_json_files(collection_name : str) : 
     try : 
-        #script_files = glob.glob('/opt/airflow/data_scrapping/scripts/imsDB/*.json')
-        script_files = glob.glob('/opt/airflow/data_scrapping/scripts/simplyscripts/*.json')
+        script_files = glob.glob(f'/opt/airflow/data_scrapping/scripts/{collection_name}/*.json')
         logger.info("Success reading the files")
         logger.info(f"Files found: {script_files}")
         return script_files
@@ -82,7 +81,7 @@ def _create_collection(collection_name : str) :
 # insert data in a collection in MongoDB
 def _insert_in_collection(collection_name : str) : 
     scripts_db = _connect_mongoDB()
-    scripts_filelist = _get_json_files()
+    scripts_filelist = _get_json_files(collection_name)
 
     try : 
         scripts_collection = scripts_db[f"{collection_name}"]
@@ -142,18 +141,36 @@ with DAG(
     create_imsdb_collection = PythonOperator(
         task_id='create_imsdb_collection',
         python_callable=_create_collection,
-        op_args=['imsdb_scripts'],
+        op_args=['imsDB'],
         dag=dag
     )
 
     insert_imsdb_collection = PythonOperator(
         task_id='insert_imsdb_collection',
         python_callable=_insert_in_collection,
-        op_args=['imsdb_scripts'],
+        op_args=['imsDB'],
         dag=dag
     )
+
+    # create_simplyScripts_collection = PythonOperator(
+    #     task_id='create_simplyScripts_collection',
+    #     python_callable=_create_collection,
+    #     op_args=['simplyScripts'],
+    #     dag=dag
+    # )
+
+    # insert_simplyScripts_collection = PythonOperator(
+    #     task_id='insert_simplyScripts_collection',
+    #     python_callable=_insert_in_collection,
+    #     op_args=['simplyScripts'],
+    #     dag=dag
+    # )
 
 
     # --Graph--
     launch_scrapping >> \
-    check_mongo_connection >> create_imsdb_collection >> insert_imsdb_collection
+    check_mongo_connection >> create_imsdb_collection
+    create_imsdb_collection >> insert_imsdb_collection
+    
+    #check_mongo_connection >> [create_imsdb_collection, create_simplyScripts_collection]
+    #create_simplyScripts_collection >> insert_simplyScripts_collection 

@@ -81,9 +81,82 @@ Run a script.py inside a container launch by Airflow :
         - Find a solution to capture the logs of python scripts exec (in additional container)      DONE
 
 
-
-
-
+### 05/11
 For NEXT NEXT Steps : 
  See : https://kindlepreneur.com/book-tropes/       reference a list of tropes by genre (with a simple description)
  And also : https://tvtropes.org/pmwiki/pmwiki.php/Main/Tropes      can be interresting (to scrap ?)
+ See what Bpt have found. 
+###
+
+
+### 06/11
+Next steps : 
+    - Merge code of Maia with the current one.
+    - Refactor code of scrapping imsDB + simplyScript (same format for logs and error + elem inside the DB if possible)
+            |_ uniformisation of error files (should be insert inside MongoDB at the end)
+    - Check that the MongoDB insertion works properly for each data source (imsDB + simplyScript)
+    - clean the code + comment it properly (English)
+    - END PART I
+
+    - Script cleaning (PART II)
+    - See notes about Hugging face, Pytorch / Tensorflow, training and scripts cleaning with LLM.
+
+
+Ideas for the project (Tbt) :
+    - Discuss about what we can do, what are our objectives, etc.
+    - Must have a good idea of the news ressources and data found by Bpt.
+    - Create a graph DB (Neo4j) using the scripts as node, such as tropes, use a link (INCLUDED_IN -- with a property 'description' or 'use_case' which precise of the trope is used in the movie)
+            |_ can be usefull to make request and stats ?
+            |_ create an IA agent / assistant to help in script creation ? 
+                    |_ based on genre, popular tropes related to this genre, characters archetype, example of tropes, ... ?
+###
+
+
+### 07/11
+Today's bad news : 
+    - simplyscripts is a bad website for the scrapping.
+    - Let's start from imsDB :
+        |_ get error file to know exactly which script is missing
+        |_ request MongoDB to get the full url/name list (can maybe be done in the scrapping.py file... to save time)
+    - Idea : merge the name_list of imsDB with the name list of DailyScripts (new website used for additionnal scrapping)
+            and then get a link to imDB to get additionnal information (genre & rating) even for the movie that we already have the script for.
+    
+            + Allow us to see the differences between the two website (number of scripts, similarity, etc...)
+
+    - depending of the previous result, we will discuss : 
+        - use of OCR required ?
+        - PDF processing ?
+        - bla bla bla
+
+
+TO DO LIST : 
+    URGENT
+    - finish to extract name_list / url_list to be sure of what we will do for next steps. 
+###
+
+
+
+
+### 10/11
+Progress of the day :
+    - creation of csv to compare script name already scrapped (imsDB) with the script available in DailyScripts website.
+    - adding of the name of error scripts in this csv file.
+    - We just have to count :
+        |_ error scripts that are ALSO in DailyScripts.     29
+        |_ error scripts that are NOT in DailyScripts.      44
+        |_ Number of scripts duplicates (not error, but already scrapped and in the DailyScripts website).  543
+        |_ Number of scripts exclusive from imsDB.  681
+        |_ Number of scripts exclusive from DailyScripts.  529 
+
+    Note : maybe the cleaning isn't complete yet (special characters, and weird title to consider, but still)
+    cf. dailyScripts.py to have precise count and informations.
+
+=> Have a better idea of what's exactly we can do.
+###
+
+
+### 11/11 
+Third script source (if needed) : 
+    https://www.scriptslug.com/?pg=2
+    /!\ Dowloadable PDF only : Use of an OCR is mandatory.
+###

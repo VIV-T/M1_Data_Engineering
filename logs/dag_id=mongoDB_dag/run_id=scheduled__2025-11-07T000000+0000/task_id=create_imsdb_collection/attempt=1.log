@@ -1,0 +1,8 @@
+{"timestamp":"2025-11-07T17:54:04.529856Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-07T17:54:04.531548Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/mongDB_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-07T17:54:05.032573Z","level":"info","event":"/opt/airflow","logger":"unusual_prefix_0377c41f9637181670bde4ef0bed1fc8fabb1dd1_mongDB_dag","filename":"mongDB_dag.py","lineno":133}
+{"timestamp":"2025-11-07T17:54:05.074958Z","level":"info","event":"MongoDB client created","logger":"unusual_prefix_0377c41f9637181670bde4ef0bed1fc8fabb1dd1_mongDB_dag","filename":"mongDB_dag.py","lineno":49}
+{"timestamp":"2025-11-07T17:54:05.091773Z","level":"info","event":"Databases available: ['admin', 'config', 'local', 'scriptsDB']","logger":"unusual_prefix_0377c41f9637181670bde4ef0bed1fc8fabb1dd1_mongDB_dag","filename":"mongDB_dag.py","lineno":50}
+{"timestamp":"2025-11-07T17:54:05.093184Z","level":"info","event":"['imsDB']","logger":"unusual_prefix_0377c41f9637181670bde4ef0bed1fc8fabb1dd1_mongDB_dag","filename":"mongDB_dag.py","lineno":68}
+{"timestamp":"2025-11-07T17:54:05.093959Z","level":"info","event":"The collection already exists in MongoDB","logger":"unusual_prefix_0377c41f9637181670bde4ef0bed1fc8fabb1dd1_mongDB_dag","filename":"mongDB_dag.py","lineno":76}
+{"timestamp":"2025-11-07T17:54:05.094874Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}
