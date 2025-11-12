@@ -142,8 +142,8 @@ def to_pascal_case(string : str) -> str:
     string = string.replace(".", "")
     string = string.replace("!", "")
     string = string.replace("?", "")
-    string = string.replace("II", "2")
     string = string.replace("III", "3")
+    string = string.replace("II", "2")
     string = string.replace("IV", "4")
     words = re.split(r'[\s_-]+', string)
     
