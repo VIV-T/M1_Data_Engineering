@@ -96,13 +96,13 @@ DRIVER.quit()       # linked to the previous line (scrapping step)
 
 df_name_url, df_error_name_url, df_name_daily_scripts = get_existing_infos_imsdb_dailyscripts()
 
-def clean_str_imsdb(chaine) :
+def clean_str_imsdb(string) :
     try :
-        partie_avant, _ = chaine.rsplit(", The", 1)
-        chaine_modifiee = f"The {partie_avant}"
-        return chaine_modifiee
+        partie_avant, _ = string.rsplit(", The", 1)
+        modifified_string = f"The {partie_avant}"
+        return modifified_string
     except :
-        return chaine
+        return string
     
 
 def get_url_extension_dailyscripts(url) :
@@ -131,21 +131,45 @@ def get_script_content_from_url_dailyscripts(url) :
     else :
         return ''
 
+
+# to define a uniform naming convention for movie titles
+import re
+def to_pascal_case(string : str) -> str:
+    string = string.replace(",", "")
+    string = string.replace(":", "")
+    string = string.replace(";", "")
+    string = string.replace("'", "")
+    string = string.replace(".", "")
+    string = string.replace("!", "")
+    string = string.replace("?", "")
+    string = string.replace("II", "2")
+    string = string.replace("III", "3")
+    string = string.replace("IV", "4")
+    words = re.split(r'[\s_-]+', string)
+    
+    new_string = ''.join(word.capitalize() for word in words)
+    new_string = new_string.lower()
+    return new_string
+
 df_name_url['name'] = df_name_url['name'].apply(clean_str_imsdb)
+df_name_url['pacal_case_name'] = df_name_url['name'].apply(to_pascal_case)
+
 
 df_error_name_url['name'] = df_error_name_url['name'].apply(clean_str_imsdb)
 df_error_name_url.insert(0, 'name_error', df_error_name_url['name'])
 df_error_name_url.drop(columns=['name', 'url'], inplace=True) 
+df_error_name_url['pacal_case_name_error'] = df_error_name_url['name_error'].apply(to_pascal_case)
 
 df_name_daily_scripts['movie_url_extension'] = df_name_daily_scripts['movie_url'].apply(get_url_extension_dailyscripts)
+df_name_daily_scripts['pacal_case_movie_name'] = df_name_daily_scripts['movie_name'].apply(to_pascal_case)
 # condition over the extension of the files : avoid to have erroneous rows (link of information page instead of script)
 acceptable_extensions = ['pdf', 'html', 'htm', 'txt', 'doc', 'docx', '']
 df_name_daily_scripts =df_name_daily_scripts[df_name_daily_scripts['movie_url_extension'].isin(acceptable_extensions)]  
 
 
 
-df_compare = pd.merge(df_name_url, df_name_daily_scripts, left_on='name', right_on='movie_name', how='outer', indicator=True)
-df_compare_error = pd.merge(df_compare, df_error_name_url, left_on='name', right_on='name_error', how='outer')
+df_compare = pd.merge(df_name_url, df_name_daily_scripts, left_on='pacal_case_name', right_on='pacal_case_movie_name', how='outer', indicator=True)
+df_compare_error = pd.merge(df_compare, df_error_name_url, left_on='pacal_case_name', right_on='pacal_case_name_error', how='outer')
 df_compare_error.drop(columns=['url'], inplace=True)
 df_compare_error.drop_duplicates(subset=['name', 'movie_name'], inplace=True)
 
