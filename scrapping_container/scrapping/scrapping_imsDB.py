@@ -119,7 +119,7 @@ def _get_script (url : str) :
     response = requests.get(script_url)
     if response.status_code != 200 :
         raise Exception(f"Webstatus : {response.status_code}\n")
-    DRIVER.get(f"https://imsdb.com//scripts//{url}.html")
+    DRIVER.get(script_url)
 
     # different page structures 
     try :

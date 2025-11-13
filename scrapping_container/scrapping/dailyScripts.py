@@ -50,16 +50,13 @@ def get_all_movie_infos_dailyscripts() :
     
     # file creation
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    json_path_daily_scripts = os.path.join(base_dir, 'daily_scripts_movie_list.json')
+    json_path_daily_scripts = os.path.join(base_dir, "data_scrapping", "statistics", 'daily_scripts_movie_list.json')
     df_daily_scripts.to_json(json_path_daily_scripts, orient='records', lines=False)
 
     print('------------')
-    #print(movie_list_name)
-    #print('------------')
     print(f"Number of movies found (DailyScripts): {len(df_daily_scripts)}")
 
 
-def get_existing_infos_imsdb_dailyscripts() :
     base_dir = os.path.dirname(os.path.abspath(__file__))
     json_path_name_url_imsDB = os.path.join(base_dir, 'name_url_imsdb.json')
     json_path_error_imsDB = os.path.join(base_dir, 'error_imsdb.json')
@@ -96,13 +93,7 @@ DRIVER.quit()       # linked to the previous line (scrapping step)
 
 df_name_url, df_error_name_url, df_name_daily_scripts = get_existing_infos_imsdb_dailyscripts()
 
-def clean_str_imsdb(string) :
-    try :
-        partie_avant, _ = string.rsplit(", The", 1)
-        modifified_string = f"The {partie_avant}"
-        return modifified_string
-    except :
-        return string
+
     
 
 def get_url_extension_dailyscripts(url) :
@@ -191,144 +182,3 @@ df_compare_error.to_csv(csv_path_df_compare_error, index=False)
 
 
 
-
-##### Stats part
-from pandasql import sqldf
-
-pysqldf = lambda q: sqldf(q, globals())
-
-## Error stats
-# Count of error where a solution exists in DailyScripts
-query_count_errors_recovarable = """
-SELECT COUNT(*) as nb_error_recoverable 
-FROM df_compare_error
-WHERE _merge = 'both' and error IS NOT NULL;"""
-
-# Count of error where a solution doesn't exist in DailyScripts
-query_count_errors_not_recovarable = """
-SELECT COUNT(*) as nb_error_not_recoverable 
-FROM df_compare_error
-WHERE _merge = 'left_only' and error IS NOT NULL;"""
-
-# Count of the total numbers of errors
-query_count_total_errors = """
-SELECT COUNT(*) 
-FROM df_compare_error
-WHERE error IS NOT NULL;"""
-
-## Duplicates and exclusive scripts
-# count the duplicate between the 2 data sources
-query_count_duplicates_imsdb_dailyscripts = """
-SELECT COUNT(*) as nb_scripts_imsdb 
-FROM df_compare_error
-WHERE _merge = 'both' and error IS NULL;"""
-
-# count exclusive to DailyScripts
-query_count_exclusive_dailyscripts = """
-SELECT COUNT(*) as nb_scripts_dailyscripts 
-FROM df_compare_error
-WHERE _merge = 'right_only' and error IS NULL;"""
-
-# count exclusives to ImsDB
-query_count_exclusive_imsdb = """
-SELECT COUNT(*) as nb_scripts_dailyscripts 
-FROM df_compare_error
-WHERE _merge = 'left_only' and error IS NULL;"""
-
-# count scripts scrapped from ImsDB
-query_count_scrapped_from_imsdb = """
-SELECT COUNT(*) as nb_scripts_dailyscripts 
-FROM df_compare_error
-WHERE (_merge = 'left_only' OR _merge = 'both') AND error IS NULL;"""
-
-# count the total number of scripts in the table
-query_count_all = """
-SELECT COUNT(*) as total_count
-FROM df_compare_error;"""
-
-# count the total number of error where the extension doesn't need an OCR (html, htm, txt)
-query_count_not_OCR_recovarable_errors = """
-SELECT COUNT(*) as nb_html_recovarable_errors 
-FROM df_compare_error
-WHERE movie_url_extension != 'pdf' AND movie_url_extension != 'doc' AND _merge = 'both' AND error IS NOT NULL;"""
-
-
-# Count the exclusive dailyScripts which aren't necessitate an OCR (html, htm, txt) - including errors from imsdb (9)
-query_count_exclusive_dailyscripts_not_OCR = """
-SELECT COUNT(*) as nb_exclusive_dailyscripts_not_OCR 
-FROM df_compare_error
-WHERE movie_url_extension != 'pdf' AND movie_url_extension != 'doc' AND (_merge = 'right_only' OR (_merge = 'both' AND error IS NOT NULL));"""
-
-# Count the exclusive dailyScripts which necessitate an OCR (pdf, doc) - including errors from imsdb (20)
-query_count_exclusive_dailyscripts_OCR = """
-SELECT COUNT(*) as nb_exclusive_dailyscripts_OCR
-FROM df_compare_error
-WHERE (movie_url_extension = 'pdf' OR movie_url_extension = 'doc') AND (_merge = 'right_only' OR (_merge = 'both' AND error IS NOT NULL));"""
-
-
-result_recoverable = pysqldf(query_count_errors_recovarable)
-result_not_recoverable = pysqldf(query_count_errors_not_recovarable)
-result_total_errors = pysqldf(query_count_total_errors)
-result_duplicates = pysqldf(query_count_duplicates_imsdb_dailyscripts)
-results_exclusive_dailyscripts = pysqldf(query_count_exclusive_dailyscripts)
-results_exclusive_imsdb = pysqldf(query_count_exclusive_imsdb)
-results_count_scrapped_from_imsdb = pysqldf(query_count_scrapped_from_imsdb)
-results_count_all = pysqldf(query_count_all)
-results_count_not_OCR_recovarable_errors = pysqldf(query_count_not_OCR_recovarable_errors)
-results_count_exclusive_dailyscripts_not_OCR = pysqldf(query_count_exclusive_dailyscripts_not_OCR)  
-results_count_exclusive_dailyscripts_OCR = pysqldf(query_count_exclusive_dailyscripts_OCR)
-
-
-print("\n------------\n"
-      f"Number of errors recoverable thanks to DailyScripts: {result_recoverable['nb_error_recoverable'][0]}\n"                         # 29
-      f"Number of errors NOT recoverable: {result_not_recoverable['nb_error_not_recoverable'][0]}\n"                                    # 44
-      f"Total number of errors in ImsDB: {result_total_errors.iloc[0,0]}\n"                                                             # 73
-      f"Number of duplicate scripts between ImsDB and DailyScripts: {result_duplicates.iloc[0,0]}\n"                                    # 541
-      f"Number of scripts exclusive to DailyScripts: {results_exclusive_dailyscripts.iloc[0,0]}\n"                                      # 522
-      f"Number of scripts exclusive to ImsDB: {results_exclusive_imsdb.iloc[0,0]}\n"                                                    # 683
-      f"Number of scripts scrapped from ImsDB: {results_count_scrapped_from_imsdb.iloc[0,0]}\n"                                         # 1221
-      f"Total number of scripts in the table: {results_count_all.iloc[0,0]}\n"                                                          # 1819
-      f"Number of errors recoverable thanks to DailyScripts (htm, html, txt): {results_count_not_OCR_recovarable_errors.iloc[0,0]}\n"   # 9
-      f"Number of scripts exclusive to DailyScripts (htm, html, txt): {results_count_exclusive_dailyscripts_not_OCR.iloc[0,0]}\n"       # 232 (223 without imsdb errors)
-      f"Number of scripts exclusive to DailyScripts (pdf, doc): {results_count_exclusive_dailyscripts_OCR.iloc[0,0]}\n"                 # 319 (299 without imsdb errors)
-      "------------\n")
-
-
-## Other queries
-# errors details
-# query_select_all_errors = """
-# SELECT *
-# FROM df_compare_error
-# WHERE _merge = 'both' AND error IS NOT NULL;"""
-
-# results_select_all_errors = pysqldf(query_select_all_errors)
-# print(results_select_all_errors)
-# print("\n------------\n")
-
-
-# extension details - errors
-query_select_extension_details = """
-SELECT movie_url_extension, COUNT(movie_url_extension) as nb_extension
-FROM df_compare_error
-WHERE movie_url_extension IS NOT NULL
-GROUP BY movie_url_extension
-ORDER BY nb_extension DESC;"""
-results_extension_details = pysqldf(query_select_extension_details)
-print ("Extensions details:")
-print(results_extension_details)
-
-print("\n------------\n")
-
-
-# extension details - errors
-query_select_extension_details_errors = """
-SELECT movie_url_extension, COUNT(movie_url_extension) as nb_extension
-FROM df_compare_error
-WHERE movie_url_extension IS NOT NULL AND error IS NOT NULL
-GROUP BY movie_url_extension
-ORDER BY nb_extension DESC;"""
-results_extension_details_errors = pysqldf(query_select_extension_details_errors)
-print ("Errors extensions details:")
-print(results_extension_details_errors)
-
-print("\n------------\n")

@@ -160,3 +160,25 @@ Third script source (if needed) :
     https://www.scriptslug.com/?pg=2
     /!\ Dowloadable PDF only : Use of an OCR is mandatory.
 ###
+
+
+### 13/11
+Huge progress this week : 
+    1. This pytesseract OCR is working to extract text from pdf (whatever the format of the pdf - img or text)
+    2. New data source : Script Slug (pdf format) => will probably be used as main source because of the performace of the OCR.
+    3. Script slug will be completed by imsDB (html format).
+    4. Forgot DailyScripts as a good database : too much issues (diversity of data format + fake name (biggest problem))
+        |_ example of naming issue : 20th Century Women = 20th Century Woman in DailyScripts (and this can be a reccurent type of mistake in the DB...)
+    5. We've done some stats : Only with Scripts Slug and imsDB (considering the errors of imsDB), we have 2418 scripts (html + pdf formats)
+    6. Baptistee found a new website to scrap 'tropes' data : excellent news ! (he already started to build something)
+
+Next steps : 
+    1. Test the download of Scripts Slug pdf, from their link, and the processing with the OCR.
+    2. Finish the scrapping python srcipt of 'tropes' data.
+    3. Merge all the work done properly, considering the Airflow & Docker architecture.
+    4. Launch the DAG as test : if it's work, we will be able to launch it with Riccardo's PC.
+
+Good job everyone !
+
+Nt : the dailyScripts.py is now useless
+###
