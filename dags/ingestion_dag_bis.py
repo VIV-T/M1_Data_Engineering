@@ -34,7 +34,7 @@ def failure_alert(context):
 
 ### --- DAG config ---
 START_DATE = pendulum.datetime(2024, 1, 1, tz="UTC")
-VOLUME_FOLDER = os.path.join("/opt", "airflow", "ingestion_data")
+VOLUME_FOLDER = os.path.join("/opt", "airflow", "project_data")
 SCRAPPING_DATA_FOLDER = os.path.join(VOLUME_FOLDER, "scrapping_data")
 
 with DAG(
@@ -62,8 +62,8 @@ with DAG(
     
 
     # To save df to csv file persistent in the Docker volume
-    def _save_data_file_to_csv(df_to_save : pd.DataFrame, source_name : str, additional_name_component = "") :
-        data_file_path = os.path.join(SCRAPPING_DATA_FOLDER, "data", f"{source_name}_data{additional_name_component}.csv")
+    def _save_data_file_to_csv(df_to_save : pd.DataFrame, destination_name : str, additional_name_component = "") :
+        data_file_path = os.path.join(SCRAPPING_DATA_FOLDER, "data", f"{destination_name}_data{additional_name_component}.csv")
         df_to_save.to_csv(data_file_path, index=False, encoding="utf-8")
         return True
 
@@ -107,6 +107,7 @@ with DAG(
     def _merge_and_transform_scrapped_data(source_1 : str, source_2 : str):
         df_scrapped_data_source_1 = _read_data_file_to_df(source_name=source_1, additional_name_component="_to_merge")
         df_scrapped_data_source_2 = _read_data_file_to_df(source_name=source_2, additional_name_component="_to_merge")
+        destination_name = "final_scrapping"
 
         ## Merge
         df_scrapped_data_merged = pd.merge(
@@ -120,21 +121,21 @@ with DAG(
 
         ## Transform
         # 1. one unique column for movie_name : based on priority on scipts_slug data, and then completed by imsdb data.
-        df_scrapped_data_merged["movie_name_conventioned"] = np.where(
+        df_scrapped_data_merged[f"{destination_name}_movie_name_conventioned"] = np.where(
             df_scrapped_data_merged[f"merge_{source_1}_{source_2}"] != "right_only", 
             df_scrapped_data_merged[f"movie_name_{source_1}_conventioned"], 
             df_scrapped_data_merged[f"movie_name_{source_2}_conventioned"]
         )
 
         # 2. one unique column for url (pdf & html) : based on priority on scipts_slug data, and then completed by imsdb data.
-        df_scrapped_data_merged["scrapping_url"] = np.where(
+        df_scrapped_data_merged[f"{destination_name}_url"] = np.where(
             df_scrapped_data_merged[f"merge_{source_1}_{source_2}"] != "right_only", 
             df_scrapped_data_merged[f"url_{source_1}"], 
             df_scrapped_data_merged[f"url_{source_2}"]
         )
 
         # 3. create the url_extension column useful for scrapping
-        df_scrapped_data_merged['scrapping_url_extension'] = np.where(
+        df_scrapped_data_merged[f"{destination_name}_url_extension"] = np.where(
             df_scrapped_data_merged[f"merge_{source_1}_{source_2}"] != "right_only", 
             'pdf', 
             'html')
@@ -153,7 +154,7 @@ with DAG(
         # 5. Save this new dataframe
         saved = False 
         while not saved == True :
-            saved = _save_data_file_to_csv(df_to_save=df_scrapped_data_merged_final, source_name="downloadable_url", additional_name_component="")
+            saved = _save_data_file_to_csv(df_to_save=df_scrapped_data_merged_final, destination_name=destination_name, additional_name_component="")
         return True
 
 
