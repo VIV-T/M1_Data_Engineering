@@ -21,7 +21,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 ### --Initialization--
 # volumes & log folder - initialization
-SCRAPPING_FOLDER = ".//data_scrapping"
+SCRAPPING_FOLDER = ".//volume//scrapping_data"
 SCRAPPING_FOLDER_DATA = f"{SCRAPPING_FOLDER}//data"   # adapt your outputs later in your code based on those variables.
 SCRAPPING_FOLDER_LOGS = f"{SCRAPPING_FOLDER}//logs"
 

@@ -63,7 +63,7 @@ with DAG(
         dag=dag,
 
         # Synchronize a volume between the scrapper container and the airflow container
-        mounts=[Mount(source='m1_data_engineering_scrapper_data', target='/scrapping/data_scrapping', type='volume')]
+        mounts=[Mount(source='m1_data_engineering_ingestion_data', target='/scrapping/volume/scrapping_data', type='volume')]
     )
 
 

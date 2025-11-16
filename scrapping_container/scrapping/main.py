@@ -9,7 +9,7 @@ import scrapping_imsdb
 
 ### --Initialization--
 # logs
-SCRAPPING_FOLDER = ".//data_scrapping"
+SCRAPPING_FOLDER = ".//volume//scrapping_data"
 SCRAPPING_FOLDER_LOGS = f"{SCRAPPING_FOLDER}//logs"
 
 LOGGING = {

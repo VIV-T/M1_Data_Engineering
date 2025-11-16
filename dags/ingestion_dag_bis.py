@@ -34,7 +34,8 @@ def failure_alert(context):
 
 ### --- DAG config ---
 START_DATE = pendulum.datetime(2024, 1, 1, tz="UTC")
-VOLUME_FOLDER = os.path.join("/opt", "airflow", "data_scrapping")
+VOLUME_FOLDER = os.path.join("/opt", "airflow", "ingestion_data")
+SCRAPPING_DATA_FOLDER = os.path.join(VOLUME_FOLDER, "scrapping_data")
 
 with DAG(
     dag_id="ingestion_dag_bis",
@@ -55,14 +56,14 @@ with DAG(
 
     # To read the csv file as pd.Dataframe 
     def _read_data_file_to_df(source_name : str, additional_name_component = "") :
-        data_file_path = os.path.join(VOLUME_FOLDER, "data", f"{source_name}_data{additional_name_component}.csv")
+        data_file_path = os.path.join(SCRAPPING_DATA_FOLDER, "data", f"{source_name}_data{additional_name_component}.csv")
         df_scrapped_data = pd.read_csv(filepath_or_buffer=data_file_path, sep=",")
         return df_scrapped_data
     
 
     # To save df to csv file persistent in the Docker volume
     def _save_data_file_to_csv(df_to_save : pd.DataFrame, source_name : str, additional_name_component = "") :
-        data_file_path = os.path.join(VOLUME_FOLDER, "data", f"{source_name}_data{additional_name_component}.csv")
+        data_file_path = os.path.join(SCRAPPING_DATA_FOLDER, "data", f"{source_name}_data{additional_name_component}.csv")
         df_to_save.to_csv(data_file_path, index=False, encoding="utf-8")
         return True
 
