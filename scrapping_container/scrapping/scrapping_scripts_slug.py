@@ -131,19 +131,23 @@ def main_scrapping_scripts_slug() :
 
     url_list, movie_name_list = get_all_movie_script_page_urls()
 
+    # /!\ the column are following a precise naming convention : "{field_name}_{source_name}"
+    #   |_ field_name = "url"
+    #   |_ source_name = "scripts_slug"
+    # It will be useful in Airflow DAG later
     df_scripts_slug = pd.DataFrame({
         'movie_name_scripts_slug' : movie_name_list,
         'script_page_url' : url_list
     })
 
-    df_scripts_slug["pdf_url"] = df_scripts_slug["script_page_url"].apply(get_pdf_script_url)   # take also a long time to execute
+    df_scripts_slug["url_scripts_slug"] = df_scripts_slug["script_page_url"].apply(get_pdf_script_url)   # take also a long time to execute
     logger.info(f"[I] Pdf script urls scrapped and added to the dataframe")
-    df_scripts_slug = df_scripts_slug.dropna(subset=['pdf_url']) # drop the lines where we didn't find any pdf url (only 1 line dropped here : 'Fighting with My Family' movie)
+    df_scripts_slug = df_scripts_slug.dropna(subset=['url_scripts_slug']) # drop the lines where we didn't find any pdf url (only 1 line dropped here : 'Fighting with My Family' movie)
     df_scripts_slug_clean  = df_scripts_slug.reset_index(drop=True)
     df_scripts_slug_clean = df_scripts_slug_clean.drop("script_page_url", axis=1)   # drop the script page url column (not useful later)
 
     # Save the data scrapped into a csv file (store in the docker volume)
-    df_scripts_slug_clean.to_csv(f"{SCRAPPING_FOLDER_DATA}//scripts_slug_data.csv", index=False)
+    df_scripts_slug_clean.to_csv(f"{SCRAPPING_FOLDER_DATA}//scripts_slug_data.csv", index=False, encoding='utf-8')
 
     DRIVER.quit()
 

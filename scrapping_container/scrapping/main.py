@@ -56,8 +56,5 @@ def main() :
     logging.config.dictConfig(LOGGING)
     scrapping_scripts_slug.main_scrapping_scripts_slug()
     scrapping_imsdb.main_scrapping_imsDB()
-    # to stop artificially the exectuion of the script when finished : the dag continue to run (to test)
-    sys.exit("End of the code")
-
 
 main()

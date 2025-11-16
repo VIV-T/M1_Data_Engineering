@@ -47,8 +47,9 @@ def build_url_from_name(name : str) :
     modified_name = name.replace(": ", "-")
     modified_name = modified_name.replace("%", "%2526")
     url = modified_name.replace(" ", "-")
-    logger.info(f"[I] build_url_from_name - Builded url : {url}")
-    return url
+    url_final = f"https://imsdb.com//scripts//{url}.html"
+    logger.info(f"[I] build_url_from_name - Builded url : {url_final}")
+    return url_final
 
 
 # get the name_list and url_list to next scrapp the ressources
@@ -87,13 +88,17 @@ def main_scrapping_imsDB() :
 
     movie_name_list, url_list = _get_name_url_list(alpha_index)
     
+    # /!\ the column are following a precise naming convention : "{field_name}_{source_name}"
+    #   |_ field_name = "url"
+    #   |_ source_name = "imsdb"
+    # It will be useful in Airflow DAG later
     df_imsdb = pd.DataFrame({
         'movie_name_imsdb' : movie_name_list,
-        'html_url' : url_list
+        'url_imsdb' : url_list
     })
 
     # Save the data scrapped into a csv file (store in the docker volume)
-    df_imsdb.to_csv(f"{SCRAPPING_FOLDER_DATA}//imsdb_data.csv", index=False)
+    df_imsdb.to_csv(f"{SCRAPPING_FOLDER_DATA}//imsdb_data.csv", index=False, encoding='utf-8')
 
     logger.info(f"[I] {len(df_imsdb)} movie url scrapped")
     logger.info("[I] Scrapper finished")
