@@ -39,16 +39,16 @@ def _initialize_alpha_index():
     for i in range(65, 91):
         alphabetical_index.append(chr(i))
 
-    logger.info("[I] Alpha index initialized")
+    logger.info("_initialize_alpha_index - Alpha index initialized")
     return alphabetical_index
 
 
-def build_url_from_name(name : str) :
+def _build_url_from_name(name : str) :
     modified_name = name.replace(": ", "-")
     modified_name = modified_name.replace("%", "%2526")
     url = modified_name.replace(" ", "-")
     url_final = f"https://imsdb.com//scripts//{url}.html"
-    logger.info(f"[I] build_url_from_name - Builded url : {url_final}")
+    logger.info(f"_build_url_from_name - Builded url : {url_final}")
     return url_final
 
 
@@ -61,12 +61,13 @@ def _get_name_url_list(alphabetical_index : str) :
         
         # find the namelist base on the alphabetical index
         web_elem_list = DRIVER.find_elements(by="xpath", value="//*[@id='mainbody']/table[2]/tbody/tr/td[3]//a")
+        # build the name list based on the list scrapped for each alpha index
         name_list.extend(list(map(lambda elem : elem.text, web_elem_list)))
-        logger.info(f"[I] _get_name_url_list - Found {len(web_elem_list)} movie names for index {alpha_index}")
+        logger.info(f"_get_name_url_list - Found {len(web_elem_list)} movie names for index {alpha_index}")
 
     # build 'url_list' based on 'name_list' (cf. url structure on the website - html ressources) 
     url_list = deepcopy(name_list)
-    url_list = list(map(lambda elem : build_url_from_name(elem), url_list))
+    url_list = list(map(lambda elem : _build_url_from_name(elem), url_list))
     
     return name_list, url_list
 
@@ -77,7 +78,7 @@ def _get_name_url_list(alphabetical_index : str) :
 # To scrap the imsdb website
 def main_scrapping_imsDB() :    
     
-    logger.info("[I] Scrapper started")
+    logger.info("Scrapper started")
 
     global DRIVER 
     DRIVER = webdriver.Chrome(chrome_options)
@@ -100,7 +101,7 @@ def main_scrapping_imsDB() :
     # Save the data scrapped into a csv file (store in the docker volume)
     df_imsdb.to_csv(f"{SCRAPPING_FOLDER_DATA}//imsdb_data.csv", index=False, encoding='utf-8')
 
-    logger.info(f"[I] {len(df_imsdb)} movie url scrapped")
-    logger.info("[I] Scrapper finished")
+    logger.info(f"{len(df_imsdb)} movie url scrapped")
+    logger.info("Scrapper finished")
 
 
