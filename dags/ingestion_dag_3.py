@@ -31,8 +31,6 @@ def failure_alert(context):
     logger.exception(exc)
 
 
-
-
 ### --- DAG config ---
 START_DATE = pendulum.datetime(2024, 1, 1, tz="UTC")
 
@@ -43,9 +41,6 @@ SCRAPPING_DATA_FOLDER = os.path.join(VOLUME_FOLDER, "scrapping_data")
 INGESTION_DATA_FOLDER = os.path.join(VOLUME_FOLDER, "ingestion_data")
 HTML_DATA_FOLDER = os.path.join(INGESTION_DATA_FOLDER, "html_data")
 PDF_DATA_FOLDER = os.path.join(INGESTION_DATA_FOLDER, "pdf_data")
-os.makedirs(INGESTION_DATA_FOLDER, exist_ok=True)
-os.makedirs(HTML_DATA_FOLDER, exist_ok=True)
-os.makedirs(PDF_DATA_FOLDER, exist_ok=True)
 
 
 # request related 
@@ -81,7 +76,11 @@ with DAG(
 ) as dag:
     
     ### --Tools-- (python_callable)
-    #logger.info(os.getcwd())
+    # To create a folder in the volume : the path must ti be already created
+    def _volume_mkdir(folder_path : str) : 
+        # it doesn't create a folder twice if it already exist in the volume.
+        os.makedirs(folder_path, exist_ok=True)
+
 
     # To read the csv file as pd.Dataframe 
     def _read_data_file_to_df(source_name : str, additional_name_component = "") :
@@ -107,30 +106,30 @@ with DAG(
 
     # To fetch the html content of script page 
     # Allow us to handle errors
-    def _fetch_html_to_txt(url: str) -> str: # useful
-        last_error = None
+    def _fetch_html_to_txt(url: str) -> str: 
+        _sleep_jitter() # add a random waiting time to avoid to be blocked by the site.
+
         for attempt in range(1, RETRY_COUNT + 1):
             try:
                 response = SESSION.get(url, timeout=REQUEST_TIMEOUT, allow_redirects=True)
                 response.raise_for_status() # raise an error if the request failed 
+                logging.info(f"_fetch_html_to_txt - New url fetched : {url}")
                 return response.text
-                
             except Exception as e:
-                last_error = e
-                wait = (RETRY_BACKOFF ** (attempt - 1)) + rd.random() # to have a random wiating time based on the RETRY_BACKOFF variable
+                wait = (RETRY_BACKOFF ** (attempt - 1)) + rd.random() # to have a random waiting time based on the RETRY_BACKOFF variable
                 logging.warning(
-                    f"[{attempt}/{RETRY_COUNT}] GET failed {url}: {e} | retry in {wait:.1f}s"
+                    f"_fetch_html_to_txt - [{attempt}/{RETRY_COUNT}] GET failed {url}: {e} | retry in {wait:.1f}s"
                 )
                 time.sleep(wait)
-        raise last_error  # type: ignore
+
+        # error case management
+        logging.error(f"_fetch_html_to_txt - Couldn't fetch this url : {url}")
+        return None
 
 
-
-
-
-
-    def extract_html_content(source_name : str):
-        # source_name  = "final_scrapping"     # might probably change
+    # Based on the scrapped data : we fetch the html content and save it into a file in the Docker volume.
+    def _extract_and_save_html_content(source_name : str):
+        # source_name  = "final_scrapping"
         df_data_scrapping = _read_data_file_to_df(source_name=source_name)
 
         # filter the df to keep only html urls
@@ -141,34 +140,97 @@ with DAG(
 
 
         # iter on each row to get te row information (movie_name (to transform dans le ingestion_dag_2 btw) + html_content) (Need the 'source_name' variable to access to the column by their name)
-        
         for index, row in df_html.iterrows():
             filename = row[f"{source_name}_filename"]
             file_path = os.path.join(HTML_DATA_FOLDER, filename)
             try : 
                 # write the html content in a dedicated file in the volume.
-                with open(file_path, "w", "utf-8") as f:
+                with open(file = file_path, mode="w", encoding="utf-8") as f:
                     f.write(row[f"{source_name}_content"])
-                logging.info(f"[I] - {filename} saved")
+                logging.info(f"_extract_and_save_html_content - {filename} saved")
             except Exception as e:
-                logging.info(f"[E] -Error while saving : {filename} - {e}")
+                logging.error(f"_extract_and_save_html_content - Error while saving : {filename} - {e}")
 
         return True
+    
 
+    # To download the pdf in the Docker volume based on the pdf urls.
+    def _download_pdfs(source_name :str):
+        # source_name  = "final_scrapping"
+        df_data_scrapping = _read_data_file_to_df(source_name=source_name)
 
+        # filter the df to keep only html urls
+        df_pdf = df_data_scrapping[df_data_scrapping[f"{source_name}_url_extension"]=="pdf"]
+
+        for index, row in df_pdf.iterrows() :
+            url = row[f"{source_name}_url"]
+            filename = row[f"{source_name}_filename"]
+            file_path = os.path.join(PDF_DATA_FOLDER, filename)
+            try:
+                response = requests.get(url, stream=True, timeout=REQUEST_TIMEOUT, headers={"User-Agent": "Mozilla/5.0"})
+                # error based the HTTP status
+                if response.status_code != 200:
+                    logging.error(f"_download_pdf - HTTP {response.status_code} for {url}")
+                    
+                # case where everything works well
+                with open(file_path, "wb") as f:
+                    for chunk in response.iter_content(128 * 1024):
+                        if chunk:
+                            f.write(chunk)
+                logging.info(f"_download_pdf - Pdf downloaded from : {url}")
+                
+            # any other error case
+            except Exception as e:
+                logging.error(f"_download_pdf - Error for {url}: {e}")
+                
 
 
     ### --Task--
+    volume_mkdir_ingestion_data = PythonOperator(
+        task_id="volume_mkdir_ingestion_data",
+        python_callable=_volume_mkdir,
+        op_args=[INGESTION_DATA_FOLDER],
+        dag=dag
+    )
     
+    volume_mkdir_html_data = PythonOperator(
+        task_id="volume_mkdir_html_data",
+        python_callable=_volume_mkdir,
+        op_args=[HTML_DATA_FOLDER],
+        dag=dag
+    )
+
+    volume_mkdir_pdf_data = PythonOperator(
+        task_id="volume_mkdir_pdf_data",
+        python_callable=_volume_mkdir,
+        op_args=[PDF_DATA_FOLDER],
+        dag=dag
+    )
+
+
+    # extract_and_save_html_content = PythonOperator(
+    #     task_id="extract_and_save_html_content",
+    #     python_callable=_extract_and_save_html_content,
+    #     op_args=["final_scrapping"],
+    #     dag=dag
+    # )
+
+    download_pdfs = PythonOperator(
+        task_id="download_pdfs",
+        python_callable=_download_pdfs,
+        op_args=["final_scrapping"],
+        dag=dag
+    )
 
 
     ### --Graph--
     # 1. read the folder 
     # 2. Html side  
     #       a. loop on html urls => use of request to get the data.
-    #       b. clean (fastly) the data 
-    #       c. save the extracted data
+    #       b. save the extracted data
     # 3. Pdf side 
     #       a. loop on pdf urls => use of request to get the data.
     #       b. download the data as file into the volume in the 'ingestion_data' folder (to create with mkdir)
-    
+    volume_mkdir_ingestion_data >> [volume_mkdir_html_data, volume_mkdir_pdf_data]
+    #volume_mkdir_html_data >> extract_and_save_html_content
+    volume_mkdir_pdf_data >> download_pdfs

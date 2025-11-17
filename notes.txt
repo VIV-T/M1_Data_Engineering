@@ -203,7 +203,7 @@ Explainations of what I've done :
 
 Next steps : 
     1. Re-used the data scrapped inside the dag to implement the next steps (1st cleaning + url ressources download - html / pdfs) (locally or in MongoDB ?)
-    2. used the staging data (1.) and process the OCR on the pdfs and an other tools to clean html data (we also have to define this tool...)
+    2. used the stagging data (1.) and process the OCR on the pdfs and an other tools to clean html data (we also have to define this tool...)
     3. Test the final script (dags) that will be launch on Riccardo's computer.
     Nt : 
         -we have to find a way to get the data from Riccardo's computer after the end of the execution 
@@ -217,4 +217,43 @@ Next steps :
             |_ explaination about the main architecture (different levels - logical, conceptual, physical, ...) => put schemes to explain and better visualize.
             |_ explain the subject and what we want to do (type of data, for what purpose and ideas, ...)
             |_ explain the limit of our project, our consideration about what we could do better, and different concerns (privacy, maintenance, ...)
+###
+
+
+
+
+
+### 17/11 
+What have been done since last time : (15/11)
+    1. Re-used the data scrapped inside the dag to implement the next steps (1st cleaning + url ressources download - html / pdfs) DONE
+        => Download inside the main volume "project_data".
+    2. Reformat docker volume name and strcuture.
+    3. "ingestion_dag.py" finished (divided in 3 part for now)
+            => possible to access to html and pdf ressource in the volume
+    4. Logging improvements : better understanding of what's happening, at which level and function.
+    5. Adding delay in scrapping scripts (to avoid to be block by website : based on Maia's code)
+    6. Add of detailled comment in every scripts => better lisibility and easy to understand.
+
+    PART I is over. (excluding tropes data...)
+
+Next steps : 
+    1. Start to write the report. 
+    
+    2. Clean the requirements.txt files (for each python environement)
+        |_ for each environement, dig into the scripts and list the mandatory packages.
+        |_ create a new venv (locally or appart of the project), where you install this package list.
+        |_ then export this venv package list into a requirements.txt file and replace the old one by the new ONE.
+        |_ WARNING : in case of working on Windows : remove the "pywin32" package (Windows exclusive) - reminder : with Docker, we're working in a Linux env.
+    
+    3. Add the tropes data into the main architecture : ask Baptiste.
+
+    4. Start to build the 2nd DAG.
+        => cleaning of the html files and using the OCR to extract the content of pdf files.
+                |_ do that in a dedicated DOcker Container.
+                    |_ requires specific Python package (ex : Pytesseract, BeautifulSoup, ...)
+                    |_ respect the "isolation" concept between the steps (each step must be done independently from others) 
+    5. Discuss of the project in general :
+        - How much DAGs ?
+        - What will we do with the data 
+
 ###
