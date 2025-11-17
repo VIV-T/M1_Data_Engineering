@@ -1,8 +1,6 @@
-### Imports
+### --Imports--
 # Diverse tools
-import requests
-import json
-from bs4 import BeautifulSoup
+from copy import deepcopy
 import logging
 import pandas as pd
 
@@ -14,33 +12,20 @@ from selenium.webdriver.common.by import By
 
 
 ### --Initialization--
-
-##################################  IMPORTANT  ##################################
-DATA_FOLDER = ".//data_scrapping"
-DATA_FOLDER_SCRIPTS = f"{DATA_FOLDER}//scripts//imsDB" # adapt your outputs later in your code based on those variables.
-# DATA_FOLDER_LOGS = f"{DATA_FOLDER}//logs//imsDB"
-LOG_TITLE = "imsDB ---"
+# volumes & log folder - initialization
+SCRAPPING_FOLDER = ".//volume//scrapping_data"
+SCRAPPING_FOLDER_DATA = f"{SCRAPPING_FOLDER}//data" # adapt your outputs later in your code based on those variables.
+SCRAPPING_FOLDER_LOGS = f"{SCRAPPING_FOLDER}//logs"
 
 
-# logging.basicConfig(
-#     filename=f"{DATA_FOLDER_LOGS}//scrapping.log",
-#     filemode='w',
-#     level=logging.INFO
-#     )
-logging.info(f"{LOG_TITLE} Scrapper runner started")
+logger = logging.getLogger("scrapping_imsdb")
 
-###################################################################################
 
-# Selenium driver
+# Selenium driver - initialization
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--verbose')
-
-DRIVER = webdriver.Chrome(chrome_options)
-DRIVER.set_window_rect(0,0,1280,840)
-
-logging.info(f"{LOG_TITLE} Driver set properly")
 
 
 
@@ -54,163 +39,68 @@ def _initialize_alpha_index():
     for i in range(65, 91):
         alphabetical_index.append(chr(i))
 
-    logging.info(f"{LOG_TITLE} Alpha index initialized")
+    logger.info("[I] Alpha index initialized")
     return alphabetical_index
 
 
+def build_url_from_name(name : str) :
+    modified_name = name.replace(": ", "-")
+    modified_name = modified_name.replace("%", "%2526")
+    url = modified_name.replace(" ", "-")
+    url_final = f"https://imsdb.com//scripts//{url}.html"
+    logger.info(f"[I] build_url_from_name - Builded url : {url_final}")
+    return url_final
+
+
 # get the name_list and url_list to next scrapp the ressources
-def _get_name_url_list(alphabetical_index : str, url : bool = False) : 
-    # go to the website url
-    DRIVER.get(f'https://imsdb.com/alphabetical/{alphabetical_index}')
-    
-    # find the namelist base on the alphabetical index
-    web_elem_list = DRIVER.find_elements(by="xpath", value="//*[@id='mainbody']/table[2]/tbody/tr/td[3]//a")
-    name_list = list(map(lambda elem : elem.text, web_elem_list))
+def _get_name_url_list(alphabetical_index : str) : 
+    name_list = []
+    for alpha_index in alphabetical_index :
+        # go to the website url
+        DRIVER.get(f'https://imsdb.com/alphabetical/{alpha_index}')
+        
+        # find the namelist base on the alphabetical index
+        web_elem_list = DRIVER.find_elements(by="xpath", value="//*[@id='mainbody']/table[2]/tbody/tr/td[3]//a")
+        name_list.extend(list(map(lambda elem : elem.text, web_elem_list)))
+        logger.info(f"[I] _get_name_url_list - Found {len(web_elem_list)} movie names for index {alpha_index}")
 
     # build 'url_list' based on 'name_list' (cf. url structure on the website - html ressources) 
-    if url :
-        name_list =  list(map(lambda name : name.replace(": ", "-"), name_list))
-        name_list =  list(map(lambda name : name.replace("%", "%2526"), name_list))
-        name_list =  list(map(lambda name : name.replace(" ", "-"), name_list))
+    url_list = deepcopy(name_list)
+    url_list = list(map(lambda elem : build_url_from_name(elem), url_list))
     
-    return name_list
-
-
-# Loop on each index (letter of the alphabet + 0 -- cf. the website structure)
-def _get_dict_name_url_list(alphabetical_index : list, url : bool = False) :
-
-    # loop
-    dict_name_url_list = dict()
-    for alpha_index in alphabetical_index : 
-        dict_name_url_list[alpha_index] = _get_name_url_list(alpha_index, url)
-
-    if url :
-        logging.info(f"{LOG_TITLE} dict_url_list initialized")
-    else : 
-        logging.info(f"{LOG_TITLE} dict_name_list initialized")
-
-    return dict_name_url_list
-
-
-# Use BeautifulSoup to structure the data and convert it to JSON - useful for the text outside <>
-def _structure_html_to_json(html_script, url) :
-    soup = BeautifulSoup(html_script, 'html.parser')
-
-    # extract all elements and text node
-    html_elements = []
-    for content in soup.contents:
-        if content.name:  # it's a html tag
-            html_elements.append({"type": "tag", "name": content.name, "content": str(content)})
-        else:  # it's text
-            text = content.strip()
-            if text:  # ignore empty str
-                html_elements.append({"type": "text", "content": text})
-    
-    # convert to JSON
-    json_script = json.dumps({'url' : url, "elements": html_elements}, ensure_ascii=False, indent=2)
-    return json_script
+    return name_list, url_list
 
 
 
-# get the html script based on the url
-def _get_script (url : str) : 
-    # first check if the html ressource exist
-    script_url = f"https://imsdb.com//scripts//{url}.html"
-    response = requests.get(script_url)
-    if response.status_code != 200 :
-        raise Exception(f"Webstatus : {response.status_code}\n")
-    DRIVER.get(script_url)
 
-    # different page structures 
-    try :
-        html_script = DRIVER.find_element(by=By.XPATH, value="//*[@id='mainbody']/table[2]/tbody/tr/td[3]/table/tbody/tr/td/pre").get_attribute('innerHTML')
-    except :
-        html_script = DRIVER.find_element(by=By.XPATH, value="//*[@id='mainbody']/table[2]/tbody/tr/td[3]/table/tbody/tr/td").get_attribute('innerHTML')
-    
-    # sometimes, you can scrapped empty content.
-    if len(html_script) == 0 :
-        raise Exception("HTML len = 0 : no content scrapped")
-    
-    # First cleaning of the html structure -> can be anoying when trying to use BeautifulSoup
-    html_script = html_script.replace("<pre>", "")
-    html_script = html_script.replace("</pre>", "")
-
-    # use BeautifulSoup to structure the data and convert it to JSON - useful for the text outside <>
-    json_script = _structure_html_to_json(html_script=html_script, url=url)
-    
-    # write data inside json file
-    with open(f"{DATA_FOLDER_SCRIPTS}//{url}.json", "w", encoding='utf-8') as f :
-        f.write(json_script)
-
-    logging.info(f"{LOG_TITLE} Script scrapped and written : {url}.json")
-
-    return True
-
-
-# iteration on the alphabetical_index (url_list) to get all the html ressources and build the json files
-def _get_all_scripts(dict_url_list : dict) :
-    # iterations
-    for url_list in dict_url_list.values() :
-        for url in url_list :
-            try :
-                _get_script(url=url)
-            # in case of Execption, add it to the error dict
-            except Exception as e :
-                DICT_ERRORS["url"].append(url)
-                DICT_ERRORS["error"].append(str(e))
-
-    logging.info(f"{LOG_TITLE} All scripts scrapped")
-    return True
-
-
-# build a dataframe with the name and url of each script
-# Useful to build the error file - based on a DataFrame merge to this one
-def _build_df_name_url(dict_name_list : dict, dict_url_list : dict) :
-    try :
-        names_list = [name for sublist in dict_name_list.values() for name in sublist]
-        urls_list = [url for sublist in dict_url_list.values() for url in sublist]
-        dict_name_url = {"name" : names_list, "url" : urls_list}
-        global DF_NAME_URL
-        DF_NAME_URL = pd.DataFrame(dict_name_url)
-        DF_NAME_URL.to_json(path_or_buf=f"{DATA_FOLDER}//imsDB_name_url.json", orient='records')
-        logging.info(f"{LOG_TITLE} Dataframe of name and url built")
-        return True
-    
-    except Exception as e :
-        logging.error(f"{LOG_TITLE} Error during the building of the dataframe : {str(e)}")
-        return False
-    
-
-def _build_error_file() :
-    df_error  = pd.DataFrame(DICT_ERRORS)
-    # merge the two df
-    last_df_error = pd.merge(DF_NAME_URL, df_error, on="url", how='inner') 
-    # write the result inside a json file
-    last_df_error.to_json(path_or_buf=f"{DATA_FOLDER}//imsDB_scrapping_error.json", orient='records')
-    logging.info(f"{LOG_TITLE} Error file built")  
-    
-    return True 
-
-
-
+### --Main function--
+# To scrap the imsdb website
 def main_scrapping_imsDB() :    
+    
+    logger.info("[I] Scrapper started")
+
+    global DRIVER 
+    DRIVER = webdriver.Chrome(chrome_options)
+    DRIVER.set_window_rect(0,0,1280,840)
+
     # initialization
     alpha_index = _initialize_alpha_index()
-    dict_name_list =_get_dict_name_url_list(alphabetical_index=alpha_index, url=False)
-    dict_url_list = _get_dict_name_url_list(alphabetical_index=alpha_index, url=True)
-    _build_df_name_url(dict_name_list=dict_name_list, dict_url_list=dict_url_list)
+
+    movie_name_list, url_list = _get_name_url_list(alpha_index)
     
+    # /!\ the column are following a precise naming convention : "{field_name}_{source_name}"
+    #   |_ field_name = "url"
+    #   |_ source_name = "imsdb"
+    # It will be useful in Airflow DAG later
+    df_imsdb = pd.DataFrame({
+        'movie_name_imsdb' : movie_name_list,
+        'url_imsdb' : url_list
+    })
 
-    global DICT_ERRORS
-    DICT_ERRORS = {"url" : [], "error" : []}
+    # Save the data scrapped into a csv file (store in the docker volume)
+    df_imsdb.to_csv(f"{SCRAPPING_FOLDER_DATA}//imsdb_data.csv", index=False, encoding='utf-8')
 
-    # scrapping
-    #_get_script(url="12-Monkeys")
-    _get_all_scripts(dict_url_list=dict_url_list)
-    
-    # building of the error file
-    _build_error_file()
-
-    logging.info("imsDB scrapping finished")
+    logger.info(f"[I] {len(df_imsdb)} movie url scrapped")
+    logger.info("[I] Scrapper finished")
 
 

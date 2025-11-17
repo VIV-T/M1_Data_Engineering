@@ -1,3 +1,4 @@
+### Imports
 import pandas as pd
 import os
 import re
@@ -7,6 +8,8 @@ from pathlib import Path
 from pdf2image import convert_from_path
 import pytesseract
 
+
+### Initialization
 # Download CSV
 csv_path = 'scrapping_container/scrapping/data_scrapping/statistics/df_final_scrapping.csv'
 df = pd.read_csv(csv_path)
@@ -17,20 +20,23 @@ TXT_DIR = Path('pdfs/ocr_texts')
 DL_DIR.mkdir(parents=True, exist_ok=True)
 TXT_DIR.mkdir(parents=True, exist_ok=True)
 
+
+### Tools
 # Clean file name
 def sanitize(name):
     name = re.sub(r'[^\w\s.-]', '', name)
     name = re.sub(r'\s+', '_', name.strip())
     return name[:150] or 'untitled'
 
-# Download PDF from csv
-def download_pdf(url, dest):
+
+# Download (locally) PDF based on the URL store in the csv file
+def download_pdf(url, destination):
     try:
         r = requests.get(url, stream=True, timeout=45, headers={"User-Agent": "Mozilla/5.0"})
         if r.status_code != 200:
             print(f"[DOWNLOAD] HTTP {r.status_code} for {url}")
             return False
-        with open(dest, "wb") as f:
+        with open(destination, "wb") as f:
             for chunk in r.iter_content(128 * 1024):
                 if chunk:
                     f.write(chunk)
@@ -39,7 +45,9 @@ def download_pdf(url, dest):
         print(f"[DOWNLOAD] Error for {url}: {e}")
         return False
 
-# Function to do the OCR on pdf
+
+# Function to apply the OCR on pdf files. Output is a string containing the extracted text.
+# Nt : dpi = dots per inch (quality of the image conversion)
 def ocr_pdf(pdf_path, lang="eng", dpi=300):
     try:
         pages = convert_from_path(str(pdf_path), dpi=dpi)
@@ -48,6 +56,7 @@ def ocr_pdf(pdf_path, lang="eng", dpi=300):
         return ""
     texts = []
     for i, img in enumerate(pages, 1):
+        # apply OCR on each page (img)
         try:
             txt = pytesseract.image_to_string(img, lang=lang)
         except Exception as e:
@@ -56,6 +65,8 @@ def ocr_pdf(pdf_path, lang="eng", dpi=300):
         texts.append(txt)
     return "\n\n".join(texts)
 
+
+### Main loop
 # Go through entire CSV
 for index, row in df[df['scrapping_url_extension'] == 'pdf'].iterrows():
     pdf_url = row['scrapping_url']
