@@ -208,12 +208,12 @@ with DAG(
     )
 
 
-    # extract_and_save_html_content = PythonOperator(
-    #     task_id="extract_and_save_html_content",
-    #     python_callable=_extract_and_save_html_content,
-    #     op_args=["final_scrapping"],
-    #     dag=dag
-    # )
+    extract_and_save_html_content = PythonOperator(
+        task_id="extract_and_save_html_content",
+        python_callable=_extract_and_save_html_content,
+        op_args=["final_scrapping"],
+        dag=dag
+    )
 
     download_pdfs = PythonOperator(
         task_id="download_pdfs",
@@ -232,5 +232,5 @@ with DAG(
     #       a. loop on pdf urls => use of request to get the data.
     #       b. download the data as file into the volume in the 'ingestion_data' folder (to create with mkdir)
     volume_mkdir_ingestion_data >> [volume_mkdir_html_data, volume_mkdir_pdf_data]
-    #volume_mkdir_html_data >> extract_and_save_html_content
+    volume_mkdir_html_data >> extract_and_save_html_content
     volume_mkdir_pdf_data >> download_pdfs
