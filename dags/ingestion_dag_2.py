@@ -194,10 +194,10 @@ with DAG(
 
     ### --Task--
     # To apply naming convention to all movie name => to be able to merge data properly
-    apply_naming_convention_to_scripts_slug_data = PythonOperator(
-        task_id="apply_naming_convention_to_scripts_slug_data",
+    apply_naming_convention_to_script_slug_data = PythonOperator(
+        task_id="apply_naming_convention_to_script_slug_data",
         python_callable=_apply_naming_convention_to_scrapped_data,
-        op_args=["scripts_slug"],
+        op_args=["script_slug"],
         dag=dag
     )
     
@@ -214,7 +214,7 @@ with DAG(
     merge_scrapped_data = PythonOperator(
         task_id="merge_scrapped_data",
         python_callable=_merge_and_transform_scrapped_data,
-        op_args=["scripts_slug", "imsdb", "merged_scrapping"],
+        op_args=["script_slug", "imsdb", "merged_scrapping"],
         dag=dag
     )
 
@@ -226,4 +226,4 @@ with DAG(
     )
 
     ### --Graph--
-    [apply_naming_convention_to_scripts_slug_data, apply_naming_convention_to_imsdb_data] >> merge_scrapped_data >> filename_column_creation
+    [apply_naming_convention_to_script_slug_data, apply_naming_convention_to_imsdb_data] >> merge_scrapped_data >> filename_column_creation
