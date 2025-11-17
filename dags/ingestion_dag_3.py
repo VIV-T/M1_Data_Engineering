@@ -39,6 +39,13 @@ START_DATE = pendulum.datetime(2024, 1, 1, tz="UTC")
 # volume related
 VOLUME_FOLDER = os.path.join("/opt", "airflow", "project_data")
 SCRAPPING_DATA_FOLDER = os.path.join(VOLUME_FOLDER, "scrapping_data")
+# new folder to create (if not existing yet)
+INGESTION_DATA_FOLDER = os.path.join(VOLUME_FOLDER, "ingestion_data")
+HTML_DATA_FOLDER = os.path.join(INGESTION_DATA_FOLDER, "html_data")
+PDF_DATA_FOLDER = os.path.join(INGESTION_DATA_FOLDER, "pdf_data")
+os.makedirs(INGESTION_DATA_FOLDER, exist_ok=True)
+os.makedirs(HTML_DATA_FOLDER, exist_ok=True)
+os.makedirs(PDF_DATA_FOLDER, exist_ok=True)
 
 
 # request related 
@@ -76,10 +83,6 @@ with DAG(
     ### --Tools-- (python_callable)
     #logger.info(os.getcwd())
 
-    # to create a folder in the volume (based on a name and a path in the volume itself)
-    def _mkdir_in_volume(folder_name : str, path : str = ""):
-        pass
-
     # To read the csv file as pd.Dataframe 
     def _read_data_file_to_df(source_name : str, additional_name_component = "") :
         data_file_path = os.path.join(SCRAPPING_DATA_FOLDER, "data", f"{source_name}_data{additional_name_component}.csv")
@@ -104,13 +107,14 @@ with DAG(
 
     # To fetch the html content of script page 
     # Allow us to handle errors
-    def _fetch_html(url: str) -> str: # useful
+    def _fetch_html_to_txt(url: str) -> str: # useful
         last_error = None
         for attempt in range(1, RETRY_COUNT + 1):
             try:
                 response = SESSION.get(url, timeout=REQUEST_TIMEOUT, allow_redirects=True)
                 response.raise_for_status() # raise an error if the request failed 
                 return response.text
+                
             except Exception as e:
                 last_error = e
                 wait = (RETRY_BACKOFF ** (attempt - 1)) + rd.random() # to have a random wiating time based on the RETRY_BACKOFF variable
@@ -121,11 +125,34 @@ with DAG(
         raise last_error  # type: ignore
 
 
+
+
+
+
     def extract_html_content(source_name : str):
         # source_name  = "final_scrapping"     # might probably change
         df_data_scrapping = _read_data_file_to_df(source_name=source_name)
 
+        # filter the df to keep only html urls
         df_html = df_data_scrapping[df_data_scrapping[f"{source_name}_url_extension"]=="html"]
+
+        # get the html content into the df
+        df_html[f"{source_name}_content"] = df_html[f"{source_name}_url"].apply(_fetch_html_to_txt)
+
+
+        # iter on each row to get te row information (movie_name (to transform dans le ingestion_dag_2 btw) + html_content) (Need the 'source_name' variable to access to the column by their name)
+        
+        for index, row in df_html.iterrows():
+            filename = row[f"{source_name}_filename"]
+            file_path = os.path.join(HTML_DATA_FOLDER, filename)
+            try : 
+                # write the html content in a dedicated file in the volume.
+                with open(file_path, "w", "utf-8") as f:
+                    f.write(row[f"{source_name}_content"])
+                logging.info(f"[I] - {filename} saved")
+            except Exception as e:
+                logging.info(f"[E] -Error while saving : {filename} - {e}")
+
         return True
 
 

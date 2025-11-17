@@ -38,7 +38,7 @@ VOLUME_FOLDER = os.path.join("/opt", "airflow", "project_data")
 SCRAPPING_DATA_FOLDER = os.path.join(VOLUME_FOLDER, "scrapping_data")
 
 with DAG(
-    dag_id="ingestion_dag_bis",
+    dag_id="ingestion_dag_2",
     start_date=START_DATE,
     schedule=None, 
     catchup=False,
@@ -104,10 +104,10 @@ with DAG(
 
 
 
-    def _merge_and_transform_scrapped_data(source_1 : str, source_2 : str):
+    def _merge_and_transform_scrapped_data(source_1 : str, source_2 : str, destination_name : str):
         df_scrapped_data_source_1 = _read_data_file_to_df(source_name=source_1, additional_name_component="_to_merge")
         df_scrapped_data_source_2 = _read_data_file_to_df(source_name=source_2, additional_name_component="_to_merge")
-        destination_name = "final_scrapping"
+        destination_name = destination_name
 
         ## Merge
         df_scrapped_data_merged = pd.merge(
@@ -141,7 +141,7 @@ with DAG(
             'html')
 
         # 4. Drop the useless columns of the final dataframe
-        df_scrapped_data_merged_final = df_scrapped_data_merged.drop(
+        df_scrapped_data_merged = df_scrapped_data_merged.drop(
                                                         [
                                                             f"movie_name_{source_1}_conventioned", 
                                                             f"movie_name_{source_2}_conventioned", 
@@ -154,7 +154,29 @@ with DAG(
         # 5. Save this new dataframe
         saved = False 
         while not saved == True :
-            saved = _save_data_file_to_csv(df_to_save=df_scrapped_data_merged_final, destination_name=destination_name, additional_name_component="")
+            saved = _save_data_file_to_csv(df_to_save=df_scrapped_data_merged, destination_name=destination_name, additional_name_component="")
+        return True
+
+
+    # To create a column in the df containing the file name
+    def _filename_column_creation(source_name, destination_name) :
+        # create the "destination_name"
+        destination_name = destination_name
+
+        # read the file previously created.
+        df_merged_scrapping_data = _read_data_file_to_df(source_name=source_name)
+
+        # filename creation
+        for index, row in df_merged_scrapping_data.iterrows():
+            name = row[f"{source_name}_movie_name_conventioned"]
+            name = name.lower()
+            name = name.replace(" ", "_")
+            row[f"{source_name}_filename"] = name + "." + row[f"{source_name}_url_extension"]
+
+        # Save this new dataframe
+        saved = False 
+        while not saved == True :
+            saved = _save_data_file_to_csv(df_to_save=df_merged_scrapping_data, destination_name=destination_name, additional_name_component="")
         return True
 
 
@@ -181,10 +203,16 @@ with DAG(
     merge_scrapped_data = PythonOperator(
         task_id="merge_scrapped_data",
         python_callable=_merge_and_transform_scrapped_data,
-        op_args=["scripts_slug", "imsdb"],
+        op_args=["scripts_slug", "imsdb", "merged_scrapping"],
         dag=dag
     )
 
+    filename_column_creation = PythonOperator(
+        task_id="filename_column_creation",
+        python_callable=_filename_column_creation,
+        op_args=["merged_scrapping", "final_scrapping"],
+        dag=dag
+    )
 
     ### --Graph--
-    [apply_naming_convention_to_scripts_slug_data, apply_naming_convention_to_imsdb_data] >> merge_scrapped_data
+    [apply_naming_convention_to_scripts_slug_data, apply_naming_convention_to_imsdb_data] >> merge_scrapped_data >> filename_column_creation

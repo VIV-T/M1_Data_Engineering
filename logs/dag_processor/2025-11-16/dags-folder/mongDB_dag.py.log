@@ -1656,3 +1656,11 @@
 {"timestamp":"2025-11-16T19:32:39.401639Z","level":"info","event":"/opt/airflow","logger":"unusual_prefix_0377c41f9637181670bde4ef0bed1fc8fabb1dd1_mongDB_dag","filename":"mongDB_dag.py","lineno":133}
 {"timestamp":"2025-11-16T19:33:10.361768Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/mongDB_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2025-11-16T19:33:10.761271Z","level":"info","event":"/opt/airflow","logger":"unusual_prefix_0377c41f9637181670bde4ef0bed1fc8fabb1dd1_mongDB_dag","filename":"mongDB_dag.py","lineno":133}
+{"timestamp":"2025-11-16T19:33:41.547624Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/mongDB_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-16T19:33:42.095426Z","level":"info","event":"/opt/airflow","logger":"unusual_prefix_0377c41f9637181670bde4ef0bed1fc8fabb1dd1_mongDB_dag","filename":"mongDB_dag.py","lineno":133}
+{"timestamp":"2025-11-16T19:34:12.561041Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/mongDB_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-16T19:34:13.034291Z","level":"info","event":"/opt/airflow","logger":"unusual_prefix_0377c41f9637181670bde4ef0bed1fc8fabb1dd1_mongDB_dag","filename":"mongDB_dag.py","lineno":133}
+{"timestamp":"2025-11-16T19:34:43.239024Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/mongDB_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-16T19:34:43.583939Z","level":"info","event":"/opt/airflow","logger":"unusual_prefix_0377c41f9637181670bde4ef0bed1fc8fabb1dd1_mongDB_dag","filename":"mongDB_dag.py","lineno":133}
+{"timestamp":"2025-11-16T19:35:14.640611Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/mongDB_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-16T19:35:14.990908Z","level":"info","event":"/opt/airflow","logger":"unusual_prefix_0377c41f9637181670bde4ef0bed1fc8fabb1dd1_mongDB_dag","filename":"mongDB_dag.py","lineno":133}
