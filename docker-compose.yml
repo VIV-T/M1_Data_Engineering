@@ -80,7 +80,7 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
     - ${AIRFLOW_PROJ_DIR:-.}/data:/opt/airflow/data
     - /var/run/docker.sock:/var/run/docker.sock    # expose the socket, but allow us to use docker inside an additional container (share volume for example)
-    - scrapper_data:/opt/airflow/data_scrapping    # !!! Allows data to be transferred from the scrapper container to Airflow
+    - project_data:/opt/airflow/project_data    # !!! Allows data to be transferred from the scrapper container to Airflow
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
@@ -390,7 +390,7 @@ services:
       dockerfile: Dockerfile 
     volumes:
       - ./scrapping_container/scrapping:/app/scrapping  # Needed to properly find the docker file when the container is build (inside Airflow)
-      - scrapper_data:/app//scrapping//data_scrapping  # Needed to share the data
+      - project_data:/app//scrapping//volume  # Needed to share the data
     environment:
       - PYTHONPATH=/app/scrapping
     networks:
@@ -441,7 +441,7 @@ networks:
 # volume allow us to share data between services and to have persistency
 volumes:
   postgres-db-volume:   # postgres DB content
-  scrapper_data:        # data scrapped with a python script
+  project_data:        # data scrapped with a python script
   MONGO_DATA:
     name: MONGO_DATA
   MONGO_CONFIG:
