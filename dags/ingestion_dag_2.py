@@ -99,7 +99,7 @@ with DAG(
         
         saved = False
         while not saved == True :
-            saved =_save_data_file_to_csv(df_to_save=df_scrapped_data_modified, source_name=source_name, additional_name_component="_to_merge")
+            saved =_save_data_file_to_csv(df_to_save=df_scrapped_data_modified, destination_name=source_name, additional_name_component="_to_merge")
         return True
 
 
@@ -167,12 +167,23 @@ with DAG(
         df_merged_scrapping_data = _read_data_file_to_df(source_name=source_name)
 
         # filename creation
+        filename_list = []
         for index, row in df_merged_scrapping_data.iterrows():
             name = row[f"{source_name}_movie_name_conventioned"]
             name = name.lower()
             name = name.replace(" ", "_")
-            row[f"{source_name}_filename"] = name + "." + row[f"{source_name}_url_extension"]
+            row = name + "." + row[f"{source_name}_url_extension"]
+            filename_list.append(row)
 
+        df_merged_scrapping_data[f"{source_name}_filename"] = filename_list
+
+        # Change the column name to fit the new filename (destination_name) : 
+        for column in df_merged_scrapping_data : 
+            new_column = column.replace(source_name, destination_name)
+            # inplace = True allow us to modify the df instead of creating a copy.
+            df_merged_scrapping_data.rename(columns={column : new_column}, inplace=True) 
+
+            
         # Save this new dataframe
         saved = False 
         while not saved == True :
