@@ -30,6 +30,7 @@ SCRAPPING_FOLDER_LOGS = f"{SCRAPPING_FOLDER}//logs"
 logger = logging.getLogger("scrapping_script_slug")
 
 
+
 # Selenium driver - initialization
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--headless')
@@ -123,6 +124,7 @@ def get_pdf_script_url(url) :
         return pdf_script_url  
     except Exception as e :
         logger.error(f"get_pdf_script_url - Error while scrapping this url {pdf_script_url} - error :", e)
+
         return None
     
 
