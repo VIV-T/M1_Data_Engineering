@@ -27,7 +27,8 @@ SCRAPPING_FOLDER_DATA = f"{SCRAPPING_FOLDER}//data"   # adapt your outputs later
 SCRAPPING_FOLDER_LOGS = f"{SCRAPPING_FOLDER}//logs"
 
 # logger (based on the "main.py" script config)
-logger = logging.getLogger("scrapping_scripts_slug")
+logger = logging.getLogger("scrapping_script_slug")
+
 
 
 # Selenium driver - initialization
@@ -122,13 +123,14 @@ def get_pdf_script_url(url) :
         logger.info(f"get_pdf_script_url - Found pdf script url : {pdf_script_url}")
         return pdf_script_url  
     except Exception as e :
-        logger.eror(f"get_pdf_script_url - error :", e)
+        logger.error(f"get_pdf_script_url - Error while scrapping this url {pdf_script_url} - error :", e)
+
         return None
     
 
 ### --Main function--
-# To scrap the scripts slug website
-def main_scrapping_scripts_slug() :
+# To scrap the script slug website
+def main_scrapping_script_slug() :
     logger.info(f"Scrapper started")
 
     global DRIVER 
@@ -144,21 +146,21 @@ def main_scrapping_scripts_slug() :
 
     # /!\ the column are following a precise naming convention : "{field_name}_{source_name}"
     #   |_ field_name = "url"
-    #   |_ source_name = "scripts_slug"
+    #   |_ source_name = "script_slug"
     # It will be useful in Airflow DAG later
-    df_scripts_slug = pd.DataFrame({
-        'movie_name_scripts_slug' : movie_name_list,
+    df_script_slug = pd.DataFrame({
+        'movie_name_script_slug' : movie_name_list,
         'script_page_url' : url_list
     })
 
-    df_scripts_slug["url_scripts_slug"] = df_scripts_slug["script_page_url"].apply(get_pdf_script_url)   # take also a long time to execute
+    df_script_slug["url_script_slug"] = df_script_slug["script_page_url"].apply(get_pdf_script_url)   # take also a long time to execute
     logger.info(f"Pdf script urls scrapped and added to the dataframe")
-    df_scripts_slug = df_scripts_slug.dropna(subset=['url_scripts_slug']) # drop the lines where we didn't find any pdf url (only 1 line dropped here : 'Fighting with My Family' movie)
-    df_scripts_slug_clean  = df_scripts_slug.reset_index(drop=True)
-    df_scripts_slug_clean = df_scripts_slug_clean.drop("script_page_url", axis=1)   # drop the script page url column (not useful later)
+    df_script_slug = df_script_slug.dropna(subset=['url_script_slug']) # drop the lines where we didn't find any pdf url (only 1 line dropped here : 'Fighting with My Family' movie)
+    df_script_slug_clean  = df_script_slug.reset_index(drop=True)
+    df_script_slug_clean = df_script_slug_clean.drop("script_page_url", axis=1)   # drop the script page url column (not useful later)
 
     # Save the data scrapped into a csv file (store in the docker volume)
-    df_scripts_slug_clean.to_csv(f"{SCRAPPING_FOLDER_DATA}//scripts_slug_data.csv", index=False, encoding='utf-8')
+    df_script_slug_clean.to_csv(f"{SCRAPPING_FOLDER_DATA}//script_slug_data.csv", index=False, encoding='utf-8')
 
     DRIVER.quit()
 
