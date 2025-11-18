@@ -30,6 +30,7 @@ SCRAPPING_FOLDER_LOGS = f"{SCRAPPING_FOLDER}//logs"
 logger = logging.getLogger("scrapping_script_slug")
 
 
+
 # Selenium driver - initialization
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--headless')
