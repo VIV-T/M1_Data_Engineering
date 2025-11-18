@@ -122,7 +122,7 @@ def get_pdf_script_url(url) :
         logger.info(f"get_pdf_script_url - Found pdf script url : {pdf_script_url}")
         return pdf_script_url  
     except Exception as e :
-        logger.error(f"get_pdf_script_url - Error while scrapping this url {pdf_script_url} - error :", e)
+        logger.error(f"get_pdf_script_url - Error while scrapping this url {url} - error :", e)
         return None
     
 
