@@ -3,7 +3,7 @@ import logging
 import logging.config
 import sys
 
-import scrapping_scripts_slug
+import scrapping_script_slug
 import scrapping_imsdb
 
 
@@ -17,9 +17,9 @@ LOGGING = {
     "disable_existing_loggers": False,
 
     "handlers": {
-        "h_scrapping_scripts_slug": {
+        "h_scrapping_script_slug": {
             "class": "logging.FileHandler",
-            "filename": f"{SCRAPPING_FOLDER_LOGS}//scrapping_scripts_slug.log",
+            "filename": f"{SCRAPPING_FOLDER_LOGS}//scrapping_script_slug.log",
             "level": "INFO",
             "formatter": "default",
         },
@@ -38,8 +38,8 @@ LOGGING = {
     },
 
     "loggers": {
-        "scrapping_scripts_slug": {
-            "handlers": ["h_scrapping_scripts_slug"],
+        "scrapping_script_slug": {
+            "handlers": ["h_scrapping_script_slug"],
             "level": "INFO",
             "propagate": False
         },
@@ -54,7 +54,7 @@ LOGGING = {
 
 def main() :
     logging.config.dictConfig(LOGGING)
-    scrapping_scripts_slug.main_scrapping_scripts_slug()
+    scrapping_script_slug.main_scrapping_script_slug()
     scrapping_imsdb.main_scrapping_imsDB()
 
 main()
