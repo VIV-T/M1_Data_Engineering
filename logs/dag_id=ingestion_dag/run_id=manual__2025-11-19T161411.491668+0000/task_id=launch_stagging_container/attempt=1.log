@@ -1,0 +1,4 @@
+{"timestamp":"2025-11-19T16:23:29.503836Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-19T16:23:29.504909Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/stagging_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-19T16:23:29.622891Z","level":"info","event":"/opt/airflow","logger":"unusual_prefix_65f4a67cd361985fe61fe43ccc2b0948df2a9924_stagging_dag","filename":"stagging_dag.py","lineno":48}
+{"timestamp":"2025-11-19T16:23:29.797103Z","level":"info","event":"Starting docker container from image m1_data_engineering-stagger:latest","logger":"airflow.task.operators.airflow.providers.docker.operators.docker.DockerOperator","filename":"docker.py","lineno":355}
