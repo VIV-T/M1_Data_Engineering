@@ -53,6 +53,6 @@ LOGGING = {
 def main() :
     logging.config.dictConfig(LOGGING)
     stagging_pdf_content_extraction_ocr.main_stagging_ocr()
-    #scrapping_imsdb.main_scrapping_imsDB()
+    # add the code related to html cleaning
 
 main()

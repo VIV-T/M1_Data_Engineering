@@ -389,10 +389,22 @@ services:
       context: ./scrapping_container
       dockerfile: Dockerfile 
     volumes:
-      - ./scrapping_container/scrapping:/app/scrapping  # Needed to properly find the docker file when the container is build (inside Airflow)
-      - project_data:/app//scrapping//volume  # Needed to share the data
-    environment:
-      - PYTHONPATH=/app/scrapping
+      #- ./scrapping_container/scrapping:/app/scrapping  # Needed to properly find the docker file when the container is build (inside Airflow)
+      #- project_data:/app//scrapping//volume  # Needed to share the data
+      - project_data:/app/project_data  # Needed to share the data
+    #senvironment:
+      #- PYTHONPATH=/app/scrapping
+    networks:
+      - Practice
+    restart: "no"  # No need to restart automatically
+
+
+  stagger:
+    build:
+      context: ./stagging_container
+      dockerfile: Dockerfile 
+    volumes:
+      - project_data:/app/project_data  # Needed to share the data
     networks:
       - Practice
     restart: "no"  # No need to restart automatically
