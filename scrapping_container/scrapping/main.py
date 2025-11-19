@@ -1,16 +1,21 @@
 ### --Imports
 import logging
 import logging.config
-import sys
+import shutil
 
 import scrapping_script_slug
 import scrapping_imsdb
 
 
 ### --Initialization--
+
+# volume content : 
+# copy the folder '' from 'app/scrapping_container/scrapping_files/scrapping_data' to 'app/project_data/scrapping_data'
+shutil.copytree("./scrapping_container/scrapping_files/scrapping_data", "./project_data/scrapping_data", dirs_exist_ok=True)   
+
 # logs
-SCRAPPING_FOLDER = ".//volume//scrapping_data"
-SCRAPPING_FOLDER_LOGS = f"{SCRAPPING_FOLDER}//logs"
+SCRAPPING_FOLDER = "./project_data/scrapping_data"
+SCRAPPING_FOLDER_LOGS = f"{SCRAPPING_FOLDER}/logs"
 
 LOGGING = {
     "version": 1,
@@ -53,7 +58,10 @@ LOGGING = {
 
 
 def main() :
+    # config the logs based on the previous precised configuration
     logging.config.dictConfig(LOGGING)
+
+    # call the main scrapping function for the 2 data sources
     scrapping_script_slug.main_scrapping_script_slug()
     scrapping_imsdb.main_scrapping_imsDB()
 

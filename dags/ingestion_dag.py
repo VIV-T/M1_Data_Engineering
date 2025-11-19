@@ -3,8 +3,6 @@ import logging
 import pendulum
 from docker.types import Mount
 import os
-import glob
-import json
 
 from airflow import DAG
 from airflow.providers.docker.operators.docker import DockerOperator
@@ -29,8 +27,6 @@ def failure_alert(context):
 
 
 
-
-
 ### --- DAG config ---
 START_DATE = pendulum.datetime(2024, 1, 1, tz="UTC")
 
@@ -52,21 +48,23 @@ with DAG(
     logger.info(os.getcwd())
 
     # --Task--
-    launch_scrapping = DockerOperator(
+    launch_scrapper_container = DockerOperator(
         task_id='launch_scrapping_container',
+        container_name="scrapper_container",
         image='m1_data_engineering-scrapper:latest',   # use the docker image build by the 'scrapper' service in the docker-compose.yml
+        command=["/opt/venv_scrapping/bin/python", "/app/scrapping_container/scrapping_files/main.py"],
         api_version='auto',
         auto_remove="success",    # set to 'never' to check the logs or 'success' in normal case
         docker_url='tcp://docker-proxy:2375', # use the proxy service set in the docker-compose.yml
         network_mode="airflow_network",
         mount_tmp_dir=False,
         dag=dag,
+        user='root',
 
         # Synchronize a volume between the scrapper container and the airflow container
-        mounts=[Mount(source='m1_data_engineering_project_data', target='/scrapping/volume', type='volume')]
+        mounts=[Mount(source='m1_data_engineering_project_data', target='/app/project_data', type='volume')]
     )
 
 
-
     # --Graph--
-    launch_scrapping 
+    launch_scrapper_container

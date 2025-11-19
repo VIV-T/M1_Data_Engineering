@@ -257,3 +257,36 @@ Next steps :
         - What will we do with the data 
 
 ###
+
+
+### 18/11 - 19/11
+Volume management modification : to handle multi container writting
+Main issue : 
+    The volume was mounted each time at the building of each container (and the file were writted or copied into it during the building phase)
+    But the thing was, when you mount a volume, it erased the previous content in it.
+    Let's take an example :
+        When I mount the volume on the first service : 'scrapper', the the img is built and the dockerfile is executed.
+        Inside this dockerfile, I copy the 'scrapping_data' folder into the volume as 'scrapping_data'
+
+        Then when I mount the volume on the 2nd service known as 'test', the 'scrapping_data' folder is erased and 
+        the volume content is now depending of what I'm doing in the dockerfile of this 2nd service.
+
+Solution : 
+    Mount the same emty volume on each services.
+    The files are copied in the running app in dedicated folders. (ex: /app/scrapping_data)
+            => /!\ important to be able to access to those files/folder from the exec environement (ex : in he DockerOperator, to access to the python file to execute)
+    Then instead of executing python script with a CMD line in the dockerfile, we execute when needed = with the Airflow DockerOperator.
+    The scripts are accountable of the copy and the write of mandatory / necessary files in the shared named volume.
+
+
+So what's next : 
+    1. Apply this solution to our real use case : I've destroyed the main dag and main work globally to implement those test containers.
+        => it takes time but I've good ideas how to do it (avoid to push before having a clean work - without those tests containers)
+        DONE
+    
+    2. Add Maia's work : replace the DockerFile & requirements.txt in the 'stagging_container' folder. 
+    
+    3. And Baptiste's work. (and AllTheTropes scrapping) Voir avec le bonhomme comment son code marche...
+
+    4. Merge all the part of the ingestion DAG in one => have only one file 'ingestion__dag.py'
+###

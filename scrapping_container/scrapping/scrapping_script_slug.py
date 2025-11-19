@@ -11,6 +11,7 @@ import pandas as pd
 import time
 import logging
 import random as rd
+import os
 
 # Selenium : web navigation and scrapping
 from selenium import webdriver
@@ -22,13 +23,12 @@ from selenium.webdriver.support import expected_conditions as EC
 
 ### --Initialization--
 # volumes & log folder - initialization
-SCRAPPING_FOLDER = ".//volume//scrapping_data"
-SCRAPPING_FOLDER_DATA = f"{SCRAPPING_FOLDER}//data"   # adapt your outputs later in your code based on those variables.
-SCRAPPING_FOLDER_LOGS = f"{SCRAPPING_FOLDER}//logs"
+SCRAPPING_FOLDER = "./project_data/scrapping_data"
+SCRAPPING_FOLDER_DATA = f"{SCRAPPING_FOLDER}/data"   # adapt your outputs later in your code based on those variables.
+SCRAPPING_FOLDER_LOGS = f"{SCRAPPING_FOLDER}/logs"
 
 # logger (based on the "main.py" script config)
 logger = logging.getLogger("scrapping_script_slug")
-
 
 
 # Selenium driver - initialization
