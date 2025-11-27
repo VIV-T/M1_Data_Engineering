@@ -15,3 +15,8 @@ RUN python -m venv /opt/venv_stagging
 RUN /opt/venv_stagging/bin/pip install --upgrade pip
 RUN /opt/venv_stagging/bin/pip install -r ./stagging_container/requirements_stagging.txt
 
+# Poppler and Tesseract installation required for OCR
+USER root
+RUN apt-get update && \
+    apt-get install -y poppler-utils tesseract-ocr && \
+    rm -rf /var/lib/apt/lists/*
