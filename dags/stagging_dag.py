@@ -52,7 +52,7 @@ with DAG(
         task_id='launch_stagging_container',
         container_name="stagging_container",
         image='m1_data_engineering-stagger:latest',   # use the docker image build by the 'scrapper' service in the docker-compose.yml
-        command=["/opt/venv_stagging/bin/python", "/app/stagging_container/stagging_files/test_2.py"],
+        command=["/opt/venv_stagging/bin/python", "/app/stagging_container/stagging_files/stagging_dag.py"],
         api_version='auto',
         auto_remove="success",    # set to 'never' to check the logs or 'success' in normal case
         docker_url='tcp://docker-proxy:2375', # use the proxy service set in the docker-compose.yml
