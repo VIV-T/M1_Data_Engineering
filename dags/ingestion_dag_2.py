@@ -52,7 +52,6 @@ with DAG(
 ) as dag:
     
     ### --Tools-- (python_callable)
-    #logger.info(os.getcwd())
 
     # To read the csv file as pd.Dataframe 
     def _read_data_file_to_df(source_name : str, additional_name_component = "") :
