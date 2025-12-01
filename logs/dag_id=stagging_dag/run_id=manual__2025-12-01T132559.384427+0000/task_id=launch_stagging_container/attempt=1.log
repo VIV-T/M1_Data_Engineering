@@ -1,0 +1,6 @@
+{"timestamp":"2025-12-01T13:26:05.306198Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-12-01T13:26:05.307278Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/stagging_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-01T13:26:05.615052Z","level":"info","event":"Starting docker container from image m1_data_engineering-stagger:latest","logger":"airflow.task.operators.airflow.providers.docker.operators.docker.DockerOperator","filename":"docker.py","lineno":355}
+{"timestamp":"2025-12-01T14:15:13.427893Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"not_running","message":"TI is no longer in the running state and task should terminate","current_state":"success"}},"logger":"task"}
+{"timestamp":"2025-12-01T14:15:13.436697Z","level":"info","event":"Stopping docker container","logger":"airflow.task.operators.airflow.providers.docker.operators.docker.DockerOperator","filename":"docker.py","lineno":515}
+{"timestamp":"2025-12-01T14:15:18.452164Z","level":"error","event":"Task killed!","logger":"task"}

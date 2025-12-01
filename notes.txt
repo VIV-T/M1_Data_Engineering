@@ -290,3 +290,17 @@ So what's next :
 
     4. Merge all the part of the ingestion DAG in one => have only one file 'ingestion__dag.py'
 ###
+
+
+### 01/12
+What have been done : 
+    1. Stagger container is working : the Pytesseract + pdf2img code is operational.
+        => Html cleaning is missing for now.
+        => wait for baptiste's work => the Html source can become useless...
+
+Difficulties : 
+    - Requierements management : be sure that you've installed every requirement before running the code
+    - volume management : path name issues fixed
+    - RAM issues : by storing img list and read pages in memory, we ran out of memory => error.
+        => the solution is to remove object from the RAM when they become useless.
+###
