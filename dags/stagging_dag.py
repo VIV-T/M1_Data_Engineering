@@ -11,6 +11,14 @@ from datetime import timedelta
 
 logger = logging.getLogger(__name__)  # Airflow captures this per task
 
+
+# volume related
+VOLUME_FOLDER = os.path.join("/opt", "airflow", "project_data")
+# new folder to create (if not existing yet)
+STAGGING_DATA_FOLDER = os.path.join(VOLUME_FOLDER, "stagging_data")
+STAGGING_DATA_LOGS_FOLDER = os.path.join(STAGGING_DATA_FOLDER, "logs")
+STAGGING_DATA_SCRIPTS_FOLDER = os.path.join(STAGGING_DATA_FOLDER, "scripts")
+
 # --- Failure callback for rich console logs ---
 def failure_alert(context):
     exc = context.get("exception")
@@ -45,9 +53,34 @@ with DAG(
 ) as dag:
     
     # --Tools-- (python_callable)
-    logger.info(os.getcwd())
+    # To create a folder in the volume : the path must ti be already created
+    def _volume_mkdir(folder_path : str) : 
+        # it doesn't create a folder twice if it already exist in the volume.
+        os.makedirs(folder_path, exist_ok=True)
 
     # --Task--
+    volume_mkdir_stagging_data = PythonOperator(
+        task_id="volume_mkdir_stagging_data",
+        python_callable=_volume_mkdir,
+        op_args=[STAGGING_DATA_FOLDER],
+        dag=dag
+    )
+
+    volume_mkdir_stagging_data_logs = PythonOperator(
+        task_id="volume_mkdir_stagging_data_logs",
+        python_callable=_volume_mkdir,
+        op_args=[STAGGING_DATA_LOGS_FOLDER],
+        dag=dag
+    )
+
+    volume_mkdir_stagging_data_scripts = PythonOperator(
+        task_id="volume_mkdir_stagging_data_scripts",
+        python_callable=_volume_mkdir,
+        op_args=[STAGGING_DATA_SCRIPTS_FOLDER],
+        dag=dag
+    )
+
+
     launch_stagging_container = DockerOperator(
         task_id='launch_stagging_container',
         container_name="stagging_container",
@@ -68,4 +101,4 @@ with DAG(
 
 
     # --Graph--
-    launch_stagging_container
+    volume_mkdir_stagging_data >> [volume_mkdir_stagging_data_logs, volume_mkdir_stagging_data_scripts] >> launch_stagging_container

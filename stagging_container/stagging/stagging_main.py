@@ -3,12 +3,13 @@ import logging
 import logging.config
 
 import stagging_pdf_content_extraction_ocr
+import test_2
 
 
 ### --Initialization--
 # logs
-STAGGING_FOLDER = ".//volume//stagging_data"
-STAGGING_FOLDER_LOGS = f"{STAGGING_FOLDER}//logs"
+STAGGING_FOLDER = "./project_data/stagging_data"
+STAGGING_FOLDER_LOGS = f"{STAGGING_FOLDER}/logs"
 
 LOGGING = {
     "version": 1,
@@ -17,13 +18,13 @@ LOGGING = {
     "handlers": {
         "h_stagging_pdf_content_extraction_ocr": {
             "class": "logging.FileHandler",
-            "filename": f"{STAGGING_FOLDER_LOGS}//pdf_content_extraction_ocr.log",
+            "filename": f"{STAGGING_FOLDER_LOGS}/pdf_content_extraction_ocr.log",
             "level": "INFO",
             "formatter": "default",
         },
         "h_filename_html_cleaning": {
             "class": "logging.FileHandler",
-            "filename": f"{STAGGING_FOLDER_LOGS}//filename_html_cleaning.log",
+            "filename": f"{STAGGING_FOLDER_LOGS}/filename_html_cleaning.log",
             "level": "INFO",
             "formatter": "default",
         },
@@ -53,6 +54,7 @@ LOGGING = {
 def main() :
     logging.config.dictConfig(LOGGING)
     stagging_pdf_content_extraction_ocr.main_stagging_ocr()
+    test_2.test()
     # add the code related to html cleaning
 
 main()
