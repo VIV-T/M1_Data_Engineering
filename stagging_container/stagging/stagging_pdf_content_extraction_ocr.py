@@ -1,5 +1,7 @@
 ### --Imports--
 import logging
+import os
+import glob
 
 from pdf2image import convert_from_path
 import pytesseract
@@ -7,6 +9,10 @@ import pytesseract
 # logger (based on the "main.py" script config)
 logger = logging.getLogger("stagging_pdf_content_extraction_ocr")
 
+
+INGESTION_FOLDER = "./project_data/ingestion_data"
+PDF_FOLDER = os.path.join(INGESTION_FOLDER, "pdf_data")
+STAGGING_FOLDER = "./project_data/stagging_data"
 
 ### --Tools--
 # Converted the pdf pages to images : mandatory to use the OCR to extract the pdf content.
@@ -32,7 +38,17 @@ def extract_txt_with_ocr(pages : list, lang="eng"):
             logger.error(f"ocr_pdf - Failure of pages {i}/{len(pages)}: {e}")
             txt = ""
         texts.append(txt)
+        del img # remove the object form the RAM to avoid error
     return "\n\n".join(texts)
+
+
+# function to build the new filepath based on the pdf_file_path.
+def build_file_path(pdf_file_path : str):
+    filename = os.path.splitext(os.path.basename(pdf_file_path))[0]
+    new_filename = filename + ".txt"
+    new_file_path = os.path.join(STAGGING_FOLDER, "scripts", new_filename)
+    logger.info(f"New file path created : {new_file_path}")
+    return new_file_path
 
 
 
@@ -45,7 +61,19 @@ def main_stagging_ocr():
     #   - write the results into a new file inside the volume (stagging folder)
 
     # Nt : There are multiple path and variable to consider when interacting with the volume :
-    #           -   the input folder : scrapping_data folder 
+    #           -   the input folder : ingestion_data folder 
     #           -   the output folder : stagging_data folder 
 
-    pass
+    logger.info("Starting the text extraction from pdf files.")
+    # Nt glob allow us to iter on all the file inside a folder.
+    for pdf_path in glob.glob(f"{PDF_FOLDER}/*.pdf"):
+        logger.info(f"{pdf_path} start the process")
+        new_file_path = build_file_path(pdf_file_path=pdf_path)
+        pages = convert_pdf_to_img_list(pdf_path=pdf_path)
+        script_txt = extract_txt_with_ocr(pages=pages)
+
+        with open(file=new_file_path, mode="w", encoding="utf-8") as f :
+            f.write(script_txt)
+        del pages # remove the object form the RAM to avoid error
+    
+    logger.info("Text extraction finished.")
