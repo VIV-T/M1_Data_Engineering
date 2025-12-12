@@ -31,7 +31,11 @@ def failure_alert(context):
 START_DATE = pendulum.datetime(2024, 1, 1, tz="UTC")
 
 with DAG(
+<<<<<<< HEAD
     dag_id="ingestion_dag",
+=======
+    dag_id="ingestion_dag_1",
+>>>>>>> f27ab65e9272fa7cb88d0e40763af26bf196c989
     start_date=START_DATE,
     schedule=None, 
     catchup=False,
