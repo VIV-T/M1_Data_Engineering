@@ -40,7 +40,7 @@ VOLUME_FOLDER = os.path.join("/opt", "airflow", "project_data")
 SCRAPPING_DATA_FOLDER = os.path.join(VOLUME_FOLDER, "scrapping_data")
 
 with DAG(
-    dag_id="ingestion_dag_2",
+    dag_id="tropes_dag",
     start_date=START_DATE,
     schedule=None, 
     catchup=False,
