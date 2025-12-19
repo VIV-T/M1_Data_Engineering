@@ -1647,3 +1647,4 @@
 {"timestamp":"2025-12-19T17:06:03.911507Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/new_tropes_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2025-12-19T17:06:34.745633Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/new_tropes_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2025-12-19T17:07:05.451700Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/new_tropes_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-19T17:07:36.061365Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/new_tropes_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}

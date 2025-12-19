@@ -1637,3 +1637,5 @@
 {"timestamp":"2025-12-19T17:05:53.406151Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/tropes_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2025-12-19T17:06:24.175988Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/tropes_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2025-12-19T17:06:54.902555Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/tropes_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-19T17:07:25.707580Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/tropes_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-19T17:07:56.955643Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/tropes_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
