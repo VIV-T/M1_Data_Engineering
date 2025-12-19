@@ -48,7 +48,7 @@ with DAG(
         "retry_delay": timedelta(minutes=5),
         "on_failure_callback": failure_alert,
     },
-    template_searchpath=["/opt/airflow/data/"]
+    template_searchpath=["/opt/airflow/data/"],
 ) as dag:
     
     ### --Tools-- (python_callable)
@@ -119,21 +119,21 @@ with DAG(
 
         ## Transform
         # 1. one unique column for movie_name : based on priority on scipts_slug data, and then completed by imsdb data.
-        df_scrapped_data_merged[f"{destination_name}_movie_name_conventioned"] = np.where(
+        df_scrapped_data_merged["movie_name_conventioned"] = np.where(
             df_scrapped_data_merged[f"merge_{source_1}_{source_2}"] != "right_only", 
             df_scrapped_data_merged[f"movie_name_{source_1}_conventioned"], 
             df_scrapped_data_merged[f"movie_name_{source_2}_conventioned"]
         )
 
         # 2. one unique column for url (pdf & html) : based on priority on scipts_slug data, and then completed by imsdb data.
-        df_scrapped_data_merged[f"{destination_name}_url"] = np.where(
+        df_scrapped_data_merged["url"] = np.where(
             df_scrapped_data_merged[f"merge_{source_1}_{source_2}"] != "right_only", 
             df_scrapped_data_merged[f"url_{source_1}"], 
             df_scrapped_data_merged[f"url_{source_2}"]
         )
 
         # 3. create the url_extension column useful for scrapping
-        df_scrapped_data_merged[f"{destination_name}_url_extension"] = np.where(
+        df_scrapped_data_merged["url_extension"] = np.where(
             df_scrapped_data_merged[f"merge_{source_1}_{source_2}"] != "right_only", 
             'pdf', 
             'html')
@@ -167,13 +167,13 @@ with DAG(
         # filename creation
         filename_list = []
         for index, row in df_merged_scrapping_data.iterrows():
-            name = row[f"{source_name}_movie_name_conventioned"]
+            name = row["movie_name_conventioned"]
             name = name.lower()
             name = name.replace(" ", "_")
-            row = name + "." + row[f"{source_name}_url_extension"]
+            row = name + "." + row["url_extension"]
             filename_list.append(row)
 
-        df_merged_scrapping_data[f"{source_name}_filename"] = filename_list
+        df_merged_scrapping_data["filename"] = filename_list
 
         # Change the column name to fit the new filename (destination_name) : 
         for column in df_merged_scrapping_data : 
@@ -201,7 +201,10 @@ with DAG(
         network_mode="airflow_network",
         mount_tmp_dir=False,
         dag=dag,
-        user='root',
+        # run the scrapper container as root so it can change ownership; pass AIRFLOW_UID so the container
+        # can chown files back to the Airflow user
+        user="root",
+        environment={"AIRFLOW_UID": os.environ.get("AIRFLOW_UID", "50000")},
 
         # Synchronize a volume between the scrapper container and the airflow container
         mounts=[Mount(source='m1_data_engineering_project_data', target='/app/project_data', type='volume')]
@@ -243,5 +246,6 @@ with DAG(
 
 
     ### --Graph--
-    launch_scrapper_container >> [apply_naming_convention_to_script_slug_data, apply_naming_convention_to_imsdb_data] >> \
+    launch_scrapper_container >> \
+    [apply_naming_convention_to_script_slug_data, apply_naming_convention_to_imsdb_data] >> \
     merge_scrapped_data >> filename_column_creation
