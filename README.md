@@ -12,19 +12,16 @@ Students: JOUENNE Maia, TRON Baptiste, VIVIER Thibault
 
 ## Objectives 
 
-### Learning objectives 
+The main idea behind this project is to learn how to implement a data pipeline from the sources of data to the production and analysis. It is also mandatory to use Airflow, a tool presented in class to realize this pipeline. Any other technology is welcome if their use could be justified in the context of the project. We will have to present the used technology, their pros and cons, and the specificities of each tool regarding the data, the state of the project and the other existing tools.
 
-This project is about data eng. 
-What we need to learn ? To implement a dataeng pipeline from sources to production data using specifics tools and concept saw in class.
-What are the mandatory tools ? Docker and Airflow.
+The purpose of the project is also to show our ability to deploy technical tools and answer to a professional use case of data engineering.
 
-### Our objectives 
-Be able to implement a full dateng pipeline = of course. But also know how to use dataeng tools, and understand the context of using of the differents tools used in class. The main objective is to understand and use specifics tools dedicated to specific use case in dataeng. 
-We will introduce trhose tools and explain why we choose to use them in our project, their advantage and limitations.
-<br>
-Also, we consider that this project is a chance to develop our skills in different fields (developpement, system conception, Artificial intelligence, etc.), that's why we choose to create ambitious pipelines with diverse tools and methodology. 
+This project is an opportunity as a student to develop our skills in different fields like the development & coding, the architecture & conception of complex data flow, the implementation & deployment of this data flow, and the research and use of new tools depending on our needs.
 
 This project is done only with educational purpose.
+
+
+
 
 
 ## Datasets Description 
@@ -37,7 +34,7 @@ This project is done only with educational purpose.
 Script Slug is a popular online resource for screenwriters, especially those interested in animation and film. The site offers a growing library of original screenplays from major studios like Netflix, HBO, and Marvel, allowing users to study professional scripts for structure, pacing, and dialogue. It’s widely used by aspiring writers to improve their own screenwriting skills by reading and analyzing industry-standard scripts. Script Slug also provides educational tips and resources for animation screenwriting. The scripts are downloadable in pdf.
 
 <br>
-<img src="./images/script_slug_website.png" alt="ScriptSlugWebsite" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<img src="./images/script_slug_website.png" alt="ScriptSlugWebsite" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 
 <br><br><br>
 
@@ -47,7 +44,7 @@ Script Slug is a popular online resource for screenwriters, especially those int
 IMSDb (Internet Movie Script Database) is a well-known online repository offering a vast collection of movie and TV show scripts. It provides free access to original screenplays, making it a valuable resource for screenwriters, film students, and cinephiles who want to study professional writing techniques. The site relies partly on community contributions to expand its library and keep scripts up to date. IMSDb is widely used for learning script structure, dialogue, and storytelling from real industry examples. There, the scripts are available on html pages.
 
 <br>
-<img src="./images/imsdb_website.png" alt="ImsDBWebsite" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<img src="./images/imsdb_website.png" alt="ImsDBWebsite" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br><br><br>
 
 **All the tropes (Wiki) :** https://allthetropes.org/wiki
@@ -56,7 +53,7 @@ IMSDb (Internet Movie Script Database) is a well-known online repository offerin
 AllTheTropes is a community-driven wiki dedicated to cataloging and explaining storytelling tropes—recurring themes, devices, and conventions—found in movies, TV shows, books, video games, and other media. Unlike other trope databases, AllTheTropes is open and collaborative, allowing anyone to contribute or edit entries. It serves as a valuable resource for writers, critics, and fans seeking to understand, analyze, or avoid clichés in storytelling. The site is especially useful for exploring how tropes evolve and are used across different genres and cultures.
 
 <br>
-<img src="./images/all_the_tropes_website.png" alt="AllTheTropesWebsite" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<img src="./images/all_the_tropes_website.png" alt="AllTheTropesWebsite" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br><br><br>
 
 **Some vocabulary :** 
@@ -76,7 +73,7 @@ Example :
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The vilan protagonist : a plot which implies that the protagonist followed is or become a vilain among the story. You can find it in : Breaking Bad or Night Call (NightCrawler)
 
 <br>
-<img src="./images/poster_quoted_movies.png" alt="PosterQuotedMovies" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<img src="./images/poster_quoted_movies.png" alt="PosterQuotedMovies" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 
 <br><br><br>
 
@@ -110,6 +107,13 @@ On the ImsDB website, the movie scripts are available on HTML pages. It is possi
 
 #### Tropes data
 
+To fill, by B.
+
+<br>
+<br>
+<br>
+<br>
+
 ## Main tools introduction
 
 ### Docker
@@ -128,8 +132,82 @@ precise the use in this context.
 
 ### Global architecture
 Describe the general architecture : explain what are the different DAGs, how they interact between each other (shared volume : project_data).
-Explain the design choices : why using a scrapping DAG ? How the project_data volume is structured ? How the dockerc compose is built (which services ? why ?)? What is the project architecture (folder path) ?etc...?
+Explain the design choices : why using a scrapping DAG ? How the project_data volume is structured ? How the dockerc compose is built (which services ? why ?)? What is the project architecture (folder path) ? etc...?
 
+Folder architecture : 
+Here is the simplified folder architecture of the project.
+
+M1_DATA_ENGINEERING
+  |_dags
+      |_scrapping_dag.py
+      |_ingestion_dag.py
+      |_stagging_dag.py
+      |_shared_operators.py
+      |_etc.
+  |_logs (useful to monitor DAGs execution)
+  |_scrapping_container
+      |_scrapping
+          |_scrapping_data (folder used as example to build the first volume folder)
+              |_data
+              |_logs
+              |_statistics
+          |_main.py
+          |_scrapping_imsdb.py
+          |_scrapping_script_slug.py
+      |_Dockerfile (mandatory to build the associated image in the docker-compose.yml)
+      |_requirements.txt (mandatory to install python requirements in the container)
+      
+  |_stagging_container
+      |_stagging
+          |_stagging_main.py
+          |_stagging_pdf_content_extraction_ocr.py
+          |_html_content_cleaning_file.py # to modify
+      |_Dockerfile (mandatory to build the associated image in the docker-compose.yml)
+      |_requirements.txt (mandatory to install python requirements in the container)
+  |_docker-compose.yml
+  |_README.md
+
+
+DAG architecture : 
+We choose to build at least one DAG per part of the Data engineering classical schema (cf. schema - add the image to the report). Then, we have a DAG for the ingestion of the data, the stagging phase and then for the production & analysis phase. We decide to add other DAG to segment the code, to keep a clear organization of the pipeline and of the different processes used. Here are the list of all our DAGs : 
+    - scrapping_dag.py : to scrap data about data sources. Necessary to execute it before the ingestion_dag.py.
+    - ingestion_dag.py : to ingest the data from the different sources.
+    - stagging_dag.py : to clean the data and extract content from the raw data when needed.
+    - ...
+
+We also choose to add to the DAG's folder an other python script : shared_operators.py. This script contains a list of functions (operators) used by different DAGs. 
+
+Execution order : (DAGs)
+Precise it.
+
+
+Volume architecture :
+|_ingestion_data
+    |_data
+        |_contains multiple CSV files used in next steps 
+    |_scripts
+        |_html_data (contains html files)
+        |_pdf_data (contains pdf files)
+    |_tropes
+        |_contains json files with tropes data.
+|_scrapping_data
+    |_data
+        |_contains multiple CSV files used in next steps 
+    |_logs
+        |_to monitor container's execution
+    |_statistics
+        |_statistics about the scripts and data sources (useless for now)
+|_stagging_data
+    |_logs
+    |_scripts
+    (|_tropes)  didn't exist yet
+        => we have to create the code to clean trope data.
+        
+
+<br>
+<br>
+<br>
+<br>
 
 ### DAG 1 : scrapping DAG
 
