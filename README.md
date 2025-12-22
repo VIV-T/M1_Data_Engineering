@@ -168,7 +168,7 @@ M1_DATA_ENGINEERING
   |_README.md
 
 
-DAG architecture : 
+DAG architecture : <br>
 We choose to build at least one DAG per part of the Data engineering classical schema (cf. schema - add the image to the report). Then, we have a DAG for the ingestion of the data, the stagging phase and then for the production & analysis phase. We decide to add other DAG to segment the code, to keep a clear organization of the pipeline and of the different processes used. Here are the list of all our DAGs : 
     - scrapping_dag.py : to scrap data about data sources. Necessary to execute it before the ingestion_dag.py.
     - ingestion_dag.py : to ingest the data from the different sources.
@@ -207,7 +207,6 @@ Volume architecture :
 <br>
 <br>
 <br>
-<br>
 
 ### DAG 1 : scrapping DAG
 
@@ -239,6 +238,10 @@ What was the hardiest things ? Why ? How we surpass them ?
 
 
 
+<br>
+<br>
+<br>
+
 ### DAG 2 : ingestion DAG
 
 #### General presentation
@@ -263,6 +266,10 @@ What was the hardiest things ? Why ? How we surpass them ?
 
 
 
+<br>
+<br>
+<br>
+<br>
 
 ## Queries 
 
