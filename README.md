@@ -212,7 +212,7 @@ Volume architecture :
 
 #### General presentation
 
-**logical schema img**
+**logical schema img** => take a screenshot of the DAG in Airflow 
 
 Our first Airflow DAG is dedicated to scrap information about the data from sources to prepare the data ingestion. This DAG allow us to get list of links, names, and merge information of the different data sources to define the range of the data ingestion (to avoid to scrap useless data, something essential regarding the cost of execution - time). This scrapping DAG requires specific tools which are Selenium and Chrome Browser. 
 <br>
@@ -233,7 +233,8 @@ This is where you precise the operation of each operator and the specifity.
 
 #### Difficulties
 What was the hardiest things ? Why ? How we surpass them ?
-=> volume management, DockerOperator complexity.
+=> volume management, DockerOperator complexity. (cf notes.txt)
+=> permission management to write in the volume.
 
 
 
@@ -246,15 +247,39 @@ What was the hardiest things ? Why ? How we surpass them ?
 
 #### General presentation
 
-**logical schema img**
+**logical schema img** => take a screenshot of the DAG in Airflow
 
 Present fastly what the DAG is doing, which specific tools are used and what are the specificity of this DAG ?
 
 
 #### Specific tools 
-Selenium.
+is there any specific tools in this DAG ?
 
-ChromeBrowser : need to be installed to use Selenium.
+#### Detailled operations
+Let's have a look on each steps...
+
+
+#### Difficulties
+What was the hardiest things ? Why ? How we surpass them ?
+
+
+<br>
+<br>
+<br>
+
+### DAG 3 : stagging DAG
+
+#### General presentation
+
+**logical schema img** => take a screenshot of the DAG in Airflow
+
+Present fastly what the DAG is doing, which specific tools are used and what are the specificity of this DAG ?
+
+
+#### Specific tools 
+OCR : pytesseract.
+
+Html cleaning dedicated tools ?
 
 
 #### Detailled operations
