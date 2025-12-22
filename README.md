@@ -92,43 +92,89 @@ It's beautiful, but... it is very ambitious. That's why our first objective is t
 #### Scripts
 **PDF**
 <br>
-Show a img (screenshot) => something to explain what we got, what were the challenges, how to extract the content, etc.
+On the Scriptslug website, the movie scripts are available on PDF format. Those PDF files are often scanned pages or brut text. To extract the text content of those files, we will use an OCR (Optical Character Recognition) tool. 
 
 <br>
-<img src="./images/pdf_script_example.png" alt="PdfScriptExample" style="width:25%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<img src="./images/pdf_script_example.png" alt="PdfScriptExample" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 
 <br><br><br>
 
 **HTML**
 <br>
-Show a img (screenshot) => something to explain what we got, what were the challenges, how to extract the content, etc.
+On the ImsDB website, the movie scripts are available on HTML pages. It is possible to get the content of those pages, but it requires some cleaning to get the text content, with dedicated tools.
 
 <br>
-<img src="./images/html_script_example.png" alt="PdfScriptExample" style="width:25%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<img src="./images/html_script_example.png" alt="PdfScriptExample" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 
 <br><br><br>
 
 #### Tropes data
 
-## Tools introduction
+## Main tools introduction
 
 ### Docker
-### Airflow
-### MongoDB
+general presentation : refer to the lectures.
+precise the use in this context.
 
+### Airflow
+general presentation : refer to the lectures.
+precise the use in this context.
+
+### MongoDB
+general presentation : refer to the lectures.
+precise the use in this context.
 
 ## Architecture 
 
-### DAG 1 : ingestion DAG
+### Global architecture
+Describe the general architecture : explain what are the different DAGs, how they interact between each other (shared volume : project_data).
+Explain the design choices : why using a scrapping DAG ? How the project_data volume is structured ? How the dockerc compose is built (which services ? why ?)? What is the project architecture (folder path) ?etc...?
+
+
+### DAG 1 : scrapping DAG
 
 #### General presentation
 
 **logical schema img**
 
-Our first Airflow DAG is dedicated to ingest the data from the scripts sources (Script slug and ImsDB). It includes a scrapping step which necessitate specific tools like Selenium (python package) and a Chrome browser. 
+Our first Airflow DAG is dedicated to scrap information about the data from sources to prepare the data ingestion. This DAG allow us to get list of links, names, and merge information of the different data sources to define the range of the data ingestion (to avoid to scrap useless data, something essential regarding the cost of execution - time). This scrapping DAG requires specific tools which are Selenium and Chrome Browser. 
 <br>
-Due to those particular requirements (and also because it's challenging), we decide to use a DockerOperator in Airflow to launch a Container dedicated to ythe scrapping. The data scrapped are then send to a Docker Volume shared with the ingestion DAG (to be able to access to the data from the DAG).
-Then, the DAG is now able to used those scrapped data to download the ressources : html contents and pdf files, into the Docker Volume. This Volume is shared with all the Docker Network, and it is then accessible by other DAG and Docker Services if needed.
+Due to those particular requirements (and also because it's challenging), we decide to use a DockerOperator in Airflow to launch a Container dedicated to the scrapping. The data scrapped are then send to a Docker Volume : project_data, shared with the other DAGs (to be able to access to the data from the different DAGs).
+
+#### Specific tools 
+Selenium.
+
+ChromeBrowser : need to be installed to use Selenium.
+
+
+#### Detailled operations
+Let's have a look on each steps...
+
+This is where you precise the operation of each operator and the specifity. 
+=> why this step is useful ? what is the purpose of this one ?
+
+
+#### Difficulties
+What was the hardiest things ? Why ? How we surpass them ?
+=> volume management, DockerOperator complexity.
+
+
+
+
+### DAG 2 : ingestion DAG
+
+#### General presentation
+
+**logical schema img**
+
+Present fastly what the DAG is doing, which specific tools are used and what are the specificity of this DAG ?
+
+
+#### Specific tools 
+Selenium.
+
+ChromeBrowser : need to be installed to use Selenium.
+
 
 #### Detailled operations
 Let's have a look on each steps...
@@ -138,7 +184,6 @@ Let's have a look on each steps...
 What was the hardiest things ? Why ? How we surpass them ?
 
 
-### DAG 2 : 
 
 
 ## Queries 
