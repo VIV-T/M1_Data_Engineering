@@ -213,7 +213,7 @@ Volume architecture :
 #### General presentation
 
 <br>
-<img src="./images/scrapping_dag.png" alt="scrapping_dag" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<img src="./images/scrapping_dag.png" alt="scrapping_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br><br>
 
 Our first Airflow DAG is dedicated to scrap information about the data from sources to prepare the data ingestion. This DAG allow us to get list of links, names, and merge information of the different data sources to define the range of the data ingestion (to avoid to scrap useless data, something essential regarding the cost of execution - time). This scrapping DAG requires specific tools which are Selenium and Chrome Browser. 
@@ -268,7 +268,7 @@ To solve it, we decide to add a function to set permission in the main.py script
 #### General presentation
 
 <br>
-<img src="./images/ingestion_dag.png" alt="ingestion_dag" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<img src="./images/ingestion_dag.png" alt="ingestion_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br><br>
 
 Present fastly what the DAG is doing, which specific tools are used and what are the specificity of this DAG ?
