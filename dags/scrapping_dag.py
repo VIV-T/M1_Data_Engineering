@@ -318,7 +318,7 @@ with DAG(
         # run the scrapper container as root so it can change ownership; pass AIRFLOW_UID so the container
         # can chown files back to the Airflow user
         user="root",
-        environment={"AIRFLOW_UID": os.environ.get("AIRFLOW_UID", "50000")},
+        environment={"AIRFLOW_UID": os.environ.get("AIRFLOW_UID", "50000")}, # useful for permission management
 
         # Synchronize a volume between the scrapper container and the airflow container
         mounts=[Mount(source='m1_data_engineering_project_data', target='/app/project_data', type='volume')]
