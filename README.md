@@ -101,7 +101,7 @@ On the Scriptslug website, the movie scripts are available on PDF format. Those 
 On the ImsDB website, the movie scripts are available on HTML pages. It is possible to get the content of those pages, but it requires some cleaning to get the text content, with dedicated tools.
 
 <br>
-<img src="./images/html_script_example.png" alt="PdfScriptExample" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<img src="./images/html_script_example.png" alt="HtmlScriptExample" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 
 <br><br><br>
 
@@ -212,29 +212,49 @@ Volume architecture :
 
 #### General presentation
 
-**logical schema img** => take a screenshot of the DAG in Airflow 
+<br>
+<img src="./images/scrapping_dag.png" alt="scrapping_dag" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<br><br>
 
 Our first Airflow DAG is dedicated to scrap information about the data from sources to prepare the data ingestion. This DAG allow us to get list of links, names, and merge information of the different data sources to define the range of the data ingestion (to avoid to scrap useless data, something essential regarding the cost of execution - time). This scrapping DAG requires specific tools which are Selenium and Chrome Browser. 
-<br>
+<br><br>
 Due to those particular requirements (and also because it's challenging), we decide to use a DockerOperator in Airflow to launch a Container dedicated to the scrapping. The data scrapped are then send to a Docker Volume : project_data, shared with the other DAGs (to be able to access to the data from the different DAGs).
+<br><br>
 
 #### Specific tools 
-Selenium.
+Selenium : This is an Open source tool used for web navigation automatization. It is mainly used for web scrapping, like in this project. This tool can be used in python.
 
-ChromeBrowser : need to be installed to use Selenium.
+ChromeBrowser : Need to be installed to use Selenium, because Selenium is not a web browser but it drives a web browser to navigate.
 
-
-#### Detailled operations
-Let's have a look on each steps...
-
-This is where you precise the operation of each operator and the specifity. 
-=> why this step is useful ? what is the purpose of this one ?
-
+To use thoses specific tools, we decide to build an exclusive image with required dependencies, instead of installing everything on the computer. This is a better practice and working with docker images is the best way to replicate the project and avoid versioning & OS problems (cf. Docker presentation).
+<br><br>
 
 #### Difficulties
-What was the hardiest things ? Why ? How we surpass them ?
-=> volume management, DockerOperator complexity. (cf notes.txt)
-=> permission management to write in the volume.
+**Volume management :** to handle multi-container writting
+The volume was mounted each time at the building of each container (scrapping & stagging), and the file were written or copied into it during the building phase (replacing existing files in the volume).
+But the thing was, when you mount a volume, it erased the previous content in it.
+
+Let's take an example :
+When I mount the volume on the first service : 'scrapper', the the img is built and the dockerfile is executed.
+Inside this dockerfile, I copy the 'scrapping_data' folder into the volume as 'scrapping_data'
+
+Then when I mount the volume on the 2nd service known as 'test', the 'scrapping_data' folder is erased and 
+the volume content is now depending of what I'm doing in the dockerfile of this 2nd service.
+
+<br><br>
+The solution was to mount the same emty volume on each services.
+The files are copied in the running app in dedicated folders. (ex: /app/scrapping_data)
+It is important to be able to access to those files/folder from the execution environement (ex : in he DockerOperator, to access to the python file to execute)
+Then, instead of executing python script with a CMD line in the dockerfile, we execute when needed, with the Airflow DockerOperator.
+The scripts are accountable of the copy and the write of mandatory / necessary files in the shared named volume (project_data).
+
+<br><br>
+
+
+**Permission :**
+Another difficulty was to manage the permission to write in the docker volume from the dag. While using the Docker Operator in Airflow, it was not the same user in the DAG and in the launched container. This distinction was the source of this write issue. 
+
+To solve it, we decide to add a function to set permission in the main.py script in the scrapping_container, using os.chown() of python.
 
 
 
@@ -247,7 +267,9 @@ What was the hardiest things ? Why ? How we surpass them ?
 
 #### General presentation
 
-**logical schema img** => take a screenshot of the DAG in Airflow
+<br>
+<img src="./images/ingestion_dag.png" alt="ingestion_dag" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<br><br>
 
 Present fastly what the DAG is doing, which specific tools are used and what are the specificity of this DAG ?
 
