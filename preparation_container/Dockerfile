@@ -41,12 +41,12 @@ COPY requirements.txt ./preparation_container/requirements.txt
 COPY /app ./preparation_container/app
 
 # Creation of the virtual environment & installation of python packages
-RUN python3 -m venv /opt/venv_preparer
+RUN python3 -m venv /opt/venv_preparer && \
+    if [ ! -e /opt/venv_preparer/bin/python3 ]; then \
+        ln -s /opt/venv_preparer/bin/python /opt/venv_preparer/bin/python3; \
+    fi
 RUN /opt/venv_preparer/bin/pip install --upgrade pip
 RUN /opt/venv_preparer/bin/pip install -r ./preparation_container/requirements.txt
 
-# Dossier pour les modèles
-RUN mkdir -p models
-
-# download the GGUF model from Hugging Face - mistral-7B-Instruct-v0.2
-RUN wget https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf -O models/mistral.Q4_K_M.gguf
+# NOTE: Models should be stored and managed by the `ollama` service.
+# Removed model download here to avoid duplicating models in the preparation image.
