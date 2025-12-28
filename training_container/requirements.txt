@@ -1,7 +1,13 @@
-transformers==4.40.0
-torch==2.2.0
-datasets==2.18.0
-pandas==2.1.0
-scikit-learn==1.4.0
-tqdm==4.66.0
-numpy==1.26.0
+# Bibliothèques principales
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+transformers>=4.38.0
+torch>=2.1.0
+accelerate>=0.27.0  # Pour optimiser l'utilisation GPU
+
+# Pour le traitement des données
+numpy>=1.24.0
+json5>=0.9.14
+
+# Pour le modèle génératif (Mistral-7B)
+bitsandbytes>=0.41.3  # Pour le chargement en 8-bit

@@ -56,16 +56,29 @@ def read_content(file):
 def slice_script(full_script):
     host = os.environ.get("OLLAMA_BASE_URL", "http://ollama:11434")
     client = Client(host=host)
-    prompt = f"""
+    prompt = """
+    **Instructions :**
     Cut the following script into separate scenes.
     For each scene, extract:
     - The scene number or title
     - The location and time (e.g., “INT. LIVING ROOM - DAY”)
     - The scene content (dialogues and actions)
 
-    Return the result as a JSON list.
+    **Output :**
+    Return the result as a JSON list formated like :
+    {
+        "scene_number or scene_title" : [
+            "title", 
+            "number", 
+            "content"
+        ]
+    }
 
-    Script :
+    Return only the JSON list without additional comments.
+
+    """ + f"""
+
+    **Script :**
     {full_script}
     """
     try:

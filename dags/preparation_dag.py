@@ -63,7 +63,7 @@ with DAG(
         task_id='launch_preparation_container',
         container_name="preparation_container",
         image='m1_data_engineering-preparer:latest',   # use the docker image build by the 'scrapper' service in the docker-compose.yml
-        command=["/opt/venv_preparer/bin/python3", "/app/preparation_container/app/main.py"],
+        command=["/opt/venv_preparer/bin/python3", "/app/preparation_container/app/segmentation.py"],
         api_version='auto',
         auto_remove="success",    # set to 'never' to check the logs or 'success' in normal case
         docker_url='tcp://docker-proxy:2375', # use the proxy service set in the docker-compose.yml

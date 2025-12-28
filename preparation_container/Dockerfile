@@ -37,8 +37,8 @@ RUN mkdir -p build && \
 
 # Application folder
 WORKDIR /app
-COPY requirements.txt ./preparation_container/requirements.txt
-COPY /app ./preparation_container/app
+COPY requirements.txt ./requirements.txt
+COPY app ./preparation_container/app
 
 # Creation of the virtual environment & installation of python packages
 RUN python3 -m venv /opt/venv_preparer && \
@@ -46,7 +46,7 @@ RUN python3 -m venv /opt/venv_preparer && \
         ln -s /opt/venv_preparer/bin/python /opt/venv_preparer/bin/python3; \
     fi
 RUN /opt/venv_preparer/bin/pip install --upgrade pip
-RUN /opt/venv_preparer/bin/pip install -r ./preparation_container/requirements.txt
+RUN /opt/venv_preparer/bin/pip install -r ./requirements.txt
 
 # NOTE: Models should be stored and managed by the `ollama` service.
 # Removed model download here to avoid duplicating models in the preparation image.

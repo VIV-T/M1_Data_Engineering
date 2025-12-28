@@ -275,3 +275,4 @@
 {"timestamp":"2025-12-26T16:50:54.411338Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/new_tropes_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2025-12-26T16:51:25.383782Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/new_tropes_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2025-12-26T16:51:56.241259Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/new_tropes_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-26T16:52:27.244804Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/new_tropes_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
