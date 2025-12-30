@@ -5,6 +5,14 @@ import faiss
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 import torch
 
+
+#volume related folders
+STAGGING_FOLDER = "./project_data/stagging_data"
+STAGGING_FOLDER_LOGS = f"{STAGGING_FOLDER}/logs"
+PREPARATION_FOLDER_SCRIPTS = f"{STAGGING_FOLDER}/scripts"
+STAGGING_FOLDER_DATA = f"{STAGGING_FOLDER}/data"
+
+
 # --- 1. Charger la base de données de tropes ---
 with open("tropes_db.json", "r", encoding="utf-8") as f:
     tropes_db = json.load(f)["tropes"]
@@ -94,7 +102,7 @@ def analyze_hybrid(script_path):
     }
 
 # --- 9. Exécution ---
-if __name__ == "__main__":
+def main_analysis():
     script_path = "script.txt"
     results = analyze_hybrid(script_path)
 
@@ -106,3 +114,7 @@ if __name__ == "__main__":
         print(f"\n--- Segment {i+1} ---")
         print(f"Segment: {result['segment'][:200]}...")
         print(f"Réponse: {result['response']}")
+
+if __name__ == "__main__":
+    main_analysis() # to modify to analyze all scripts in the folder (using glob)
+    

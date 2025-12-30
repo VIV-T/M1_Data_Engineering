@@ -63,6 +63,12 @@ def decouper_script_par_scenes(file_path):
         re.IGNORECASE | re.MULTILINE
     )
 
+    # Trouver la position de la première scène
+    premiere_scene = motif_scene.search(script)
+
+    # Extraire l'introduction (avant la première scène)
+    introduction = script[:premiere_scene.start()].strip() if premiere_scene else script.strip()
+
     # Découper le script en utilisant les marqueurs de scène
     positions_scenes = [match.start() for match in motif_scene.finditer(script)]
     positions_scenes.append(len(script))  # Ajouter la fin du script
@@ -73,6 +79,9 @@ def decouper_script_par_scenes(file_path):
         fin = positions_scenes[i + 1]
         scene = script[debut:fin].strip()
         scenes.append(scene)
+
+    # Ajouter l'introduction en premier
+    scenes.insert(0, introduction)
 
     return scenes
 
@@ -88,8 +97,11 @@ def sauvegarder_scenes(movie_name, scenes, dossier_sortie):
     if not os.path.exists(dossier_sortie):
         os.makedirs(dossier_sortie)
 
-    for i, scene in enumerate(scenes, start=1):
-        nom_fichier = os.path.join(dossier_sortie, movie_name+f"_scene_{i}.txt")
+    for i, scene in enumerate(scenes):
+        if i < 10:
+            nom_fichier = os.path.join(dossier_sortie, movie_name+f"_scene_0{i}.txt")
+        else:
+            nom_fichier = os.path.join(dossier_sortie, movie_name+f"_scene_{i}.txt")
         with open(nom_fichier, 'w', encoding='utf-8') as fichier:
             fichier.write(scene)
 

@@ -20,21 +20,6 @@ RUN apt-get update && \
     libcurl4-openssl-dev \
     && rm -rf /var/lib/apt/lists/*
 
-# Téléchargement de llama.cpp (sans git clone)
-WORKDIR /llama.cpp
-RUN curl -L https://github.com/ggerganov/llama.cpp/archive/refs/heads/master.tar.gz \
-    | tar -xz --strip-components=1
-
-# Compilation (stable en environnement Docker)
-RUN mkdir -p build && \
-    cd build && \
-    cmake \
-      -DLLAMA_BLAS=OFF \
-      -DLLAMA_CURL=ON \
-      -DCMAKE_BUILD_TYPE=Release \
-      .. && \
-    make -j1
-
 # Application folder
 WORKDIR /app
 COPY requirements.txt ./requirements.txt
