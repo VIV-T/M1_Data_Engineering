@@ -1,0 +1,5 @@
+{"timestamp":"2025-12-21T17:54:42.401430Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-12-21T17:54:42.402802Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ingestion_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-21T17:54:42.882658Z","level":"info","event":"Starting is_on_tropedia step","logger":"root","filename":"ingestion_dag.py","lineno":129}
+{"timestamp":"2025-12-21T17:55:07.959595Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"not_running","message":"TI is no longer in the running state and task should terminate","current_state":"failed"}},"logger":"task"}
+{"timestamp":"2025-12-21T17:55:12.981491Z","level":"error","event":"Task killed!","logger":"task"}
