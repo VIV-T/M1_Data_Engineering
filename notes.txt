@@ -304,3 +304,23 @@ Difficulties :
     - RAM issues : by storing img list and read pages in memory, we ran out of memory => error.
         => the solution is to remove object from the RAM when they become useless.
 ###
+
+
+
+
+### 21/12
+DAG modification : 
+creation and modification of DAGs => purpose : define different DAGs of the dataeng process (ingestion, stagging, production, etc...)
+=> creation of the following DAGs:
+    - scrapping_dag.py : to scrap the data of the scripts websites, and the trope data needed for the data ingestion. (internet connection required)
+    - ingestion_dag.py : based on the scrapped data, collect and ingest the data into the volume. (internet connection required)
+
+Deletion of useless files (ingestion_dag_1/2/3.py, tropes_dag.py, new_tropes_dag.py, etc...?)
+
+
+TO DO : 
+    - get some knowledge and information about : 
+        - html data cleaning (Maia)
+        - IA data model to use next (+ how to clean the data to train them) (Thibault)
+    - Refactor ingestion code for tropes (empty json files for now). (Baptiste) 
+###

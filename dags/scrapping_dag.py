@@ -6,6 +6,8 @@ import os
 import pandas as pd
 import re
 import numpy as np
+import requests
+from bs4 import BeautifulSoup
 
 from airflow import DAG
 from airflow.providers.docker.operators.docker import DockerOperator
@@ -188,7 +190,119 @@ with DAG(
             saved = _save_data_file_to_csv(volume_data_folder=SCRAPPING_DATA_FOLDER, df_to_save=df_merged_scrapping_data, destination_name=destination_name, additional_name_component="")
         return True
 
+    
+    
+    ## TROPES Part.
+    def _to_tropedia_format(title):
+        """
+        Format a movie title to a Tropedia url format.
+        """
+        logging.info(f"Formatting title: {title}")
+        return title.strip().replace(" ", "_").replace(":", "")
+    
+
+    def _apply_formatting(volume_data_folder, source_name, destination_name):
+        """
+        Apply Tropedia formatting to the title column.
+        Add 'url' column, with Tropedia url of the movie.
+        Add 'exists_on_tropedia' columns and set False by default.
+        """
+
+        base_url = "https://tropedia.fandom.com/wiki/"
+
+        logging.info(f"Starting apply_formatting step")
+
+        df = _read_data_file_to_df(volume_data_folder=volume_data_folder, source_name=source_name)
+
+        df["tropedia_name"] = df["movie_name_conventioned"].apply(_to_tropedia_format) # Apply naming convention
+        df["url_tropedia"] = base_url + df["tropedia_name"] # Create the full url
+        df["exists_on_tropedia"] = False # Set the default value to column 'exists_on_tropedia'
+        
+        # Save this new dataframe
+        saved = False 
+        while not saved == True :
+            saved =_save_data_file_to_csv(volume_data_folder=volume_data_folder, destination_name=destination_name, df_to_save=df)
+
+        logging.info(f"Finished apply_formatting step")
+        return True
+
+
+    def _is_on_tropedia(volume_data_folder, source_name, destination_name):
+        """
+        Check if the Tropedia page exists for each movie and update the 'exists_on_tropedia' column.
+        A page is considered non-existent if it contains the text "There is currently no text in this page".
+        """
+    
+        logging.info(f"Starting is_on_tropedia step")
+
+        df = _read_data_file_to_df(volume_data_folder=volume_data_folder, source_name=source_name)
+        df = df.head(50)  # Limit to first 5 rows for testing purposes
+
+        for i, row in df.iterrows():
+            try:
+                response = requests.get(row["url"], timeout=10) # Ajout d'un timeout
+                
+                # Check if the page is valid or if the content is empty
+                soup = BeautifulSoup(response.text, "html.parser")
+                p = soup.select_one("#mw-content-text > div > p")
+                
+                if p and "There is currently no text in this page" in p.text:
+                    df.at[i, "exists_on_tropedia"] = False
+                else:
+                    df.at[i, "exists_on_tropedia"] = True
+
+            except Exception as e:
+                logger.error(f"Error in checking url : {row['url']}")
+
+        # Save this new dataframe
+        saved = False 
+        while not saved == True :
+            saved = _save_data_file_to_csv(volume_data_folder=volume_data_folder, destination_name=destination_name, df_to_save=df)
+
+        logging.info(f"Finished is_on_tropedia step, the column 'exists_on_tropedia' has been updated.")
+        return True
+
+
+
+
+    def _clean_csv(volume_data_folder, source_name, destination_name_scripts, destination_name_tropes): # path_input_file, output_file_scripts, output_file_tropes
+        """Filter the CSV to keep only the movies that exist on Tropedia and drop unnecessary columns.
+           The first output file is for scripts data, the second for tropes data.
+        """
+        logging.info(f"Starting cleaning csv file")
+        logging.info(f"Reading source file: {source_name}")
+        logging.info(f"Output scripts file: {destination_name_scripts}")
+        logging.info(f"Output tropes file: {destination_name_tropes}")
+
+        df = _read_data_file_to_df(volume_data_folder=volume_data_folder, source_name=source_name)
+
+        # For scripts data
+        df_scripts = df[df["exists_on_tropedia"] == True]
+        df_scripts = df_scripts.drop(columns=["tropedia_name", "exists_on_tropedia", "url_tropedia"])
+        # Save this new dataframe
+        scripts_saved = False 
+        while not scripts_saved == True :
+            scripts_saved = _save_data_file_to_csv(volume_data_folder=volume_data_folder, destination_name=destination_name_scripts, df_to_save=df_scripts)
+
+        logging.info("List of scripts movies that exist on Tropedia saved for SCRIPTS part.")
+    
+
+        # For tropes data
+        df_tropes = df[df["exists_on_tropedia"] == True]
+        df_tropes = df_tropes.drop(columns=["tropedia_name", "exists_on_tropedia"]) # WARNING : REMOVE THE COLUMN 
+        # Save this new dataframe
+        tropes_saved = False 
+        while not tropes_saved == True :
+            tropes_saved = _save_data_file_to_csv(volume_data_folder=volume_data_folder, destination_name=destination_name_tropes, df_to_save=df_tropes)
+
+        logging.info("List of scripts movies that exist on Tropedia saved for TROPES part.")
+
+        return True
+
+
+
     ### --Task--
+    ## Scripts tasks
     # Lauch the scrapping container to fetch the data and save it into a csv file in the Docker volume
     launch_scrapper_container = DockerOperator(
         task_id='launch_scrapping_container',
@@ -204,7 +318,7 @@ with DAG(
         # run the scrapper container as root so it can change ownership; pass AIRFLOW_UID so the container
         # can chown files back to the Airflow user
         user="root",
-        environment={"AIRFLOW_UID": os.environ.get("AIRFLOW_UID", "50000")},
+        environment={"AIRFLOW_UID": os.environ.get("AIRFLOW_UID", "50000")}, # useful for permission management
 
         # Synchronize a volume between the scrapper container and the airflow container
         mounts=[Mount(source='m1_data_engineering_project_data', target='/app/project_data', type='volume')]
@@ -244,8 +358,59 @@ with DAG(
         dag=dag
     )
 
+    ## Tropes tasks
+    apply_formatting = PythonOperator(
+        task_id="apply_formatting",
+        python_callable=_apply_formatting,
+        # Python args : 
+        # input_volume_data_folder, *
+        # source_name, 
+        # output_volume_data_folder, 
+        # destination_name
+        op_args=[
+            SCRAPPING_DATA_FOLDER, 
+            "scrapping", 
+            "formated_scrapping"
+            ], 
+        dag=dag
+    )
+
+
+    is_on_tropedia = PythonOperator(
+        task_id="is_on_tropedia",
+        python_callable=_is_on_tropedia,
+        # Python args : 
+        # volume_data_folder (the same for the input and the output here)
+        # source_name
+        # destination_name
+        op_args=[
+            SCRAPPING_DATA_FOLDER, 
+            "formated_scrapping", 
+            "is_on_tropedia"
+        ],
+        dag=dag
+    )
+
+    clean_csv = PythonOperator(
+        task_id="clean_csv",
+        python_callable=_clean_csv,
+        # Python args 
+        # volume_data_folder, 
+        # source_name, 
+        # destination_name_scripts, 
+        # destination_name_tropes
+        # Nt : input = movies list of scripts with tropedia atributes , output 1 = scripts data , output 2 = tropedia data
+        op_args=[
+            SCRAPPING_DATA_FOLDER, 
+            "is_on_tropedia", 
+            "ingestion_scripts", 
+            "ingestion_tropes"
+        ], 
+        dag=dag
+    )
 
     ### --Graph--
     launch_scrapper_container >> \
     [apply_naming_convention_to_script_slug_data, apply_naming_convention_to_imsdb_data] >> \
-    merge_scrapped_data >> filename_column_creation
+    merge_scrapped_data >> filename_column_creation >> \
+    apply_formatting >> is_on_tropedia >> clean_csv

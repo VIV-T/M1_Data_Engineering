@@ -1,0 +1,792 @@
+Ignorer et passer au contenu
+Vous avez dit :
+I have a movie script, for example of the movie "12 mokeys"; and a list of associated tropes like : 
+
+12 monkeys movie 
+Air Vent Passageway: Referenced; after Cole vanishes out of his restraints and a locked room in a mental hospital, the staff glance up at the tiny vent shaft (however this escape did not actually happen in such a way).
+After the End: Cole's 'present'.
+Animal Wrongs Group: The Army of the Twelve Monkeys is an animal rights group blamed for the spread of a deadly super-virus that kills most of humanity. They end up having nothing to do with it.
+Apocalypse How: Both Class 1 and Class 3A, since there's a virus that exterminated 99% of humanity and made the Earth's surface uninhabitable mainly for humans. Animals weren't affected by this.
+Beauty Inversion
+Bedlam House
+Big Bad Ensemble: Jeffrey Goines is the leader of the titular eco-terrorist group who seeks to free the animals in the Bronx Zoo, while Dr. Peters is the man responsible for releasing the plague on humanity.
+Broken Aesop/Space Whale Aesop: Because airport security makes you open all your containers, mankind will be wiped out by questionably-motivated scientists.
+Can't Take Anything with You
+With the exception of the bullet in his leg.
+It seems the rule is you can't take anything that is external to your body. Cole also gets the spider he swallowed back to the future just fine.
+Cassandra Truth
+Discussed.
+Chewing the Scenery: Brad Pitt goes somewhat over-the-top in his scenes in the madhouse, but it works.
+Chekhov's Gunman: A rather creepy but otherwise unimportant character is introduced midway through who turns out to be the guy who spread the virus.
+Covers Always Lie: At first glance it sure looks like a cyborg on the cover. It's not until you look closer that you see it's the symbol of the Army of the 12 Monkeys.
+Cuckoo Nest
+Depraved Dentist: Cole inflicts this on himself because he believes that they track time travelers with devices implanted in their teeth. Leads to one of the few Crowning Moments Of Funny in the whole movie.
+Cquote1	
+Hey... is that the cops? I'm an innocent victim in here! I was attacked by a coked up whore and a - a fuckin' crazy dentist!
+
+Cquote2
+Downer Ending
+Esoteric Happy Ending: Cole dies and the apocalypse can't be averted, but in that last scene on the airplane, we see the councilwoman from the future following the man with the virus--implying that, thanks to Cole's work, the scientists will finally get their sample of the virus and be able to engineer a vaccine.
+The ending actually implies that the council in the future had full knowledge of everything that had already occurred, and that James Cole's mission was to ensure the past unfolded like it was supposed to. The fact that Cole says, 'This isn't about the virus anymore is it? This is about following orders' when Jose appears to give him the gun in the airport after Cole leaves his final message (revealing that The Army of the Twelve Monkeys had nothing to do with the virus), along with the councilwoman meeting the man with the virus on the airplane, introducing herself as someone who does 'insurance', seems to indicate that the council had access to all the information from the beginning, and were simply using Cole the entire time
+Dueling Stars Movie: Bruce Willis vs. Brad Pitt.
+One could argue that this is more of a retroactive example, as Pitt (while having found recent acknowledgements for his roles in Interview with the Vampire and Se7en ), wasn't nearly as big a star as Bruce Die Hard Willis at the time of the film's release.
+Dull Surprise: Bruce Willis, which is very well justified by his character being either heavily sedated or emotionally traumatized for most of the movie. In addition, it provides a perfect contrast for Brad Pitt's maniacal bombast.
+Enforced Method Acting: Brad Pitt's nervous and rapid speech was aided by Terry Gilliam not letting him smoke during shooting.
+Generic Graffiti: The Army of the 12 Monkeys tags the walls around their base with graffiti shaped like a ring of 12 monkeys.
+Go Among Mad People
+Here We Go Again
+Hospital Hottie: Dr. Kathryn Railly
+Idiot Ball: The Airport Security Guard. When a scientist has a specially sealed case and tells you the vials inside contain "biological samples", what in the name of sanity would make you want him to open it?
+Just Before the End
+Large Ham: Brad Pitt's acting is gloriously over-the-top.
+The Law of Conservation of Detail: During Dr. Railly's speech she briefly shows an etching of a man from the 1100s proclaiming the end of the world in 1996. Later on when James in 1996 you see that man preaching on the side of a street corner. Also another example is a phone message heard by Cole in the 'present' is later found out to be made by Dr. Railly.
+Mad Oracle: It's implied that many such oracles were actually time travelers who landed in the wrong era.
+Meanwhile in the Future
+Mind Screw: For the viewer, although by the end it becomes comprehensible. Also, for James, who starts to think he really is insane and that he imagined traveling from the future. It's mentioned that this happens to all time travellers. Finally, for Katherine, first as she starts to realize that James must have come from the future, and later when she starts to "remember" things that never actually happened (when they put on the disguises and she says he looks familiar.)
+Misanthrope Supreme: The villains, who engineer a lethal virus.
+Misplaced Wildlife: Cole encounters a lion in the city while collecting samples in the future. Releasing zoo animals was the Army Of The Twelve Monkeys' plan.
+Musical Spoiler: The first clue of Brad Pitt's involvement with the Army of the 12 Monkeys is when the "12 Monkeys" Leitmotif plays during one of his rants.
+Non-Indicative Name: As Mr. Cranky asks in his review, "Where are the monkeys?"
+The Plague
+Poke the Poodle: It is revealed that the horrifyingly evil plot of The Army of the Twelve Monkeys amounts to releasing some animals from a zoo.
+Punctuated! For! Emphasis!: NO! MORE! MONKEY! BUSINESS!!!
+Red Herring: The Army of the Twelve Monkeys didn't release the virus.
+Shoot the Shaggy Dog
+Shout-Out: Cole and Railly attend a Hitchcock movie marathon just before they go to the airport.
+Significant Monogram: James Cole.
+Stable Time Loop
+Subtitles Always Spoil: Some versions of the movie have subtitles that label the voice on the recording "Kathryn's voice", despite Cole specifically saying the voice was unidentifiable later in the movie.
+Through the Eyes of Madness: The longer James stays in one timeline, the more he begins to doubt his memories of the other one.
+Tragic Irony: "I've done my job, I did what you wanted. Good luck. I'm not coming back."
+The Virus
+What Year Is This?
+With Great Power Comes Great Insanity: All the time travelers are going insane from the stresses involved in time travel; hence the use of expendable prisoners for this task.
+World War I: Features in a few short scenes and has relevance to the whole Time Travel plot.
+You Can't Fight Fate: Played cruelly straight.
+
+How to create a dataset (with labelà to train an LLM to recognize tropes in the movie script, with supervised learning ?
+ChatGPT a dit :
+To create a dataset for training a language model (LLM) to recognize tropes in a movie script like "12 Monkeys," you need to follow a structured approach to annotate and prepare the data. The goal is to provide labeled examples where the model can learn to identify different tropes or thematic elements in the movie script based on context, dialogue, and description. Here's a step-by-step guide on how to achieve that:
+
+1. Define Tropes and Labels
+Start by creating a comprehensive list of tropes, just like the one you've provided for "12 Monkeys." Each trope will be a label that you’ll associate with specific parts of the script. The list of tropes can be broken down into categories such as:
+
+Character Tropes (e.g., "Mad Oracle", "Hospital Hottie")
+
+Plot Tropes (e.g., "Apocalypse How", "Stable Time Loop")
+
+Visual Tropes (e.g., "Air Vent Passageway", "Covers Always Lie")
+
+Themes & Metaphors (e.g., "Depraved Dentist", "Dull Surprise")
+
+For supervised learning, these tropes will serve as labels for your data.
+
+2. Extract Text From the Movie Script
+The next step is to get the movie script in a structured text format (such as .txt, .json, or .csv). The script should have all the dialogues, descriptions, and other narrative elements. You can find scripts on websites like imsdb.com or script-o-rama.com.
+
+If the script is not already in a machine-readable format, you may need to clean and structure it into scenes and dialogue blocks. For example, the structure of a scene might look like this:
+
+SCENE 1: INT. HOSPITAL ROOM - DAY
+James Cole (Bruce Willis) is strapped to a bed, looking disoriented.
+
+JAMES COLE: Where am I? What's happening?
+
+[Staff members] glance up at the air vent above.
+
+TROPE IDENTIFIED: "Air Vent Passageway"
+3. Manual Annotation of the Script
+This is a crucial step where you manually label tropes in the script text. You will go through each scene and identify where a specific trope is being referenced or implied. For example:
+
+Air Vent Passageway: Mark this trope whenever an air vent is mentioned as a means of escape, even if the trope isn't directly acted out. For example, when the character looks at the vent, you might annotate it in the text.
+
+Downer Ending: If the script mentions a tragic or unresolved ending (like Cole's death), you can label it accordingly.
+
+For each relevant scene or dialogue, you would annotate the text with the identified tropes like so:
+
+{
+  "scene_id": "1",
+  "script": "James Cole (Bruce Willis) is strapped to a bed, looking disoriented. He asks, 'Where am I? What's happening?' Staff members glance up at the air vent above.",
+  "tropes": ["Air Vent Passageway", "Cassandra Truth"]
+}
+Make sure to cover as many examples of each trope as possible throughout the script. Depending on the size of the script, this could take a while.
+
+4. Text Preprocessing and Tokenization
+Before training the model, preprocess the text to convert it into a format that can be fed into machine learning algorithms. This step includes:
+
+Tokenization: Breaking the text into words or phrases (tokens). You can use libraries like NLTK, spaCy, or transformers from Hugging Face for tokenization.
+
+Text Cleaning: Removing unnecessary elements such as scene transitions, header/footer data, and irrelevant meta-information like timestamp data.
+
+Entity Recognition: Optionally, you can use Named Entity Recognition (NER) to tag characters, locations, etc. This could help the model understand the relationship between different parts of the script.
+
+5. Creating a Dataset for Supervised Learning
+Once you have the annotated script, you’ll need to convert it into a dataset where each instance (text segment) is paired with a list of labels (tropes). If you were to use a simple classification approach, each example would look like this:
+
+{
+  "text": "James Cole (Bruce Willis) is strapped to a bed, looking disoriented. He asks, 'Where am I? What's happening?' Staff members glance up at the air vent above.",
+  "labels": ["Air Vent Passageway", "Cassandra Truth"]
+}
+6. Data Augmentation (Optional)
+To increase the diversity of your training data, you might consider augmenting the dataset by rephrasing certain segments, swapping synonyms, or paraphrasing the dialogue. This can help the model generalize better.
+
+7. Model Training Setup
+With the dataset ready, you can now train a language model to classify tropes in movie scripts. Since you're working with text classification, you can use pre-trained models such as:
+
+BERT (Bidirectional Encoder Representations from Transformers): BERT is widely used for text classification tasks. You can fine-tune a pre-trained BERT model on your dataset to recognize the tropes.
+
+GPT-based Models: You could also fine-tune a GPT model to predict the tropes based on the script's context.
+
+Steps for model training:
+
+Split the dataset into training, validation, and test sets (usually 70%-15%-15%).
+
+Preprocess the text and labels for model input.
+
+Fine-tune a pre-trained model (like BERT or GPT) for multi-label classification (since one segment can have multiple tropes).
+
+Use metrics like accuracy, F1-score, and precision/recall to evaluate performance.
+
+8. Model Evaluation
+After training, you’ll need to evaluate the model using a test set that it hasn’t seen before. This will give you an idea of how well the model can recognize tropes in new, unseen script data.
+
+Accuracy: The percentage of correctly identified tropes.
+
+Precision/Recall/F1-Score: These metrics are useful if you have a class imbalance (e.g., some tropes are more frequent than others).
+
+9. Iteration and Improvement
+Depending on the performance of your model, you may need to adjust the training process. Here are some ways you can improve:
+
+Add more labeled data: More examples usually lead to better generalization.
+
+Hyperparameter tuning: Adjust learning rate, batch size, etc.
+
+Ensemble methods: Combining multiple models or techniques to improve prediction.
+
+10. Deploying the Model
+Once the model is trained and performing well, you can use it to analyze new movie scripts and identify tropes automatically. For real-time applications, you might want to integrate the model into an interface where users can input a script, and the model outputs the identified tropes.
+
+Example Tools and Libraries:
+Data Annotation: Labelbox, Prodigy, or custom annotation scripts.
+
+Model Training: Hugging Face’s transformers, TensorFlow, or PyTorch.
+
+Evaluation: Scikit-learn for classification metrics.
+
+Deployment: Streamlit or FastAPI for building a web interface.
+
+By following these steps, you’ll be able to build a dataset for training an LLM to recognize tropes in movie scripts. The key is to have consistent and accurate annotations that cover all relevant tropes.
+
+Vous avez dit :
+So, to prepare my data, I need to slice the script scene by scene. After that, I need to associate tropes with relevant scene, that's it ?
+ChatGPT a dit :
+Yes, you've got it! To summarize the process clearly:
+
+1. Slice the Script Scene by Scene
+Break down the script into individual scenes or dialogue blocks.
+
+Each scene typically has its own setting, characters, and action, which can provide clues to which tropes are being used.
+
+A scene could be a couple of lines or a full exchange of dialogue with a setting change, depending on the granularity you prefer.
+
+2. Annotate Each Scene with Relevant Tropes
+Go through each scene and identify the tropes that are explicitly or implicitly referenced.
+
+For example:
+
+If there's a scene where a character escapes through an air vent, you would annotate that with the trope "Air Vent Passageway".
+
+If there’s a character acting particularly erratic in a mental hospital, you might tag "Chewing the Scenery".
+
+If the plot implies the characters are following orders they can't control, you’d label "You Can't Fight Fate".
+
+3. Create a Data Structure for Each Scene
+For each scene, you'll need to store the scene’s text along with a list of relevant tropes. Here's what it might look like:
+
+{
+  "scene_id": "1",
+  "scene_text": "James Cole (Bruce Willis) is strapped to a bed, looking disoriented. He asks, 'Where am I? What's happening?' Staff members glance up at the air vent above.",
+  "tropes": ["Air Vent Passageway", "Cassandra Truth"]
+}
+4. Repeat for Every Scene
+Do this for the entire movie script, creating a dataset with labeled examples.
+
+Each scene might have multiple tropes that apply, so don't hesitate to associate more than one trope with a scene.
+
+5. Preprocessing & Tokenization
+After annotating, you can proceed to clean and preprocess the text for model training (like tokenizing it for input into a neural network).
+
+By breaking down the script scene by scene and tagging tropes, you essentially create the training dataset for your model. The model will learn to associate specific patterns (from the script) with the tropes you label them with.
+
+Let me know if you'd like more details on any specific step!
+
+Vous avez dit :
+I would like to have more details about how to associate tropes with the sliced script
+ChatGPT a dit :
+Absolutely! The process of associating tropes with each sliced scene is crucial for building a high-quality training dataset. Here’s a more detailed breakdown of how to go about it:
+
+Step-by-Step Process to Associate Tropes with a Sliced Script
+Step 1: Slice the Script Scene by Scene
+Obtain the Script:
+
+If you have the movie script in a readable format (e.g., .txt, .json), open it up. If not, you may need to convert it into a readable format.
+
+The script will likely already be divided into scenes with headings (e.g., "INT. HOSPITAL - DAY").
+
+Identify Scene Boundaries:
+
+Look for scene transitions. A scene usually begins with a heading (e.g., "INT. HOSPITAL ROOM - DAY") and contains dialogue and action descriptions.
+
+The boundaries of a scene may also be marked by a change in location or the introduction of new characters.
+
+Create Smaller Units:
+
+Break down the script into smaller chunks, usually scene by scene. If you want even more granularity, you could break the scenes down further into specific dialogue blocks or even action descriptions.
+
+Each slice of text will be the input for training your model.
+
+Example:
+
+Scene 1:
+
+INT. HOSPITAL ROOM - DAY
+
+James Cole (Bruce Willis) is strapped to a bed, looking disoriented.
+
+JAMES COLE:
+Where am I? What's happening?
+
+Staff members glance up at the air vent above.
+Scene 2:
+
+EXT. CITY STREET - DAY
+
+James walks down the street, looking dazed, confused by the environment.
+
+JAMES COLE:
+Where... where am I?
+Step 2: Read Through the Scene and Identify Relevant Tropes
+This is where the key work happens: matching the tropes from your predefined list to the content in each scene.
+
+Understand the Tropes:
+
+Revisit the list of tropes you have (like "Air Vent Passageway", "Cassandra Truth", etc.).
+
+Understand the essence of each trope. Some tropes are directly related to specific actions or descriptions (like "Air Vent Passageway" when someone looks at or escapes through a vent), while others are more thematic (like "Downer Ending" which might be identified only at the end of the script).
+
+Scan the Scene for Clues:
+
+Action: Look for actions that align with specific tropes. For example, if the scene includes an escape through a vent or a reference to a vent, tag it with "Air Vent Passageway".
+
+Dialogue: Pay attention to dialogue that might hint at a trope. If a character mentions feeling confused or questioning reality, it could be linked to "Mind Screw" or "Cassandra Truth".
+
+Character Behavior: Some tropes are tied to how characters behave. For instance, if a character is manic or erratic (like Brad Pitt in "12 Monkeys"), you might tag the scene with "Chewing the Scenery".
+
+Setting/Environment: The environment or setting can also provide clues. For example, a scene in a hospital might suggest a "Cuckoo Nest" trope if the character is in a mental institution.
+
+Contextual Identification:
+
+Sometimes tropes might not be immediately obvious. For example, if a character makes a seemingly prophetic statement, that could be a reference to the "Mad Oracle" trope.
+
+Overarching themes: A scene might hint at a larger theme or concept, like "Apocalypse How" or "Stable Time Loop".
+
+Step 3: Annotate the Scene with Tropes
+Once you’ve identified the relevant tropes in the scene, you’ll need to annotate it. You can use a simple data structure (e.g., JSON or CSV) to keep track of the scene text and the corresponding tropes.
+
+Example 1: JSON Format
+
+{
+  "scene_id": "1",
+  "scene_text": "James Cole (Bruce Willis) is strapped to a bed, looking disoriented. He asks, 'Where am I? What's happening?' Staff members glance up at the air vent above.",
+  "tropes": [
+    "Air Vent Passageway", 
+    "Cassandra Truth", 
+    "Hospital Hottie"
+  ]
+}
+Example 2: CSV Format
+
+scene_id,scene_text,tropes
+1,"James Cole (Bruce Willis) is strapped to a bed, looking disoriented. He asks, 'Where am I? What's happening?' Staff members glance up at the air vent above.","Air Vent Passageway, Cassandra Truth, Hospital Hottie"
+Step 4: Double Check for Accuracy and Consistency
+Consistency: Ensure you're annotating scenes consistently. For example, if "Air Vent Passageway" is used in one scene, it should be tagged similarly in another scene with the same content.
+
+Thoroughness: Don’t leave out important tropes. If a trope is referenced in a scene, make sure to mark it.
+
+Accuracy: Double-check the scenes to ensure that the tropes you’re tagging are truly present. If a trope doesn’t seem to fit, don’t force it.
+
+Step 5: Repeat for All Scenes
+Continue this process for every scene in the movie script.
+
+You’ll likely find that some scenes contain multiple tropes. That’s normal since a scene can touch on multiple themes or elements.
+
+Tips for Effective Annotation:
+Context is Key: Many tropes are context-dependent. For example, "Mad Oracle" might only apply when someone is delivering cryptic, prophetic dialogue, not just when a character is confused.
+
+Be Flexible with Tropes: Sometimes, a scene may allude to a trope without fully realizing it. If the scene has a strong hint of a particular trope (even if it’s not fully clear), mark it. For example, if a character looks crazy but doesn’t outright break down, tag it with "Chewing the Scenery".
+
+Multiple Tropes: Some scenes may reference multiple tropes. For example, in a scene where a character is questioning time travel, you could tag both "Mind Screw" and "Cassandra Truth".
+
+Consider Tone: The tone of the scene often aligns with the tropes. Is it dark and pessimistic? You might want to tag "Downer Ending" or "Apocalypse How". Is the tone comedic or over-the-top? "Large Ham" could fit.
+
+Example Annotated Scene
+Let’s take a closer look at a specific example from "12 Monkeys".
+
+Scene (Example):
+
+INT. HOSPITAL ROOM - DAY
+
+James Cole (Bruce Willis) is strapped to a bed, looking disoriented. He asks, 'Where am I? What's happening?'
+
+STAFF MEMBER 1:
+It’s alright, James. Just relax.
+
+James struggles against his restraints, his eyes darting around. He notices a tiny air vent in the ceiling.
+
+JAMES COLE:
+(whispering) An escape... I need to get out.
+
+Step-by-Step Tropes Identification:
+
+Air Vent Passageway:
+
+The scene explicitly mentions an air vent above James, which he notices and associates with escape.
+
+Cassandra Truth:
+
+The line “Where am I? What’s happening?” shows James being confused, possibly questioning the truth of his situation. This is a classic Cassandra Truth scenario where the character is slowly realizing they know the truth but no one believes them.
+
+Cuckoo Nest:
+
+Since James is strapped to a bed in a mental institution, this could also be tagged with "Cuckoo Nest", referencing the setting in a mental hospital.
+
+You Can't Fight Fate:
+
+The implication that James is strapped down and powerless could also be a hint at the overarching "You Can't Fight Fate" trope.
+
+So, the final annotation for this scene might look like:
+
+{
+  "scene_id": "1",
+  "scene_text": "James Cole (Bruce Willis) is strapped to a bed, looking disoriented. He asks, 'Where am I? What's happening?' Staff members glance up at the air vent above.",
+  "tropes": [
+    "Air Vent Passageway", 
+    "Cassandra Truth", 
+    "Cuckoo Nest", 
+    "You Can't Fight Fate"
+  ]
+}
+Conclusion
+To summarize:
+
+Slice the script into manageable chunks (typically scene by scene).
+
+Identify relevant tropes by carefully reading through the dialogue and action, understanding the scene’s tone, character actions, and themes.
+
+Annotate each scene with appropriate tropes (you can tag multiple tropes for a single scene).
+
+Preprocess the annotated script for training.
+
+With this process, you'll have a rich, labeled dataset that can be used to train a model to recognize and classify tropes in movie
+
+Vous avez dit :
+I want to automatize the trope labelling of each scene
+ChatGPT a dit :
+Automating the trope labeling process for movie scripts can save a lot of time, especially when dealing with large scripts. Here's how you can approach the problem using Natural Language Processing (NLP) techniques, machine learning, and pre-trained models. I'll walk you through the steps, including tools, techniques, and methods to automatically label tropes.
+
+Steps to Automate Trope Labeling
+1. Preprocess the Movie Script
+Before we can automate the trope labeling, we need to preprocess the movie script into a usable format for NLP models.
+
+Preprocessing Steps:
+Text Extraction: If your script is in a non-plain text format (PDF, HTML, etc.), extract the raw text using tools like PyPDF2 (for PDFs) or BeautifulSoup (for HTML).
+
+Scene Segmentation: Use regular expressions or text parsing to identify scene boundaries (e.g., lines that say "INT." or "EXT."). The script might already have some form of scene headers.
+
+Remove Unnecessary Elements: Remove things like scene descriptions, timestamps, and extra formatting unless they are relevant to identifying tropes.
+
+Tools:
+NLTK or spaCy: To tokenize text, remove stop words, and perform sentence segmentation.
+
+Regex: Use regular expressions to detect scene transitions (e.g., "INT." or "EXT.") and strip out any irrelevant content (like credits).
+
+2. Train or Fine-Tune a Model to Recognize Tropes
+To automate trope labeling, we can use supervised learning or a rule-based approach. I'll outline a supervised machine learning method, which typically works better as the model can generalize from labeled examples.
+
+2.1 Dataset Preparation for Training
+You’ll need a labeled dataset to train the model. If you're not starting from scratch, you can manually label a small portion of the script (or leverage the annotations you already have) to create a labeled dataset.
+
+Input Data: The scene text.
+
+Output Data: A list of tropes relevant to the scene.
+
+If you already have a small labeled dataset (manually annotated), great! If not, you'll need to label a sample of scenes. You can automate the scene segmentation first, then manually annotate a subset (e.g., 50-100 scenes).
+
+2.2 Feature Extraction
+To feed the script text into a machine learning model, you need to convert the raw text into numerical features. You can use techniques like:
+
+TF-IDF (Term Frequency-Inverse Document Frequency): Weighs words based on how important they are across the entire script.
+
+Word Embeddings: Use embeddings like Word2Vec, GloVe, or BERT to represent words in a high-dimensional space, preserving semantic meaning.
+
+Pre-trained Models: Use BERT or DistilBERT for fine-tuning. These models already understand the context of words and can recognize deeper meanings (like tropes) in the text.
+
+2.3 Model Selection
+For text classification, BERT-based models are powerful due to their contextual understanding of the text. You can fine-tune a pre-trained BERT model on your labeled dataset.
+
+Fine-Tuning: Fine-tune a BERT model on your annotated dataset. The model can learn to associate specific words or phrases with certain tropes.
+
+Multi-label Classification: Since scenes can have multiple tropes, train the model using multi-label classification. This means that instead of predicting a single label for each scene, the model will predict a list of possible tropes.
+
+Example: For a scene with both "Air Vent Passageway" and "Cassandra Truth", the model should output both.
+
+Tools & Libraries:
+Transformers Library (Hugging Face): Provides pre-trained BERT models and utilities for fine-tuning on your data.
+
+You can fine-tune models like DistilBERT or RoBERTa, which are smaller and faster versions of BERT, but still highly accurate.
+
+Scikit-learn: For preprocessing and traditional machine learning models like logistic regression or random forests, although BERT-based models often outperform these.
+
+Example of BERT Fine-Tuning for Multi-Label Classification:
+from transformers import BertTokenizer, BertForSequenceClassification
+from transformers import Trainer, TrainingArguments
+import torch
+
+# Load pre-trained BERT tokenizer and model
+tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=NUM_TROPES)
+
+# Tokenize input text (scene text)
+inputs = tokenizer(scene_text, padding=True, truncation=True, max_length=512, return_tensors="pt")
+
+# Define the labels for each scene (multilabel)
+labels = torch.tensor([tropes_labels])  # A vector of 0s and 1s for each trope
+
+# Setup Trainer
+training_args = TrainingArguments(
+    output_dir='./results',          
+    evaluation_strategy="epoch",     
+    per_device_train_batch_size=16, 
+    num_train_epochs=3,             
+    logging_dir='./logs',            
+)
+
+trainer = Trainer(
+    model=model,                     
+    args=training_args,              
+    train_dataset=train_dataset,     
+    eval_dataset=eval_dataset         
+)
+
+trainer.train()
+3. Rule-Based Systems (for Quick Prototype)
+If you want a quick prototype without the complexity of training a machine learning model, you can build a rule-based system that matches certain phrases or actions in the script to specific tropes. This works well if the tropes have easily identifiable keywords or patterns.
+
+For example:
+
+"Air Vent Passageway": If the scene contains any of the following phrases: "air vent", "escape", "ventilation shaft", etc., then tag the scene with that trope.
+
+"Cassandra Truth": If a character questions their reality, or if they are trying to warn others about something no one believes, tag it.
+
+Example Rule-Based Code (Using Regex and Keywords):
+import re
+
+# Example scene text
+scene_text = "James Cole (Bruce Willis) is strapped to a bed, looking disoriented. He asks, 'Where am I? What's happening?' Staff members glance up at the air vent above."
+
+# Define keywords or phrases for tropes
+tropes = {
+    "Air Vent Passageway": ["air vent", "escape", "ventilation shaft"],
+    "Cassandra Truth": ["where am I?", "what's happening?", "no one believes me"],
+    "Cuckoo Nest": ["hospital", "strapped down", "mental institution"]
+}
+
+# Function to label tropes
+def label_tropes(scene_text):
+    scene_tropes = []
+    for trope, keywords in tropes.items():
+        for keyword in keywords:
+            if re.search(r'\b' + re.escape(keyword) + r'\b', scene_text, re.IGNORECASE):
+                scene_tropes.append(trope)
+                break  # Stop checking once a match is found
+    return scene_tropes
+
+# Apply the function to the scene
+labeled_tropes = label_tropes(scene_text)
+print(labeled_tropes)  # Output: ['Air Vent Passageway', 'Cassandra Truth']
+Pros & Cons of Rule-Based Systems:
+Pros:
+
+Simple to implement and fast to execute.
+
+Good for quickly identifying common tropes based on keywords or specific phrases.
+
+Cons:
+
+Less flexible: it’s hard to capture more complex tropes or subtleties.
+
+Not scalable: as the number of tropes increases, the rule set becomes harder to manage.
+
+4. Post-Processing and Validation
+After labeling scenes, it's important to validate the labels for quality. Here are a few ways to improve:
+
+Human in the loop: You can have a human check a small sample of the results, particularly for edge cases or tropes that are hard to automate.
+
+Metrics: Use evaluation metrics such as accuracy, F1 score, or precision/recall to measure the model’s performance (if using machine learning).
+
+5. Deploying the Model
+Once you’ve trained and validated the model, you can use it to automatically label scenes in any script. You can create an API or a simple script to pass the scene text into the model and get the predicted tropes.
+
+Conclusion
+To automate the labeling of tropes:
+
+Preprocess the script: Break it down into scenes and clean up the text.
+
+Train or fine-tune a model: Use BERT or another pre-trained model to classify scenes based on their content.
+
+Use rule-based systems: For a quick prototype, rely on keyword-based matching to tag tropes.
+
+Validate the output: Ensure the accuracy of the model or rules with human verification.
+
+Let me know if you'd like more details on any specific part of this process!
+
+Vous avez dit :
+I have a list of tropes with their description formated as : {"trope":"description"} that can be used for this  
+ChatGPT a dit :
+Perfect! If you already have a list of tropes with their descriptions in the format:
+
+{"trope": "description"}
+You can use this list in combination with the automation approach. Here's how you can leverage this data to automate trope labeling:
+
+1. Prepare Your Data
+The trope list with descriptions will act as a reference for matching text to the appropriate tropes. Since the descriptions provide valuable context, you can use these descriptions to identify patterns in your movie script scenes that match the tropes.
+
+Example Format:
+{
+    "Air Vent Passageway": "A trope where a character escapes or tries to escape through a ventilation shaft or air duct.",
+    "Cassandra Truth": "A trope where a character knows the truth, but no one believes them.",
+    "Chewing the Scenery": "An actor or character overacts or delivers lines in a hyper-dramatic way, often unintentionally comedic.",
+    "Cuckoo Nest": "A trope where a character is institutionalized or trapped in a psychiatric institution."
+}
+2. Matching Descriptions to Text
+To automate the labeling, you can match keywords or key phrases from the descriptions to the scene text. Here’s how to do it step by step:
+
+2.1 Create a Mapping Between Tropes and Keywords
+For each trope description, identify keywords or key phrases that are relevant to that trope. These keywords will help you identify when a trope is present in the scene.
+
+For example:
+
+Air Vent Passageway: Keywords like "vent", "escape", "ventilation shaft", "air vent".
+
+Cassandra Truth: Keywords like "truth", "nobody believes", "wrong", "tell them", "do not understand".
+
+Chewing the Scenery: Keywords like "overacting", "dramatic", "hyper", "maniac", "wild".
+
+Cuckoo Nest: Keywords like "institution", "hospital", "strapped", "psychiatric", "asylum".
+
+2.2 Create a Function to Automate Matching
+Now that you have your list of tropes with their descriptions and corresponding keywords, you can create a function to check if a scene text contains relevant keywords from these descriptions.
+
+Here’s an automated approach using regular expressions to match key phrases from the descriptions to the scene text:
+
+Example: Automating with Python (Using Regex)
+import re
+
+# Example list of tropes with descriptions
+tropes = {
+    "Air Vent Passageway": "A trope where a character escapes or tries to escape through a ventilation shaft or air duct.",
+    "Cassandra Truth": "A trope where a character knows the truth, but no one believes them.",
+    "Chewing the Scenery": "An actor or character overacts or delivers lines in a hyper-dramatic way, often unintentionally comedic.",
+    "Cuckoo Nest": "A trope where a character is institutionalized or trapped in a psychiatric institution."
+}
+
+# Example scene text
+scene_text = "James Cole (Bruce Willis) is strapped to a bed, looking disoriented. He asks, 'Where am I? What's happening?' Staff members glance up at the air vent above."
+
+# Function to extract keywords from trope descriptions
+def extract_keywords(description):
+    # Simple method to extract important keywords from the description
+    # You can improve this by using NLP techniques to find the most relevant words
+    # This example uses regex to find possible keywords (nouns or verbs)
+    return re.findall(r'\b\w+\b', description.lower())
+
+# Map each trope to its keywords
+trope_keywords = {trope: extract_keywords(description) for trope, description in tropes.items()}
+
+# Function to match scene text with tropes based on keywords
+def label_tropes(scene_text, trope_keywords):
+    scene_tropes = []
+    for trope, keywords in trope_keywords.items():
+        for keyword in keywords:
+            if re.search(r'\b' + re.escape(keyword) + r'\b', scene_text.lower(), re.IGNORECASE):
+                scene_tropes.append(trope)
+                break  # Stop checking after the first match for efficiency
+    return scene_tropes
+
+# Apply the function to the scene text
+labeled_tropes = label_tropes(scene_text, trope_keywords)
+
+# Print the identified tropes for the scene
+print("Tropes Identified:", labeled_tropes)
+What this code does:
+Extract Keywords: It extracts keywords from each trope's description. This could be done using simple text processing like splitting the description into words (you could also use more sophisticated NLP techniques like part-of-speech tagging if needed).
+
+Match Keywords with Scene: The function label_tropes goes through each trope's keywords and checks if any of those keywords are present in the scene text using a case-insensitive regex match.
+
+Return Tropes: If a keyword from the trope description matches the scene text, the corresponding trope is added to the list of identified tropes for that scene.
+
+Example Output:
+Tropes Identified: ['Air Vent Passageway', 'Cassandra Truth', 'Cuckoo Nest']
+3. Enhancing the Matching Process
+To make this automation more accurate, you can use a few enhancements:
+
+Use Pre-trained NLP Models: Instead of relying solely on keyword matching, you could use pre-trained NLP models like spaCy or BERT to understand the deeper meaning of the scene text and match it to the tropes more accurately.
+
+Synonym Matching: For some tropes, synonyms or phrases that are semantically similar should also trigger a match (e.g., "escape through the vent" vs. "ventilation shaft"). You could create a synonym dictionary or use an API like WordNet or spaCy's word vectors to match similar words.
+
+Contextual Understanding: Instead of using basic keyword matching, you can leverage context to better understand when a trope applies. For example, "Cassandra Truth" may be best recognized when a character speaks about their truth being ignored, not just when the word “truth” appears.
+
+4. Improving the Keyword List
+The keywords extracted from trope descriptions can be refined to improve the matching accuracy. Here's how to improve your keyword list:
+
+Manual Expansion: Start with simple keywords but gradually expand by manually adding more variations or synonyms based on your observations from the script.
+
+NLP Techniques:
+
+Use TF-IDF or word embeddings (Word2Vec, GloVe, BERT) to identify more relevant and related terms from the trope descriptions, helping the model better generalize the key concepts.
+
+You could also use Named Entity Recognition (NER) to better detect specific terms (like "hospital", "institution", etc.) and match them to the correct tropes.
+
+5. Using the Results
+Once you've automated the trope identification for each scene, the results can be:
+
+Stored in a structured format like JSON or CSV for further analysis or training purposes.
+
+Visualized: For example, generating a tropes map or timeline of identified tropes in a movie for deeper analysis.
+
+Next Steps:
+Iterate and refine: Start with simple keyword-based matching, then experiment with more complex NLP models as needed.
+
+Extend the list: Add more tropes to the list and keep improving the matching logic.
+
+Evaluate results: Manually check a sample of the automated labels to ensure that the model is producing accurate results.
+
+By following this approach, you can efficiently automate the labeling of movie scripts with their respective tropes! Let me know if you need more details or help with implementation.
+
+Vous avez dit :
+what about general trope (tropes which concern the all script) ?
+ChatGPT a dit :
+Great question! General tropes are those that apply to the overall structure, theme, or narrative arc of the entire movie, rather than to specific scenes or actions. These tropes aren't tied to individual moments but rather to the larger story elements or recurring themes that shape the plot or atmosphere throughout the movie. For example, tropes like "Downer Ending", "Apocalypse How", or "You Can't Fight Fate" apply to the entire story and not just one scene.
+
+How to Identify and Automate the Labeling of General Tropes
+Identifying general tropes requires a different approach than scene-specific tropes because they are often related to the overall tone, narrative structure, or ending of the movie. Here's a strategy you can use to automate the identification of general tropes:
+
+1. General Tropes Based on Script Analysis
+You can start by analyzing the entire movie script to detect recurring patterns, themes, or elements that are generally applicable to the entire story. Here's how you can do this:
+
+1.1 Detecting General Tropes
+General tropes typically manifest in one of the following ways:
+
+Overarching themes: Themes like "Downer Ending", "You Can't Fight Fate", or "The Hero’s Journey" affect the entire plot.
+
+Key story structures: "Stable Time Loop" or "Dystopian Future" may require recognizing that the entire movie follows a specific temporal or world-building structure.
+
+Endings or plot outcomes: Tropes like "Esoteric Happy Ending" or "Downer Ending" can often be inferred based on the way the movie ends and its cumulative narrative elements.
+
+Step-by-Step Process for Automating General Tropes
+2. Analyze the Full Script for Key Patterns
+To automate the labeling of general tropes, you'll want to analyze the entire script, focusing on recurring themes, key motifs, and story progression. Here's a breakdown of the process:
+
+2.1 Preprocess the Script (Full Script Analysis)
+Tokenize the Entire Script: Break down the entire script into scenes, dialogue, and narrative descriptions using NLP libraries like spaCy or NLTK.
+
+Sentence Segmentation: Divide the script into sentences or paragraphs (using sentence segmentation) to allow the model to focus on specific story elements (e.g., a key moment in the climax, introduction of a new world, etc.).
+
+Identify Important Sections: General tropes tend to show up more in introductory scenes, critical turning points, or finale scenes, so those parts are crucial to identifying general tropes.
+
+2.2 Use Machine Learning Models or Rules for General Tropes
+For general tropes that span the entire script, you might use a combination of supervised learning or rules-based approaches:
+
+Supervised Machine Learning: Train a model to predict general tropes based on larger script features.
+
+Feature Extraction: Extract features such as:
+
+Thematic analysis: Keywords related to the plot's major theme (e.g., “apocalypse,” “virus,” “time travel”).
+
+Sentiment analysis: Understanding the tone of the movie (dark, hopeful, cynical, etc.).
+
+Temporal patterns: Recognizing tropes like "Stable Time Loop" might require understanding that the timeline is cyclical (which you can detect with time-based annotations).
+
+Labeled Data: Prepare a labeled dataset where general tropes are assigned to the whole script or large sections of it. For instance, the entire script might be labeled with "Apocalypse How" if the movie is about a post-apocalyptic world, or "Downer Ending" if the tone suggests an unresolved, tragic conclusion.
+
+Rule-Based Approach: Instead of a machine learning model, you could apply a rule-based system where specific conditions or phrases in the script trigger general tropes.
+
+Example: If the script contains several mentions of disease, world collapse, or post-apocalyptic imagery, it might be tagged with "Apocalypse How".
+
+Example: If the script ends in a way where the protagonist doesn't succeed in changing fate or dies tragically, you might use specific phrases like "end", "final scene", or "last moment" to trigger the "Downer Ending" trope.
+
+3. Build Rules for Recognizing General Tropes
+For general tropes, you can create specific rules based on the structure of the plot or certain keywords that occur throughout the script.
+
+General Tropes Examples with Keywords:
+Apocalypse How: If there are repeated references to world-ending scenarios, pandemics, global collapse, or phrases like “the end of the world”, you might label the script with "Apocalypse How".
+
+Downer Ending: If the script ends with a tragic or unresolved outcome, label the movie with "Downer Ending". Look for keywords in the final scenes or dialogue like “death”, “failure”, “unresolved”, or even analyzing the final scene’s sentiment (e.g., negative tone).
+
+You Can't Fight Fate: This could be inferred from the script’s tone and narrative progression. If the protagonist seems unable to change their circumstances and is forced to follow a predefined fate, you could tag it with "You Can't Fight Fate".
+
+Stable Time Loop: This trope can be automatically detected if the script involves time travel that loops back on itself. Detect repeated time-related words and structures like “time loop”, “reset”, or recurring events.
+
+4. Natural Language Understanding (NLU) for General Tropes
+If you want to go further, you can implement Natural Language Understanding (NLU) to better recognize general tropes in the broader context of the movie.
+
+Tools to Use:
+spaCy: Great for extracting named entities and understanding sentence structure. You can train or fine-tune models to detect specific themes or plot structures.
+
+BERT-based models: Use BERT or DistilBERT to fine-tune the model on general tropes. This would involve treating general tropes as document-level classification tasks (where each script is a document, and the model classifies the document based on the presence of a trope).
+
+Sentiment Analysis: To detect the general tone of the movie (for instance, whether it’s dark or hopeful, which could signal tropes like "Downer Ending").
+
+5. Hybrid Model: Combining Scene-Level and General Tropes
+To get the best results, you can combine both scene-level and general tropes in the same model. Here's how:
+
+Scene-Level Tropes: Identify and label scene-specific tropes first (e.g., "Air Vent Passageway", "Cassandra Truth").
+
+General Tropes: Then, use a secondary model that evaluates the entire script (or the final sections) for general tropes. This model can either be rule-based or use document-level classification to detect overarching themes.
+
+6. Example: Automating General Tropes Detection Using Python
+Here’s an outline of how you might automate general trope detection using keyword-based rules or model-based methods.
+
+Example Code (Rule-Based for General Tropes):
+import re
+
+# Example general tropes with associated keywords/phrases
+general_tropes = {
+    "Apocalypse How": ["end of the world", "pandemic", "apocalypse", "global collapse", "dystopia", "virus"],
+    "Downer Ending": ["death", "failure", "tragic", "unresolved", "not coming back", "loss"],
+    "You Can't Fight Fate": ["destiny", "inevitable", "no escape", "predetermined", "can't change it"],
+    "Stable Time Loop": ["time loop", "reset", "time travel", "cycle", "repeat", "again"]
+}
+
+# Function to label general tropes in a movie script
+def label_general_tropes(script_text, general_tropes):
+    detected_tropes = []
+    for trope, keywords in general_tropes.items():
+        for keyword in keywords:
+            if re.search(r'\b' + re.escape(keyword) + r'\b', script_text.lower(), re.IGNORECASE):
+                detected_tropes.append(trope)
+                break  # Only add the trope once even if multiple keywords match
+    return detected_tropes
+
+# Example full script text
+full_script_text = """
+The world is collapsing due to a deadly virus. People are dying everywhere. 
+James Cole realizes that no matter what he does, the future cannot be changed.
+In the end, he fails to stop the virus from spreading, and the world is doomed.
+"""
+
+# Label the general tropes for this script
+general_tropes_label = label_general_tropes(full_script_text, general_tropes)
+print("General Tropes Identified:", general_tropes_label)
+Example Output:
+General Tropes Identified: ['Apocalypse How', 'You Can't Fight Fate', 'Downer Ending']
+

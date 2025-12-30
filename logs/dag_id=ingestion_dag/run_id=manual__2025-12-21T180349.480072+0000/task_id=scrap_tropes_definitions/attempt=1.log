@@ -1,0 +1,5 @@
+{"timestamp":"2025-12-21T18:07:36.310107Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-12-21T18:07:36.311931Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ingestion_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-21T18:07:36.838305Z","level":"info","event":"Starting scrape_trope_definitions step","logger":"root","filename":"ingestion_dag.py","lineno":262}
+{"timestamp":"2025-12-21T18:07:36.838840Z","level":"info","event":"Finished scrape_trope_definitions step","logger":"root","filename":"ingestion_dag.py","lineno":324}
+{"timestamp":"2025-12-21T18:07:36.838987Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}
