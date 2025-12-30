@@ -9,6 +9,8 @@ from airflow.providers.docker.operators.docker import DockerOperator
 from airflow.providers.standard.operators.python import PythonOperator
 from datetime import timedelta
 
+from shared_operators import _create_collection, _volume_mkdir, _connect_mongoDB, _save_data_file_to_csv, _read_data_file_to_df
+
 logger = logging.getLogger(__name__)  # Airflow captures this per task
 
 
@@ -53,10 +55,8 @@ with DAG(
 ) as dag:
     
     # --Tools-- (python_callable)
-    # To create a folder in the volume : the path must ti be already created
-    def _volume_mkdir(folder_path : str) : 
-        # it doesn't create a folder twice if it already exist in the volume.
-        os.makedirs(folder_path, exist_ok=True)
+    # to define here any python function used in the tasks if not imported from shared_operators.py
+
 
     # --Task--
     volume_mkdir_stagging_data = PythonOperator(
@@ -81,6 +81,7 @@ with DAG(
     )
 
 
+    # To extract content from the PDF and HTML files and save it into the docker volume as txt files.
     launch_stagging_container = DockerOperator(
         task_id='launch_stagging_container',
         container_name="stagging_container",
@@ -99,6 +100,33 @@ with DAG(
     )
 
 
+    ## MongoDB related tasks
+    # Check the MongoDB connection
+    check_mongoDB_connection = PythonOperator(
+        task_id="check_mongoDB_connection",
+        python_callable=_connect_mongoDB,
+        dag=dag
+    )
+
+    # Create the collection to store the scripts in MongoDB
+    create_scripts_collection = PythonOperator(
+        task_id="create_scripts_collection",
+        python_callable=_create_collection,  
+        op_args=["movies"],
+        dag=dag
+    )
+
+    # Save the scripts content into the MongoDB database.
+    # save_scripts_to_mongodb = PythonOperator(
+    #     task_id="save_scripts_to_mongodb",
+    #     python_callable=lambda: None,  
+    #     dag=dag
+    # )
+
+    # Then add the segmentation task here + Maj on MongoDB collection with segemented scenes
+
 
     # --Graph--
-    volume_mkdir_stagging_data >> [volume_mkdir_stagging_data_logs, volume_mkdir_stagging_data_scripts] >> launch_stagging_container
+    volume_mkdir_stagging_data >> [volume_mkdir_stagging_data_logs, volume_mkdir_stagging_data_scripts] \
+    >> launch_stagging_container >> check_mongoDB_connection >> create_scripts_collection
+    # >> save_scripts_to_mongodb

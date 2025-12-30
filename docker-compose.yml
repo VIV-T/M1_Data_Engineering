@@ -49,8 +49,8 @@ x-airflow-common:
   # In order to add custom dependencies or upgrade provider distributions you can use your extended image.
   # Comment the image line, place your Dockerfile in the directory where you placed the docker-compose.yaml
   # and uncomment the "build" line below, Then run `docker-compose build` to build the images.
-  # image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:3.1.0}
-  build: .  
+  image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:3.1.0}
+  #build: .  
   environment:
     &airflow-common-env
     AIRFLOW__CORE__EXECUTOR: airflow.providers.celery.executors.celery_executor.CeleryExecutor    
@@ -142,6 +142,9 @@ services:
 
   airflow-apiserver:
     <<: *airflow-common
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
     command: api-server
     ports:
       - "8080:8080"
@@ -161,6 +164,9 @@ services:
 
   airflow-scheduler:
     <<: *airflow-common
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
     command: scheduler
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:8974/health"]
@@ -178,6 +184,9 @@ services:
 
   airflow-dag-processor:
     <<: *airflow-common
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
     command: dag-processor
     healthcheck:
       test: ["CMD-SHELL", 'airflow jobs check --job-type DagProcessorJob --hostname "$${HOSTNAME}"']
@@ -195,6 +204,9 @@ services:
 
   airflow-worker:
     <<: *airflow-common
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
     command: celery worker
     healthcheck:
       # yamllint disable rule:line-length
@@ -222,6 +234,9 @@ services:
 
   airflow-triggerer:
     <<: *airflow-common
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
     command: triggerer
     healthcheck:
       test: ["CMD-SHELL", 'airflow jobs check --job-type TriggererJob --hostname "$${HOSTNAME}"']
@@ -239,6 +254,9 @@ services:
 
   airflow-init:
     <<: *airflow-common
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
     entrypoint: /bin/bash
     # yamllint disable rule:line-length
     command:
@@ -333,6 +351,9 @@ services:
 
   airflow-cli:
     <<: *airflow-common
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
     profiles:
       - debug
     environment:
@@ -398,6 +419,21 @@ services:
       - Practice
     restart: "no"  # No need to restart automatically
 
+  # Local Ollama server for LLM inference
+  ollama:
+    image: ollama/ollama:latest
+    command: ["serve"]
+    # pull models listed here on startup (space-separated); override in `ollama-init` if needed
+    # environment: OLLAMA_PULL_MODELS is set on the `ollama-init` service below
+    # no healthcheck (curl not available in image)
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama/models
+    restart: unless-stopped
+    networks:
+      - Practice
+
 
   stagger:
     build:
@@ -408,6 +444,36 @@ services:
     networks:
       - Practice
     restart: "no"  # No need to restart automatically
+
+
+  preparer:
+    build:
+      context: ./preparation_container
+      dockerfile: Dockerfile 
+    volumes:
+      - project_data:/app/project_data  # Needed to share the data
+    environment:
+      OLLAMA_BASE_URL: "http://ollama:11434"
+    networks:
+      - Practice
+    restart: "no"  # No need to restart automatically
+
+  # One-shot initializer: pulls configured models into the ollama_models volume after ollama is healthy
+  ollama-init:
+    image: ollama/ollama:latest
+    entrypoint: ["sh", "-c"]
+    command:
+      - 'until ollama ls >/dev/null 2>&1; do echo "waiting for ollama"; sleep 1; done; for m in $OLLAMA_PULL_MODELS; do ollama pull "$m" || exit 1; done'
+    environment:
+      OLLAMA_PULL_MODELS: "mistral"
+      OLLAMA_HOST: "http://ollama:11434"
+    depends_on:
+      - ollama
+    volumes:
+      - ollama_models:/root/.ollama/models
+    networks:
+      - Practice
+    restart: "no"
 
 
   mongo:
@@ -458,3 +524,5 @@ volumes:
     name: MONGO_DATA
   MONGO_CONFIG:
     name: MONGO_CONFIG
+  ollama_models:
+    name: ollama_models

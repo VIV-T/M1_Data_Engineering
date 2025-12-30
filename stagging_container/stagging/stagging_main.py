@@ -3,7 +3,6 @@ import logging
 import logging.config
 
 import stagging_pdf_content_extraction_ocr
-import test_2
 
 
 ### --Initialization--
@@ -54,7 +53,6 @@ LOGGING = {
 def main() :
     logging.config.dictConfig(LOGGING)
     stagging_pdf_content_extraction_ocr.main_stagging_ocr()
-    test_2.test()
     # add the code related to html cleaning
 
 main()

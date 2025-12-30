@@ -11,7 +11,7 @@ logger = logging.getLogger("stagging_pdf_content_extraction_ocr")
 
 
 INGESTION_FOLDER = "./project_data/ingestion_data"
-PDF_FOLDER = os.path.join(INGESTION_FOLDER, "pdf_data")
+PDF_FOLDER = os.path.join(INGESTION_FOLDER, "scripts", "pdf_data")
 STAGGING_FOLDER = "./project_data/stagging_data"
 
 ### --Tools--
