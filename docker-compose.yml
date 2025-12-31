@@ -419,20 +419,6 @@ services:
       - Practice
     restart: "no"  # No need to restart automatically
 
-  # Local Ollama server for LLM inference
-  ollama:
-    image: ollama/ollama:latest
-    command: ["serve"]
-    # pull models listed here on startup (space-separated); override in `ollama-init` if needed
-    # environment: OLLAMA_PULL_MODELS is set on the `ollama-init` service below
-    # no healthcheck (curl not available in image)
-    ports:
-      - "11434:11434"
-    volumes:
-      - ollama_models:/root/.ollama/models
-    restart: unless-stopped
-    networks:
-      - Practice
 
 
   stagger:
@@ -445,35 +431,6 @@ services:
       - Practice
     restart: "no"  # No need to restart automatically
 
-
-  preparer:
-    build:
-      context: ./preparation_container
-      dockerfile: Dockerfile 
-    volumes:
-      - project_data:/app/project_data  # Needed to share the data
-    environment:
-      OLLAMA_BASE_URL: "http://ollama:11434"
-    networks:
-      - Practice
-    restart: "no"  # No need to restart automatically
-
-  # One-shot initializer: pulls configured models into the ollama_models volume after ollama is healthy
-  ollama-init:
-    image: ollama/ollama:latest
-    entrypoint: ["sh", "-c"]
-    command:
-      - 'until ollama ls >/dev/null 2>&1; do echo "waiting for ollama"; sleep 1; done; for m in $OLLAMA_PULL_MODELS; do ollama pull "$m" || exit 1; done'
-    environment:
-      OLLAMA_PULL_MODELS: "mistral"
-      OLLAMA_HOST: "http://ollama:11434"
-    depends_on:
-      - ollama
-    volumes:
-      - ollama_models:/root/.ollama/models
-    networks:
-      - Practice
-    restart: "no"
 
 
   mongo:
@@ -524,5 +481,3 @@ volumes:
     name: MONGO_DATA
   MONGO_CONFIG:
     name: MONGO_CONFIG
-  ollama_models:
-    name: ollama_models

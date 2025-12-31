@@ -42,7 +42,7 @@ def failure_alert(context):
 START_DATE = pendulum.datetime(2024, 1, 1, tz="UTC")
 
 with DAG(
-    dag_id="stagging_dag",
+    dag_id="stagging_dag_start",
     start_date=START_DATE,
     schedule=None, 
     catchup=False,
@@ -115,33 +115,6 @@ with DAG(
     )
 
 
-    ## MongoDB related tasks
-    # Check the MongoDB connection
-    check_mongoDB_connection = PythonOperator(
-        task_id="check_mongoDB_connection",
-        python_callable=_connect_mongoDB,
-        dag=dag
-    )
-
-    # Create the collection to store the scripts in MongoDB
-    create_scripts_collection = PythonOperator(
-        task_id="create_scripts_collection",
-        python_callable=_create_collection,  
-        op_args=["movies"],
-        dag=dag
-    )
-
-    # Save the scripts content into the MongoDB database.
-    save_scripts_to_mongodb = PythonOperator(
-        task_id="save_scripts_to_mongodb",
-        python_callable=_save_scripts_to_mongodb,  
-        dag=dag
-    )
-
-    # Then add the segmentation task here + Maj on MongoDB collection with segemented scenes
-
-
     # --Graph--
     volume_mkdir_stagging_data >> [volume_mkdir_stagging_data_logs, volume_mkdir_stagging_data_scripts] \
-    >> launch_stagging_container >> check_mongoDB_connection >> create_scripts_collection \
-    >> save_scripts_to_mongodb
+    >> launch_stagging_container
