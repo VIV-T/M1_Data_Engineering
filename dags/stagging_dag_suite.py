@@ -10,7 +10,8 @@ from airflow.providers.docker.operators.docker import DockerOperator
 from airflow.providers.standard.operators.python import PythonOperator
 from datetime import timedelta
 
-from shared_operators import _create_collection, _volume_mkdir, _connect_mongoDB, _save_data_file_to_csv, _read_data_file_to_df
+from shared_operators import _check_connection_mongoDB, _create_collection, _volume_mkdir, _connect_mongoDB, _save_data_file_to_csv, _read_data_file_to_df
+from segmentation import main_segmentation
 
 logger = logging.getLogger(__name__)
 
@@ -42,7 +43,7 @@ def failure_alert(context):
 START_DATE = pendulum.datetime(2024, 1, 1, tz="UTC")
 
 with DAG(
-    dag_id="stagging_dag",
+    dag_id="stagging_dag_suite",
     start_date=START_DATE,
     schedule=None, 
     catchup=False,
@@ -67,59 +68,18 @@ with DAG(
                 script_content = f.read()
                 movie_name = (os.path.basename(file_path)).replace(".txt", "")
                 script_document = {
-                    "file_name": movie_name,
-                    "full_script": script_content
+                    "name": movie_name,
+                    "script": script_content
                 }
                 scripts_collection.insert_one(script_document)
                 logger.info(f"Inserted script of {movie_name} into MongoDB")
 
-    # --Task--
-    volume_mkdir_stagging_data = PythonOperator(
-        task_id="volume_mkdir_stagging_data",
-        python_callable=_volume_mkdir,
-        op_args=[STAGGING_DATA_FOLDER],
-        dag=dag
-    )
-
-    volume_mkdir_stagging_data_logs = PythonOperator(
-        task_id="volume_mkdir_stagging_data_logs",
-        python_callable=_volume_mkdir,
-        op_args=[STAGGING_DATA_LOGS_FOLDER],
-        dag=dag
-    )
-
-    volume_mkdir_stagging_data_scripts = PythonOperator(
-        task_id="volume_mkdir_stagging_data_scripts",
-        python_callable=_volume_mkdir,
-        op_args=[STAGGING_DATA_SCRIPTS_FOLDER],
-        dag=dag
-    )
-
-
-    # To extract content from the PDF and HTML files and save it into the docker volume as txt files.
-    launch_stagging_container = DockerOperator(
-        task_id='launch_stagging_container',
-        container_name="stagging_container",
-        image='m1_data_engineering-stagger:latest',   # use the docker image build by the 'scrapper' service in the docker-compose.yml
-        command=["/opt/venv_stagging/bin/python", "/app/stagging_container/stagging_files/stagging_main.py"],
-        api_version='auto',
-        auto_remove="success",    # set to 'never' to check the logs or 'success' in normal case
-        docker_url='tcp://docker-proxy:2375', # use the proxy service set in the docker-compose.yml
-        network_mode="airflow_network",
-        mount_tmp_dir=False,
-        dag=dag,
-        user='root',
-
-        # Synchronize a volume between the scrapper container and the airflow container
-        mounts=[Mount(source='m1_data_engineering_project_data', target='/app/project_data', type='volume')]
-    )
-
-
+    # --Tasks--
     ## MongoDB related tasks
     # Check the MongoDB connection
     check_mongoDB_connection = PythonOperator(
         task_id="check_mongoDB_connection",
-        python_callable=_connect_mongoDB,
+        python_callable=_check_connection_mongoDB,
         dag=dag
     )
 
@@ -139,9 +99,12 @@ with DAG(
     )
 
     # Then add the segmentation task here + Maj on MongoDB collection with segemented scenes
-
+    segment_scripts = PythonOperator(
+        task_id="segment_scripts",
+        python_callable=main_segmentation,  
+        dag=dag
+    )
 
     # --Graph--
-    volume_mkdir_stagging_data >> [volume_mkdir_stagging_data_logs, volume_mkdir_stagging_data_scripts] \
-    >> launch_stagging_container >> check_mongoDB_connection >> create_scripts_collection \
-    >> save_scripts_to_mongodb
+    check_mongoDB_connection >> create_scripts_collection \
+    >> save_scripts_to_mongodb >> segment_scripts
