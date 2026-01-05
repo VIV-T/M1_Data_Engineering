@@ -216,7 +216,6 @@ with DAG(
 
         df["tropedia_name"] = df["movie_name_conventioned"].apply(_to_tropedia_format) # Apply naming convention
         df["url_tropedia"] = base_url + df["tropedia_name"] # Create the full url
-        df["exists_on_tropedia"] = False # Set the default value to column 'exists_on_tropedia'
         
         # Save this new dataframe
         saved = False 
@@ -240,7 +239,7 @@ with DAG(
 
         for i, row in df.iterrows():
             try:
-                response = requests.get(row["url"], timeout=10) # Ajout d'un timeout
+                response = requests.get(row["url_tropedia"], timeout=10) # Ajout d'un timeout
                 
                 # Check if the page is valid or if the content is empty
                 soup = BeautifulSoup(response.text, "html.parser")
@@ -277,8 +276,8 @@ with DAG(
         df = _read_data_file_to_df(volume_data_folder=volume_data_folder, source_name=source_name)
 
         # For scripts data
-        df_scripts = df[df["exists_on_tropedia"] == True]
-        df_scripts = df_scripts.drop(columns=["tropedia_name", "exists_on_tropedia", "url_tropedia"])
+        df_scripts = df[df["is_on_tropedia"] == True]
+        df_scripts = df_scripts.drop(columns=["tropedia_name", "is_on_tropedia", "url_tropedia"])
         # Save this new dataframe
         scripts_saved = False 
         while not scripts_saved == True :
@@ -288,8 +287,8 @@ with DAG(
     
 
         # For tropes data
-        df_tropes = df[df["exists_on_tropedia"] == True]
-        df_tropes = df_tropes.drop(columns=["tropedia_name", "exists_on_tropedia"]) # WARNING : REMOVE THE COLUMN 
+        df_tropes = df[df["is_on_tropedia"] == True]
+        df_tropes = df_tropes.drop(columns=["tropedia_name", "scrapping_url", "scrapping_url_extension"]) # WARNING : REMOVE THE COLUMN 
         # Save this new dataframe
         tropes_saved = False 
         while not tropes_saved == True :
