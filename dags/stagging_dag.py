@@ -10,7 +10,8 @@ from airflow.providers.docker.operators.docker import DockerOperator
 from airflow.providers.standard.operators.python import PythonOperator
 from datetime import timedelta
 
-from shared_operators import _create_collection, _volume_mkdir, _connect_mongoDB, _save_data_file_to_csv, _read_data_file_to_df
+from segmentation import main_segmentation
+from shared_operators import _create_collection, _volume_mkdir, _connect_mongoDB, _check_connection_mongoDB, _save_data_file_to_csv, _read_data_file_to_df
 
 logger = logging.getLogger(__name__)
 
@@ -119,7 +120,7 @@ with DAG(
     # Check the MongoDB connection
     check_mongoDB_connection = PythonOperator(
         task_id="check_mongoDB_connection",
-        python_callable=_connect_mongoDB,
+        python_callable=_check_connection_mongoDB,
         dag=dag
     )
 
@@ -137,11 +138,16 @@ with DAG(
         python_callable=_save_scripts_to_mongodb,  
         dag=dag
     )
+    
 
     # Then add the segmentation task here + Maj on MongoDB collection with segemented scenes
-
+    segment_scripts = PythonOperator(
+        task_id="segment_scripts",
+        python_callable=main_segmentation,  
+        dag=dag
+    )
 
     # --Graph--
     volume_mkdir_stagging_data >> [volume_mkdir_stagging_data_logs, volume_mkdir_stagging_data_scripts] \
     >> launch_stagging_container >> check_mongoDB_connection >> create_scripts_collection \
-    >> save_scripts_to_mongodb
+    >> save_scripts_to_mongodb >> segment_scripts
