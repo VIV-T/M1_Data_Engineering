@@ -3,15 +3,17 @@ import logging
 import pendulum
 from docker.types import Mount
 import os
+import glob
 
 from airflow import DAG
 from airflow.providers.docker.operators.docker import DockerOperator
 from airflow.providers.standard.operators.python import PythonOperator
 from datetime import timedelta
 
-from shared_operators import _create_collection, _volume_mkdir, _connect_mongoDB, _save_data_file_to_csv, _read_data_file_to_df
+from segmentation import main_segmentation
+from shared_operators import _create_collection, _volume_mkdir, _connect_mongoDB, _check_connection_mongoDB, _save_data_file_to_csv, _read_data_file_to_df
 
-logger = logging.getLogger(__name__)  # Airflow captures this per task
+logger = logging.getLogger(__name__)
 
 
 # volume related
@@ -56,7 +58,21 @@ with DAG(
     
     # --Tools-- (python_callable)
     # to define here any python function used in the tasks if not imported from shared_operators.py
+    def _save_scripts_to_mongodb(): 
+        script_files = glob.glob(f"{STAGGING_DATA_SCRIPTS_FOLDER}/*.txt")
+        scripts_db = _connect_mongoDB()
 
+        scripts_collection = scripts_db["movies"]
+        for file_path in script_files:
+            with open(file_path, "r", encoding="utf-8") as f:
+                script_content = f.read()
+                movie_name = (os.path.basename(file_path)).replace(".txt", "")
+                script_document = {
+                    "file_name": movie_name,
+                    "full_script": script_content
+                }
+                scripts_collection.insert_one(script_document)
+                logger.info(f"Inserted script of {movie_name} into MongoDB")
 
     # --Task--
     volume_mkdir_stagging_data = PythonOperator(
@@ -104,7 +120,7 @@ with DAG(
     # Check the MongoDB connection
     check_mongoDB_connection = PythonOperator(
         task_id="check_mongoDB_connection",
-        python_callable=_connect_mongoDB,
+        python_callable=_check_connection_mongoDB,
         dag=dag
     )
 
@@ -117,16 +133,21 @@ with DAG(
     )
 
     # Save the scripts content into the MongoDB database.
-    # save_scripts_to_mongodb = PythonOperator(
-    #     task_id="save_scripts_to_mongodb",
-    #     python_callable=lambda: None,  
-    #     dag=dag
-    # )
+    save_scripts_to_mongodb = PythonOperator(
+        task_id="save_scripts_to_mongodb",
+        python_callable=_save_scripts_to_mongodb,  
+        dag=dag
+    )
+    
 
     # Then add the segmentation task here + Maj on MongoDB collection with segemented scenes
-
+    segment_scripts = PythonOperator(
+        task_id="segment_scripts",
+        python_callable=main_segmentation,  
+        dag=dag
+    )
 
     # --Graph--
     volume_mkdir_stagging_data >> [volume_mkdir_stagging_data_logs, volume_mkdir_stagging_data_scripts] \
-    >> launch_stagging_container >> check_mongoDB_connection >> create_scripts_collection
-    # >> save_scripts_to_mongodb
+    >> launch_stagging_container >> check_mongoDB_connection >> create_scripts_collection \
+    >> save_scripts_to_mongodb >> segment_scripts

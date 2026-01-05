@@ -1,0 +1,6 @@
+{"timestamp":"2026-01-05T15:58:25.141832Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-01-05T15:58:25.154551Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/stagging_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-05T15:58:27.875804Z","level":"info","event":"MongoDB client created","logger":"root","filename":"shared_operators.py","lineno":37}
+{"timestamp":"2026-01-05T15:58:27.894289Z","level":"info","event":"Databases available: ['admin', 'config', 'local']","logger":"root","filename":"shared_operators.py","lineno":38}
+{"timestamp":"2026-01-05T15:58:27.894595Z","level":"info","event":"Success connecting to MongoDB","logger":"root","filename":"shared_operators.py","lineno":47}
+{"timestamp":"2026-01-05T15:58:27.894695Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}
