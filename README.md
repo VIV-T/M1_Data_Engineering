@@ -63,35 +63,35 @@ IMSDb (Internet Movie Script Database) is a well-known online repository offerin
 Tropedia is a community-edited wiki website dedicated to discussing Creators, Works, and Tropes -- the people, projects and patterns of creative writing in all kinds of entertainment: television, literature, movies, video games, and more.
 
 <br>
-<img src="./images/all_the_tropes_website.png" alt="AllTheTropesWebsite" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<img src="./images/Tropedia_home_page.png" alt="Tropedia-Homepage" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br><br><br>
 
-### Data description
+## Data description
 
-#### Scripts
+### Scripts
 **PDF**
 <br>
 On the Scriptslug website, the movie scripts are available on PDF format. Those PDF files are often scanned pages or brut text. To extract the text content of those files, we will use an OCR (Optical Character Recognition) tool. 
 
 <br>
 <img src="./images/pdf_script_example.png" alt="PdfScriptExample" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
-
-<br><br><br>
+<br>
 
 **HTML**
 <br>
 On the ImsDB website, the movie scripts are available on HTML pages. It is possible to get the content of those pages, but it requires some cleaning to get the text content, with dedicated tools.
-
 <br>
 <img src="./images/html_script_example.png" alt="HtmlScriptExample" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 
-<br><br><br>
+<br><br>
 
-#### Tropes data
-
-To fill, by B.
-
+### Tropes data
 <br>
+
+On the Tropedia wiki, the definition of tropes is provided in several paragraphs. Since Tropedia does not consist only of tropes taken from movies, we have only included tropes from movies for which we have the scripts.
+
+<img src="./images/tropes_example.png" alt="trope-example" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+
 <br>
 <br>
 <br>
@@ -237,9 +237,6 @@ The scripts are accountable of the copy and the write of mandatory / necessary f
 Another difficulty was to manage the permission to write in the docker volume from the dag. While using the Docker Operator in Airflow, it was not the same user in the DAG and in the launched container. This distinction was the source of this write issue. 
 
 To solve it, we decide to add a function to set permission in the main.py script in the scrapping_container, using os.chown() of python.
-
-
-
 
 <br>
 <br>
