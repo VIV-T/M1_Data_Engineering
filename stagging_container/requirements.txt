@@ -2,3 +2,5 @@ packaging==25.0
 pdf2image==1.17.0
 pillow==12.0.0
 pytesseract==0.3.13
+lxml==6.0.2
+lxml_html_clean==0.4.3 

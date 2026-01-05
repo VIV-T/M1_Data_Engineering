@@ -42,9 +42,9 @@ def extract_txt_with_ocr(pages : list, lang="eng"):
     return "\n\n".join(texts)
 
 
-# function to build the new filepath based on the pdf_file_path.
-def build_file_path(pdf_file_path : str):
-    filename = os.path.splitext(os.path.basename(pdf_file_path))[0]
+# function to build the new filepath based on the file_path.
+def build_file_path(file_path : str):
+    filename = os.path.splitext(os.path.basename(file_path))[0]
     new_filename = filename + ".txt"
     new_file_path = os.path.join(STAGGING_FOLDER, "scripts", new_filename)
     logger.info(f"New file path created : {new_file_path}")
@@ -68,12 +68,13 @@ def main_stagging_ocr():
     # Nt glob allow us to iter on all the file inside a folder.
     for pdf_path in glob.glob(f"{PDF_FOLDER}/*.pdf"):
         logger.info(f"{pdf_path} start the process")
-        new_file_path = build_file_path(pdf_file_path=pdf_path)
+        new_file_path = build_file_path(file_path=pdf_path)
         pages = convert_pdf_to_img_list(pdf_path=pdf_path)
         script_txt = extract_txt_with_ocr(pages=pages)
+        
+        del pages # remove the object form the RAM to avoid error
 
         with open(file=new_file_path, mode="w", encoding="utf-8") as f :
             f.write(script_txt)
-        del pages # remove the object form the RAM to avoid error
     
     logger.info("Text extraction finished.")

@@ -10,7 +10,7 @@ from airflow.providers.docker.operators.docker import DockerOperator
 from airflow.providers.standard.operators.python import PythonOperator
 from datetime import timedelta
 
-from dags.segmentation import main_segmentation
+from segmentation import main_segmentation
 from shared_operators import _create_collection, _volume_mkdir, _connect_mongoDB, _save_data_file_to_csv, _read_data_file_to_df
 
 logger = logging.getLogger(__name__)
