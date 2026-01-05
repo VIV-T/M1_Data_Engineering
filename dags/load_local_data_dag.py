@@ -48,7 +48,7 @@ def failure_alert(context):
 START_DATE = pendulum.datetime(2024, 1, 1, tz="UTC")
 
 with DAG(
-    dag_id="local_data_solution_dag",
+    dag_id="load_local_data_dag",
     start_date=START_DATE,
     schedule=None, 
     catchup=False,

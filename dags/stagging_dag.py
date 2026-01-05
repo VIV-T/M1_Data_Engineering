@@ -11,7 +11,7 @@ from airflow.providers.standard.operators.python import PythonOperator
 from datetime import timedelta
 
 from segmentation import main_segmentation
-from shared_operators import _create_collection, _volume_mkdir, _connect_mongoDB, _save_data_file_to_csv, _read_data_file_to_df
+from shared_operators import _create_collection, _volume_mkdir, _connect_mongoDB, _check_connection_mongoDB, _save_data_file_to_csv, _read_data_file_to_df
 
 logger = logging.getLogger(__name__)
 
@@ -120,7 +120,7 @@ with DAG(
     # Check the MongoDB connection
     check_mongoDB_connection = PythonOperator(
         task_id="check_mongoDB_connection",
-        python_callable=_connect_mongoDB,
+        python_callable=_check_connection_mongoDB,
         dag=dag
     )
 
