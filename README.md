@@ -195,7 +195,7 @@ Volume architecture :
 #### General presentation
 
 <br>
-<img src="./images/scrapping_dag.png" alt="scrapping_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<img src="./images/1_scrapping_dag.jpeg" alt="scrapping_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br><br>
 
 Our first Airflow DAG is dedicated to scrap information about the data from sources to prepare the data ingestion. This DAG allow us to get list of links, names, and merge information of the different data sources to define the range of the data ingestion (to avoid to scrap useless data, something essential regarding the cost of execution - time). This scrapping DAG requires specific tools which are Selenium and Chrome Browser. 
@@ -247,7 +247,7 @@ To solve it, we decide to add a function to set permission in the main.py script
 #### General presentation
 
 <br>
-<img src="./images/ingestion_dag.png" alt="ingestion_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<img src="./images/2_ingestion_dag.jpeg" alt="ingestion_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br><br>
 
 Present fastly what the DAG is doing, which specific tools are used and what are the specificity of this DAG ?
@@ -259,16 +259,39 @@ is there any specific tools in this DAG ?
 #### Detailled operations
 Let's have a look on each steps...
 
+#### Difficulties
+What was the hardiest things ? Why ? How we surpass them ?
+
+<br>
+<br>
+<br>
+
+### DAG 3 : load local data DAG
+
+#### General presentation
+
+<br>
+<img src="./images/3_load_local_data_dag.jpeg" alt="load_local_data_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<br><br>
+
+Present fastly what the DAG is doing, which specific tools are used and what are the specificity of this DAG ?
+
+
+#### Specific tools 
+is there any specific tools in this DAG ?
+
+#### Detailled operations
+Let's have a look on each steps...
 
 #### Difficulties
 What was the hardiest things ? Why ? How we surpass them ?
 
-
 <br>
 <br>
 <br>
 
-### DAG 3 : stagging DAG
+
+### DAG 4 : stagging DAG
 
 #### General presentation
 
@@ -289,7 +312,6 @@ Let's have a look on each steps...
 
 #### Difficulties
 What was the hardiest things ? Why ? How we surpass them ?
-
 
 
 <br>
