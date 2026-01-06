@@ -409,8 +409,11 @@ with DAG(
         dag=dag
     )
 
+    end = EmptyOperator(task_id="end")
+
+
     ### --Graph--
     launch_scrapper_container >> \
     [apply_naming_convention_to_script_slug_data, apply_naming_convention_to_imsdb_data] >> \
     merge_scrapped_data >> filename_column_creation >> \
-    apply_formatting >> is_on_tropedia >> clean_csv
+    apply_formatting >> is_on_tropedia >> clean_csv >> end
