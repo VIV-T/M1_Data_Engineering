@@ -1,7 +1,6 @@
 import os
 import streamlit as st
 from pymongo import MongoClient
-import json
 
 # Title
 st.set_page_config(page_title="Very Bad Script — Dashboard", layout="wide")
@@ -106,10 +105,21 @@ def get_movies_collection():
     )
     return client["scriptsDB"]["movies"]
 
+@st.cache_resource
+def get_tropes_collection():
+    client = MongoClient(
+        host=os.getenv("MONGO_HOST", "localhost"),
+        port=int(os.getenv("MONGO_PORT", "27017")),
+        username=os.getenv("MONGO_USER", "admin"),
+        password=os.getenv("MONGO_PASSWORD", "admin"),
+        authSource=os.getenv("MONGO_AUTHSOURCE", "admin"),
+    )
+    return client["scriptsDB"]["tropes"]
+
 @st.cache_data
 def load_movies():
     col = get_movies_collection()
-    cursor = col.find({}, {"_id": 0, "name": 1, "full_script": 1})
+    cursor = col.find({}, {"_id": 0, "file_name": 1, "full_script": 1})
 
     movies = []
     total_words = 0
@@ -117,7 +127,7 @@ def load_movies():
     max_movie = None
 
     for doc in cursor:
-        name = doc.get("name")
+        name = doc.get("file_name")
         script = doc.get("full_script") or ""
         if not name:
             continue
@@ -133,24 +143,16 @@ def load_movies():
     movies.sort(key=lambda x: x[0].lower())
     return movies, total_words, max_words, max_movie
 
+
 @st.cache_data
 def load_total_tropes():
-    path = os.path.join("data", "tropes", "movie_tropes.json")
-    if not os.path.exists(path):
-        return None, path
-
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    # dict where keys are trope names
-    if isinstance(data, dict):
-        return len(data), path
-
-    # If format is not as expected:
-    return 0, path
+    col = get_tropes_collection()
+    return col.count_documents({})
 
 
 # Header (logo + title)
+st.markdown("<div style='height: 24px;'></div>", unsafe_allow_html=True)
+
 logo_path = os.path.join("images", "logo-insa_0.png")
 
 c1, c2 = st.columns([1, 6])
@@ -184,6 +186,9 @@ if total_scripts == 0:
 
 avg_words = int(total_words / total_scripts)
 
+total_tropes = load_total_tropes()
+
+
 # Stat cards
 
 st.markdown("<div class='section-title'>Overview</div>", unsafe_allow_html=True)
@@ -191,7 +196,7 @@ st.markdown("<div class='section-title'>Overview</div>", unsafe_allow_html=True)
 st.markdown("<div style='height: 24px;'></div>", unsafe_allow_html=True)
 
 
-k1, k2, k3, k4 = st.columns(4)
+k1, k2, k3, k4, k5 = st.columns(5)
 
 with k1:
     card("Total scripts", str(total_scripts), "Movies in database")
@@ -204,10 +209,10 @@ with k3:
 
 with k4:
     card("Longest film", f"{max_words:,}", max_movie or "—")
-    
+
 with k5:
     card("Total tropes", f"{total_tropes:,}")
-
+        
 st.markdown("<div style='height: 24px;'></div>", unsafe_allow_html=True)
 
 st.markdown("<div class='divider'></div>", unsafe_allow_html=True)
