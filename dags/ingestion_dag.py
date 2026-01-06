@@ -13,6 +13,8 @@ from lxml import html
 from airflow import DAG
 from airflow.providers.docker.operators.docker import DockerOperator
 from airflow.providers.standard.operators.python import PythonOperator
+from airflow.operators.empty import EmptyOperator
+
 from datetime import timedelta
 
 from shared_operators import _read_data_file_to_df, _save_data_file_to_csv, _volume_mkdir
@@ -510,6 +512,7 @@ with DAG(
         dag=dag
     )
 
+    end = EmptyOperator(task_id="end")
 
     ### --Graph--
     # 1. read the folder 
@@ -524,8 +527,8 @@ with DAG(
     volume_mkdir_ingestion_data_data >> [volume_mkdir_ingestion_data_tropes, volume_mkdir_ingestion_data_scripts]
         
     #volume_mkdir_ingestion_data_tropes >> ingest_movies_tropes >> ingest_tropes_definitions 
-    volume_mkdir_ingestion_data_tropes >> ingest_tropes_definitions
+    volume_mkdir_ingestion_data_tropes >> ingest_tropes_definitions >> end
 
     volume_mkdir_ingestion_data_scripts >> [volume_mkdir_html_data, volume_mkdir_pdf_data]
-    volume_mkdir_html_data >> extract_and_save_html_content
-    volume_mkdir_pdf_data >> download_pdfs
+    volume_mkdir_html_data >> extract_and_save_html_content >> end
+    volume_mkdir_pdf_data >> download_pdfs >> end
