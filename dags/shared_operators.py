@@ -56,7 +56,6 @@ def _create_collection(collection_name : str) :
     # check if the collection already exists
     logging.info(f"{scripts_db.list_collection_names()}")
 
-    # logger.info(f"{scripts_db.list_collection_names()}")
     try : 
         if not collection_name in scripts_db.list_collection_names() :   
             scripts_collection = scripts_db[f"{collection_name}"]
