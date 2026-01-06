@@ -1,0 +1,5 @@
+{"timestamp":"2026-01-06T21:29:39.018033Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-01-06T21:29:39.019208Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:29:47.115336Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:29:47.139261Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:29:47.299536Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}
