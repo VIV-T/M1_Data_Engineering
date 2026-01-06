@@ -162,13 +162,6 @@ The DAG splits script ingestion into two parallel streams:
 - HTML Stream: Fetches raw text content from web-based scripts and saves them as text files.
 - PDF Stream: Downloads and stores script documents directly.
 
-#### Specific tools 
-
-to define
-
-#### Dificulties
-
-to define
 
 <br>
 <br>
@@ -214,21 +207,46 @@ The dag builds the required directory tree within the shared volume, creating or
 <br><br>
 
 
+Our last Airflow DAG is dedicated to do the movie script analysis from MongoDB data. To perform this analysis, we decide to use an hybrid approach : analyze each scene of a script to find relevant trope using FAISS index and a LLM model to perform a verification. "Global analysis ?"
+<br><br>
+The DAG strats by creating the required folder Inside the Docker volume, "project_data". After the folders creation, we use a Python operator to create the FAISS index using the faiss and sentence_transformers packages. Finally, a Docker Operator is used to launch the analysis_container, where the analysis is performed.
+<br><br>
+To perform the analysis, we decide to use PySpark. The idea is to parallelize the analysis operations to save execution time and ressources. There are 3 main steps :
+ - embed the scene content using the same model than the tropes embedding (Bert) - this is a model specialized in semantic analysis.
+ - similarity calculation : retrieve the 3 most relevant tropes stored in the faiss indexes for each scene.
+ - call a LLM with a specific prompt to improve the result and confirm or infirm the first analysis.
+
+<br>
+
+#### Specific tools
+
+**FAISS**: This a Library developped by Meta to perform similarity research on large vectorial dataset.
+<br><br>
+
+**Hugging face** (transformers python package) : Allow us to easily manipulate pre-trained LLM in our code. With this tool, we can call a LLM model with a dedicated prompt to get a generated response. This is one of the simpliest way to use a LLM in a python code.
+<br><br>
+
+**PySpark** : PySpark is an Opensource tool used in Big Data. It allow us to manage huge ammount of data and parrallelize operation between multiple cores in local or in a cluster of machine. In our case, it is interresting to use to parrallelize the movie scene analysis. 
+<br><br>
+
+Again, using those specific tools required a dedicated container to isolate the heavy requirement from the Airflow environement.
+
+<br>
+
+#### Difficulties
+
+**Large python requirements** : building issues. It was important to cache the requirements installation to avoid important execution time each time we decide to refactor our code or push some modifications.
+
+
+<br>
+<br>
+<br>
+
+
 ## Queries 
 
 ## Requirements
 
-## Note for Students
-
-* Clone the created repository offline;
-* Add your name and surname into the Readme file and your teammates as collaborators
-* Complete the field above after project is approved
-* Make any changes to your repository according to the specific assignment;
-* Ensure code reproducibility and instructions on how to replicate the results;
-* Add an open-source license, e.g., Apache 2.0;
-* README is automatically converted into pdf
-
-<br>
 <br>
 <br>
 <br>

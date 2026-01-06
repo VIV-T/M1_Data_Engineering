@@ -363,8 +363,7 @@ with DAG(
     volume_mkdir_ingestion_data >> volume_mkdir_ingestion_data_data
     
     volume_mkdir_ingestion_data_data >> [volume_mkdir_ingestion_data_tropes, volume_mkdir_ingestion_data_scripts]
-        
-    #volume_mkdir_ingestion_data_tropes >> ingest_movies_tropes >> ingest_tropes_definitions 
+     
     volume_mkdir_ingestion_data_tropes >> ingest_tropes_definitions >> end
 
     volume_mkdir_ingestion_data_scripts >> [volume_mkdir_html_data, volume_mkdir_pdf_data]
