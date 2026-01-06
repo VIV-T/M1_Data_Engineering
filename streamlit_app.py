@@ -132,6 +132,23 @@ def load_movies():
     movies.sort(key=lambda x: x[0].lower())
     return movies, total_words, max_words, max_movie
 
+@st.cache_data
+def load_total_tropes():
+    path = os.path.join("data", "tropes", "movie_tropes.json")
+    if not os.path.exists(path):
+        return None, path
+
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    # dict where keys are trope names
+    if isinstance(data, dict):
+        return len(data), path
+
+    # If format is not as expected:
+    return 0, path
+
+
 # Header (logo + title)
 logo_path = os.path.join("images", "logo-insa_0.png")
 
@@ -186,6 +203,9 @@ with k3:
 
 with k4:
     card("Longest film", f"{max_words:,}", max_movie or "—")
+    
+with k5:
+    card("Total tropes", f"{total_tropes:,}")
 
 st.markdown("<div style='height: 24px;'></div>", unsafe_allow_html=True)
 
