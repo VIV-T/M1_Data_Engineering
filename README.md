@@ -261,36 +261,9 @@ Explain the design choices : why using a scrapping DAG ? How the project_data vo
 Folder architecture : 
 Here is the simplified folder architecture of the project.
 
-M1_DATA_ENGINEERING
-  |_dags
-      |_scrapping_dag.py
-      |_ingestion_dag.py
-      |_stagging_dag.py
-      |_shared_operators.py
-      |_etc.
-  |_logs (useful to monitor DAGs execution)
-  |_scrapping_container
-      |_scrapping
-          |_scrapping_data (folder used as example to build the first volume folder)
-              |_data
-              |_logs
-              |_statistics
-          |_main.py
-          |_scrapping_imsdb.py
-          |_scrapping_script_slug.py
-      |_Dockerfile (mandatory to build the associated image in the docker-compose.yml)
-      |_requirements.txt (mandatory to install python requirements in the container)
-      
-  |_stagging_container
-      |_stagging
-          |_stagging_main.py
-          |_stagging_pdf_content_extraction_ocr.py
-          |_html_content_cleaning_file.py # to modify
-      |_Dockerfile (mandatory to build the associated image in the docker-compose.yml)
-      |_requirements.txt (mandatory to install python requirements in the container)
-  |_docker-compose.yml
-  |_README.md
-
+<br>
+<img src="./images/architecture.png" alt="architecture" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<br>
 
 DAG architecture : <br>
 We choose to build at least one DAG per part of the Data engineering classical schema (cf. schema - add the image to the report). Then, we have a DAG for the ingestion of the data, the stagging phase and then for the production & analysis phase. We decide to add other DAG to segment the code, to keep a clear organization of the pipeline and of the different processes used. Here are the list of all our DAGs : 
@@ -304,29 +277,6 @@ We also choose to add to the DAG's folder an other python script : shared_operat
 Execution order : (DAGs)
 Precise it.
 
-
-Volume architecture :
-|_ingestion_data
-    |_data
-        |_contains multiple CSV files used in next steps 
-    |_scripts
-        |_html_data (contains html files)
-        |_pdf_data (contains pdf files)
-    |_tropes
-        |_contains json files with tropes data.
-|_scrapping_data
-    |_data
-        |_contains multiple CSV files used in next steps 
-    |_logs
-        |_to monitor container's execution
-    |_statistics
-        |_statistics about the scripts and data sources (useless for now)
-|_stagging_data
-    |_logs
-    |_scripts
-    (|_tropes)  didn't exist yet
-        => we have to create the code to clean trope data.
-        
 
 <br>
 <br>
