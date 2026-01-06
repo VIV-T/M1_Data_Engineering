@@ -298,7 +298,67 @@ Again, using those specific tools required a dedicated container to isolate the 
 
 ## Queries 
 
-## Requirements
+---
+## How to launch the project
+
+### Requirements
+- Docker and Docker Compose installed  
+  https://docs.docker.com/desktop/
+
+(Optional)  
+- Streamlit installed (only required to run the dashboard locally)  
+  https://docs.streamlit.io/get-started/installation
+
+
+
+### Launch instructions
+
+1. **Clone the project**
+```bash
+git clone https://github.com/VIV-T/M1_Data_Engineering.git
+```
+
+2. **Go to the project root directory**
+```bash
+cd M1_Data_Engineering
+```
+
+3. **Build and start all Docker services**
+```bash
+docker compose up -d --build
+```
+It can take some time.
+
+4. **Access Airflow**
+- Open your browser  
+- Go to: http://localhost:8080  
+- Login with the default credentials :
+  - username: `airflow`
+  - password: `airflow`
+
+5. **Trigger the DAGs**
+Depending on the execution context, two workflows are possible:
+
+**Online workflow**
+   1. `scrapping_dag`
+   2. `ingestion_dag`(
+   3. `load_local_data_dag` (*Optionnal*)
+   4. `stagging_dag` 
+   5. `production_dag`
+
+**Offline workflow**
+   1. `load_local_data_dag`
+   2. `stagging_dag` 
+   3. `production_dag`
+
+Each DAG must finish successfully before launching the next one.
+
+
+6. **(Optional) Launch the Streamlit dashboard**
+```bash
+streamlit run streamlit_app.py
+```
+
 
 <br>
 <br>
