@@ -1,9 +1,9 @@
-# DataEng 2024 Template Repository
+# Very Bad Script - Project [DATA Engineering](https://www.riccardotommasini.com/courses/dataeng-insa-ot/) is provided by [INSA Lyon](https://www.insa-lyon.fr/).
+
 
 <img src="./images/logo-insa_0.png" alt="INSALogo" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br>
 
-Project [DATA Engineering](https://www.riccardotommasini.com/courses/dataeng-insa-ot/) is provided by [INSA Lyon](https://www.insa-lyon.fr/).
 
 Students: JOUENNE Maia, TRON Baptiste, VIVIER Thibault
 
@@ -193,7 +193,60 @@ The dag builds the required directory tree within the shared volume, creating or
 <br>
 <img src="./images/4_stagging_dag.jpeg" alt="stagging_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br><br>
+This DAG corresponds to the staging phase of the pipeline. The goal is to transform the raw ingested data (HTML scripts, PDF scripts, and tropes) into clean and usable data that we then store in MongoDB.
 
+The DAG starts by creating the required directory structure inside the shared Docker volume project_data. These folders are used to store logs and processed scripts during the staging process.
+
+
+Once the folders are ready, the DAG launches a dedicated staging container. This container executes the script stagging_main.py, which handles all the staging logic.
+
+Inside the staging container, two main processing pipelines are executed:
+
+1. **HTML scripts cleaning**
+   
+Scripts collected in HTML format during the ingestion phase are cleaned to remove unnecessary elements such as menus, navigation blocks, and repeated headers. The cleaned text is then saved as .txt files in the staging directory.
+
+2. **PDF scripts OCR extraction**
+   
+Scripts collected as PDF files are processed using an OCR pipeline. Each PDF is converted into images, and then text is extracted page by page using OCR tools. The extracted text is saved as .txt files in the same staging directory.
+
+After that task is completed, it inserts the staged data into 2 collections in MongoDB:
+
+- **Scripts collection**: one document per movie, containing the full cleaned script text.
+
+- **Tropes collection**: one document per trope, containing its name and definition.
+
+Finally, the DAG executes a segmentation step. This step processes the cleaned scripts and splits them into smaller logical units (for example scenes or narrative blocks). This segmentation prepares the data for the production and analysis phases.
+
+#### Specific tools
+
+##### OCR (PDF to text)
+The OCR pipeline is implemented using:
+
+- **pdf2image** to convert PDF pages into images
+
+- **pytesseract** to extract text from images
+
+The extraction is done page by page to limit memory usage and reduce execution costs.
+
+##### HTML cleaning
+HTML scripts are cleaned using:
+
+- **lxml.html**
+
+- **Cleaner** from lxml_html_clean
+
+These tools remove irrelevant HTML content and keep only the useful script text. A specific marker (ALL SCRIPTS) is used to remove unwanted sections that appear because of the scrapping.
+
+##### Segmentation
+The segmentation step processes all staged scripts and splits them into smaller textual units. This step is executed through a dedicated Python function and prepares the scripts for further analysis and production workflows (to be able to analyze each tropes per scene).
+
+##### MongoDB
+MongoDB is used as the main storage system for staged data. Two collections are created:
+
+- movies: containing the full text of each movie script
+
+- tropes: containing trope names and definitions
 <br>
 <br>
 <br>
