@@ -9,6 +9,8 @@ import json
 from airflow import DAG
 from airflow.providers.docker.operators.docker import DockerOperator
 from airflow.providers.standard.operators.python import PythonOperator
+from airflow.operators.empty import EmptyOperator
+
 from datetime import timedelta
 
 from segmentation import main_segmentation
@@ -188,8 +190,10 @@ with DAG(
         dag=dag
     )
 
+    end = EmptyOperator(task_id="end")
+
     # --Graph--
     volume_mkdir_stagging_data >> [volume_mkdir_stagging_data_logs, volume_mkdir_stagging_data_scripts] \
     >> launch_stagging_container >> check_mongoDB_connection >> [create_scripts_collection, create_tropes_collection]
-    create_scripts_collection >> save_scripts_to_mongodb >> segment_scripts
-    create_tropes_collection >> save_tropes_to_mongodb
+    create_scripts_collection >> save_scripts_to_mongodb >> segment_scripts >> end
+    create_tropes_collection >> save_tropes_to_mongodb >> end
