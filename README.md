@@ -295,8 +295,22 @@ Again, using those specific tools required a dedicated container to isolate the 
 <br>
 <br>
 
+---
+## Analysis Dashboard
 
-## Queries 
+A simple Streamlit dashboard was developed to provide a global overview of the data produced by the pipeline. 
+
+The dashboard displays **basic statistics** such as 
+- Total number of movie scripts
+- Total number of words across all scripts
+- Average number of words per script
+- Longest movie script (based on word count)
+- Total number of tropes
+
+The dashboard also includes an **exploration section** that allows the user to:
+- Select a movie from a searchable dropdown list
+- Display the total number of words for the selected script
+- Preview the beginning of the script (first 2000 characters)
 
 ---
 ## How to launch the project
