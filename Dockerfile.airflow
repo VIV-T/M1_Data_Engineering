@@ -1,5 +1,32 @@
+
 FROM apache/airflow:3.1.0
 
+# Build-time installation of additional Python packages to avoid
+# installing them on every container start (which can make the
+# apiserver startup fail due to long runtime installs).
+USER root
+
+# Install some system deps that help building/using ML packages.
+RUN apt-get update \
+	&& apt-get install -y --no-install-recommends \
+	   build-essential \
+	   libopenblas-dev \
+	   libomp-dev \
+	   git \
+	&& rm -rf /var/lib/apt/lists/*
+
+# Install Python packages that were previously added at container startup.
+# Note: these can be large (torch, faiss) and will increase image size.
+# Run pip as the `airflow` user to comply with the base image expectations.
 USER airflow
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir \
+    xlsx2csv==0.7.8 \
+    faker==8.12.1 \
+    apache-airflow-providers-postgres==6.3.0 \
+    "sentence-transformers>=2.2.0" \
+    "faiss-cpu>=1.7.0" \
+    "numpy>=1.24.0" \
+    "pandas>=2.0.0" \
+    "pymongo>=4.5.0"
+
 
