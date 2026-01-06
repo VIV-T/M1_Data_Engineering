@@ -312,6 +312,8 @@ The dashboard also includes an **exploration section** that allows the user to:
 - Display the total number of words for the selected script
 - Preview the beginning of the script (first 2000 characters)
 
+The goal is to show the main tropes associated with the movie when you select it.
+
 ---
 ## How to launch the project
 
