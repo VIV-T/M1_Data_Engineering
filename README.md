@@ -102,20 +102,24 @@ On the Tropedia wiki, the definition of tropes is provided in several paragraphs
 
 <br>
 <img src="./images/1_scrapping_dag.jpeg" alt="scrapping_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<br><br>
+<br>
 
-Our first Airflow DAG is dedicated to scrap information about the data from sources to prepare the data ingestion. This DAG allow us to get list of links, names, and merge information of the different data sources to define the range of the data ingestion (to avoid to scrap useless data, something essential regarding the cost of execution - time). This scrapping DAG requires specific tools which are Selenium and Chrome Browser. 
+Our first Airflow DAG is dedicated to scrap information about the data from sources to prepare the data ingestion. This DAG allow us to get list of links, names, and merge information of the different data sources to define the range of the data ingestion (to avoid to scrap useless data, something essential regarding the cost of execution - time). This scrapping DAG requires specific tools which are Selenium and Chrome Browser.
 <br><br>
-Due to those particular requirements (and also because it's challenging), we decide to use a DockerOperator in Airflow to launch a Container dedicated to the scrapping. The data scrapped are then send to a Docker Volume : project_data, shared with the other DAGs (to be able to access to the data from the different DAGs).
-<br><br>
+The DAG starts by using a DockerOperator to launch a Container dedicated to the scrapping. The data scrapped are then send to a Docker Volume : project_data, shared with the other DAGs (to be able to access to the data from the different DAGs), This container collect movie scripts information from ImsDB and ScriptSlug. We then clean the data and use a standard naming format to combine these sources into a single CSV file.
+Next, the pipeline searches for these specific films on Tropedia in order to find the tropes associated with them, checking whether Tropedia contains a page with information about the film. This ensures we only collect tropes for the scripts we actually have. Finally, the system creates two clean CSV files: one containing the script details and the other containing the tropes, both ready to be used in the ingestion part.
+
+<br>
 
 #### Specific tools 
+
 Selenium : This is an Open source tool used for web navigation automatization. It is mainly used for web scrapping, like in this project. This tool can be used in python.
 
 ChromeBrowser : Need to be installed to use Selenium, because Selenium is not a web browser but it drives a web browser to navigate.
 
 To use thoses specific tools, we decide to build an exclusive image with required dependencies, instead of installing everything on the computer. This is a better practice and working with docker images is the best way to replicate the project and avoid versioning & OS problems (cf. Docker presentation).
-<br><br>
+
+<br>
 
 #### Difficulties
 **Volume management :** to handle multi-container writting
@@ -123,25 +127,21 @@ The volume was mounted each time at the building of each container (scrapping & 
 But the thing was, when you mount a volume, it erased the previous content in it.
 
 Let's take an example :
-When I mount the volume on the first service : 'scrapper', the the img is built and the dockerfile is executed.
-Inside this dockerfile, I copy the 'scrapping_data' folder into the volume as 'scrapping_data'
+When we mount the volume on the first service : 'scrapper', the img is built and the dockerfile is executed. Inside this dockerfile, we copy the 'scrapping_data' folder into the volume as 'scrapping_data'
+Then when we mount the volume on the 2nd service known as 'test', the 'scrapping_data' folder is erased and the volume content is now depending of what I'm doing in the dockerfile of this 2nd service.
 
-Then when I mount the volume on the 2nd service known as 'test', the 'scrapping_data' folder is erased and 
-the volume content is now depending of what I'm doing in the dockerfile of this 2nd service.
+<br>
 
-<br><br>
-The solution was to mount the same emty volume on each services.
+The solution was to mount the same empty volume on each services.
 The files are copied in the running app in dedicated folders. (ex: /app/scrapping_data)
 It is important to be able to access to those files/folder from the execution environement (ex : in he DockerOperator, to access to the python file to execute)
 Then, instead of executing python script with a CMD line in the dockerfile, we execute when needed, with the Airflow DockerOperator.
 The scripts are accountable of the copy and the write of mandatory / necessary files in the shared named volume (project_data).
 
-<br><br>
-
+<br>
 
 **Permission :**
 Another difficulty was to manage the permission to write in the docker volume from the dag. While using the Docker Operator in Airflow, it was not the same user in the DAG and in the launched container. This distinction was the source of this write issue. 
-
 To solve it, we decide to add a function to set permission in the main.py script in the scrapping_container, using os.chown() of python.
 
 <br>
@@ -154,9 +154,21 @@ To solve it, we decide to add a function to set permission in the main.py script
 
 <br>
 <img src="./images/2_ingestion_dag.jpeg" alt="ingestion_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<br><br>
+<br>
 
+The dag begins by creating the directory hierarchy within the Docker volume. It establishes separate dedicated paths for tropes and scripts to ensure a clean workspace for further processing. Then the tropes are saved in a .json file with their definition. 
+The DAG splits script ingestion into two parallel streams:
 
+- HTML Stream: Fetches raw text content from web-based scripts and saves them as text files.
+- PDF Stream: Downloads and stores script documents directly.
+
+#### Specific tools 
+
+to define
+
+#### Dificulties
+
+to define
 
 <br>
 <br>
@@ -168,7 +180,12 @@ To solve it, we decide to add a function to set permission in the main.py script
 
 <br>
 <img src="./images/3_load_local_data_dag.jpeg" alt="load_local_data_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<br>
+
+This third dag is dedicated to save some data in local, in order to ensure that we can run the pipeline offline (as expected).
 <br><br>
+The dag builds the required directory tree within the shared volume, creating organized storage paths for movie scripts (categorized by PDF and HTML formats) and narrative tropes. Once the infrastructure is ready, it duplicates the local raw data into these specific volume folders.
+<br> 
 
 
 <br>
@@ -195,7 +212,6 @@ To solve it, we decide to add a function to set permission in the main.py script
 <br>
 <img src="./images/5_production_dag.jpeg" alt="production_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br><br>
-
 
 
 ## Queries 
