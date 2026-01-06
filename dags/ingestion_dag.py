@@ -7,7 +7,6 @@ import requests
 import time
 import random as rd
 import json
-from bs4 import BeautifulSoup
 from lxml import html
 
 from airflow import DAG
@@ -88,142 +87,108 @@ with DAG(
 ) as dag:
     
     ### --Tools-- (python_callable)
-   
+
+    ## Tropes Part.
+    def _scrape_tropes_url(movie_url):
+        """Scrap all the tropes url of a movie."""
+        try:
+            response = requests.get(movie_url, timeout=10)
+            response.raise_for_status()
+        except Exception as e:
+            logging.error(f"Error with {movie_url}: {e}")
+            return []
+
+        tree = html.fromstring(response.content)
+        # Target url in the tropes list
+        elements = tree.xpath('//*[@id="mw-content-text"]/div/ul[1]/li/a')
+
+        tropes = []
+        for a in elements:
+            trope_name = a.text_content().strip()
+            trope_href = a.get("href")
+            
+            if not trope_href:
+                continue
+
+            # Be sure the URL is complete
+            base_url = "https://tropedia.fandom.com"
+            full_url = trope_href if trope_href.startswith("http") else base_url + trope_href
+
+            tropes.append({
+                "trope_name": trope_name,
+                "url": full_url
+            })
+        return tropes
     
 
+    def _scrape_trope_definition(trope_url):
+        """Scrape the definition of a trope."""
+        try:
+            response = requests.get(trope_url, timeout=10)
+            response.raise_for_status()
+            tree = html.fromstring(response.content)
+            
+            # Extraction of the first significant paragraph outside tables (infobox)
+            paragraphs = tree.xpath('//*[@id="mw-content-text"]/div/p[not(ancestor::table)]')
+            if paragraphs:
+                for p in paragraphs:
+                    text = p.text_content().strip()
+                    # Ignore empty or too short paragraphs
+                    if text and len(text) > 30:
+                        return text
+            logging.info(f"DDefinition not found for {trope_url}")
+        except Exception as e:
+            logging.error(f"Error of scraping: {str(e)}")
 
-
-
-
-    def _ingest_movies_tropes(volume_data_folder, source_name, path_output_file):  # path_input_file, path_output_file
+    
+    def _build_unique_tropes_definitions(volume_data_folder, source_name, final_output_json):
         """
-        Scrape tropes from Tropedia for each movie listed in the input CSV file.
-        Save the results in a JSON file with the following structure:
-        { movie_name: 
-            [ {trope, url}, ... ],
-            ...
-                }
+        1. Scrape trope data for all movies from the CSV.
+        2. Extract a unique list of tropes via a dictionary (unique key).
+        3. Scrape the definition of each unique trope.
+        4. Save everything in a JSON.
         """
-        logging.info(f"Starting scraping_tropes step")
-
+        
         df = _read_data_file_to_df(volume_data_folder=volume_data_folder, source_name=source_name)
-        results = {}
-        base = "https://tropedia.fandom.com"
+        # This dictionary guarantees that there are no duplicates : { "Nom": "URL" }
+        all_unique_tropes = {} 
 
-        for _, row in df.iterrows():
-            film = row["movie_name_conventioned"]
-            url = row["url"]
-
-            try:
-                response = requests.get(url, timeout=10)
-            except Exception as e:
-                logger.error(f"HTTP error for {url} : {e}")
-                results[film] = []
-                continue
-
-            soup = BeautifulSoup(response.text, "html.parser")
-            uls = soup.select("#mw-content-text > div ul") #
-
-            film_tropes = []
-
-            # Parse all the <ul> elements found
-            for ul in uls:
-                for li in ul.find_all("li", recursive=False):
-                    a = li.find("a")
-                    if a and a.get("href", "").startswith("/wiki/") and "class" not in a.attrs:
-                        trope_name = a.text.strip()
-
-                        if trope_name and not trope_name.startswith("Trope_"):
-                            film_tropes.append({
-                                "trope": trope_name,
-                                "url": base + a["href"]
-                            })
-
-            results[film] = film_tropes
-
-        with open(path_output_file, "w", encoding="utf-8") as f:
-            json.dump(results, f, indent=4, ensure_ascii=False)
-
-        logging.info(f"Finished scraping_tropes step")
-
-
-
-    def _ingest_tropes_definitions(path_input_file, path_output_file):
-        """
-        Scrape the definitions for each unique trope found in the movie_tropes_json file.
-        Save the results in a JSON file with the following structure:
-        {
-            "TropeName": {
-                "definition": "..."
-            },
-            ...
-        }
-        """
-
-        logging.info(f"Starting scrape_trope_definitions step")
-    
-        with open(path_input_file, "r", encoding="utf-8") as f:
-            films_data = json.load(f)
-
-        # --- Get all unique definitions ---
-        unique_tropes = {}  # {trope_name: url}
-
-        for film, tropes in films_data.items():
-            for t in tropes:
-                name = t["trope"]
-                url = t["url"]
-
-                if name not in unique_tropes:
-                    unique_tropes[name] = url
-
-
-        # --- Scrape definitions ---
-        trope_definitions = {}
-
-        for name, url in unique_tropes.items():
+        # STEP 1 : Collecting all unique tropes
+        logging.info(f"--- Phase 1 : Collecting unique tropes on {len(df)} movies ---")
+        for index, row in df.iterrows():
+            logging.info(f"[{index+1}/{len(df)}] Extraction for : {row['movie_name_conventioned']}")
+            movie_tropes = _scrape_tropes_url(row["url_tropedia"])
             
+            for t in movie_tropes:
+                # If the trope already exists, the dictionary does not create a new entry.
+                if t["trope_name"] not in all_unique_tropes:
+                    all_unique_tropes[t["trope_name"]] = t["url"]
+
+        logging.info(f"\nTotal number of unique tropes to scrape : {len(all_unique_tropes)}")
+
+        # STEP 2 : Scraping of definitions (one call per unique trope)
+        logging.info(f"--- Phase 2 : Scraping of definitions ---")
+        final_result = {}
+        count = 0
+        total = len(all_unique_tropes)
+
+        for name, url in all_unique_tropes.items():
+            count += 1
+            logging.info(f"[{count}/{total}] Scrapping definition : {name}")
+            definition = _scrape_trope_definition(url)
             
-            # Errors are handled by storing an empty definition
-            try:
-                resp = requests.get(url, timeout=10)
-            except:
-                trope_definitions[name] = {"url": url, "definition": ""}
-                continue
-
-            if resp.status_code != 200:
-                trope_definitions[name] = {"url": url, "definition": ""}
-                continue
-
-            soup = BeautifulSoup(resp.text, "html.parser")
-
-            content_div = soup.select_one("#mw-content-text > div")
-            definition_parts = []
-
-            # The definition is considered to be all <p> elements until the first <div> or table until the next first <div> or table
-            if content_div:
-                first_table = content_div.find("table")
-
-                if first_table:
-                    for sibling in first_table.next_siblings:
-                        if getattr(sibling, "name", None) == "div":
-                            break
-
-                        if getattr(sibling, "name", None) == "p":
-                            text = sibling.get_text(strip=True)
-                            if text and "There is currently no text in this page" not in text:
-                                definition_parts.append(text)
-
-            definition = " ".join(definition_parts)
-
-            trope_definitions[name] = {
+            final_result[name] = {
                 "definition": definition
             }
+           
+            time.sleep(0.1)
 
-        with open(path_output_file, "w", encoding="utf-8") as f:
-            json.dump(trope_definitions, f, indent=4, ensure_ascii=False)
+        # STEP 3 : Final saving
+        with open(final_output_json, "w", encoding="utf-8") as f:
+            json.dump(final_result, f, indent=4, ensure_ascii=False)
 
-        logging.info(f"Finished scrape_trope_definitions step")
-
+        logging.info(f"\nDone ! {len(final_result)} tropes saved in {final_output_json}")
+        return final_result
 
 
     ## HTML and PDF Part.
@@ -268,8 +233,7 @@ with DAG(
         # get the html content into the df
         df_html["content"] = df_html["url"].apply(_fetch_html_to_txt)
 
-
-        # iter on each row to get te row information (movie_name (to transform dans le ingestion_dag_2 btw) + html_content) (Need the 'source_name' variable to access to the column by their name)
+        # iter on each row to get te row information
         for index, row in df_html.iterrows():
             filename = row["filename"]
             file_path = os.path.join(HTML_DATA_FOLDER, filename)
@@ -313,110 +277,6 @@ with DAG(
             except Exception as e:
                 logging.error(f"_download_pdf - Error for {url}: {e}")
                 
-
-
-    def _scrape_tropes_url(movie_url):
-        """Scrap of tropes' url of a movie"""
-        try:
-            response = requests.get(movie_url, timeout=10)
-            response.raise_for_status()
-        except Exception as e:
-            logging.error(f"Error with {movie_url}: {e}")
-            return []
-
-        tree = html.fromstring(response.content)
-        # Target url in the tropes list
-        elements = tree.xpath('//*[@id="mw-content-text"]/div/ul[1]/li/a')
-
-        tropes = []
-        for a in elements:
-            trope_name = a.text_content().strip()
-            trope_href = a.get("href")
-            
-            if not trope_href:
-                continue
-
-            # Be sure the URL is complete
-            base_url = "https://tropedia.fandom.com"
-            full_url = trope_href if trope_href.startswith("http") else base_url + trope_href
-
-            tropes.append({
-                "trope_name": trope_name,
-                "url": full_url
-            })
-        return tropes
-
-
-    def _scrape_trope_definition(trope_url):
-        """Scrap of the definition of a specific trope."""
-        try:
-            response = requests.get(trope_url, timeout=10)
-            response.raise_for_status()
-            tree = html.fromstring(response.content)
-            
-            # Extraction of the first significant paragraph outside tables (infobox)
-            paragraphs = tree.xpath('//*[@id="mw-content-text"]/div/p[not(ancestor::table)]')
-            if paragraphs:
-                for p in paragraphs:
-                    text = p.text_content().strip()
-                    # Ignore empty or too short paragraphs
-                    if text and len(text) > 30:
-                        return text
-            logging.info(f"DDefinition not found for {trope_url}")
-        except Exception as e:
-            logging.error(f"Error of scraping: {str(e)}")
-
-
-    def _build_unique_tropes_definitions(volume_data_folder, source_name, final_output_json):
-        """
-        1. Scrape tous les films du CSV.
-        2. Extrait une liste unique de tropes via un dictionnaire (clé unique).
-        3. Scrape la définition de chaque trope unique.
-        4. Sauvegarde le tout dans un JSON.
-        """
-        
-        df = _read_data_file_to_df(volume_data_folder=volume_data_folder, source_name=source_name)
-        # This dictionary guarantees that there are no duplicates : { "Nom": "URL" }
-        all_unique_tropes = {} 
-
-        # STEP 1 : Collecting all unique tropes
-        logging.info(f"--- Phase 1 : Collecting unique tropes on {len(df)} movies ---")
-        for index, row in df.iterrows():
-            logging.info(f"[{index+1}/{len(df)}] Extraction for : {row['movie_name_conventioned']}")
-            movie_tropes = _scrape_tropes_url(row["url_tropedia"])
-            
-            for t in movie_tropes:
-                # If the trope already exists, the dictionary does not create a new entry.
-                if t["trope_name"] not in all_unique_tropes:
-                    all_unique_tropes[t["trope_name"]] = t["url"]
-
-        logging.info(f"\nTotal number of unique tropes to scrape : {len(all_unique_tropes)}")
-
-        # STEP 2 : Scraping of definitions (one call per unique trope)
-        logging.info(f"--- Phase 2 : Scraping of definitions ---")
-        final_result = {}
-        count = 0
-        total = len(all_unique_tropes)
-
-        for name, url in all_unique_tropes.items():
-            count += 1
-            logging.info(f"[{count}/{total}] Scrapping definition : {name}")
-            definition = _scrape_trope_definition(url)
-            
-            final_result[name] = {
-                "definition": definition
-            }
-            # Pause de sécurité pour respecter le serveur
-            time.sleep(0.1)
-
-        # STEP 3 : Final saving
-        with open(final_output_json, "w", encoding="utf-8") as f:
-            json.dump(final_result, f, indent=4, ensure_ascii=False)
-
-        logging.info(f"\nDone ! {len(final_result)} tropes saved in {final_output_json}")
-        return final_result
-
-
 
     ### --Task--
     ## Volume mkdir tasks
@@ -474,29 +334,7 @@ with DAG(
         dag=dag
     )
 
-    # ingest_movies_tropes = PythonOperator(
-    #     task_id="ingest_movies_tropes",
-    #     python_callable=_ingest_movies_tropes, # volume_data_folder, source_name, path_output_file
-    #     op_args=[
-    #         SCRAPPING_DATA_FOLDER, 
-    #         "ingestion_tropes", 
-    #         os.path.join(TROPES_INGESTION_DATA_FOLDER, "movie_tropes.json")
-    #     ], 
-    #     dag=dag
-    # )
-
-    # ingest_tropes_definitions = PythonOperator(
-    #     task_id="ingest_tropes_definitions",
-    #     python_callable=_ingest_tropes_definitions,
-    #     # input = movies.json , output = movies.json
-    #     op_args=[
-    #         os.path.join(TROPES_INGESTION_DATA_FOLDER, "movie_tropes.json"),
-    #         os.path.join(TROPES_INGESTION_DATA_FOLDER, "tropes.json")
-    #     ], 
-    #     dag=dag
-    # )
-
-
+ 
     ## Script tasks - HTML and PDF 
     extract_and_save_html_content = PythonOperator(
         task_id="extract_and_save_html_content",

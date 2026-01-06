@@ -291,7 +291,7 @@ with DAG(
 
         # For tropes data
         df_tropes = df[df["is_on_tropedia"] == True]
-        df_tropes = df_tropes.drop(columns=["tropedia_name", "scrapping_url", "scrapping_url_extension"]) # WARNING : REMOVE THE COLUMN 
+        df_tropes = df_tropes.drop(columns=["tropedia_name", "url", "url_extension"]) # WARNING : REMOVE THE COLUMN 
         # Save this new dataframe
         tropes_saved = False 
         while not tropes_saved == True :

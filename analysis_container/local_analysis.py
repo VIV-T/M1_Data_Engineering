@@ -69,10 +69,24 @@ def get_all_movies() :
     movies = movies_collection.find({}, {"full_script" : 0})
 
     
-    logger.info("Data retrieval successful !")
+    logger.info("Movies data retrieval successful !")
     
     return movies
 
+
+def get_all_tropes():
+    _check_connection_mongoDB()
+    scripts_db = _connect_mongoDB()
+
+    tropes_collection = scripts_db["tropes"]
+
+    # Note : we don't need the "full_script" field
+    tropes = tropes_collection.find({})
+
+    
+    logger.info("Tropes data retrieval successful !")
+    
+    return tropes
 
 # Store all the scene in a df (or a pyspark object)
 # Pyspark friendly (1 row = 1 scene of 1 movie)
@@ -164,7 +178,7 @@ def _generate_response(model, tokenizer, scene_content, retrieved_tropes):
         model=model,
         tokenizer=tokenizer,
         max_new_tokens=256,
-        temperature=0.3
+        temperature=0
     )
     response = pipe(prompt)[0]["generated_text"]
 
@@ -174,7 +188,7 @@ def _generate_response(model, tokenizer, scene_content, retrieved_tropes):
     with open(output_path, "w") as f:
         f.write(response)
     
-    
+
     return response
 
 
@@ -209,8 +223,9 @@ def main_local_analysis() :
     
     logger.info("Local analysis started !")
 
-    # get all the movie data
+    # get all the movie data & tropes data
     movies = get_all_movies()
+    tropes = get_all_tropes()
 
     # format the data into a dataframe pandas
     df_formated = format_data(movies=movies)
@@ -231,12 +246,17 @@ def main_local_analysis() :
         .master("local[*]") \
         .getOrCreate()
 
+    logger.info("Spark Session initialized")
+
     spark_df = spark.createDataFrame(df_formated)
     # Note : modify the defined function applied to the spark_df (incompletes)
     spark_df = spark_df.withColumn("scene_content_embeded", embed_scene_content(scene_content=spark_df["scene_content"], model_embedding=model_embedding))
+    logger.info("All scene content embedded")
     # to modify : value of k ? , and tropes_db variables (how to manage tropes retrieval ?)
-    spark_df = spark_df.withColumn("similar_tropes", similarity_calculation(text_embedding=spark_df["scene_content_embeded"], index=index, tropes_db=None , k=3))
+    spark_df = spark_df.withColumn("similar_tropes", similarity_calculation(text_embedding=spark_df["scene_content_embeded"], index=index, tropes_db=tropes , k=3))
+    logger.info("Tropes retrieved for each scene")
     spark_df = spark_df.withColumn("LLM_output", llm_verification(model=model, tokenizer=tokenizer, scene_content=spark_df["scene_content"], retrieved_tropes=spark_df["similar_tropes"]))
+    logger.info("LLM Check ended.")
 
     # depending on how the last output is defined, what's next ?
     # Result formating
