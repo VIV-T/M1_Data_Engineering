@@ -96,6 +96,33 @@ On the Tropedia wiki, the definition of tropes is provided in several paragraphs
 <br>
 <br>
 
+##Architecture 
+
+### Global architecture
+Describe the general architecture : explain what are the different DAGs, how they interact between each other (shared volume : project_data).
+Explain the design choices : why using a scrapping DAG ? How the project_data volume is structured ? How the dockerc compose is built (which services ? why ?)? What is the project architecture (folder path) ? etc...?
+
+Folder architecture : 
+Here is the simplified folder architecture of the project.
+
+<br>
+<img src="./images/architecture.png" alt="architecture" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<br>
+
+DAG architecture : <br>
+We choose to build at least one DAG per part of the Data engineering classical schema (cf. schema - add the image to the report). Then, we have a DAG for the ingestion of the data, the stagging phase and then for the production & analysis phase. We decide to add other DAG to segment the code, to keep a clear organization of the pipeline and of the different processes used. Here are the list of all our DAGs : 
+    - scrapping_dag.py : to scrap data about data sources. Necessary to execute it before the ingestion_dag.py.
+    - ingestion_dag.py : to ingest the data from the different sources.
+    - stagging_dag.py : to clean the data and extract content from the raw data when needed.
+    - ...
+
+We also choose to add to the DAG's folder an other python script : shared_operators.py. This script contains a list of functions (operators) used by different DAGs. 
+
+<br>
+<img src="./images/diagram.png" alt="diagram" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<br>
+
+
 ### DAG 1 : scrapping DAG
 
 #### General presentation
@@ -252,35 +279,7 @@ Again, using those specific tools required a dedicated container to isolate the 
 <br>
 <hr>
 
-## Architecture 
 
-### Global architecture
-Describe the general architecture : explain what are the different DAGs, how they interact between each other (shared volume : project_data).
-Explain the design choices : why using a scrapping DAG ? How the project_data volume is structured ? How the dockerc compose is built (which services ? why ?)? What is the project architecture (folder path) ? etc...?
-
-Folder architecture : 
-Here is the simplified folder architecture of the project.
-
-<br>
-<img src="./images/architecture.png" alt="architecture" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<br>
-
-DAG architecture : <br>
-We choose to build at least one DAG per part of the Data engineering classical schema (cf. schema - add the image to the report). Then, we have a DAG for the ingestion of the data, the stagging phase and then for the production & analysis phase. We decide to add other DAG to segment the code, to keep a clear organization of the pipeline and of the different processes used. Here are the list of all our DAGs : 
-    - scrapping_dag.py : to scrap data about data sources. Necessary to execute it before the ingestion_dag.py.
-    - ingestion_dag.py : to ingest the data from the different sources.
-    - stagging_dag.py : to clean the data and extract content from the raw data when needed.
-    - ...
-
-We also choose to add to the DAG's folder an other python script : shared_operators.py. This script contains a list of functions (operators) used by different DAGs. 
-
-Execution order : (DAGs)
-Precise it.
-
-
-<br>
-<br>
-<br>
 
 
 
