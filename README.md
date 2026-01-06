@@ -7,31 +7,40 @@ Project [DATA Engineering](https://www.riccardotommasini.com/courses/dataeng-ins
 
 Students: JOUENNE Maia, TRON Baptiste, VIVIER Thibault
 
-### Abstract
+## Abstract
 
+### Objectives 
 
-## Objectives 
+The main idea behind this project is to create an AI model able to identify the tropes used in a movie script. We are also going to perform some statistics about the scripts ( eg. average number of scenes per script ).
+<br>
 
-The main idea behind this project is to learn how to implement a data pipeline from the sources of data to the production and analysis. It is also mandatory to use Airflow, a tool presented in class to realize this pipeline. Any other technology is welcome if their use could be justified in the context of the project. We will have to present the used technology, their pros and cons, and the specificities of each tool regarding the data, the state of the project and the other existing tools.
+**Some vocabulary :** 
+<br>
 
-The purpose of the project is also to show our ability to deploy technical tools and answer to a professional use case of data engineering.
+The Cambridge online dictionary define a "Trope" as follow : *Trope* , noun : something such as an idea, phrase, or image that is often used in a particular artist's work, in a particular type of art, in a media, etc.	
+<br><br>
+Our definition : a trope is a recurring narrative conventions or schema used in storytelling. They are tools used by a writter. Tropes can be applied to almost everything : plot, characters, devices, themes, etc. 
+<br>
 
-This project is an opportunity as a student to develop our skills in different fields like the development & coding, the architecture & conception of complex data flow, the implementation & deployment of this data flow, and the research and use of new tools depending on our needs.
+Example : 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Human-like robots is a classic Science Fiction tropes. You can find it in : Ex-Machina or Blade Runner.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The vilan protagonist : a plot which implies that the protagonist followed is or become a vilain among the story. You can find it in : Breaking Bad or Night Call (NightCrawler)
 
-This project is done only with educational purpose.
+<br>
+<img src="./images/poster_quoted_movies.png" alt="PosterQuotedMovies" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 
-
-
-
+<br><br><br>
 
 ## Datasets Description 
-### Data source introduction
+
 <br>
 
 **Script slug :** https://www.scriptslug.com/scripts/medium/film?sort=az
 <br>
 
-Script Slug is a popular online resource for screenwriters, especially those interested in animation and film. The site offers a growing library of original screenplays from major studios like Netflix, HBO, and Marvel, allowing users to study professional scripts for structure, pacing, and dialogue. It’s widely used by aspiring writers to improve their own screenwriting skills by reading and analyzing industry-standard scripts. Script Slug also provides educational tips and resources for animation screenwriting. The scripts are downloadable in pdf.
+Script Slug offers educational resources for screenwriters. The site offers free access to a huge database of movie and television series scripts in PDF format.
 
 <br>
 <img src="./images/script_slug_website.png" alt="ScriptSlugWebsite" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
@@ -47,86 +56,183 @@ IMSDb (Internet Movie Script Database) is a well-known online repository offerin
 <img src="./images/imsdb_website.png" alt="ImsDBWebsite" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br><br><br>
 
-**All the tropes (Wiki) :** https://allthetropes.org/wiki
-<br>
-
-AllTheTropes is a community-driven wiki dedicated to cataloging and explaining storytelling tropes—recurring themes, devices, and conventions—found in movies, TV shows, books, video games, and other media. Unlike other trope databases, AllTheTropes is open and collaborative, allowing anyone to contribute or edit entries. It serves as a valuable resource for writers, critics, and fans seeking to understand, analyze, or avoid clichés in storytelling. The site is especially useful for exploring how tropes evolve and are used across different genres and cultures.
+**Tropedia (Wiki) :** https://tropedia.fandom.com/wiki/Tropedia
 
 <br>
-<img src="./images/all_the_tropes_website.png" alt="AllTheTropesWebsite" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+
+Tropedia is a community-edited wiki website dedicated to discussing Creators, Works, and Tropes -- the people, projects and patterns of creative writing in all kinds of entertainment: television, literature, movies, video games, and more.
+
+<br>
+<img src="./images/Tropedia_home_page.png" alt="Tropedia-Homepage" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br><br><br>
 
-**Some vocabulary :** 
-<br>
+## Data description
 
-The Cambridge online dictionary define a "Trope" as follow :
-Trope, noun : something such as an idea, phrase, or image that is often used in a particular artist's work, in a particular type of art, in a media, etc.	Comparer : cliché.
-<br>
-
-Our definition : a trope is a recurring narrative conventions or schema used in storytelling. They are tools used by a writter. Tropes can be applied to almost everything : plot, characters, devices, themes, etc. 
-<br>
-
-Example : 
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Human-like robots is a classic Science Fiction tropes. You can find it in : Ex-Machina or Blade Runner.
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The vilan protagonist : a plot which implies that the protagonist followed is or become a vilain among the story. You can find it in : Breaking Bad or Night Call (NightCrawler)
-
-<br>
-<img src="./images/poster_quoted_movies.png" alt="PosterQuotedMovies" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
-
-<br><br><br>
-
-### Purpose
-
-Let's say it, we want to try to build an AI agent able to help a young writter to write his first script. The idea is NOT to automatize the script creation but to provide ideas, example and draft to the user to help him during his writting session.
-<br>
-It's beautiful, but... it is very ambitious. That's why our first objective is to try to buildt an AI model able to identify properly the tropes used in a movie script.
-
-
-### Data description
-
-#### Scripts
+### Scripts
 **PDF**
 <br>
 On the Scriptslug website, the movie scripts are available on PDF format. Those PDF files are often scanned pages or brut text. To extract the text content of those files, we will use an OCR (Optical Character Recognition) tool. 
 
 <br>
 <img src="./images/pdf_script_example.png" alt="PdfScriptExample" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
-
-<br><br><br>
+<br>
 
 **HTML**
 <br>
 On the ImsDB website, the movie scripts are available on HTML pages. It is possible to get the content of those pages, but it requires some cleaning to get the text content, with dedicated tools.
-
 <br>
 <img src="./images/html_script_example.png" alt="HtmlScriptExample" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 
-<br><br><br>
+<br><br>
 
-#### Tropes data
+### Tropes data
+<br>
 
-To fill, by B.
+On the Tropedia wiki, the definition of tropes is provided in several paragraphs. Since Tropedia does not consist only of tropes taken from movies, we have only included tropes from movies for which we have the scripts.
+
+<img src="./images/tropes_example.png" alt="trope-example" style="width:70%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+
+<br>
+<br>
+<br>
+
+### DAG 1 : scrapping DAG
+
+#### General presentation
+
+<br>
+<img src="./images/1_scrapping_dag.jpeg" alt="scrapping_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<br>
+
+Our first Airflow DAG is dedicated to scrap information about the data from sources to prepare the data ingestion. This DAG allow us to get list of links, names, and merge information of the different data sources to define the range of the data ingestion (to avoid to scrap useless data, something essential regarding the cost of execution - time). This scrapping DAG requires specific tools which are Selenium and Chrome Browser.
+<br><br>
+The DAG starts by using a DockerOperator to launch a Container dedicated to the scrapping. The data scrapped are then send to a Docker Volume : project_data, shared with the other DAGs (to be able to access to the data from the different DAGs), This container collect movie scripts information from ImsDB and ScriptSlug. We then clean the data and use a standard naming format to combine these sources into a single CSV file.
+Next, the pipeline searches for these specific films on Tropedia in order to find the tropes associated with them, checking whether Tropedia contains a page with information about the film. This ensures we only collect tropes for the scripts we actually have. Finally, the system creates two clean CSV files: one containing the script details and the other containing the tropes, both ready to be used in the ingestion part.
+
+<br>
+
+#### Specific tools 
+
+Selenium : This is an Open source tool used for web navigation automatization. It is mainly used for web scrapping, like in this project. This tool can be used in python.
+
+ChromeBrowser : Need to be installed to use Selenium, because Selenium is not a web browser but it drives a web browser to navigate.
+
+To use thoses specific tools, we decide to build an exclusive image with required dependencies, instead of installing everything on the computer. This is a better practice and working with docker images is the best way to replicate the project and avoid versioning & OS problems (cf. Docker presentation).
+
+<br>
+
+#### Difficulties
+**Volume management :** to handle multi-container writting
+The volume was mounted each time at the building of each container (scrapping & stagging), and the file were written or copied into it during the building phase (replacing existing files in the volume).
+But the thing was, when you mount a volume, it erased the previous content in it.
+
+Let's take an example :
+When we mount the volume on the first service : 'scrapper', the img is built and the dockerfile is executed. Inside this dockerfile, we copy the 'scrapping_data' folder into the volume as 'scrapping_data'
+Then when we mount the volume on the 2nd service known as 'test', the 'scrapping_data' folder is erased and the volume content is now depending of what I'm doing in the dockerfile of this 2nd service.
+
+<br>
+
+The solution was to mount the same empty volume on each services.
+The files are copied in the running app in dedicated folders. (ex: /app/scrapping_data)
+It is important to be able to access to those files/folder from the execution environement (ex : in he DockerOperator, to access to the python file to execute)
+Then, instead of executing python script with a CMD line in the dockerfile, we execute when needed, with the Airflow DockerOperator.
+The scripts are accountable of the copy and the write of mandatory / necessary files in the shared named volume (project_data).
+
+<br>
+
+**Permission :**
+Another difficulty was to manage the permission to write in the docker volume from the dag. While using the Docker Operator in Airflow, it was not the same user in the DAG and in the launched container. This distinction was the source of this write issue. 
+To solve it, we decide to add a function to set permission in the main.py script in the scrapping_container, using os.chown() of python.
+
+<br>
+<br>
+<br>
+
+### DAG 2 : ingestion DAG
+
+#### General presentation
+
+<br>
+<img src="./images/2_ingestion_dag.jpeg" alt="ingestion_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<br>
+
+The dag begins by creating the directory hierarchy within the Docker volume. It establishes separate dedicated paths for tropes and scripts to ensure a clean workspace for further processing. Then the tropes are saved in a .json file with their definition. 
+The DAG splits script ingestion into two parallel streams:
+
+- HTML Stream: Fetches raw text content from web-based scripts and saves them as text files.
+- PDF Stream: Downloads and stores script documents directly.
+
+#### Specific tools 
+
+to define
+
+#### Dificulties
+
+to define
+
+<br>
+<br>
+<br>
+
+### DAG 3 : load local data DAG
+
+#### General presentation
+
+<br>
+<img src="./images/3_load_local_data_dag.jpeg" alt="load_local_data_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<br>
+
+This third dag is dedicated to save some data in local, in order to ensure that we can run the pipeline offline (as expected).
+<br><br>
+The dag builds the required directory tree within the shared volume, creating organized storage paths for movie scripts (categorized by PDF and HTML formats) and narrative tropes. Once the infrastructure is ready, it duplicates the local raw data into these specific volume folders.
+<br> 
+
+
+<br>
+<br>
+<br>
+
+
+### DAG 4 : stagging DAG
+
+#### General presentation
+
+<br>
+<img src="./images/4_stagging_dag.jpeg" alt="stagging_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<br><br>
+
+<br>
+<br>
+<br>
+
+### DAG 5 : production DAG
+
+#### General presentation
+
+<br>
+<img src="./images/5_production_dag.jpeg" alt="production_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<br><br>
+
+
+## Queries 
+
+## Requirements
+
+## Note for Students
+
+* Clone the created repository offline;
+* Add your name and surname into the Readme file and your teammates as collaborators
+* Complete the field above after project is approved
+* Make any changes to your repository according to the specific assignment;
+* Ensure code reproducibility and instructions on how to replicate the results;
+* Add an open-source license, e.g., Apache 2.0;
+* README is automatically converted into pdf
 
 <br>
 <br>
 <br>
 <br>
-
-## Main tools introduction
-
-### Docker
-general presentation : refer to the lectures.
-precise the use in this context.
-
-### Airflow
-general presentation : refer to the lectures.
-precise the use in this context.
-
-### MongoDB
-general presentation : refer to the lectures.
-precise the use in this context.
+<hr>
 
 ## Architecture 
 
@@ -208,127 +314,5 @@ Volume architecture :
 <br>
 <br>
 
-### DAG 1 : scrapping DAG
 
-#### General presentation
-
-<br>
-<img src="./images/scrapping_dag.png" alt="scrapping_dag" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<br><br>
-
-Our first Airflow DAG is dedicated to scrap information about the data from sources to prepare the data ingestion. This DAG allow us to get list of links, names, and merge information of the different data sources to define the range of the data ingestion (to avoid to scrap useless data, something essential regarding the cost of execution - time). This scrapping DAG requires specific tools which are Selenium and Chrome Browser. 
-<br><br>
-Due to those particular requirements (and also because it's challenging), we decide to use a DockerOperator in Airflow to launch a Container dedicated to the scrapping. The data scrapped are then send to a Docker Volume : project_data, shared with the other DAGs (to be able to access to the data from the different DAGs).
-<br><br>
-
-#### Specific tools 
-Selenium : This is an Open source tool used for web navigation automatization. It is mainly used for web scrapping, like in this project. This tool can be used in python.
-
-ChromeBrowser : Need to be installed to use Selenium, because Selenium is not a web browser but it drives a web browser to navigate.
-
-To use thoses specific tools, we decide to build an exclusive image with required dependencies, instead of installing everything on the computer. This is a better practice and working with docker images is the best way to replicate the project and avoid versioning & OS problems (cf. Docker presentation).
-<br><br>
-
-#### Difficulties
-**Volume management :** to handle multi-container writting
-The volume was mounted each time at the building of each container (scrapping & stagging), and the file were written or copied into it during the building phase (replacing existing files in the volume).
-But the thing was, when you mount a volume, it erased the previous content in it.
-
-Let's take an example :
-When I mount the volume on the first service : 'scrapper', the the img is built and the dockerfile is executed.
-Inside this dockerfile, I copy the 'scrapping_data' folder into the volume as 'scrapping_data'
-
-Then when I mount the volume on the 2nd service known as 'test', the 'scrapping_data' folder is erased and 
-the volume content is now depending of what I'm doing in the dockerfile of this 2nd service.
-
-<br><br>
-The solution was to mount the same emty volume on each services.
-The files are copied in the running app in dedicated folders. (ex: /app/scrapping_data)
-It is important to be able to access to those files/folder from the execution environement (ex : in he DockerOperator, to access to the python file to execute)
-Then, instead of executing python script with a CMD line in the dockerfile, we execute when needed, with the Airflow DockerOperator.
-The scripts are accountable of the copy and the write of mandatory / necessary files in the shared named volume (project_data).
-
-<br><br>
-
-
-**Permission :**
-Another difficulty was to manage the permission to write in the docker volume from the dag. While using the Docker Operator in Airflow, it was not the same user in the DAG and in the launched container. This distinction was the source of this write issue. 
-
-To solve it, we decide to add a function to set permission in the main.py script in the scrapping_container, using os.chown() of python.
-
-
-
-
-<br>
-<br>
-<br>
-
-### DAG 2 : ingestion DAG
-
-#### General presentation
-
-<br>
-<img src="./images/ingestion_dag.png" alt="ingestion_dag" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
-<br><br>
-
-Present fastly what the DAG is doing, which specific tools are used and what are the specificity of this DAG ?
-
-
-#### Specific tools 
-is there any specific tools in this DAG ?
-
-#### Detailled operations
-Let's have a look on each steps...
-
-
-#### Difficulties
-What was the hardiest things ? Why ? How we surpass them ?
-
-
-<br>
-<br>
-<br>
-
-### DAG 3 : stagging DAG
-
-#### General presentation
-
-**logical schema img** => take a screenshot of the DAG in Airflow
-
-Present fastly what the DAG is doing, which specific tools are used and what are the specificity of this DAG ?
-
-
-#### Specific tools 
-OCR : pytesseract.
-
-Html cleaning dedicated tools ?
-
-
-#### Detailled operations
-Let's have a look on each steps...
-
-
-#### Difficulties
-What was the hardiest things ? Why ? How we surpass them ?
-
-
-
-<br>
-<br>
-<br>
-<br>
-
-## Queries 
-
-## Requirements
-
-## Note for Students
-
-* Clone the created repository offline;
-* Add your name and surname into the Readme file and your teammates as collaborators
-* Complete the field above after project is approved
-* Make any changes to your repository according to the specific assignment;
-* Ensure code reproducibility and instructions on how to replicate the results;
-* Add an open-source license, e.g., Apache 2.0;
-* README is automatically converted into pdf
 

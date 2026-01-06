@@ -8,6 +8,8 @@ import glob
 from airflow import DAG
 from airflow.providers.docker.operators.docker import DockerOperator
 from airflow.providers.standard.operators.python import PythonOperator
+from airflow.operators.empty import EmptyOperator
+
 from datetime import timedelta
 
 from shared_operators import _create_collection, _volume_mkdir, _connect_mongoDB, _save_data_file_to_csv, _read_data_file_to_df
@@ -128,10 +130,12 @@ with DAG(
         dag=dag
     )
 
+    end = EmptyOperator(task_id="end")
+
 
     # --Graph--
     volume_mkdir_ingestion_data >> [volume_mkdir_ingestion_data_scripts , volume_mkdir_ingestion_data_tropes] 
-    volume_mkdir_ingestion_data_scripts >> [volume_mkdir_ingestion_data_pdf, volume_mkdir_ingestion_data_html] >> duplicate_scripts_to_volume
+    volume_mkdir_ingestion_data_scripts >> [volume_mkdir_ingestion_data_pdf, volume_mkdir_ingestion_data_html] >> duplicate_scripts_to_volume >> end
 
 
 

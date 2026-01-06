@@ -12,6 +12,8 @@ from bs4 import BeautifulSoup
 from airflow import DAG
 from airflow.providers.docker.operators.docker import DockerOperator
 from airflow.providers.standard.operators.python import PythonOperator
+from airflow.operators.empty import EmptyOperator
+
 from datetime import timedelta
 
 from shared_operators import _read_data_file_to_df, _save_data_file_to_csv
@@ -409,8 +411,11 @@ with DAG(
         dag=dag
     )
 
+    end = EmptyOperator(task_id="end")
+
+
     ### --Graph--
     launch_scrapper_container >> \
     [apply_naming_convention_to_script_slug_data, apply_naming_convention_to_imsdb_data] >> \
     merge_scrapped_data >> filename_column_creation >> \
-    apply_formatting >> is_on_tropedia >> clean_csv
+    apply_formatting >> is_on_tropedia >> clean_csv >> end
