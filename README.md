@@ -1,9 +1,9 @@
-# DataEng 2024 Template Repository
+# Very Bad Script - Project [DATA Engineering](https://www.riccardotommasini.com/courses/dataeng-insa-ot/) is provided by [INSA Lyon](https://www.insa-lyon.fr/).
+
 
 <img src="./images/logo-insa_0.png" alt="INSALogo" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br>
 
-Project [DATA Engineering](https://www.riccardotommasini.com/courses/dataeng-insa-ot/) is provided by [INSA Lyon](https://www.insa-lyon.fr/).
 
 Students: JOUENNE Maia, TRON Baptiste, VIVIER Thibault
 
@@ -96,6 +96,39 @@ On the Tropedia wiki, the definition of tropes is provided in several paragraphs
 <br>
 <br>
 
+## Architecture 
+
+### Global architecture
+ (shared volume : project_data).
+Explain the design choices : why using a scrapping DAG ? How the project_data volume is structured ? How the dockerc compose is built (which services ? why ?)? What is the project architecture 
+
+Folder architecture : 
+
+Here is the simplified folder architecture of the project.
+
+<br>
+<img src="./images/architecture.png" alt="architecture" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<br>
+
+DAG architecture : <br>
+We choose to build at least one DAG per part of the Data engineering classical schema. Then, we have a DAG for the ingestion of the data, the stagging phase and then for the production & analysis phase. We decide to add other DAG to segment the code, to keep a clear organization of the pipeline and of the different processes used. Here are the list of all our DAGs : <br> 
+
+    - scrapping_dag.py : to scrap data about data sources. Necessary to execute it before the ingestion_dag.py. 
+    - ingestion_dag.py : to ingest the data from the different sources. 
+    - load_local_data_dag.py : to save some data in the docker volume from the local storage. 
+    - stagging_dag.py : to clean the data and extract content from the raw data + script segmentation. 
+    - production_dag.py : performing scripts and scenes analysis to find relevant tropes.
+
+We also choose to add to the DAG's folder two other python script : <br>
+
+    - shared_operators.py. This script contains a list of functions (operators) used by different DAGs. 
+    - segmentation.py. This script contain functions used for the segmentation of the scripts, we will explain how it works later.
+
+<br>
+<img src="./images/diagram.png" alt="diagram" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<br>
+
+
 ### DAG 1 : scrapping DAG
 
 #### General presentation
@@ -175,7 +208,7 @@ The DAG splits script ingestion into two parallel streams:
 <img src="./images/3_load_local_data_dag.jpeg" alt="load_local_data_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br>
 
-This third dag is dedicated to save some data in local, in order to ensure that we can run the pipeline offline (as expected).
+This third dag is dedicated to save some data in the docker volume from the local storage, in order to ensure that we can run the pipeline offline (as expected).
 <br><br>
 The dag builds the required directory tree within the shared volume, creating organized storage paths for movie scripts (categorized by PDF and HTML formats) and narrative tropes. Once the infrastructure is ready, it duplicates the local raw data into these specific volume folders.
 <br> 
@@ -193,6 +226,87 @@ The dag builds the required directory tree within the shared volume, creating or
 <br>
 <img src="./images/4_stagging_dag.jpeg" alt="stagging_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br><br>
+This DAG corresponds to the staging phase of the pipeline. The goal is to transform the raw ingested data (HTML scripts, PDF scripts, and tropes) into clean and usable data that we then store in MongoDB.
+
+<br>
+
+The DAG starts by creating the required directory structure inside the shared Docker volume project_data. These folders are used to store logs and processed scripts during the staging process.
+
+<br>
+
+Once the folders are ready, the DAG launches a dedicated staging container. This container executes the script stagging_main.py, which handles all the staging logic.
+
+Inside the staging container, two main processing pipelines are executed:
+
+<br>
+
+1. **HTML scripts cleaning**
+   
+Scripts collected in HTML format during the ingestion phase are cleaned to remove unnecessary elements such as menus, navigation blocks, and repeated headers. The cleaned text is then saved as .txt files in the staging directory.
+
+<br>
+
+2. **PDF scripts OCR extraction**
+   
+Scripts collected as PDF files are processed using an OCR pipeline. Each PDF is converted into images, and then text is extracted page by page using OCR tools. The extracted text is saved as .txt files in the same staging directory.
+
+<br>
+
+After that task is completed, it inserts the staged data into 2 collections in MongoDB:
+
+- **Scripts collection**: one document per movie, containing the full cleaned script text.
+
+<br>
+
+- **Tropes collection**: one document per trope, containing its name and definition.
+
+Finally, the DAG executes a segmentation step. This step processes the cleaned scripts and splits them into smaller logical units (for example scenes or narrative blocks). This segmentation prepares the data for the production and analysis phases.
+
+<br>
+
+#### Specific tools
+##### OCR (PDF to text)
+The OCR pipeline is implemented using:
+
+- **pdf2image** to convert PDF pages into images
+
+- **pytesseract** to extract text from images
+
+The extraction is done page by page to limit memory usage and reduce execution costs.
+
+<br>
+
+##### HTML cleaning
+HTML scripts are cleaned using:
+
+- **lxml.html**
+
+- **Cleaner** from lxml_html_clean
+
+These tools remove irrelevant HTML content and keep only the useful script text. A specific marker (ALL SCRIPTS) is used to remove unwanted sections that appear because of the scrapping.
+
+<br>
+
+##### Segmentation
+The segmentation step processes all staged scripts and splits them into smaller textual units. This step is executed through a dedicated Python function and prepares the scripts for further analysis and production workflows (to be able to analyze each tropes per scene).
+
+<br>
+
+##### MongoDB
+MongoDB is used as the main storage system for staged data. Two collections are created:
+
+- movies: containing the full text of each movie script
+
+- tropes: containing trope names and definitions
+
+<br>
+
+#### Difficulties
+**RAM issues :** To use the OCR we had to read the pages of the PDf files as image, using the **pdf2image** python package. But those images are stored in the RAM, in a python variable. The issue is that it took lot of spaces, and we ran out of RAM many times before implementing an optimization. 
+
+<br>
+
+The solution was to process the pages one by one : it means extracting the content of a page and delete it from the RAM before processing the next one. It can be considered as time consuming, but it is better to have a long execution time that a code which do not work at all...
 
 <br>
 <br>
@@ -242,95 +356,93 @@ Again, using those specific tools required a dedicated container to isolate the 
 <br>
 <br>
 
+---
+## Analysis Dashboard
 
-## Queries 
+A simple Streamlit dashboard was developed to provide a global overview of the data produced by the pipeline. 
 
-## Requirements
+The dashboard displays **basic statistics** such as 
+- Total number of movie scripts
+- Total number of words across all scripts
+- Average number of words per script
+- Longest movie script (based on word count)
+- Total number of tropes
+
+The dashboard also includes an **exploration section** that allows the user to:
+- Select a movie from a searchable dropdown list
+- Display the total number of words for the selected script
+- Preview the beginning of the script (first 2000 characters)
+
+The goal is to show the main tropes associated with the movie when you select it.
+
+---
+## How to launch the project
+
+### Requirements
+- Docker and Docker Compose installed  
+  https://docs.docker.com/desktop/
+
+(Optional)  
+- Streamlit installed (only required to run the dashboard locally)  
+  https://docs.streamlit.io/get-started/installation
+
+
+
+### Launch instructions
+
+1. **Clone the project**
+```bash
+git clone https://github.com/VIV-T/M1_Data_Engineering.git
+```
+
+2. **Go to the project root directory**
+```bash
+cd M1_Data_Engineering
+```
+
+3. **Build and start all Docker services**
+```bash
+docker compose up -d --build
+```
+It can take some time.
+
+4. **Access Airflow**
+- Open your browser  
+- Go to: http://localhost:8080  
+- Login with the default credentials :
+  - username: `airflow`
+  - password: `airflow`
+
+5. **Trigger the DAGs**
+Depending on the execution context, two workflows are possible:
+
+**Online workflow**
+   1. `scrapping_dag`
+   2. `ingestion_dag`(
+   3. `load_local_data_dag` (*Optionnal*)
+   4. `stagging_dag` 
+   5. `production_dag`
+
+**Offline workflow**
+   1. `load_local_data_dag`
+   2. `stagging_dag` 
+   3. `production_dag`
+
+Each DAG must finish successfully before launching the next one.
+
+
+6. **(Optional) Launch the Streamlit dashboard**
+```bash
+streamlit run streamlit_app.py
+```
+
 
 <br>
 <br>
 <br>
 <hr>
 
-## Architecture 
 
-### Global architecture
-Describe the general architecture : explain what are the different DAGs, how they interact between each other (shared volume : project_data).
-Explain the design choices : why using a scrapping DAG ? How the project_data volume is structured ? How the dockerc compose is built (which services ? why ?)? What is the project architecture (folder path) ? etc...?
-
-Folder architecture : 
-Here is the simplified folder architecture of the project.
-
-M1_DATA_ENGINEERING
-  |_dags
-      |_scrapping_dag.py
-      |_ingestion_dag.py
-      |_stagging_dag.py
-      |_shared_operators.py
-      |_etc.
-  |_logs (useful to monitor DAGs execution)
-  |_scrapping_container
-      |_scrapping
-          |_scrapping_data (folder used as example to build the first volume folder)
-              |_data
-              |_logs
-              |_statistics
-          |_main.py
-          |_scrapping_imsdb.py
-          |_scrapping_script_slug.py
-      |_Dockerfile (mandatory to build the associated image in the docker-compose.yml)
-      |_requirements.txt (mandatory to install python requirements in the container)
-      
-  |_stagging_container
-      |_stagging
-          |_stagging_main.py
-          |_stagging_pdf_content_extraction_ocr.py
-          |_html_content_cleaning_file.py # to modify
-      |_Dockerfile (mandatory to build the associated image in the docker-compose.yml)
-      |_requirements.txt (mandatory to install python requirements in the container)
-  |_docker-compose.yml
-  |_README.md
-
-
-DAG architecture : <br>
-We choose to build at least one DAG per part of the Data engineering classical schema (cf. schema - add the image to the report). Then, we have a DAG for the ingestion of the data, the stagging phase and then for the production & analysis phase. We decide to add other DAG to segment the code, to keep a clear organization of the pipeline and of the different processes used. Here are the list of all our DAGs : 
-    - scrapping_dag.py : to scrap data about data sources. Necessary to execute it before the ingestion_dag.py.
-    - ingestion_dag.py : to ingest the data from the different sources.
-    - stagging_dag.py : to clean the data and extract content from the raw data when needed.
-    - ...
-
-We also choose to add to the DAG's folder an other python script : shared_operators.py. This script contains a list of functions (operators) used by different DAGs. 
-
-Execution order : (DAGs)
-Precise it.
-
-
-Volume architecture :
-|_ingestion_data
-    |_data
-        |_contains multiple CSV files used in next steps 
-    |_scripts
-        |_html_data (contains html files)
-        |_pdf_data (contains pdf files)
-    |_tropes
-        |_contains json files with tropes data.
-|_scrapping_data
-    |_data
-        |_contains multiple CSV files used in next steps 
-    |_logs
-        |_to monitor container's execution
-    |_statistics
-        |_statistics about the scripts and data sources (useless for now)
-|_stagging_data
-    |_logs
-    |_scripts
-    (|_tropes)  didn't exist yet
-        => we have to create the code to clean trope data.
-        
-
-<br>
-<br>
-<br>
 
 
 

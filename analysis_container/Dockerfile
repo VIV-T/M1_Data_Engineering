@@ -1,29 +1,29 @@
 # syntax=docker/dockerfile:1.4
-# Utiliser une image Python récente
+# Use a recent python image as base
 FROM python:3.11-slim-bookworm
 
-# Installer Java (requis pour PySpark) et support venv
+# Install Java (required for PySpark) and venv support
 RUN apt-get update && \
     apt-get install -y --no-install-recommends openjdk-17-jdk-headless python3-venv ca-certificates && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-# Copier le fichier requirements.txt en amont pour tirer parti du cache Docker
+# Copy the requirements.txt file upstream to take advantage of the Docker cache.
 COPY requirements.txt .
 
-# Créer le virtualenv
+# Create the venv 
 RUN python -m venv /opt/venv_analysis
 
-# Installer les dépendances Python en utilisant un cache pour pip (BuildKit cache mount)
+# Install Python dependencies using a cache for pip (BuildKit cache mount)
 # Requires BuildKit: build with `DOCKER_BUILDKIT=1 docker build ...`
 RUN --mount=type=cache,target=/root/.cache/pip /opt/venv_analysis/bin/python -m pip install --upgrade pip setuptools wheel && \
     /opt/venv_analysis/bin/pip install -r requirements.txt
 
-# Copier le reste du contexte après l'installation pour ne pas invalider la couche pip
-COPY . ./analysis_container
+# Copy the rest of the context after installation so as not to invalidate the pip layer.
+COPY . /app/analysis_container
 
-# Définir un répertoire de travail
+# Define the workdir
 WORKDIR /app
 
-# Exposer le venv dans le PATH (optionnel)
+# Expose the venv path (optional)
 ENV PATH="/opt/venv_analysis/bin:${PATH}"

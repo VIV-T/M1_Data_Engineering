@@ -109,38 +109,6 @@ def format_data (movies : list) :
     return df_formated
 
 
-@pandas_udf("double", PandasUDFType.SCALAR)
-def embed_scene_content(scene_content, model_embedding):
-    """
-    Docstring for embed_scene_content
-    
-    Use of the embedding model (Bert) to embed the scene content before calculate the similarity with the faiss index
-
-    :param scene_content: the scene content of the sliced script
-    :param model_embedding: the model used to embed (Bert - the same used for tropes)
-    """
-    text_embedding = model_embedding.encode(scene_content)
-
-    return text_embedding
-
-
-
-@pandas_udf("double", PandasUDFType.SCALAR)
-def similarity_calculation(text_embedding, index, tropes_db, k):
-    """
-    Docstring for embed_scene_content
-    
-    Calculation of the similarity between the embedding of scene_content and those of the trope list stored into the faiss index
-
-    :param text_embedding: Embedding of the scene_content (see previous function)
-    :param index: Faiss index - to calculate the similarity and retrieve relevant tropes 
-    :param tropes_db: The tropes_db coming from MongoDB
-    :param k: Maximum number of relevant tropes to retrieve.
-    """
-    distances, indices = index.search(text_embedding, k)
-
-    # knowing that tropes_db is the tropes_list got from MongoDB...
-    return [tropes_db[i]["name"] for i in indices[0]]
 
 
 def _generate_response(model, tokenizer, scene_content, retrieved_tropes):
@@ -192,22 +160,6 @@ def _generate_response(model, tokenizer, scene_content, retrieved_tropes):
     return response
 
 
-@pandas_udf("double", PandasUDFType.SCALAR)
-def llm_verification(model, tokenizer, scene_content, retrieved_tropes):
-    """
-    Docstring for llm_verification
-    
-    To apply the response generation to each line of the spark_df.
-
-    :param model: The LLM model name used for response generation
-    :param tokenizer: Param for model calling.
-    :param scene_content: The scene content - text format.
-    :param retrieved_tropes: The tropes retrieved in this scene (with faiss index).
-    """
-    # call the _generate_response function
-    response = _generate_response(model=model, tokenizer=tokenizer, scene_content=scene_content, retrieved_tropes=retrieved_tropes)
-    return response
-
 def format_results():
     """
     Docstring for format_results
@@ -248,7 +200,64 @@ def main_local_analysis() :
 
     logger.info("Spark Session initialized")
 
+
     spark_df = spark.createDataFrame(df_formated)
+
+    ## Pandas UDF definition - after the Pyspark session initialization.
+    # The pandas UDF needs an active PySpark session to work
+    @pandas_udf("double", PandasUDFType.SCALAR)
+    def embed_scene_content(scene_content, model_embedding):
+        """
+        Docstring for embed_scene_content
+        
+        Use of the embedding model (Bert) to embed the scene content before calculate the similarity with the faiss index
+
+        :param scene_content: the scene content of the sliced script
+        :param model_embedding: the model used to embed (Bert - the same used for tropes)
+        """
+        text_embedding = model_embedding.encode(scene_content)
+
+        return text_embedding
+
+
+
+    @pandas_udf("double", PandasUDFType.SCALAR)
+    def similarity_calculation(text_embedding, index, tropes_db, k):
+        """
+        Docstring for embed_scene_content
+        
+        Calculation of the similarity between the embedding of scene_content and those of the trope list stored into the faiss index
+
+        :param text_embedding: Embedding of the scene_content (see previous function)
+        :param index: Faiss index - to calculate the similarity and retrieve relevant tropes 
+        :param tropes_db: The tropes_db coming from MongoDB
+        :param k: Maximum number of relevant tropes to retrieve.
+        """
+        distances, indices = index.search(text_embedding, k)
+
+        # knowing that tropes_db is the tropes_list got from MongoDB...
+        return [tropes_db[i]["name"] for i in indices[0]]
+
+
+    @pandas_udf("double", PandasUDFType.SCALAR)
+    def llm_verification(model, tokenizer, scene_content, retrieved_tropes):
+        """
+        Docstring for llm_verification
+        
+        To apply the response generation to each line of the spark_df.
+
+        :param model: The LLM model name used for response generation
+        :param tokenizer: Param for model calling.
+        :param scene_content: The scene content - text format.
+        :param retrieved_tropes: The tropes retrieved in this scene (with faiss index).
+        """
+        # call the _generate_response function
+        response = _generate_response(model=model, tokenizer=tokenizer, scene_content=scene_content, retrieved_tropes=retrieved_tropes)
+        return response
+
+
+
+
     # Note : modify the defined function applied to the spark_df (incompletes)
     spark_df = spark_df.withColumn("scene_content_embeded", embed_scene_content(scene_content=spark_df["scene_content"], model_embedding=model_embedding))
     logger.info("All scene content embedded")
