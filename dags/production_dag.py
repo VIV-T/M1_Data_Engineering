@@ -71,7 +71,8 @@ with DAG(
         scripts_db = _connect_mongoDB()
         tropes_collection = scripts_db["tropes"]
 
-        tropes_list = {doc["name"] : doc["definition"] for doc in tropes_collection.find({}, {"name" : 1, "definition" : 1, "_id" : 0})}
+        #tropes_list = {doc["name"] : doc["definition"] for doc in tropes_collection.find({}, {"name" : 1, "definition" : 1, "_id" : 0})}
+        tropes_list = {doc["name"] : doc["definition"] for doc in tropes_collection.find({}, {"name" : 1, "definition" : 1, "_id" : 0}).limit(50)}  # limit for testing purpose
 
         return tropes_list
 
