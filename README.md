@@ -1,9 +1,9 @@
-# DataEng 2024 Template Repository
+# Very Bad Script - Project [DATA Engineering](https://www.riccardotommasini.com/courses/dataeng-insa-ot/) is provided by [INSA Lyon](https://www.insa-lyon.fr/).
+
 
 <img src="./images/logo-insa_0.png" alt="INSALogo" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br>
 
-Project [DATA Engineering](https://www.riccardotommasini.com/courses/dataeng-insa-ot/) is provided by [INSA Lyon](https://www.insa-lyon.fr/).
 
 Students: JOUENNE Maia, TRON Baptiste, VIVIER Thibault
 
@@ -226,6 +226,87 @@ The dag builds the required directory tree within the shared volume, creating or
 <br>
 <img src="./images/4_stagging_dag.jpeg" alt="stagging_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br><br>
+This DAG corresponds to the staging phase of the pipeline. The goal is to transform the raw ingested data (HTML scripts, PDF scripts, and tropes) into clean and usable data that we then store in MongoDB.
+
+<br>
+
+The DAG starts by creating the required directory structure inside the shared Docker volume project_data. These folders are used to store logs and processed scripts during the staging process.
+
+<br>
+
+Once the folders are ready, the DAG launches a dedicated staging container. This container executes the script stagging_main.py, which handles all the staging logic.
+
+Inside the staging container, two main processing pipelines are executed:
+
+<br>
+
+1. **HTML scripts cleaning**
+   
+Scripts collected in HTML format during the ingestion phase are cleaned to remove unnecessary elements such as menus, navigation blocks, and repeated headers. The cleaned text is then saved as .txt files in the staging directory.
+
+<br>
+
+2. **PDF scripts OCR extraction**
+   
+Scripts collected as PDF files are processed using an OCR pipeline. Each PDF is converted into images, and then text is extracted page by page using OCR tools. The extracted text is saved as .txt files in the same staging directory.
+
+<br>
+
+After that task is completed, it inserts the staged data into 2 collections in MongoDB:
+
+- **Scripts collection**: one document per movie, containing the full cleaned script text.
+
+<br>
+
+- **Tropes collection**: one document per trope, containing its name and definition.
+
+Finally, the DAG executes a segmentation step. This step processes the cleaned scripts and splits them into smaller logical units (for example scenes or narrative blocks). This segmentation prepares the data for the production and analysis phases.
+
+<br>
+
+#### Specific tools
+##### OCR (PDF to text)
+The OCR pipeline is implemented using:
+
+- **pdf2image** to convert PDF pages into images
+
+- **pytesseract** to extract text from images
+
+The extraction is done page by page to limit memory usage and reduce execution costs.
+
+<br>
+
+##### HTML cleaning
+HTML scripts are cleaned using:
+
+- **lxml.html**
+
+- **Cleaner** from lxml_html_clean
+
+These tools remove irrelevant HTML content and keep only the useful script text. A specific marker (ALL SCRIPTS) is used to remove unwanted sections that appear because of the scrapping.
+
+<br>
+
+##### Segmentation
+The segmentation step processes all staged scripts and splits them into smaller textual units. This step is executed through a dedicated Python function and prepares the scripts for further analysis and production workflows (to be able to analyze each tropes per scene).
+
+<br>
+
+##### MongoDB
+MongoDB is used as the main storage system for staged data. Two collections are created:
+
+- movies: containing the full text of each movie script
+
+- tropes: containing trope names and definitions
+
+<br>
+
+#### Difficulties
+**RAM issues :** To use the OCR we had to read the pages of the PDf files as image, using the **pdf2image** python package. But those images are stored in the RAM, in a python variable. The issue is that it took lot of spaces, and we ran out of RAM many times before implementing an optimization. 
+
+<br>
+
+The solution was to process the pages one by one : it means extracting the content of a page and delete it from the RAM before processing the next one. It can be considered as time consuming, but it is better to have a long execution time that a code which do not work at all...
 
 <br>
 <br>
@@ -275,10 +356,86 @@ Again, using those specific tools required a dedicated container to isolate the 
 <br>
 <br>
 
+---
+## Analysis Dashboard
 
-## Queries 
+A simple Streamlit dashboard was developed to provide a global overview of the data produced by the pipeline. 
 
-## Requirements
+The dashboard displays **basic statistics** such as 
+- Total number of movie scripts
+- Total number of words across all scripts
+- Average number of words per script
+- Longest movie script (based on word count)
+- Total number of tropes
+
+The dashboard also includes an **exploration section** that allows the user to:
+- Select a movie from a searchable dropdown list
+- Display the total number of words for the selected script
+- Preview the beginning of the script (first 2000 characters)
+
+The goal is to show the main tropes associated with the movie when you select it.
+
+---
+## How to launch the project
+
+### Requirements
+- Docker and Docker Compose installed  
+  https://docs.docker.com/desktop/
+
+(Optional)  
+- Streamlit installed (only required to run the dashboard locally)  
+  https://docs.streamlit.io/get-started/installation
+
+
+
+### Launch instructions
+
+1. **Clone the project**
+```bash
+git clone https://github.com/VIV-T/M1_Data_Engineering.git
+```
+
+2. **Go to the project root directory**
+```bash
+cd M1_Data_Engineering
+```
+
+3. **Build and start all Docker services**
+```bash
+docker compose up -d --build
+```
+It can take some time.
+
+4. **Access Airflow**
+- Open your browser  
+- Go to: http://localhost:8080  
+- Login with the default credentials :
+  - username: `airflow`
+  - password: `airflow`
+
+5. **Trigger the DAGs**
+Depending on the execution context, two workflows are possible:
+
+**Online workflow**
+   1. `scrapping_dag`
+   2. `ingestion_dag`(
+   3. `load_local_data_dag` (*Optionnal*)
+   4. `stagging_dag` 
+   5. `production_dag`
+
+**Offline workflow**
+   1. `load_local_data_dag`
+   2. `stagging_dag` 
+   3. `production_dag`
+
+Each DAG must finish successfully before launching the next one.
+
+
+6. **(Optional) Launch the Streamlit dashboard**
+```bash
+streamlit run streamlit_app.py
+```
+
 
 <br>
 <br>
