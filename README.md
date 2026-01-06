@@ -195,31 +195,43 @@ The dag builds the required directory tree within the shared volume, creating or
 <br><br>
 This DAG corresponds to the staging phase of the pipeline. The goal is to transform the raw ingested data (HTML scripts, PDF scripts, and tropes) into clean and usable data that we then store in MongoDB.
 
+<br>
+
 The DAG starts by creating the required directory structure inside the shared Docker volume project_data. These folders are used to store logs and processed scripts during the staging process.
 
+<br>
 
 Once the folders are ready, the DAG launches a dedicated staging container. This container executes the script stagging_main.py, which handles all the staging logic.
 
 Inside the staging container, two main processing pipelines are executed:
 
+<br>
+
 1. **HTML scripts cleaning**
    
 Scripts collected in HTML format during the ingestion phase are cleaned to remove unnecessary elements such as menus, navigation blocks, and repeated headers. The cleaned text is then saved as .txt files in the staging directory.
+
+<br>
 
 2. **PDF scripts OCR extraction**
    
 Scripts collected as PDF files are processed using an OCR pipeline. Each PDF is converted into images, and then text is extracted page by page using OCR tools. The extracted text is saved as .txt files in the same staging directory.
 
+<br>
+
 After that task is completed, it inserts the staged data into 2 collections in MongoDB:
 
 - **Scripts collection**: one document per movie, containing the full cleaned script text.
+
+<br>
 
 - **Tropes collection**: one document per trope, containing its name and definition.
 
 Finally, the DAG executes a segmentation step. This step processes the cleaned scripts and splits them into smaller logical units (for example scenes or narrative blocks). This segmentation prepares the data for the production and analysis phases.
 
-#### Specific tools
+<br>
 
+#### Specific tools
 ##### OCR (PDF to text)
 The OCR pipeline is implemented using:
 
@@ -228,6 +240,8 @@ The OCR pipeline is implemented using:
 - **pytesseract** to extract text from images
 
 The extraction is done page by page to limit memory usage and reduce execution costs.
+
+<br>
 
 ##### HTML cleaning
 HTML scripts are cleaned using:
@@ -238,8 +252,12 @@ HTML scripts are cleaned using:
 
 These tools remove irrelevant HTML content and keep only the useful script text. A specific marker (ALL SCRIPTS) is used to remove unwanted sections that appear because of the scrapping.
 
+<br>
+
 ##### Segmentation
 The segmentation step processes all staged scripts and splits them into smaller textual units. This step is executed through a dedicated Python function and prepares the scripts for further analysis and production workflows (to be able to analyze each tropes per scene).
+
+<br>
 
 ##### MongoDB
 MongoDB is used as the main storage system for staged data. Two collections are created:
@@ -247,6 +265,16 @@ MongoDB is used as the main storage system for staged data. Two collections are 
 - movies: containing the full text of each movie script
 
 - tropes: containing trope names and definitions
+
+<br>
+
+#### Difficulties
+**RAM issues :** To use the OCR we had to read the pages of the PDf files as image, using the **pdf2image** python package. But those images are stored in the RAM, in a python variable. The issue is that it took lot of spaces, and we ran out of RAM many times before implementing an optimization. 
+
+<br>
+
+The solution was to process the pages one by one : it means extracting the content of a page and delete it from the RAM before processing the next one. It can be considered as time consuming, but it is better to have a long execution time that a code which do not work at all...
+
 <br>
 <br>
 <br>

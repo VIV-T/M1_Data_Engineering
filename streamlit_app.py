@@ -119,7 +119,7 @@ def get_tropes_collection():
 @st.cache_data
 def load_movies():
     col = get_movies_collection()
-    cursor = col.find({}, {"_id": 0, "file_name": 1, "full_script": 1})
+    cursor = col.find({}, {"_id": 0, "name": 1, "full_script": 1})
 
     movies = []
     total_words = 0
@@ -127,7 +127,7 @@ def load_movies():
     max_movie = None
 
     for doc in cursor:
-        name = doc.get("file_name")
+        name = doc.get("name")
         script = doc.get("full_script") or ""
         if not name:
             continue
@@ -235,7 +235,7 @@ st.markdown("<div style='height: 24px;'></div>", unsafe_allow_html=True)
 # Script preview
 with st.expander("Show script preview (first 2000 characters)"):
     col = get_movies_collection()
-    doc = col.find_one({"file_name": selected_movie}, {"_id": 0, "full_script": 1})
+    doc = col.find_one({"name": selected_movie}, {"_id": 0, "full_script": 1})
     text = (doc or {}).get("full_script", "")
     st.text(text[:2000] if text else "(empty script)")
 
