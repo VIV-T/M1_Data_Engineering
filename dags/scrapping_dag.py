@@ -12,6 +12,8 @@ from bs4 import BeautifulSoup
 from airflow import DAG
 from airflow.providers.docker.operators.docker import DockerOperator
 from airflow.providers.standard.operators.python import PythonOperator
+from airflow.operators.empty import EmptyOperator
+
 from datetime import timedelta
 
 from shared_operators import _read_data_file_to_df, _save_data_file_to_csv
