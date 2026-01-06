@@ -11,22 +11,22 @@ Students: JOUENNE Maia, TRON Baptiste, VIVIER Thibault
 
 ### Objectives 
 
-The main idea behind this project is to create an AI model able to identify the tropes used in a movie script. We are also going to perform some statistics about the scripts ( eg. average number of scenes per script ).
+The main idea behind this project is to create an AI model able to identify the tropes used in a movie script. We are also going to perform some statistics about the scripts and tropes.
 <br>
 
 **Some vocabulary :** 
 <br>
 
-The Cambridge online dictionary define a "Trope" as follow : *Trope* , noun : something such as an idea, phrase, or image that is often used in a particular artist's work, in a particular type of art, in a media, etc.	
+The Cambridge online dictionary defines a "Trope" as follow : *Trope* , noun : something such as an idea, phrase, or image that is often used in a particular artist's work, in a particular type of art, in a media, etc.	
 <br><br>
-Our definition : a trope is a recurring narrative conventions or schema used in storytelling. They are tools used by a writter. Tropes can be applied to almost everything : plot, characters, devices, themes, etc. 
+Our definition : a trope is a recurring narrative convention or schema used in storytelling. They are tools used by a writter. Tropes can be applied to almost everything : plot, characters, devices, themes, etc. 
 <br>
 
 Example : 
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Human-like robots is a classic Science Fiction tropes. You can find it in : Ex-Machina or Blade Runner.
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The vilan protagonist : a plot which implies that the protagonist followed is or become a vilain among the story. You can find it in : Breaking Bad or Night Call (NightCrawler)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The vilain protagonist : a plot which implies that the protagonist followed is or become a vilain among the story. You can find it in : Breaking Bad or Night Call (NightCrawler)
 
 <br>
 <img src="./images/poster_quoted_movies.png" alt="PosterQuotedMovies" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
@@ -71,7 +71,7 @@ Tropedia is a community-edited wiki website dedicated to discussing Creators, Wo
 ### Scripts
 **PDF**
 <br>
-On the Scriptslug website, the movie scripts are available on PDF format. Those PDF files are often scanned pages or brut text. To extract the text content of those files, we will use an OCR (Optical Character Recognition) tool. 
+On the Scriptslug website, the movie scripts are available on PDF format. Those PDF files are often scanned pages or raw text. To extract the text content of those files, we will use an OCR (Optical Character Recognition) tool. 
 
 <br>
 <img src="./images/pdf_script_example.png" alt="PdfScriptExample" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
@@ -98,11 +98,9 @@ On the Tropedia wiki, the definition of tropes is provided in several paragraphs
 
 ## Architecture 
 
-### Global architecture
- (shared volume : project_data).
-Explain the design choices : why using a scrapping DAG ? How the project_data volume is structured ? How the dockerc compose is built (which services ? why ?)? What is the project architecture 
+We structured the project into three independent containers for scraping, ingestion, and analysis. By leveraging a shared volume, we ensure that data collected by the scrapers is immediately accessible for ingestion and subsequent analysis without manual transfers or data loss. 
 
-Folder architecture : 
+#### Folder architecture : 
 
 Here is the simplified folder architecture of the project.
 
@@ -110,7 +108,7 @@ Here is the simplified folder architecture of the project.
 <img src="./images/architecture.png" alt="architecture" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br>
 
-DAG architecture : <br>
+#### DAG architecture : <br>
 We choose to build at least one DAG per part of the Data engineering classical schema. Then, we have a DAG for the ingestion of the data, the stagging phase and then for the production & analysis phase. We decide to add other DAG to segment the code, to keep a clear organization of the pipeline and of the different processes used. Here are the list of all our DAGs : <br> 
 
     - scrapping_dag.py : to scrap data about data sources. Necessary to execute it before the ingestion_dag.py. 
@@ -122,7 +120,9 @@ We choose to build at least one DAG per part of the Data engineering classical s
 We also choose to add to the DAG's folder two other python script : <br>
 
     - shared_operators.py. This script contains a list of functions (operators) used by different DAGs. 
-    - segmentation.py. This script contain functions used for the segmentation of the scripts, we will explain how it works later.
+    - segmentation.py. This script contain functions used for the segmentation of the scripts.
+
+### Global architecture
 
 <br>
 <img src="./images/diagram.png" alt="diagram" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
@@ -150,7 +150,7 @@ Selenium : This is an Open source tool used for web navigation automatization. I
 
 ChromeBrowser : Need to be installed to use Selenium, because Selenium is not a web browser but it drives a web browser to navigate.
 
-To use thoses specific tools, we decide to build an exclusive image with required dependencies, instead of installing everything on the computer. This is a better practice and working with docker images is the best way to replicate the project and avoid versioning & OS problems (cf. Docker presentation).
+To use those specific tools, we decide to build an exclusive image with required dependencies, instead of installing everything on the computer. This is a better practice and working with docker images is the best way to replicate the project and avoid versioning & OS problems (cf. Docker presentation).
 
 <br>
 
@@ -174,7 +174,7 @@ The scripts are accountable of the copy and the write of mandatory / necessary f
 <br>
 
 **Permission :**
-Another difficulty was to manage the permission to write in the docker volume from the dag. While using the Docker Operator in Airflow, it was not the same user in the DAG and in the launched container. This distinction was the source of this write issue. 
+Another difficulty was to manage the permission to write in the docker volume from the DAG. While using the Docker Operator in Airflow, it was not the same user in the DAG and in the launched container. This distinction was the source of this write issue. 
 To solve it, we decide to add a function to set permission in the main.py script in the scrapping_container, using os.chown() of python.
 
 <br>
@@ -189,7 +189,7 @@ To solve it, we decide to add a function to set permission in the main.py script
 <img src="./images/2_ingestion_dag.jpeg" alt="ingestion_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br>
 
-The dag begins by creating the directory hierarchy within the Docker volume. It establishes separate dedicated paths for tropes and scripts to ensure a clean workspace for further processing. Then the tropes are saved in a .json file with their definition. 
+The DAG begins by creating the directory hierarchy within the Docker volume. It establishes separate dedicated paths for tropes and scripts to ensure a clean workspace for further processing. Then the tropes are saved in a .json file with their definition. 
 The DAG splits script ingestion into two parallel streams:
 
 - HTML Stream: Fetches raw text content from web-based scripts and saves them as text files.
@@ -208,9 +208,9 @@ The DAG splits script ingestion into two parallel streams:
 <img src="./images/3_load_local_data_dag.jpeg" alt="load_local_data_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br>
 
-This third dag is dedicated to save some data in the docker volume from the local storage, in order to ensure that we can run the pipeline offline (as expected).
+This third DAG is dedicated to save some data in the docker volume from the local storage, in order to ensure that we can run the pipeline offline (as expected).
 <br><br>
-The dag builds the required directory tree within the shared volume, creating organized storage paths for movie scripts (categorized by PDF and HTML formats) and narrative tropes. Once the infrastructure is ready, it duplicates the local raw data into these specific volume folders.
+The DAG builds the required directory tree within the shared volume, creating organized storage paths for movie scripts (categorized by PDF and HTML formats) and narrative tropes. Once the infrastructure is ready, it duplicates the local raw data into these specific volume folders.
 <br> 
 
 
@@ -325,7 +325,7 @@ Our last Airflow DAG is dedicated to do the movie script analysis from MongoDB d
 <br><br>
 The DAG strats by creating the required folder Inside the Docker volume, "project_data". After the folders creation, we use a Python operator to create the FAISS index using the faiss and sentence_transformers packages. Finally, a Docker Operator is used to launch the analysis_container, where the analysis is performed.
 <br><br>
-To perform the analysis, we decide to use PySpark. The idea is to parallelize the analysis operations to save execution time and ressources. There are 3 main steps :
+To perform the analysis, we decide to use PySpark. The idea is to parallelize the analysis operations to save execution time and resources. There are 3 main steps :
  - embed the scene content using the same model than the tropes embedding (Bert) - this is a model specialized in semantic analysis.
  - similarity calculation : retrieve the 3 most relevant tropes stored in the faiss indexes for each scene.
  - call a LLM with a specific prompt to improve the result and confirm or infirm the first analysis.
@@ -340,7 +340,7 @@ To perform the analysis, we decide to use PySpark. The idea is to parallelize th
 **Hugging face** (transformers python package) : Allow us to easily manipulate pre-trained LLM in our code. With this tool, we can call a LLM model with a dedicated prompt to get a generated response. This is one of the simpliest way to use a LLM in a python code.
 <br><br>
 
-**PySpark** : PySpark is an Opensource tool used in Big Data. It allow us to manage huge ammount of data and parrallelize operation between multiple cores in local or in a cluster of machine. In our case, it is interresting to use to parrallelize the movie scene analysis. 
+**PySpark** : PySpark is an Opensource tool used in Big Data. It allow us to manage huge amount of data and parrallelize operation between multiple cores in local or in a cluster of machine. In our case, it is interesting to use to parrallelize the movie scene analysis. 
 <br><br>
 
 Again, using those specific tools required a dedicated container to isolate the heavy requirement from the Airflow environement.
@@ -416,33 +416,21 @@ It can take some time.
 5. **Trigger the DAGs**
 Depending on the execution context, two workflows are possible:
 
-**Online workflow**
+**Online workflow (scrape data from web sources)**
    1. `scrapping_dag`
-   2. `ingestion_dag`(
+   2. `ingestion_dag`
    3. `load_local_data_dag` (*Optionnal*)
    4. `stagging_dag` 
    5. `production_dag`
 
-**Offline workflow**
+**Offline workflow (use data saved in local)**
    1. `load_local_data_dag`
    2. `stagging_dag` 
    3. `production_dag`
 
 Each DAG must finish successfully before launching the next one.
 
-
 6. **(Optional) Launch the Streamlit dashboard**
 ```bash
 streamlit run streamlit_app.py
 ```
-
-
-<br>
-<br>
-<br>
-<hr>
-
-
-
-
-
