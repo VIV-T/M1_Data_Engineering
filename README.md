@@ -193,7 +193,7 @@ The dag builds the required directory tree within the shared volume, creating or
 <br>
 <img src="./images/4_stagging_dag.jpeg" alt="stagging_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br><br>
-This DAG corresponds to the staging phase of the pipeline. The goal is to transform the raw ingested data (HTML scripts, PDF scripts, and tropes) into clean, structured and usable data that we then store in MongoDB.
+This DAG corresponds to the staging phase of the pipeline. The goal is to transform the raw ingested data (HTML scripts, PDF scripts, and tropes) into clean and usable data that we then store in MongoDB.
 
 The DAG starts by creating the required directory structure inside the shared Docker volume project_data. These folders are used to store logs and processed scripts during the staging process.
 
