@@ -1,13 +1,8 @@
-# Bibliothèques principales
-sentence-transformers>=2.2.2
-faiss-cpu>=1.7.4
-transformers>=4.38.0
-torch>=2.1.0
-accelerate>=0.27.0  # Pour optimiser l'utilisation GPU
-
-# Pour le traitement des données
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.0  # ou faiss-gpu si tu utilises un GPU
+transformers>=4.25.0
+torch>=1.10.0
+pyspark==3.5.0
 numpy>=1.24.0
-json5>=0.9.14
-
-# Pour le modèle génératif (Mistral-7B)
-bitsandbytes>=0.41.3  # Pour le chargement en 8-bit
+pandas>=2.0.0
+pymongo>=4.5.0

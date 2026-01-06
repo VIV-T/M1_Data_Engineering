@@ -432,6 +432,17 @@ services:
     restart: "no"  # No need to restart automatically
 
 
+  analyser :
+    build:
+      context: ./analysis_container
+      dockerfile: Dockerfile 
+    volumes:
+      - project_data:/app/project_data  # Needed to share the data
+    networks:
+      - Practice
+    restart: "no"  # No need to restart automatically
+
+
 
   mongo:
       image: mongo:latest
