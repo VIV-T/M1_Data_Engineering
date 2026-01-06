@@ -7,3 +7,4 @@ numpy>=1.24.0
 pandas>=2.0.0
 pymongo>=4.5.0
 pyarrow>=10.0.1
+accelerate==0.27.0 

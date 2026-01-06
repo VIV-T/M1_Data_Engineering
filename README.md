@@ -255,7 +255,9 @@ These tools remove irrelevant HTML content and keep only the useful script text.
 <br>
 
 ##### Segmentation
-The segmentation step processes all staged scripts and splits them into smaller textual units. This step is executed through a dedicated Python function and prepares the scripts for further analysis and production workflows (to be able to analyze each tropes per scene).
+The segmentation step processes all staged scripts and splits them into smaller textual units. This step is executed through a dedicated Python function and prepares the scripts for further analysis and production workflows (to be able to analyze each scene of a script and find relevant tropes into it).
+
+The segmentation is done into an additional python script store in the "dag" folder named : segmentation.py. 
 
 <br>
 

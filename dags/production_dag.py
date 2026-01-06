@@ -12,6 +12,7 @@ import faiss
 from airflow import DAG
 from airflow.providers.docker.operators.docker import DockerOperator
 from airflow.providers.standard.operators.python import PythonOperator
+from airflow.providers.standard.operators.empty import EmptyOperator
 from datetime import timedelta
 
 # To manage MongoDB connection and Querying
@@ -29,8 +30,11 @@ TOOLS_FOLDER = os.path.join(PRODUCTION_DATA_FOLDER, "tools")
 PRODUCTION_LOGS_FOLDER = os.path.join(PRODUCTION_DATA_FOLDER, "logs")
 
 # usefull for the analysis_container + faiss index save
-MODEL_PATH = os.path.join(TOOLS_FOLDER, "bert_model")
-FAISS_INDEX_PATH =  os.path.join(TOOLS_FOLDER, "faiss_index.faiss")
+MODEL_NAME = "bert_model"
+MODEL_PATH = os.path.join(TOOLS_FOLDER, MODEL_NAME)
+
+FAISS_INDEX_NAME = "faiss_index.faiss"
+FAISS_INDEX_PATH =  os.path.join(TOOLS_FOLDER, FAISS_INDEX_NAME)
 
 # --- Failure callback for rich console logs ---
 def failure_alert(context):
@@ -138,18 +142,21 @@ with DAG(
         dag=dag,
         user='root',
         environment={
-            "MODEL_PATH" : MODEL_PATH,
-            "FAISS_INDEX_PATH" : FAISS_INDEX_PATH
+            "MODEL_NAME" : MODEL_NAME,
+            "FAISS_INDEX_NAME" : FAISS_INDEX_NAME
         },
 
         # Synchronize a volume between the scrapper container and the airflow container
         mounts=[Mount(source='m1_data_engineering_project_data', target='/app/project_data', type='volume')]
     )
 
+    
+    end = EmptyOperator(task_id="end")
+
     # --Graph--
     volume_mkdir_production_data >> [volume_mkdir_tools, volume_mkdir_logs]
     volume_mkdir_tools >> create_faiss_index
-    [volume_mkdir_logs, create_faiss_index] >> launch_analysis_container
+    [volume_mkdir_logs, create_faiss_index] >> launch_analysis_container >> end
 
 
     ## Steps to implement in the DAG: Global structure
