@@ -1,9 +1,9 @@
-# DataEng 2024 Template Repository
+# Very Bad Script - Project [DATA Engineering](https://www.riccardotommasini.com/courses/dataeng-insa-ot/) is provided by [INSA Lyon](https://www.insa-lyon.fr/).
+
 
 <img src="./images/logo-insa_0.png" alt="INSALogo" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br>
 
-Project [DATA Engineering](https://www.riccardotommasini.com/courses/dataeng-insa-ot/) is provided by [INSA Lyon](https://www.insa-lyon.fr/).
 
 Students: JOUENNE Maia, TRON Baptiste, VIVIER Thibault
 
