@@ -1,6 +1,7 @@
 import os
 import streamlit as st
 from pymongo import MongoClient
+import json
 
 # Title
 st.set_page_config(page_title="Very Bad Script — Dashboard", layout="wide")
