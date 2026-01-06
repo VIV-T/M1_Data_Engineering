@@ -1,0 +1,7 @@
+{"timestamp":"2026-01-06T09:03:03.423862Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-01-06T09:03:03.425189Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/stagging_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T09:03:03.902648Z","level":"info","event":"MongoDB client created","logger":"root","filename":"shared_operators.py","lineno":37}
+{"timestamp":"2026-01-06T09:03:03.920459Z","level":"info","event":"Databases available: ['admin', 'config', 'local', 'scriptsDB']","logger":"root","filename":"shared_operators.py","lineno":38}
+{"timestamp":"2026-01-06T09:03:03.921768Z","level":"info","event":"['movies', 'tropes']","logger":"root","filename":"shared_operators.py","lineno":57}
+{"timestamp":"2026-01-06T09:03:03.922315Z","level":"info","event":"The collection already exists in MongoDB","logger":"root","filename":"shared_operators.py","lineno":65}
+{"timestamp":"2026-01-06T09:03:03.922554Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}

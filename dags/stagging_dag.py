@@ -4,6 +4,7 @@ import pendulum
 from docker.types import Mount
 import os
 import glob
+import json
 
 from airflow import DAG
 from airflow.providers.docker.operators.docker import DockerOperator
@@ -19,6 +20,7 @@ logger = logging.getLogger(__name__)
 # volume related
 VOLUME_FOLDER = os.path.join("/opt", "airflow", "project_data")
 # new folder to create (if not existing yet)
+INGESTION_DATA_FOLDER = os.path.join(VOLUME_FOLDER, "ingestion_data")
 STAGGING_DATA_FOLDER = os.path.join(VOLUME_FOLDER, "stagging_data")
 STAGGING_DATA_LOGS_FOLDER = os.path.join(STAGGING_DATA_FOLDER, "logs")
 STAGGING_DATA_SCRIPTS_FOLDER = os.path.join(STAGGING_DATA_FOLDER, "scripts")
@@ -62,17 +64,40 @@ with DAG(
         script_files = glob.glob(f"{STAGGING_DATA_SCRIPTS_FOLDER}/*.txt")
         scripts_db = _connect_mongoDB()
 
-        scripts_collection = scripts_db["movies"]
+        movies_collection = scripts_db["movies"]
         for file_path in script_files:
             with open(file_path, "r", encoding="utf-8") as f:
                 script_content = f.read()
                 movie_name = (os.path.basename(file_path)).replace(".txt", "")
                 script_document = {
-                    "file_name": movie_name,
+                    "name": movie_name,
                     "full_script": script_content
                 }
-                scripts_collection.insert_one(script_document)
+                movies_collection.insert_one(script_document)
                 logger.info(f"Inserted script of {movie_name} into MongoDB")
+
+
+    # function used to store the trope list into Mongo
+    def _save_tropes_to_mongodb():
+        # read the JSON file from the Docker volume 
+        path_json_file = os.path.join(INGESTION_DATA_FOLDER, "tropes", "movie_tropes.json")
+        with open(path_json_file, "r") as f :
+            dict_trope_list = json.load(f)
+
+        scripts_db = _connect_mongoDB()
+        tropes_collection = scripts_db["tropes"]
+
+        for name, definition in dict_trope_list.items() :
+            topes_document= {
+                "name" : name, 
+                "definition" : definition["definition"]  # due to the particular structure of the JSON file loaded
+                }
+            
+            tropes_collection.insert_one(topes_document)
+            logger.info(f"Inserted tropes : {name} into MongoDB")
+
+        
+
 
     # --Task--
     volume_mkdir_stagging_data = PythonOperator(
@@ -147,7 +172,24 @@ with DAG(
         dag=dag
     )
 
+
+    # Create the collection to store the scripts in MongoDB
+    create_tropes_collection = PythonOperator(
+        task_id="create_tropes_collection",
+        python_callable=_create_collection,  
+        op_args=["tropes"],
+        dag=dag
+    )
+
+
+    save_tropes_to_mongodb = PythonOperator(
+        task_id="save_tropes_to_mongodb",
+        python_callable=_save_tropes_to_mongodb,  
+        dag=dag
+    )
+
     # --Graph--
     volume_mkdir_stagging_data >> [volume_mkdir_stagging_data_logs, volume_mkdir_stagging_data_scripts] \
-    >> launch_stagging_container >> check_mongoDB_connection >> create_scripts_collection \
-    >> save_scripts_to_mongodb >> segment_scripts
+    >> launch_stagging_container >> check_mongoDB_connection >> [create_scripts_collection, create_tropes_collection]
+    create_scripts_collection >> save_scripts_to_mongodb >> segment_scripts
+    create_tropes_collection >> save_tropes_to_mongodb
