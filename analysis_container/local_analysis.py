@@ -3,19 +3,27 @@ import logging
 from pymongo import MongoClient
 import pandas as pd
 import os
+from random import randint
+
+# to load the embedding model + faiss index
 from sentence_transformers import SentenceTransformer
 import faiss
 
-
+# to use a LLM from HuggingFace 
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 import torch
 
-
+# Pyspark imports
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import pandas_udf, PandasUDFType
 
 # logger config 
 logger = logging.getLogger("local_analysis")
+
+# volume related 
+PRODUCTION_DATA_FOLDER = "./project_data/production_data"
+PRODUCTION_DATA_FOLDER_LLM_OUTPUT = "./project_data/production_data/llm_ouput"
+
 
 # env variables
 MODEL_PATH = os.environ["MODEL_PATH"]
@@ -88,15 +96,16 @@ def format_data (movies : list) :
 
 
 @pandas_udf("double", PandasUDFType.SCALAR)
-def embed_scene_content(v, model_embedding):
+def embed_scene_content(scene_content, model_embedding):
     """
     Docstring for embed_scene_content
     
     Use of the embedding model (Bert) to embed the scene content before calculate the similarity with the faiss index
 
-    :param v: Description
+    :param scene_content: the scene content of the sliced script
+    :param model_embedding: the model used to embed (Bert - the same used for tropes)
     """
-    text_embedding = model_embedding.encode(v)
+    text_embedding = model_embedding.encode(scene_content)
 
     return text_embedding
 
@@ -109,7 +118,10 @@ def similarity_calculation(text_embedding, index, tropes_db, k):
     
     Calculation of the similarity between the embedding of scene_content and those of the trope list stored into the faiss index
 
-    :param v: Description
+    :param text_embedding: Embedding of the scene_content (see previous function)
+    :param index: Faiss index - to calculate the similarity and retrieve relevant tropes 
+    :param tropes_db: The tropes_db coming from MongoDB
+    :param k: Maximum number of relevant tropes to retrieve.
     """
     distances, indices = index.search(text_embedding, k)
 
@@ -117,23 +129,34 @@ def similarity_calculation(text_embedding, index, tropes_db, k):
     return [tropes_db[i]["name"] for i in indices[0]]
 
 
-def generate_response(model, tokenizer, text, retrieved_tropes, is_global=False):
-    if is_global:
-        task = "Analyse ce script **dans son ensemble** et confirme la présence des tropes suivants."
-    else:
-        task = "Analyse ce **segment de script** et confirme la présence des tropes suivants."
+def _generate_response(model, tokenizer, scene_content, retrieved_tropes):
+    """
+    Docstring for _generate_response
+    
+    Call fo a LLM model to check if the tropes retrieval is correct.
+
+    :param model: The LLM model name used for response generation
+    :param tokenizer: Param for model calling.
+    :param scene_content: The scene content - text format.
+    :param retrieved_tropes: The tropes retrieved in this scene (with faiss index).
+    """
+    task = "Analyze this **movie scene script** and confirm the presence of the following **tropes**."
 
     prompt = f"""
     {task}
-    Texte : {text}
+    **Movie scene script** : {scene_content}
 
-    Tropes potentiels : {', '.join(retrieved_tropes)}
+    Potential **tropes** : {', '.join(retrieved_tropes)}
 
-    **Consignes** :
-    1. Confirme si ces tropes sont présents.
-    2. Si oui, explique pourquoi.
-    3. Si non, propose d'autres tropes pertinents.
-    4. Réponds en JSON : {{"tropes": ["trope1", "trope2"], "explications": "..."}}.
+    **Instructions** :
+    1. Confirm if those tropes are present in the movie scene (be critical)
+    2. If yes, give an example based on the **movie scene script**.
+    3. Be critical, don't hesitate to answer with an empty string.
+
+    **Expected output**
+    a. If the tropes aren't relevant, answer with an **empty string**.
+    b. If you got no tropes (empty variable), answer with an **empty string**.
+    c. Else, answer with **JSON** : {{"tropes": ["trope1", "trope2"], "examples": ["...", "..."]}}.
     """
 
     pipe = pipeline(
@@ -144,24 +167,48 @@ def generate_response(model, tokenizer, text, retrieved_tropes, is_global=False)
         temperature=0.3
     )
     response = pipe(prompt)[0]["generated_text"]
+
+    # save the LLM response 
+    i = randint(1,9)
+    output_path = os.path.join(PRODUCTION_DATA_FOLDER_LLM_OUTPUT, f"test_{i}.txt")
+    with open(output_path, "w") as f:
+        f.write(response)
+    
+    
     return response
 
 
 @pandas_udf("double", PandasUDFType.SCALAR)
-def llm_verification(v):
+def llm_verification(model, tokenizer, scene_content, retrieved_tropes):
     """
-    Docstring for embed_scene_content
+    Docstring for llm_verification
     
-    Calculation of the similarity between the embedding of scene_content and those of the trope list stored into the faiss index
+    To apply the response generation to each line of the spark_df.
 
-    :param v: Description
+    :param model: The LLM model name used for response generation
+    :param tokenizer: Param for model calling.
+    :param scene_content: The scene content - text format.
+    :param retrieved_tropes: The tropes retrieved in this scene (with faiss index).
     """
-    # call the generate_response function
-    return v * 2
+    # call the _generate_response function
+    response = _generate_response(model=model, tokenizer=tokenizer, scene_content=scene_content, retrieved_tropes=retrieved_tropes)
+    return response
 
+def format_results():
+    """
+    Docstring for format_results
+    
+    format the results (retrieved tropes + LLM response) to prepare MongoDB Maj.
 
+    :param x: to complete 
+    :param y: to complete 
+    """
+    pass
 
 def main_local_analysis() : 
+    
+    logger.info("Local analysis started !")
+
     # get all the movie data
     movies = get_all_movies()
 
@@ -185,11 +232,14 @@ def main_local_analysis() :
         .getOrCreate()
 
     spark_df = spark.createDataFrame(df_formated)
-    spark_df = spark_df.withColumn("scene_content_embeded", embed_scene_content(spark_df["valeur"]))
-    spark_df = spark_df.withColumn("similar_tropes", similarity_calculation(spark_df["valeur"]))
-    spark_df = spark_df.withColumn("similar_tropes", llm_verification(spark_df["valeur"]))
+    # Note : modify the defined function applied to the spark_df (incompletes)
+    spark_df = spark_df.withColumn("scene_content_embeded", embed_scene_content(scene_content=spark_df["scene_content"], model_embedding=model_embedding))
+    # to modify : value of k ? , and tropes_db variables (how to manage tropes retrieval ?)
+    spark_df = spark_df.withColumn("similar_tropes", similarity_calculation(text_embedding=spark_df["scene_content_embeded"], index=index, tropes_db=None , k=3))
+    spark_df = spark_df.withColumn("LLM_output", llm_verification(model=model, tokenizer=tokenizer, scene_content=spark_df["scene_content"], retrieved_tropes=spark_df["similar_tropes"]))
 
     # depending on how the last output is defined, what's next ?
+    # Result formating
     # Maj of MongoDB ? 
 
     # ending the spark session
@@ -197,5 +247,3 @@ def main_local_analysis() :
 
     
 
-
-# use a "map" with Pyspark to apply similarity calculation after loading the model to embed each scene content (also with a "map") and load the faiss index.

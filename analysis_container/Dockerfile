@@ -1,9 +1,9 @@
 # Utiliser une image Python récente
-FROM python:3.11-slim
+FROM python:3.11-slim-bookworm
 
 # Installer Java (requis pour PySpark)
 RUN apt-get update && \
-    apt-get install -y openjdk-17-jdk && \
+    apt-get install -y --no-install-recommends openjdk-17-jdk-headless && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 

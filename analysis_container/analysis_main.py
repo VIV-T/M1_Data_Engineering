@@ -1,12 +1,14 @@
 ### --Imports
 import logging
 import logging.config
+import os
 
+from local_analysis import main_local_analysis
 
 ### --Initialization--
 # logs
-PRODUCTION_FOLDER = ""
-PRODUCTION_FOLDER_LOGS = ""
+PRODUCTION_DATA_FOLDER = "./project_data/production_data"
+PRODUCTION_LOGS_FOLDER = os.path.join(PRODUCTION_DATA_FOLDER, "logs")
 
 LOGGING = {
     "version": 1,
@@ -15,13 +17,13 @@ LOGGING = {
     "handlers": {
         "h_local_analysis": {
             "class": "logging.FileHandler",
-            "filename": f"{PRODUCTION_FOLDER_LOGS}/local_analysis.log",
+            "filename": f"{PRODUCTION_LOGS_FOLDER}/local_analysis.log",
             "level": "INFO",
             "formatter": "default",
         },
         "h_global_analysis": {
             "class": "logging.FileHandler",
-            "filename": f"{PRODUCTION_FOLDER_LOGS}/global_analysis.log",
+            "filename": f"{PRODUCTION_LOGS_FOLDER}/global_analysis.log",
             "level": "INFO",
             "formatter": "default",
         },
@@ -50,5 +52,6 @@ LOGGING = {
 
 def main() :
     logging.config.dictConfig(LOGGING)
+    main_local_analysis()
 
 main()

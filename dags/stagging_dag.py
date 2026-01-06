@@ -70,7 +70,7 @@ with DAG(
                 script_content = f.read()
                 movie_name = (os.path.basename(file_path)).replace(".txt", "")
                 script_document = {
-                    "file_name": movie_name,
+                    "name": movie_name,
                     "full_script": script_content
                 }
                 movies_collection.insert_one(script_document)

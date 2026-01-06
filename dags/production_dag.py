@@ -27,6 +27,7 @@ STAGGING_DATA_SCRIPTS_FOLDER = os.path.join(STAGGING_DATA_FOLDER, "scripts")
 
 PRODUCTION_DATA_FOLDER = os.path.join(VOLUME_FOLDER, "production_data")
 TOOLS_FOLDER = os.path.join(PRODUCTION_DATA_FOLDER, "tools")
+PRODUCTION_LOGS_FOLDER = os.path.join(PRODUCTION_DATA_FOLDER, "logs")
 
 MODEL_PATH = os.path.join(TOOLS_FOLDER, "bert_model")
 FAISS_INDEX_PATH =  os.path.join(TOOLS_FOLDER, "faiss_index.faiss")
@@ -110,6 +111,13 @@ with DAG(
         dag=dag
     )
 
+    volume_mkdir_logs = PythonOperator(
+        task_id="volume_mkdir_logs",
+        python_callable=_volume_mkdir,
+        op_args=[PRODUCTION_LOGS_FOLDER],
+        dag=dag
+    )
+
     create_faiss_index = PythonOperator(
         task_id="create_faiss_index",
         python_callable=_create_faiss_index,
@@ -138,8 +146,9 @@ with DAG(
     )
 
     # --Graph--
-    volume_mkdir_production_data >> volume_mkdir_tools
-
+    volume_mkdir_production_data >> [volume_mkdir_tools, volume_mkdir_logs]
+    volume_mkdir_tools >> create_faiss_index
+    [volume_mkdir_logs, create_faiss_index] >> launch_analysis_container
 
 
     ## Steps to implement in the DAG: Global structure
