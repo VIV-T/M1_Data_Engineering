@@ -108,7 +108,7 @@ def get_movies_collection():
 @st.cache_data
 def load_movies():
     col = get_movies_collection()
-    cursor = col.find({}, {"_id": 0, "file_name": 1, "full_script": 1})
+    cursor = col.find({}, {"_id": 0, "name": 1, "full_script": 1})
 
     movies = []
     total_words = 0
@@ -116,7 +116,7 @@ def load_movies():
     max_movie = None
 
     for doc in cursor:
-        name = doc.get("file_name")
+        name = doc.get("name")
         script = doc.get("full_script") or ""
         if not name:
             continue
