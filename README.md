@@ -7,31 +7,40 @@ Project [DATA Engineering](https://www.riccardotommasini.com/courses/dataeng-ins
 
 Students: JOUENNE Maia, TRON Baptiste, VIVIER Thibault
 
-### Abstract
+## Abstract
 
+### Objectives 
 
-## Objectives 
+The main idea behind this project is to create an AI model able to identify the tropes used in a movie script. We are also going to perform some statistics about the scripts ( eg. average number of scenes per script ).
+<br>
 
-The main idea behind this project is to learn how to implement a data pipeline from the sources of data to the production and analysis. It is also mandatory to use Airflow, a tool presented in class to realize this pipeline. Any other technology is welcome if their use could be justified in the context of the project. We will have to present the used technology, their pros and cons, and the specificities of each tool regarding the data, the state of the project and the other existing tools.
+**Some vocabulary :** 
+<br>
 
-The purpose of the project is also to show our ability to deploy technical tools and answer to a professional use case of data engineering.
+The Cambridge online dictionary define a "Trope" as follow : *Trope* , noun : something such as an idea, phrase, or image that is often used in a particular artist's work, in a particular type of art, in a media, etc.	
+<br><br>
+Our definition : a trope is a recurring narrative conventions or schema used in storytelling. They are tools used by a writter. Tropes can be applied to almost everything : plot, characters, devices, themes, etc. 
+<br>
 
-This project is an opportunity as a student to develop our skills in different fields like the development & coding, the architecture & conception of complex data flow, the implementation & deployment of this data flow, and the research and use of new tools depending on our needs.
+Example : 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Human-like robots is a classic Science Fiction tropes. You can find it in : Ex-Machina or Blade Runner.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The vilan protagonist : a plot which implies that the protagonist followed is or become a vilain among the story. You can find it in : Breaking Bad or Night Call (NightCrawler)
 
-This project is done only with educational purpose.
+<br>
+<img src="./images/poster_quoted_movies.png" alt="PosterQuotedMovies" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 
-
-
-
+<br><br><br>
 
 ## Datasets Description 
-### Data source introduction
+
 <br>
 
 **Script slug :** https://www.scriptslug.com/scripts/medium/film?sort=az
 <br>
 
-Script Slug is a popular online resource for screenwriters, especially those interested in animation and film. The site offers a growing library of original screenplays from major studios like Netflix, HBO, and Marvel, allowing users to study professional scripts for structure, pacing, and dialogue. It’s widely used by aspiring writers to improve their own screenwriting skills by reading and analyzing industry-standard scripts. Script Slug also provides educational tips and resources for animation screenwriting. The scripts are downloadable in pdf.
+Script Slug offers educational resources for screenwriters. The site offers free access to a huge database of movie and television series scripts in PDF format.
 
 <br>
 <img src="./images/script_slug_website.png" alt="ScriptSlugWebsite" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
@@ -47,69 +56,42 @@ IMSDb (Internet Movie Script Database) is a well-known online repository offerin
 <img src="./images/imsdb_website.png" alt="ImsDBWebsite" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br><br><br>
 
-**All the tropes (Wiki) :** https://allthetropes.org/wiki
-<br>
-
-AllTheTropes is a community-driven wiki dedicated to cataloging and explaining storytelling tropes—recurring themes, devices, and conventions—found in movies, TV shows, books, video games, and other media. Unlike other trope databases, AllTheTropes is open and collaborative, allowing anyone to contribute or edit entries. It serves as a valuable resource for writers, critics, and fans seeking to understand, analyze, or avoid clichés in storytelling. The site is especially useful for exploring how tropes evolve and are used across different genres and cultures.
+**Tropedia (Wiki) :** https://tropedia.fandom.com/wiki/Tropedia
 
 <br>
-<img src="./images/all_the_tropes_website.png" alt="AllTheTropesWebsite" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+
+Tropedia is a community-edited wiki website dedicated to discussing Creators, Works, and Tropes -- the people, projects and patterns of creative writing in all kinds of entertainment: television, literature, movies, video games, and more.
+
+<br>
+<img src="./images/Tropedia_home_page.png" alt="Tropedia-Homepage" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br><br><br>
 
-**Some vocabulary :** 
-<br>
+## Data description
 
-The Cambridge online dictionary define a "Trope" as follow :
-Trope, noun : something such as an idea, phrase, or image that is often used in a particular artist's work, in a particular type of art, in a media, etc.	Comparer : cliché.
-<br>
-
-Our definition : a trope is a recurring narrative conventions or schema used in storytelling. They are tools used by a writter. Tropes can be applied to almost everything : plot, characters, devices, themes, etc. 
-<br>
-
-Example : 
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Human-like robots is a classic Science Fiction tropes. You can find it in : Ex-Machina or Blade Runner.
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The vilan protagonist : a plot which implies that the protagonist followed is or become a vilain among the story. You can find it in : Breaking Bad or Night Call (NightCrawler)
-
-<br>
-<img src="./images/poster_quoted_movies.png" alt="PosterQuotedMovies" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
-
-<br><br><br>
-
-### Purpose
-
-Let's say it, we want to try to build an AI agent able to help a young writter to write his first script. The idea is NOT to automatize the script creation but to provide ideas, example and draft to the user to help him during his writting session.
-<br>
-It's beautiful, but... it is very ambitious. That's why our first objective is to try to buildt an AI model able to identify properly the tropes used in a movie script.
-
-
-### Data description
-
-#### Scripts
+### Scripts
 **PDF**
 <br>
 On the Scriptslug website, the movie scripts are available on PDF format. Those PDF files are often scanned pages or brut text. To extract the text content of those files, we will use an OCR (Optical Character Recognition) tool. 
 
 <br>
 <img src="./images/pdf_script_example.png" alt="PdfScriptExample" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
-
-<br><br><br>
+<br>
 
 **HTML**
 <br>
 On the ImsDB website, the movie scripts are available on HTML pages. It is possible to get the content of those pages, but it requires some cleaning to get the text content, with dedicated tools.
-
 <br>
 <img src="./images/html_script_example.png" alt="HtmlScriptExample" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 
-<br><br><br>
+<br><br>
 
-#### Tropes data
-
-To fill, by B.
-
+### Tropes data
 <br>
+
+On the Tropedia wiki, the definition of tropes is provided in several paragraphs. Since Tropedia does not consist only of tropes taken from movies, we have only included tropes from movies for which we have the scripts.
+
+<img src="./images/tropes_example.png" alt="trope-example" style="width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+
 <br>
 <br>
 <br>
@@ -213,7 +195,7 @@ Volume architecture :
 #### General presentation
 
 <br>
-<img src="./images/scrapping_dag.png" alt="scrapping_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<img src="./images/1_scrapping_dag.jpeg" alt="scrapping_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br><br>
 
 Our first Airflow DAG is dedicated to scrap information about the data from sources to prepare the data ingestion. This DAG allow us to get list of links, names, and merge information of the different data sources to define the range of the data ingestion (to avoid to scrap useless data, something essential regarding the cost of execution - time). This scrapping DAG requires specific tools which are Selenium and Chrome Browser. 
@@ -256,9 +238,6 @@ Another difficulty was to manage the permission to write in the docker volume fr
 
 To solve it, we decide to add a function to set permission in the main.py script in the scrapping_container, using os.chown() of python.
 
-
-
-
 <br>
 <br>
 <br>
@@ -268,7 +247,7 @@ To solve it, we decide to add a function to set permission in the main.py script
 #### General presentation
 
 <br>
-<img src="./images/ingestion_dag.png" alt="ingestion_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<img src="./images/2_ingestion_dag.jpeg" alt="ingestion_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br><br>
 
 Present fastly what the DAG is doing, which specific tools are used and what are the specificity of this DAG ?
@@ -280,16 +259,39 @@ is there any specific tools in this DAG ?
 #### Detailled operations
 Let's have a look on each steps...
 
+#### Difficulties
+What was the hardiest things ? Why ? How we surpass them ?
+
+<br>
+<br>
+<br>
+
+### DAG 3 : load local data DAG
+
+#### General presentation
+
+<br>
+<img src="./images/3_load_local_data_dag.jpeg" alt="load_local_data_dag" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
+<br><br>
+
+Present fastly what the DAG is doing, which specific tools are used and what are the specificity of this DAG ?
+
+
+#### Specific tools 
+is there any specific tools in this DAG ?
+
+#### Detailled operations
+Let's have a look on each steps...
 
 #### Difficulties
 What was the hardiest things ? Why ? How we surpass them ?
 
-
 <br>
 <br>
 <br>
 
-### DAG 3 : stagging DAG
+
+### DAG 4 : stagging DAG
 
 #### General presentation
 
@@ -310,7 +312,6 @@ Let's have a look on each steps...
 
 #### Difficulties
 What was the hardiest things ? Why ? How we surpass them ?
-
 
 
 <br>

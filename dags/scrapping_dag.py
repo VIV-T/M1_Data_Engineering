@@ -228,17 +228,18 @@ with DAG(
 
     def _is_on_tropedia(volume_data_folder, source_name, destination_name):
         """
-        Check if the Tropedia page exists for each movie and update the 'exists_on_tropedia' column.
+        Check if the Tropedia page exists for each movie and update the 'is_on_tropedia' column.
         A page is considered non-existent if it contains the text "There is currently no text in this page".
         """
     
         logging.info(f"Starting is_on_tropedia step")
 
         df = _read_data_file_to_df(volume_data_folder=volume_data_folder, source_name=source_name)
-        df = df.head(50)  # Limit to first 5 rows for testing purposes
+        #df = df.head(50)  # Limit to first 50 rows for testing purposes
 
         for i, row in df.iterrows():
             try:
+                logger.info(f"Checking URL {i+1}/{len(df)}: {row['url_tropedia']}")
                 response = requests.get(row["url_tropedia"], timeout=10) # Ajout d'un timeout
                 
                 # Check if the page is valid or if the content is empty
@@ -246,9 +247,9 @@ with DAG(
                 p = soup.select_one("#mw-content-text > div > p")
                 
                 if p and "There is currently no text in this page" in p.text:
-                    df.at[i, "exists_on_tropedia"] = False
+                    df.at[i, "is_on_tropedia"] = False
                 else:
-                    df.at[i, "exists_on_tropedia"] = True
+                    df.at[i, "is_on_tropedia"] = True
 
             except Exception as e:
                 logger.error(f"Error in checking url : {row['url']}")
