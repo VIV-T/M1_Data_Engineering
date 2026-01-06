@@ -3308,3 +3308,743 @@
 {"timestamp":"2026-01-06T19:35:44.857055Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2026-01-06T19:35:49.840534Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
 {"timestamp":"2026-01-06T19:35:49.876447Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T19:57:04.064362Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T19:57:12.571046Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T19:57:12.620818Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T19:57:43.270966Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T19:57:48.341444Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T19:57:48.364636Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T19:58:19.315836Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T19:58:23.811499Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T19:58:23.837640Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T19:58:55.294645Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T19:59:00.322056Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T19:59:00.349445Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T19:59:30.624438Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T19:59:34.859392Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T19:59:34.881891Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:00:06.256562Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:00:10.524146Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:00:10.546054Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:01:19.698814Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:11:01.957776Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:11:01.983450Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:11:32.804573Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:11:36.813599Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:11:36.838689Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:12:07.132987Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:12:11.921774Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:12:11.956024Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:12:42.951133Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:12:47.098915Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:12:47.120031Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:13:18.031233Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:13:22.482092Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:13:22.502779Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:13:53.368026Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:13:57.527035Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:13:57.563575Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:14:28.573684Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:14:32.732670Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:14:32.756744Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:15:03.810539Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:15:09.053844Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:15:09.083326Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:15:39.569185Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:15:43.770450Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:15:43.796301Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:16:14.202935Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:16:19.141508Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:16:19.161670Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:16:49.970915Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:16:55.241411Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:16:55.265446Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:17:26.101205Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:17:31.217953Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:17:31.241677Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:18:02.118609Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:18:06.844126Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:18:06.868539Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:18:37.743610Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:18:42.972823Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:18:43.000209Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:19:13.835708Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:19:18.723103Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:19:18.748190Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:19:49.832033Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:19:54.684128Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:19:54.710571Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:20:24.890945Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:20:29.831778Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:20:29.864753Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:21:00.815177Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:21:05.437093Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:21:05.461800Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:21:36.537543Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:21:41.320965Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:21:41.346342Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:22:12.406988Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:22:17.142077Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:22:17.167480Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:22:48.495113Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:22:53.095120Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:22:53.118242Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:23:23.944098Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:23:28.687024Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:23:28.722093Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:23:59.014170Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:24:03.376322Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:24:03.398344Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:24:34.342473Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:24:38.986966Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:24:39.012605Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:25:09.545753Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:25:14.164812Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:25:14.195280Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:25:44.919177Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:25:49.909427Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:25:49.934785Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:26:20.229989Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:26:24.993785Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:26:25.015027Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:28:51.433989Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:28:58.242168Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:28:58.265416Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:29:28.629619Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:29:33.846375Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:29:33.873312Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:30:04.742145Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:30:11.844282Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:30:11.871391Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:30:43.012895Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:30:48.516876Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:30:48.549117Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:31:19.644750Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:33:25.816751Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:33:32.562712Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:33:32.584716Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:34:03.678049Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:34:08.120319Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:34:08.144259Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:34:39.201543Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:34:43.817694Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:34:43.844988Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:35:14.981352Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:35:19.622999Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:35:19.644491Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:35:50.647150Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:35:55.292443Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:35:55.335779Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:36:26.404501Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:36:30.933545Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:36:30.957646Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:37:01.529935Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:37:06.227661Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:37:06.254295Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:37:37.248305Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:37:41.316450Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:37:41.338999Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:38:11.590653Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:38:16.959376Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:38:16.987284Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:38:47.745140Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:38:55.559304Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:38:55.607906Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:39:26.184712Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:39:32.030556Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:39:32.284996Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:40:02.987672Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:40:08.450952Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:40:08.474960Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:40:38.702159Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:40:43.812058Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:40:43.838955Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:41:15.028638Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:41:20.047883Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:41:20.077582Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:41:50.555120Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:41:56.049658Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:41:56.074948Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:42:26.309076Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:42:31.366237Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:42:31.390675Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:43:01.621413Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:43:06.924328Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:43:06.950832Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:43:37.225679Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:43:42.120358Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:43:42.147877Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:44:12.961008Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:44:17.694481Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:44:17.715671Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:44:48.799217Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:44:53.255079Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:44:53.284219Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:45:24.394587Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:45:28.963020Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:45:28.984043Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:45:59.332509Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:46:04.021208Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:46:04.050510Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:46:34.425463Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:46:38.538960Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:46:38.563013Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:47:08.722516Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:47:12.709313Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:47:12.733630Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:47:43.357499Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:47:47.718754Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:47:47.739715Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:48:17.977963Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:48:21.998045Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:48:22.019800Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:48:52.744444Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:48:57.438979Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:48:57.461832Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:49:01.495295Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:49:06.607834Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:49:06.635827Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:49:37.688895Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:49:41.825736Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:49:41.849755Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:50:12.041852Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:50:16.775465Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:50:16.806448Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:50:47.711463Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:50:52.674120Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:50:52.694801Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:51:23.673314Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:51:29.154144Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:51:29.186270Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:51:59.767396Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:52:06.606763Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:52:06.631337Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:52:37.666444Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:52:42.263002Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:52:42.286726Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:53:13.310318Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:53:18.063389Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:53:18.086095Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:53:48.323198Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:53:52.753467Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:53:52.777947Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:54:23.801029Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:54:28.672966Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:54:28.695159Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:54:59.114282Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:55:03.405453Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:55:03.425984Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:55:33.647034Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:55:38.033380Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:55:38.058163Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:56:09.187484Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:56:13.430226Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:56:13.452358Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:56:43.838795Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:56:48.442248Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:56:48.465809Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:57:18.958973Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:57:23.788408Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:57:23.820686Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T20:57:54.670441Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T20:57:59.354401Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T20:57:59.388331Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:27:11.895764Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:27:21.324615Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:27:21.372651Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:27:52.323586Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:27:57.549671Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:27:57.575781Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:28:28.499650Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:28:32.876960Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:28:32.897829Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:29:03.691882Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:29:08.125956Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:29:08.183135Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:29:39.135194Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:29:44.296110Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:29:44.320372Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:30:15.354553Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:30:22.916940Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:30:22.940427Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:30:53.750002Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:30:59.444958Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:30:59.472071Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:31:30.441852Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:31:38.888264Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:31:38.931899Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:32:09.716055Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:32:19.338605Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:32:19.389675Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:32:50.144821Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:32:55.790180Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:32:55.839773Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:33:26.659365Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:33:34.593850Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:33:34.625108Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:34:05.434169Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:34:13.280204Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:34:13.328807Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:34:44.529533Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:34:51.284846Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:34:51.310265Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:35:21.621678Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:35:27.747279Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:35:27.771940Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:35:58.827835Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:36:04.656093Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:36:04.687717Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:36:35.654611Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:36:41.310786Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:36:41.340005Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:37:12.308272Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:37:18.224136Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:37:18.263401Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:37:48.856489Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:37:54.124847Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:37:54.152846Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:38:24.800040Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:38:31.637023Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:38:31.678801Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:39:02.783952Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:39:08.989849Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:39:09.023594Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:39:39.381654Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:39:46.102925Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:39:46.147883Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:40:17.132083Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:40:23.318634Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:40:23.353044Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:40:54.296971Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:41:01.492668Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:41:01.541373Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:41:32.029913Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:41:40.769665Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:41:40.813341Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:42:11.583547Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:42:38.728302Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:42:38.801797Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:43:35.902266Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:43:44.937915Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:43:44.960741Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:44:15.934323Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:44:45.942000Z","level":"error","event":"Process timed out, PID: 881","logger":"airflow.models.dagbag","filename":"dagbag.py","lineno":134}
+{"timestamp":"2026-01-06T21:44:45.942553Z","level":"error","event":"Failed to import: /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":415,"error_detail":[{"exc_type":"AirflowTaskTimeout","exc_value":"DagBag import timeout for /opt/airflow/dags/production_dag.py after 30.0s.\nPlease take a look at these docs to improve your DAG import time:\n* https://airflow.apache.org/docs/apache-airflow/3.1.0/best-practices.html#top-level-python-code\n* https://airflow.apache.org/docs/apache-airflow/3.1.0/best-practices.html#reducing-dag-complexity, PID: 881","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":405,"name":"parse"},{"filename":"<frozen importlib._bootstrap_external>","lineno":999,"name":"exec_module"},{"filename":"<frozen importlib._bootstrap>","lineno":488,"name":"_call_with_frames_removed"},{"filename":"/opt/airflow/dags/production_dag.py","lineno":9,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sentence_transformers/__init__.py","lineno":10,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sentence_transformers/backend/__init__.py","lineno":3,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sentence_transformers/backend/load.py","lineno":7,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/transformers/__init__.py","lineno":27,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/transformers/dependency_versions_check.py","lineno":16,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/transformers/utils/__init__.py","lineno":24,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/transformers/utils/auto_docstring.py","lineno":30,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/transformers/utils/generic.py","lineno":51,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/torch/__init__.py","lineno":2204,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/torch/nested/__init__.py","lineno":21,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/torch/nested/_internal/nested_tensor.py","lineno":7,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/torch/nested/_internal/nested_int.py","lineno":4,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/torch/fx/__init__.py","lineno":88,"name":"<module>"},{"filename":"<frozen importlib._bootstrap>","lineno":1360,"name":"_find_and_load"},{"filename":"<frozen importlib._bootstrap>","lineno":1331,"name":"_find_and_load_unlocked"},{"filename":"<frozen importlib._bootstrap>","lineno":935,"name":"_load_unlocked"},{"filename":"<frozen importlib._bootstrap_external>","lineno":995,"name":"exec_module"},{"filename":"<frozen importlib._bootstrap_external>","lineno":1128,"name":"get_code"},{"filename":"<frozen importlib._bootstrap_external>","lineno":757,"name":"_compile_bytecode"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":135,"name":"handle_timeout"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2026-01-06T21:44:45.998404Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2026-01-06T21:44:46.758202Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:44:55.676472Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:44:55.759658Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:45:26.327592Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:45:31.828086Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:45:31.854343Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:46:02.220110Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:46:08.020077Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:46:08.066299Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:46:39.083224Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:46:44.229064Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:46:44.252544Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:47:15.287998Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:47:20.497554Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:47:20.522799Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:47:51.415166Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:47:57.061407Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:47:57.087340Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:48:28.003121Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:48:32.546485Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:48:32.569744Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:49:03.393136Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:49:08.630685Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:49:08.653311Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:49:39.405711Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:49:43.684455Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:49:43.707091Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:50:13.975642Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:50:18.391646Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:50:18.414298Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:50:49.333116Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:50:54.110305Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:50:54.132996Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:51:24.486513Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:51:30.526204Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:51:30.548550Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:52:01.127319Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:52:06.378283Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:52:06.401460Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:52:37.184144Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:52:42.653720Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:52:42.679568Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:53:12.981307Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:53:20.192089Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:53:20.231480Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:53:51.259609Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:54:03.053938Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:54:03.119493Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:54:33.702156Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:54:45.438381Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:54:45.501077Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:55:16.752168Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:55:24.536287Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:55:24.560718Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:55:54.863953Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:56:04.162598Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:56:04.198968Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:56:34.610839Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:56:46.733255Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:56:46.781069Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:57:17.493175Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:57:25.661819Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:57:25.701389Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:57:56.636597Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:58:03.028402Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:58:03.056328Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:58:33.770519Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T21:58:44.317594Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T21:58:45.440632Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T21:59:27.079219Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:00:54.999490Z","level":"error","event":"Process timed out, PID: 1608","logger":"airflow.models.dagbag","filename":"dagbag.py","lineno":134}
+{"timestamp":"2026-01-06T22:00:54.999787Z","level":"error","event":"Failed to import: /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":415,"error_detail":[{"exc_type":"AirflowTaskTimeout","exc_value":"DagBag import timeout for /opt/airflow/dags/production_dag.py after 30.0s.\nPlease take a look at these docs to improve your DAG import time:\n* https://airflow.apache.org/docs/apache-airflow/3.1.0/best-practices.html#top-level-python-code\n* https://airflow.apache.org/docs/apache-airflow/3.1.0/best-practices.html#reducing-dag-complexity, PID: 1608","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":405,"name":"parse"},{"filename":"<frozen importlib._bootstrap_external>","lineno":999,"name":"exec_module"},{"filename":"<frozen importlib._bootstrap>","lineno":488,"name":"_call_with_frames_removed"},{"filename":"/opt/airflow/dags/production_dag.py","lineno":9,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sentence_transformers/__init__.py","lineno":10,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sentence_transformers/backend/__init__.py","lineno":3,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sentence_transformers/backend/load.py","lineno":7,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/transformers/configuration_utils.py","lineno":27,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/transformers/modeling_gguf_pytorch_utils.py","lineno":22,"name":"<module>"},{"filename":"<frozen importlib._bootstrap>","lineno":1412,"name":"_handle_fromlist"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/transformers/utils/import_utils.py","lineno":2317,"name":"__getattr__"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/transformers/utils/import_utils.py","lineno":2345,"name":"_get_module"},{"filename":"/usr/python/lib/python3.12/importlib/__init__.py","lineno":90,"name":"import_module"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/transformers/integrations/ggml.py","lineno":24,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/tokenizers/__init__.py","lineno":78,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":135,"name":"handle_timeout"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2026-01-06T22:01:59.777700Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:02:07.923380Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:02:07.964140Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:02:39.017244Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:02:47.847194Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:02:47.893851Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:03:18.342440Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:03:27.754319Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:03:27.798942Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:03:58.246499Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:04:08.494785Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:04:08.539941Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:04:39.423463Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:04:46.638391Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:04:46.667889Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:05:17.726038Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:05:23.078454Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:05:23.107790Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:05:53.521255Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:05:59.625523Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:05:59.664877Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:06:30.898508Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:06:36.044201Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:06:36.094531Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:07:01.863683Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:07:07.101192Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:07:07.125716Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:07:07.207256Z","level":"info","event":"Executing Task callback at index 0: failure_alert","logger":"task","filename":"processor.py","lineno":350}
+{"timestamp":"2026-01-06T22:07:07.207485Z","level":"error","event":"Task FAILED: dag=production_dag task=launch_stagging_container run_id=manual__2026-01-06T21:52:17.643224+00:00 try=1","logger":"unusual_prefix_3f49ec10868ade508445b6969953b7694ea04369_production_dag","filename":"production_dag.py","lineno":42}
+{"timestamp":"2026-01-06T22:07:07.207656Z","level":"error","event":"None","logger":"unusual_prefix_3f49ec10868ade508445b6969953b7694ea04369_production_dag","filename":"production_dag.py","lineno":50}
+{"timestamp":"2026-01-06T22:07:07.343890Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:07:11.927500Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:07:11.951606Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:07:12.023372Z","level":"info","event":"Executing Task callback at index 0: failure_alert","logger":"task","filename":"processor.py","lineno":350}
+{"timestamp":"2026-01-06T22:07:12.023558Z","level":"error","event":"Task FAILED: dag=production_dag task=launch_stagging_container run_id=manual__2026-01-06T21:52:17.643224+00:00 try=1","logger":"unusual_prefix_3f49ec10868ade508445b6969953b7694ea04369_production_dag","filename":"production_dag.py","lineno":42}
+{"timestamp":"2026-01-06T22:07:12.023644Z","level":"error","event":"None","logger":"unusual_prefix_3f49ec10868ade508445b6969953b7694ea04369_production_dag","filename":"production_dag.py","lineno":50}
+{"timestamp":"2026-01-06T22:07:12.145674Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:07:17.174654Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:07:17.200218Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:07:47.496821Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:07:52.790436Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:07:52.813866Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:31:26.952705Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:31:36.531625Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:31:36.579311Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:31:36.639461Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:32:07.120731Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:32:13.325240Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:32:13.353722Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:32:13.410230Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:32:43.867687Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:32:48.434874Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:32:48.463439Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:32:48.534315Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:33:19.359464Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:33:24.641379Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:33:24.669819Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:33:24.745972Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:33:54.985711Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:33:59.441788Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:33:59.466892Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:33:59.519674Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:34:30.457738Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:34:35.702370Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:34:35.729561Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:34:35.791036Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:35:06.657231Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:35:11.019151Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:35:11.043665Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:35:11.101993Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:35:41.239446Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:35:46.279482Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:35:46.301046Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:35:46.357374Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:36:16.602735Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:36:21.064587Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:36:21.090709Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:36:21.161670Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:36:52.165362Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:36:57.214083Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:36:57.238016Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:36:57.292371Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:37:28.297358Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:37:32.749760Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:37:32.774248Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:37:32.837503Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:38:03.760906Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:38:09.175398Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:38:09.209360Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:38:09.281891Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:38:39.595840Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:38:45.991856Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:38:46.018666Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:38:46.084596Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:39:16.299857Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:39:21.838155Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:39:21.859739Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:39:21.918178Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:39:52.076351Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:39:57.938966Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:39:57.993517Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:39:58.078409Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:40:28.877387Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:40:33.433636Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:40:33.458406Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:40:33.515941Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:41:04.206149Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:41:10.413584Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:41:10.438828Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:41:10.509644Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:41:41.161097Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:41:47.281563Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:41:47.324107Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:41:47.407529Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:42:18.056792Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:42:27.484148Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:42:27.520403Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:42:27.590054Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:42:58.396614Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:43:04.517120Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:43:04.575897Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:43:04.816574Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:43:36.146460Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:43:42.101539Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:43:42.123887Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:43:42.179611Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:44:12.389165Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:44:18.162378Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:44:18.186633Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:44:18.267815Z","level":"warning","event":"The `airflow.operators.empty.EmptyOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.empty.EmptyOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/production_dag.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-01-06T22:44:41.163410Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:44:46.423573Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:44:46.458753Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:45:17.618416Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:45:22.416206Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:45:22.437442Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:47:10.184050Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:47:17.548699Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:47:17.571020Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:47:47.789474Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:47:53.152467Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:47:53.176764Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:48:24.048824Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:48:32.141686Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:48:32.179079Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:49:02.898259Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:49:08.672846Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:49:08.708907Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:49:38.936522Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:49:43.865816Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:49:43.889113Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:50:14.684721Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:50:19.411277Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:50:19.434599Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:50:50.210007Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:50:54.575181Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:50:54.601966Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:51:24.880048Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:51:29.919906Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:51:29.941802Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:52:00.581446Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:52:05.178825Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:52:05.204474Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:54:05.394007Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:54:13.130579Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:54:13.154233Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:54:43.423900Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:54:49.560980Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:54:49.587388Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:55:20.160500Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:55:27.656402Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:55:27.688732Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:55:57.992318Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:56:04.570267Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:56:04.600610Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:56:36.177196Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:56:41.918042Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:56:41.944076Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:57:12.588304Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:57:18.188930Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:57:18.213603Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:57:48.405672Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:57:53.605312Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:57:53.653992Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:58:24.170583Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:58:29.198669Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:58:29.223667Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:59:00.205385Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:59:05.061560Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:59:05.085048Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:59:36.321782Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:59:41.383760Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:59:41.407322Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:00:12.524769Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:00:17.569925Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:00:17.599572Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:00:47.827747Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:00:52.614911Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:00:52.640288Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:01:22.853101Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:01:28.372669Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:01:28.397793Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:01:59.443548Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:02:05.322736Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:02:05.348098Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:02:36.487692Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:02:41.413433Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:02:41.436058Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:03:12.335770Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:06:59.004959Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:07:06.201152Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:07:06.227351Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:07:37.135639Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:07:42.402489Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:07:42.425810Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:08:13.071319Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:08:19.418834Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:08:19.443174Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:08:49.737384Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:08:55.319586Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:08:55.345914Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:09:26.303032Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:09:31.332609Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:09:31.357502Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:10:02.409984Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:10:07.077977Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:10:07.101180Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:10:37.364661Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:10:41.862651Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:10:41.884704Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:11:12.812248Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:11:17.434872Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:11:17.455138Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:11:47.759574Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:11:52.084757Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:11:52.106913Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:13:54.655031Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:14:01.652270Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:14:01.678670Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:14:32.087224Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:14:37.265087Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:14:37.289514Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:15:07.801840Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:15:14.873683Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:15:14.897038Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:15:45.911969Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:15:50.769684Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:15:50.792166Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:16:21.801279Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:16:26.293018Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:16:26.316416Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:16:56.948803Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:17:01.320900Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:17:01.365533Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:17:32.099998Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:17:36.876346Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:17:36.899509Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:18:07.091940Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:18:11.851057Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:18:11.876313Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:19:50.557909Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:19:57.836898Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:19:57.863928Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:20:28.264762Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:20:33.367252Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:20:33.394240Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:21:03.891012Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:21:09.836138Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:21:09.864901Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:21:41.969744Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:21:46.811164Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:21:46.834190Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:22:22.993339Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:22:28.648342Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:22:28.687002Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:23:28.743917Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:23:58.266151Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:23:58.322652Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:24:28.907218Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:24:34.071974Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:24:34.102218Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:25:04.791304Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:25:09.761946Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:25:09.789210Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:26:57.039464Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:27:04.139828Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:27:04.161590Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:27:34.803426Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:27:39.967145Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:27:39.991895Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:28:10.851095Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:28:16.344360Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:28:16.368383Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:28:46.665596Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:29:02.756288Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:29:02.822643Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:29:33.336042Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:29:40.534557Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:29:40.564792Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:30:11.466341Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:30:16.461244Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:30:16.486636Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:30:47.098399Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:30:52.008017Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:30:52.034376Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:31:22.233934Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:31:27.075123Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:31:27.098899Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:31:57.339773Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:32:02.241601Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:32:02.269027Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:33:57.394134Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:34:04.678923Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:34:04.701055Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:34:35.362863Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:34:40.529209Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:34:40.555407Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:35:11.046014Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:35:16.172178Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:35:16.196831Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:35:47.087643Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:35:52.426714Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:35:52.456213Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:36:23.005421Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:36:28.196627Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:36:28.222547Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:36:58.560842Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:37:03.957041Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:37:03.983912Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:37:34.295854Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:37:39.304581Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:37:39.327520Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:38:10.120263Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:38:15.349299Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:38:15.377535Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:41:02.017045Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:41:32.309108Z","level":"error","event":"Process timed out, PID: 314","logger":"airflow.models.dagbag","filename":"dagbag.py","lineno":134}
+{"timestamp":"2026-01-06T23:41:32.309696Z","level":"error","event":"Failed to import: /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":415,"error_detail":[{"exc_type":"AirflowTaskTimeout","exc_value":"DagBag import timeout for /opt/airflow/dags/production_dag.py after 30.0s.\nPlease take a look at these docs to improve your DAG import time:\n* https://airflow.apache.org/docs/apache-airflow/3.1.0/best-practices.html#top-level-python-code\n* https://airflow.apache.org/docs/apache-airflow/3.1.0/best-practices.html#reducing-dag-complexity, PID: 314","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":405,"name":"parse"},{"filename":"<frozen importlib._bootstrap_external>","lineno":999,"name":"exec_module"},{"filename":"<frozen importlib._bootstrap>","lineno":488,"name":"_call_with_frames_removed"},{"filename":"/opt/airflow/dags/production_dag.py","lineno":9,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sentence_transformers/__init__.py","lineno":10,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sentence_transformers/backend/__init__.py","lineno":5,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sentence_transformers/backend/quantize.py","lineno":7,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sentence_transformers/util/__init__.py","lineno":15,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sentence_transformers/util/retrieval.py","lineno":14,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sentence_transformers/util/similarity.py","lineno":5,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sklearn/__init__.py","lineno":73,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sklearn/base.py","lineno":19,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/__init__.py","lineno":9,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/_chunking.py","lineno":11,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/_param_validation.py","lineno":17,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/validation.py","lineno":21,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/_array_api.py","lineno":20,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/fixes.py","lineno":16,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/scipy/stats/__init__.py","lineno":626,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/scipy/stats/_stats_py.py","lineno":52,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/scipy/stats/distributions.py","lineno":10,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/scipy/stats/_continuous_distns.py","lineno":13,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/scipy/interpolate/__init__.py","lineno":199,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/scipy/interpolate/_rbfinterp.py","lineno":134,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py","lineno":135,"name":"handle_timeout"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2026-01-06T23:42:02.524422Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:42:11.121560Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:42:11.191886Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:42:41.497299Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T23:42:47.226333Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T23:42:47.254231Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T23:43:18.370894Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
