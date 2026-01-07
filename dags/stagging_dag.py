@@ -90,12 +90,12 @@ with DAG(
         tropes_collection = scripts_db["tropes"]
 
         for name, definition in dict_trope_list.items() :
-            topes_document= {
+            tropes_document= {
                 "name" : name, 
                 "definition" : definition["definition"]  # due to the particular structure of the JSON file loaded
                 }
             
-            tropes_collection.insert_one(topes_document)
+            tropes_collection.insert_one(tropes_document)
             logger.info(f"Inserted tropes : {name} into MongoDB")
 
         
