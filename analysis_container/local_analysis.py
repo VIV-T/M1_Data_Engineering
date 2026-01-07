@@ -159,11 +159,7 @@ def format_data (movies : list) :
 #     )
 #     response = pipe(prompt)[0]["generated_text"]
 
-#     # save the LLM response
-#     i = randint(1,9)
-#     output_path = os.path.join(PRODUCTION_DATA_FOLDER_LLM_OUTPUT, f"test_{i}.txt")
-#     with open(output_path, "w") as f:
-#         f.write(response)
+#     return response[len(prompt):].strip()
 
 
 def format_results():
