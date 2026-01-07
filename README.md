@@ -127,8 +127,11 @@ We also choose to add to the DAG's folder two other python script : <br>
 <br>
 <img src="./images/diagram.png" alt="diagram" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br>
+<br>
+<br>
 
 
+## DAGs
 ### DAG 1 : scrapping DAG
 
 #### General presentation
@@ -327,10 +330,10 @@ Our last Airflow DAG is dedicated to do the movie script analysis from MongoDB d
 <br><br>
 The DAG strats by creating the required folder Inside the Docker volume, "project_data". After the folders creation, we use a Python operator to create the FAISS index using the faiss and sentence_transformers packages. Finally, a Docker Operator is used to launch the analysis_container, where the analysis is performed.
 <br><br>
-To perform the analysis, we decide to use PySpark. The idea is to parallelize the analysis operations to save execution time and resources. There are 3 main steps :
+There are 3 main steps in the scene analysis (local analysis):
  - embed the scene content using the same model than the tropes embedding (Bert) - this is a model specialized in semantic analysis.
- - similarity calculation : retrieve the 3 most relevant tropes stored in the faiss indexes for each scene.
- - call a LLM with a specific prompt to improve the result and confirm or infirm the first analysis.
+ - similarity calculation : retrieve the 5 most relevant tropes stored in the faiss indexes for each scene.
+ - call a LLM with a specific prompt to improve the result and confirm or infirm the first analysis. (cf. Difficulties)
 
 <br>
 
@@ -342,9 +345,6 @@ To perform the analysis, we decide to use PySpark. The idea is to parallelize th
 **Hugging face** (transformers python package) : Allow us to easily manipulate pre-trained LLM in our code. With this tool, we can call a LLM model with a dedicated prompt to get a generated response. This is one of the simpliest way to use a LLM in a python code.
 <br><br>
 
-**PySpark** : PySpark is an Opensource tool used in Big Data. It allow us to manage huge amount of data and parrallelize operation between multiple cores in local or in a cluster of machine. In our case, it is interesting to use to parrallelize the movie scene analysis. 
-<br><br>
-
 Again, using those specific tools required a dedicated container to isolate the heavy requirement from the Airflow environement.
 
 <br>
@@ -353,12 +353,15 @@ Again, using those specific tools required a dedicated container to isolate the 
 
 **Large python requirements** : building issues. It was important to cache the requirements installation to avoid important execution time each time we decide to refactor our code or push some modifications.
 
+<br>
+
+**Hardware limitations :** In the analysis container, we wanted to download a LLM model locally and use it to confirm or infirm the trope found with the similarity research using Faiss index. But this kind of model need at least 20 GO of storage to be stored and between 20 and 24 GO of RAM to run normally (in addition of the RAM needed for other systems and application to run), which is much more higher our hardware capacity. Due to those hardawre limitations, we decide to implement the code without executing it. This code is more theorical here, but if we improve our hardware capacity, it could be interesting to test it. This is also why you will found the related code commented in the python scripts like "local_analysis.py" or "global_analysis.py".
 
 <br>
 <br>
 <br>
 
----
+
 ## Analysis Dashboard
 
 A simple Streamlit dashboard was developed to provide a global overview of the data produced by the pipeline. 
