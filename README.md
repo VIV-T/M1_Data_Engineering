@@ -127,8 +127,11 @@ We also choose to add to the DAG's folder two other python script : <br>
 <br>
 <img src="./images/diagram.png" alt="diagram" style="width:100%; height:auto; display:block; margin-left:auto; margin-right:auto;"/>
 <br>
+<br>
+<br>
 
 
+## DAGs
 ### DAG 1 : scrapping DAG
 
 #### General presentation
@@ -358,7 +361,7 @@ Again, using those specific tools required a dedicated container to isolate the 
 <br>
 <br>
 
----
+
 ## Analysis Dashboard
 
 A simple Streamlit dashboard was developed to provide a global overview of the data produced by the pipeline. 
