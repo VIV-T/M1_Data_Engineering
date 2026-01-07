@@ -196,10 +196,11 @@ def main_local_analysis() :
     logger.info("Faiss index retrieved successfully.")
 
     # Second model initialization : to check the result with a LLM
-    #tokenizer = AutoTokenizer.from_pretrained(LLM_NAME)
-    #model = AutoModelForCausalLM.from_pretrained(LLM_NAME, torch_dtype=torch.float16, device_map="auto")
-
-    #logger.info("LLM model and tokenizer initialized.")
+    _TOKENIZER = AutoTokenizer.from_pretrained(LLM_NAME)
+    logger.info("LLM tokenizer initialized.")
+    _MODEL = AutoModelForCausalLM.from_pretrained(LLM_NAME, torch_dtype=torch.float16, device_map="auto")
+    logger.info("LLM model initialized.")
+    
 
     # initialize the spark session (Use of all local core - "local[*]")
     spark = SparkSession.builder \
@@ -280,23 +281,43 @@ def main_local_analysis() :
         return pd.Series(results)
 
 
-    # @pandas_udf("double", PandasUDFType.SCALAR)
-    # def llm_verification(model, tokenizer, scene_content, retrieved_tropes):
+ 
+    # @pandas_udf(FloatType())
+    # def llm_verification(scene_content_series, retrieved_tropes_series):
     #     """
-    #     Docstring for llm_verification
-
-    #     To apply the response generation to each line of the spark_df.
-
-    #     :param model: The LLM model name used for response generation
-    #     :param tokenizer: Param for model calling.
-    #     :param scene_content: The scene content - text format.
-    #     :param retrieved_tropes: The tropes retrieved in this scene (with faiss index).
+    #     Applies LLM verification to each scene to validate if the retrieved tropes 
+    #     are actually present in the text.
     #     """
-    #     # call the _generate_response function
-    #     response = _generate_response(model=model, tokenizer=tokenizer, scene_content=scene_content, retrieved_tropes=retrieved_tropes)
-    #     return response
+    #     global _MODEL, _TOKENIZER
+        
+    #     # Lazy load the LLM on the Spark worker if not already present
+    #     if _MODEL is None or _TOKENIZER is None:
+    #         logger.info("Initializing LLM on worker...")
+    #         _TOKENIZER = AutoTokenizer.from_pretrained(LLM_NAME)
+    #         _MODEL = AutoModelForCausalLM.from_pretrained(
+    #             LLM_NAME, 
+    #             torch_dtype=torch.float16, 
+    #             device_map="auto"
+    #         )
 
+    #     results = []
+    #     # Iterate through the batch of scenes and their corresponding tropes
+    #     for content, tropes in zip(scene_content_series, retrieved_tropes_series):
+    #         # We assume _generate_response returns a numerical score (0.0 to 1.0)
+    #         # or we parse its output to a float.
+    #         try:
+    #             score = _generate_response(
+    #                 model=_MODEL, 
+    #                 tokenizer=_TOKENIZER, 
+    #                 scene_content=content, 
+    #                 retrieved_tropes=tropes
+    #             )
+    #             results.append(float(score))
+    #         except Exception as e:
+    #             logger.error(f"Error during LLM verification: {e}")
+    #             results.append(0.0)
 
+    #     return pd.Series(results)
 
 
     # Note : modify the defined function applied to the spark_df (incompletes)
