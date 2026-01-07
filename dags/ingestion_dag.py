@@ -12,7 +12,7 @@ from lxml import html
 from airflow import DAG
 from airflow.providers.docker.operators.docker import DockerOperator
 from airflow.providers.standard.operators.python import PythonOperator
-from airflow.operators.empty import EmptyOperator
+from airflow.providers.standard.operators.empty import EmptyOperator
 
 from datetime import timedelta
 

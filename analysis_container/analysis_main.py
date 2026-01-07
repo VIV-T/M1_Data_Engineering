@@ -3,7 +3,8 @@ import logging
 import logging.config
 import os
 
-from local_analysis import main_local_analysis
+from local_analysis_simple import main_local_analysis
+# from global_analysis import main_global_analysis
 
 ### --Initialization--
 # logs
@@ -53,5 +54,6 @@ LOGGING = {
 def main() :
     logging.config.dictConfig(LOGGING)
     main_local_analysis()
+    # main_global_analysis()
 
 main()

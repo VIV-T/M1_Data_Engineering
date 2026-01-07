@@ -4,6 +4,7 @@ from pymongo import MongoClient
 import pandas as pd
 import os
 from random import randint
+import traceback
 
 # to load the embedding model + faiss index
 from sentence_transformers import SentenceTransformer
@@ -17,6 +18,7 @@ import torch
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import pandas_udf, PandasUDFType
 from pyspark.sql.types import ArrayType, FloatType, StringType
+from pyspark.sql.functions import array_join
 
 # logger config
 logger = logging.getLogger("local_analysis")
@@ -191,11 +193,13 @@ def main_local_analysis() :
     _FAISS_INDEX = faiss.read_index(FAISS_INDEX_PATH)
     logger.info("Faiss index retrieved successfully.")
 
+
+    # LLM related - hardware limitations
     # Second model initialization : to check the result with a LLM
-    _TOKENIZER = AutoTokenizer.from_pretrained(LLM_NAME)
-    logger.info("LLM tokenizer initialized.")
-    _MODEL = AutoModelForCausalLM.from_pretrained(LLM_NAME, torch_dtype=torch.float16, device_map="auto")
-    logger.info("LLM model initialized.")
+    #_TOKENIZER = AutoTokenizer.from_pretrained(LLM_NAME)
+    #logger.info("LLM tokenizer initialized.")
+    #_MODEL = AutoModelForCausalLM.from_pretrained(LLM_NAME, torch_dtype=torch.float16, device_map="auto")
+    #logger.info("LLM model initialized.")
     
 
     # initialize the spark session (Use of all local core - "local[*]")
@@ -206,13 +210,6 @@ def main_local_analysis() :
 
     logger.info("Spark Session initialized")
     
-    # Make sure the current module is available to Spark worker processes
-    try:
-        spark.sparkContext.addPyFile(__file__)
-        logger.info(f"Added {__file__} to Spark python files")
-    except Exception:
-        logger.warning("Could not add local module file to Spark executors; proceeding anyway")
-
     spark_df = spark.createDataFrame(df_formated)
 
     logger.info("Spark DataFrame created from the pandas DataFrame.")
@@ -229,16 +226,17 @@ def main_local_analysis() :
         :param scene_content: the scene content of the sliced script
         :param model_embedding: the model used to embed (Bert - the same used for tropes)
         """
-        global _MODEL_EMBEDDING
-        if _MODEL_EMBEDDING is None:
-            # lazy load inside worker
-            _MODEL_EMBEDDING = SentenceTransformer(MODEL_PATH)
-            
-            logger.info("Embedding model retrieved successfully.")
+        try:
+            global _MODEL_EMBEDDING
+            if _MODEL_EMBEDDING is None:
+                _MODEL_EMBEDDING = SentenceTransformer(MODEL_PATH)
 
-        texts = scene_content.tolist()
-        embeddings = _MODEL_EMBEDDING.encode(texts, convert_to_numpy=True)
-        return pd.Series([emb.tolist() for emb in embeddings])
+            texts = scene_content.tolist()
+            embeddings = _MODEL_EMBEDDING.encode(texts, convert_to_numpy=True)
+            return pd.Series([emb.tolist() for emb in embeddings])
+        except :
+            # safe default: return empty embedding for each row
+            return pd.Series([[] for _ in range(len(scene_content))])
 
 
 
@@ -254,27 +252,38 @@ def main_local_analysis() :
         :param tropes_db: The tropes_db coming from MongoDB
         :param k: Maximum number of relevant tropes to retrieve.
         """
-        global _FAISS_INDEX, _TROPES_LIST, _K_NEIGHBORS
-        import numpy as _np
+        try:
+            global _FAISS_INDEX, _TROPES_LIST, _K_NEIGHBORS
+            import numpy as _np
 
-        if _FAISS_INDEX is None:
-            _FAISS_INDEX = faiss.read_index(FAISS_INDEX_PATH)
-            logger.info("Faiss index retrieved successfully.")
+            if _FAISS_INDEX is None:
+                _FAISS_INDEX = faiss.read_index(FAISS_INDEX_PATH)
 
+            if _TROPES_LIST is None:
+                tropes_cursor = get_all_tropes()
+                _TROPES_LIST = list(tropes_cursor)
 
-        if _TROPES_LIST is None:
-            # materialize tropes from MongoDB
-            tropes_cursor = get_all_tropes()
-            _TROPES_LIST = list(tropes_cursor)
+            # handle empty embeddings
+            list_embeddings = text_embedding.tolist()
+            if len(list_embeddings) == 0:
+                return pd.Series([[] for _ in range(len(list_embeddings))])
 
-        X = _np.array([list(x) for x in text_embedding.tolist()]).astype(_np.float32)
-        distances, indices = _FAISS_INDEX.search(X, _K_NEIGHBORS)
+            X = _np.array([list(x) for x in list_embeddings]).astype(_np.float32)
+            distances, indices = _FAISS_INDEX.search(X, _K_NEIGHBORS)
 
-        results = []
-        for index_row in indices:
-            results.append([_TROPES_LIST[i]["name"] for i in index_row])
+            results = []
+            for index_row in indices:
+                results.append([_TROPES_LIST[i]["name"] for i in index_row])
 
-        return pd.Series(results)
+            return pd.Series(results)
+        except :
+            # safe default: return empty trope list for each input row
+            # length must match input length
+            try:
+                n = len(text_embedding)
+            except Exception:
+                n = 1
+            return pd.Series([[] for _ in range(n)])
 
 
  
@@ -288,7 +297,6 @@ def main_local_analysis() :
         
     #     # Lazy load the LLM on the Spark worker if not already present
     #     if _MODEL is None or _TOKENIZER is None:
-    #         logger.info("Initializing LLM on worker...")
     #         _TOKENIZER = AutoTokenizer.from_pretrained(LLM_NAME)
     #         _MODEL = AutoModelForCausalLM.from_pretrained(
     #             LLM_NAME, 
@@ -310,32 +318,40 @@ def main_local_analysis() :
     #             )
     #             results.append(float(score))
     #         except Exception as e:
-    #             logger.error(f"Error during LLM verification: {e}")
     #             results.append(0.0)
 
     #     return pd.Series(results)
 
 
-    # Note : modify the defined function applied to the spark_df (incompletes)
+    # Applying the UDFs to the Spark DataFrame
     spark_df = spark_df.withColumn("scene_content_embeded", embed_scene_content(spark_df["scene_content"]))
     logger.info("All scene content embedded")
     spark_df = spark_df.withColumn("similar_tropes", similarity_calculation(spark_df["scene_content_embeded"]))
     logger.info("Tropes retrieved for each scene")
+
+    # LLM related - hardware limitations
     #spark_df = spark_df.withColumn("LLM_output", llm_verification(model=model, tokenizer=tokenizer, scene_content=spark_df["scene_content"], retrieved_tropes=spark_df["similar_tropes"]))
     #logger.info("LLM Check ended.")
 
-    # depending on how the last output is defined, what's next ?
-    # Result formating
-    # Maj of MongoDB ?
 
-    pd_df = spark_df.toPandas()
-    logger.info("Spark DataFrame converted back to pandas DataFrame.")
 
-    # save the output locally for now (to be used for MongoDB Maj later)
+    # Code with executing issues to be fixed.
+    spark_df = spark_df.withColumn("trope", array_join("similar_tropes", "-"))
+    # drop this column to save space & to avoid issues during the save (compatibility with the csv format).
+    spark_df = spark_df.drop("scene_content_embeded", "similar_tropes")
+
     output_path = os.path.join(PRODUCTION_DATA_FOLDER, "local_analysis_output.csv")
-    pd_df.to_csv(output_path, index=False)
-    logger.info(f"Local analysis output saved to {output_path}")
+    spark_df.coalesce(1).write \
+    .option("header", "true") \
+    .option("delimiter", ";") \
+    .option("encoding", "UTF-8") \
+    .mode("overwrite") \
+    .csv(output_path)
 
+    logger.info("Spark DataFrame with one trope per row created and saved.")
+
+    # depending on the results saved in the csv, format and store the results into MongoDB
+    # format_results()
     # ending the spark session
     spark.stop()
 
