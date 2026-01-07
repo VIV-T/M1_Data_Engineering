@@ -1,0 +1,11 @@
+{"timestamp":"2026-01-06T22:48:04.558095Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-01-06T22:48:04.560093Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-06T22:48:09.590501Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-06T22:48:09.614072Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-06T22:48:09.738067Z","level":"info","event":"MongoDB client created","logger":"root","filename":"shared_operators.py","lineno":37}
+{"timestamp":"2026-01-06T22:48:09.757304Z","level":"info","event":"Databases available: ['admin', 'config', 'local', 'scriptsDB']","logger":"root","filename":"shared_operators.py","lineno":38}
+{"timestamp":"2026-01-06T22:48:09.776883Z","level":"info","event":"Use pytorch device_name: cpu","logger":"sentence_transformers.SentenceTransformer","filename":"SentenceTransformer.py","lineno":219}
+{"timestamp":"2026-01-06T22:48:09.777049Z","level":"info","event":"Load pretrained SentenceTransformer: bert-base-nli-stsb-mean-tokens","logger":"sentence_transformers.SentenceTransformer","filename":"SentenceTransformer.py","lineno":227}
+{"timestamp":"2026-01-06T22:48:34.596510Z","level":"info","event":"Save model to /opt/airflow/project_data/production_data/tools/bert_model","logger":"sentence_transformers.SentenceTransformer","filename":"SentenceTransformer.py","lineno":1710}
+{"timestamp":"2026-01-06T22:48:38.870485Z","level":"error","event":"\rBatches:   0%|          | 0/2 [00:00<?, ?it/s]\rBatches:  50%|█████     | 1/2 [00:02<00:02,  2.84s/it]\rBatches: 100%|██████████| 2/2 [00:03<00:00,  1.55s/it]\rBatches: 100%|██████████| 2/2 [00:03<00:00,  1.74s/it]","logger":"task.stderr"}
+{"timestamp":"2026-01-06T22:48:38.874944Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}

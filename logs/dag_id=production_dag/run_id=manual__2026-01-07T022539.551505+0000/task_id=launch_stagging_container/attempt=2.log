@@ -1,0 +1,8 @@
+{"timestamp":"2026-01-07T02:36:47.088752Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-01-07T02:36:47.090274Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/production_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-07T02:36:55.669238Z","level":"info","event":"Loading faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":132}
+{"timestamp":"2026-01-07T02:36:55.697006Z","level":"info","event":"Successfully loaded faiss with AVX2 support.","logger":"faiss.loader","filename":"loader.py","lineno":134}
+{"timestamp":"2026-01-07T02:36:57.732706Z","level":"info","event":"Starting docker container from image m1_data_engineering-analyser:latest","logger":"airflow.task.operators.airflow.providers.docker.operators.docker.DockerOperator","filename":"docker.py","lineno":355}
+{"timestamp":"2026-01-07T02:37:17.856623Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"not_running","message":"TI is no longer in the running state and task should terminate","current_state":"failed"}},"logger":"task"}
+{"timestamp":"2026-01-07T02:37:17.857810Z","level":"info","event":"Stopping docker container","logger":"airflow.task.operators.airflow.providers.docker.operators.docker.DockerOperator","filename":"docker.py","lineno":515}
+{"timestamp":"2026-01-07T02:37:22.920309Z","level":"error","event":"Task killed!","logger":"task"}
