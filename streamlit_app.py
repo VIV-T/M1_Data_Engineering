@@ -91,12 +91,13 @@ def get_db():
     return client["scriptsDB"]
 
 @st.cache_resource
-def movies_col():
+def get_movies_col():
     return get_db()["movies"]
 
 @st.cache_resource
-def tropes_col():
+def get_tropes_col():
     return get_db()["tropes"]
+
 
 # Parsing helper for movie tropes field
 def parse_movie_tropes(value):
@@ -108,10 +109,11 @@ def parse_movie_tropes(value):
         return [p.strip() for p in value.split(",") if p.strip()]
     return []
 
-### Load movies + word stats + global top tropes
+# --------------------------------------------
+
 @st.cache_data
 def load_movies_and_stats():
-    cursor = movies_col().find({}, {"_id": 0, "name": 1, "full_script": 1, "tropes": 1})
+    cursor = get_movies_col().find({}, {"_id": 0, "name": 1, "full_script": 1, "tropes": 1})
 
     movies = []
     total_words = 0
@@ -140,7 +142,24 @@ def load_movies_and_stats():
 
 @st.cache_data
 def total_tropes_docs():
-    return tropes_col().count_documents({})
+    return get_tropes_col().count_documents({})
+
+# -------------------------------------------------------------------------- ADD by baptiste
+@st.cache_data
+def load_filtered_tropes(only_active=False):
+    """Only get tropes present in the movies of the db OR get all tropes"""
+    trope_col = get_tropes_col()
+    movie_col = get_movies_col()
+
+    if only_active:
+        unique_names = movie_col.distinct("tropes")
+    else:
+       unique_names = trope_col.distinct("name")
+   
+    unique_names.sort()
+    
+    return [name for name in unique_names if name]
+# --------------------------------------------------------------------------
 
 
 ### Header
@@ -225,7 +244,7 @@ selected_movie = st.selectbox("Select a movie", movie_names)
 card("Number of words", f"{word_map.get(selected_movie, 0):,}", selected_movie)
 st.markdown("<div style='height: 18px;'></div>", unsafe_allow_html=True)
 
-movie_doc = movies_col().find_one(
+movie_doc = get_movies_col().find_one(
     {"name": selected_movie},
     {"_id": 0, "full_script": 1, "tropes": 1},
 )
@@ -235,7 +254,7 @@ movie_tropes = parse_movie_tropes((movie_doc or {}).get("tropes"))
 if st.button("Find most similar movie"):
     similar_name, score = find_most_similar_document(
         selected_movie,
-        movies_col()
+        get_movies_col()
     )
     st.success(
         f"Most similar movie to **{selected_movie}** : "
@@ -261,3 +280,38 @@ with right:
 
 
 
+#---------------------------------------------------------------- ADD by baptiste
+
+st.markdown("<div class='divider'></div>", unsafe_allow_html=True)
+st.markdown("<div class='section-title'>Find Movies by Trope</div>", unsafe_allow_html=True)
+
+# Checkbox
+only_active = st.checkbox("Show only tropes present in movies", value=True)
+
+# load tropes
+available_tropes = load_filtered_tropes(only_active=only_active)
+
+# selection
+selected_trope = st.selectbox(
+    f"Search among {len(available_tropes)} tropes", 
+    [""] + available_tropes
+)
+
+if selected_trope:
+    # get definiton
+    trope_col = get_tropes_col()
+    trope_info = trope_col.find_one({"name": selected_trope})
+    
+    if trope_info:
+        st.info(f"**Definition:** {trope_info.get('definition', 'No definition available.')}")
+
+    # find corresponding movies
+    movie_col = get_movies_col()
+    matching_movies = list(movie_col.find({"tropes": selected_trope}, {"name": 1, "_id": 0}))
+
+    if matching_movies:
+        st.write(f"### {len(matching_movies)} movies found:")
+        cols = st.columns(3)
+        for idx, movie in enumerate(matching_movies):
+            cols[idx % 3].markdown(f"- **{movie['name']}**")
+#----------------------------------------------------------------
