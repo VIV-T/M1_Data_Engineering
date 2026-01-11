@@ -84,31 +84,23 @@ def get_db():
     client = MongoClient(
         host=os.getenv("MONGO_HOST", "localhost"),
         port=int(os.getenv("MONGO_PORT", "27017")),
-        username=os.getenv("MONGO_USER", "admin"),
-        password=os.getenv("MONGO_PASSWORD", "admin"),
-        authSource=os.getenv("MONGO_AUTHSOURCE", "admin"),
+        username=os.getenv("MONGO_INITDB_ROOT_USERNAME", "admin"), 
+        password=os.getenv("MONGO_INITDB_ROOT_PASSWORD", "admin"), 
+        authSource="admin"
     )
-    return client["scriptsDB"]
 
 @st.cache_resource
-def movies_col():
-    return get_db()["movies"]
+def get_movies_collection():
+    client = get_mongo_client()
+    return client["scriptsDB"]["movies"]
 
 @st.cache_resource
-def tropes_col():
-    return get_db()["tropes"]
+def get_tropes_collection():
+    client = get_mongo_client()
+    return client["scriptsDB"]["tropes"]
 
-# Parsing helper for movie tropes field
-def parse_movie_tropes(value):
-    if value is None:
-        return []
-    if isinstance(value, list):
-        return [str(x).strip() for x in value if str(x).strip()]
-    if isinstance(value, str):
-        return [p.strip() for p in value.split(",") if p.strip()]
-    return []
+# --------------------------------------------
 
-### Load movies + word stats + global top tropes
 @st.cache_data
 def load_movies_and_stats():
     cursor = movies_col().find({}, {"_id": 0, "name": 1, "full_script": 1, "tropes": 1})
@@ -141,6 +133,23 @@ def load_movies_and_stats():
 @st.cache_data
 def total_tropes_docs():
     return tropes_col().count_documents({})
+
+# -------------------------------------------------------------------------- ADD by baptiste
+@st.cache_data
+def load_filtered_tropes(only_active=False):
+    """Only get tropes present in the movies of the db OR get all tropes"""
+    trope_col = get_tropes_collection()
+    movie_col = get_movies_collection()
+
+    if only_active:
+        unique_names = movie_col.distinct("tropes")
+    else:
+       unique_names = trope_col.distinct("name")
+   
+    unique_names.sort()
+    
+    return [name for name in unique_names if name]
+# --------------------------------------------------------------------------
 
 
 ### Header
@@ -261,3 +270,38 @@ with right:
 
 
 
+#---------------------------------------------------------------- ADD by baptiste
+
+st.markdown("<div class='divider'></div>", unsafe_allow_html=True)
+st.markdown("<div class='section-title'>Find Movies by Trope</div>", unsafe_allow_html=True)
+
+# Checkbox
+only_active = st.checkbox("Show only tropes present in movies", value=True)
+
+# load tropes
+available_tropes = load_filtered_tropes(only_active=only_active)
+
+# selection
+selected_trope = st.selectbox(
+    f"Search among {len(available_tropes)} tropes", 
+    [""] + available_tropes
+)
+
+if selected_trope:
+    # get definiton
+    trope_col = get_tropes_collection()
+    trope_info = trope_col.find_one({"name": selected_trope})
+    
+    if trope_info:
+        st.info(f"**Definition:** {trope_info.get('definition', 'No definition available.')}")
+
+    # find corresponding movies
+    movie_col = get_movies_collection()
+    matching_movies = list(movie_col.find({"tropes": selected_trope}, {"name": 1, "_id": 0}))
+
+    if matching_movies:
+        st.write(f"### {len(matching_movies)} movies found:")
+        cols = st.columns(3)
+        for idx, movie in enumerate(matching_movies):
+            cols[idx % 3].markdown(f"- **{movie['name']}**")
+#----------------------------------------------------------------
