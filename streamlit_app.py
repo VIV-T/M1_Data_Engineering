@@ -94,27 +94,51 @@ def card(title, value, subtitle=""):
 
 # Mongo connection
 
+# @st.cache_resource
+# def get_movies_collection():
+#     client = MongoClient(
+#         host=os.getenv("MONGO_HOST", "localhost"),
+#         port=int(os.getenv("MONGO_PORT", "27017")),
+#         username=os.getenv("MONGO_USER", "admin"),
+#         password=os.getenv("MONGO_PASSWORD", "admin"),
+#         authSource=os.getenv("MONGO_AUTHSOURCE", "admin"),
+#     )
+#     return client["scriptsDB"]["movies"]
+
+# @st.cache_resource
+# def get_tropes_collection():
+#     client = MongoClient(
+#         host=os.getenv("MONGO_HOST", "localhost"),
+#         port=int(os.getenv("MONGO_PORT", "27017")),
+#         username=os.getenv("MONGO_USER", "admin"),
+#         password=os.getenv("MONGO_PASSWORD", "admin"),
+#         authSource=os.getenv("MONGO_AUTHSOURCE", "admin"),
+#     )
+#     return client["scriptsDB"]["tropes"]
+
+# -------------------------------------------- Add by baptiste, only for my mongoDB setup, Maia you can remove it 
+@st.cache_resource
+def get_mongo_client():
+    
+    return MongoClient(
+        host=os.getenv("MONGO_HOST", "mongo"),
+        port=int(os.getenv("MONGO_PORT", "27017")),
+        username=os.getenv("MONGO_INITDB_ROOT_USERNAME", "admin"), 
+        password=os.getenv("MONGO_INITDB_ROOT_PASSWORD", "admin"), 
+        authSource="admin"
+    )
+
 @st.cache_resource
 def get_movies_collection():
-    client = MongoClient(
-        host=os.getenv("MONGO_HOST", "localhost"),
-        port=int(os.getenv("MONGO_PORT", "27017")),
-        username=os.getenv("MONGO_USER", "admin"),
-        password=os.getenv("MONGO_PASSWORD", "admin"),
-        authSource=os.getenv("MONGO_AUTHSOURCE", "admin"),
-    )
+    client = get_mongo_client()
     return client["scriptsDB"]["movies"]
 
 @st.cache_resource
 def get_tropes_collection():
-    client = MongoClient(
-        host=os.getenv("MONGO_HOST", "localhost"),
-        port=int(os.getenv("MONGO_PORT", "27017")),
-        username=os.getenv("MONGO_USER", "admin"),
-        password=os.getenv("MONGO_PASSWORD", "admin"),
-        authSource=os.getenv("MONGO_AUTHSOURCE", "admin"),
-    )
+    client = get_mongo_client()
     return client["scriptsDB"]["tropes"]
+
+# --------------------------------------------
 
 @st.cache_data
 def load_movies():
@@ -148,6 +172,23 @@ def load_movies():
 def load_total_tropes():
     col = get_tropes_collection()
     return col.count_documents({})
+
+# -------------------------------------------------------------------------- ADD by baptiste
+@st.cache_data
+def load_filtered_tropes(only_active=False):
+    """Only get tropes present in the movies of the db OR get all tropes"""
+    trope_col = get_tropes_collection()
+    movie_col = get_movies_collection()
+
+    if only_active:
+        unique_names = movie_col.distinct("tropes")
+    else:
+       unique_names = trope_col.distinct("name")
+   
+    unique_names.sort()
+    
+    return [name for name in unique_names if name]
+# --------------------------------------------------------------------------
 
 
 # Header (logo + title)
@@ -239,3 +280,38 @@ with st.expander("Show script preview (first 2000 characters)"):
     text = (doc or {}).get("full_script", "")
     st.text(text[:2000] if text else "(empty script)")
 
+#---------------------------------------------------------------- ADD by baptiste
+
+st.markdown("<div class='divider'></div>", unsafe_allow_html=True)
+st.markdown("<div class='section-title'>Find Movies by Trope</div>", unsafe_allow_html=True)
+
+# Checkbox
+only_active = st.checkbox("Show only tropes present in movies", value=True)
+
+# load tropes
+available_tropes = load_filtered_tropes(only_active=only_active)
+
+# selection
+selected_trope = st.selectbox(
+    f"Search among {len(available_tropes)} tropes", 
+    [""] + available_tropes
+)
+
+if selected_trope:
+    # get definiton
+    trope_col = get_tropes_collection()
+    trope_info = trope_col.find_one({"name": selected_trope})
+    
+    if trope_info:
+        st.info(f"**Definition:** {trope_info.get('definition', 'No definition available.')}")
+
+    # find corresponding movies
+    movie_col = get_movies_collection()
+    matching_movies = list(movie_col.find({"tropes": selected_trope}, {"name": 1, "_id": 0}))
+
+    if matching_movies:
+        st.write(f"### {len(matching_movies)} movies found:")
+        cols = st.columns(3)
+        for idx, movie in enumerate(matching_movies):
+            cols[idx % 3].markdown(f"- **{movie['name']}**")
+#----------------------------------------------------------------
